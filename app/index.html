@@ -400,6 +400,7 @@ function attachCardHandlers(container, articles, isTop) {
   container.querySelectorAll(isTop ? '.top-card' : '.card').forEach(el => {
     const idx = parseInt(el.dataset[isTop ? 'topIdx' : 'idx'], 10);
     const article = articles[idx];
+    if (!article) return;
     const openHandler = () => {
       if (isTop) {
         // Top strip cards open the original article directly.
@@ -474,13 +475,21 @@ function renderTabs() {
   });
 }
 
+// localStorage can throw (e.g. Safari private mode) — degrade to in-memory only.
+function readTheme() {
+  try { return localStorage.getItem('theme'); } catch (e) { return null; }
+}
+function saveTheme(v) {
+  try { localStorage.setItem('theme', v); } catch (e) { /* no-op */ }
+}
+
 document.getElementById('theme-toggle').onclick = () => {
   const cur = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
   document.documentElement.dataset.theme = cur;
-  localStorage.setItem('theme', cur);
+  saveTheme(cur);
 };
 
-document.documentElement.dataset.theme = localStorage.getItem('theme') ||
+document.documentElement.dataset.theme = readTheme() ||
   (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
 fetch('articles.json')
