@@ -1,0 +1,16 @@
+{
+  "feeds": [
+    {"name": "ET Markets", "category": "Markets", "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"},
+    {"name": "Economic Times", "category": "Business", "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms"},
+    {"name": "Mint Markets", "category": "Markets", "url": "https://www.livemint.com/rss/markets"},
+    {"name": "MoneyControl", "category": "Business", "url": "https://www.moneycontrol.com/rss/MCtopnews.xml"},
+    {"name": "CNBC Top News", "category": "Business", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"},
+    {"name": "BBC World", "category": "World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
+    {"name": "Al Jazeera", "category": "Geopolitics", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
+    {"name": "Guardian World", "category": "World", "url": "https://www.theguardian.com/world/rss"},
+    {"name": "TechCrunch AI", "category": "AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"name": "The Verge AI", "category": "AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+    {"name": "Simple Flying", "category": "Aviation", "url": "https://simpleflying.com/feed/"},
+    {"name": "Aviation Week", "category": "Aviation", "url": "https://aviationweek.com/rss.xml"}
+  ]
+}
