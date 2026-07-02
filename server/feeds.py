@@ -66,21 +66,29 @@ def mark_seen(items: list[dict]) -> None:
 
 
 def fetch_all(feeds_config_path: Path) -> dict:
-    """Fetch every feed in feeds.json, return fresh (unseen) items, mark them seen."""
+    """Fetch every feed in feeds config, return fresh (unseen) items, mark them seen.
+
+    At-most-once delivery by design: items are marked seen immediately, so if a
+    downstream consumer crashes before using them, that batch is skipped, never
+    re-delivered. Acceptable for a twice-daily personal digest; do not add
+    retry/unmark machinery without revisiting.
+    """
     import urllib.request
 
     config = json.loads(feeds_config_path.read_text(encoding="utf-8"))
     all_items, errors = [], []
     for feed in config["feeds"]:
+        name = feed["name"]
+        url = feed["url"]
         try:
             req = urllib.request.Request(
-                feed["url"], headers={"User-Agent": "Mozilla/5.0 (news-agent)"}
+                url, headers={"User-Agent": "Mozilla/5.0 (news-agent)"}
             )
             with urllib.request.urlopen(req, timeout=20) as resp:
                 content = resp.read()
-            all_items.extend(parse_feed(content, source=feed["name"]))
+            all_items.extend(parse_feed(content, source=name))
         except Exception as exc:
-            errors.append({"feed": feed["name"], "error": str(exc)})
+            errors.append({"feed": name, "error": str(exc)})
     fresh = filter_new(all_items)
     mark_seen(fresh)
     return {"items": fresh, "errors": errors}
