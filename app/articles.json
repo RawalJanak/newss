@@ -1,16 +1,236 @@
 {
-  "generated_at": "2026-07-02T07:00:00+05:30",
-  "edition": "morning",
+  "generated_at": "2026-07-03T00:45:11+05:30",
+  "edition": "evening",
   "articles": [
     {
-      "title": "Sample: Nifty hits record high on IT rally",
-      "summary": "Indian equity benchmarks closed at record highs led by IT stocks. Analysts cite foreign inflows and a stable rupee. Watch banking earnings later this week.",
+      "title": "South Korea's Kospi plunges 8%, extending two-day slide on chip selloff",
+      "summary": "South Korean stocks tumbled as much as 8.2% in a second straight day of losses, with the KOSPI's two-day drop topping 10% on fears of excess AI capacity after Meta's capex plans and weak US tech shares. SK Hynix and Samsung Electronics fell hard enough to trigger trading halts. Matters for trading: an AI-capacity scare in the region's hottest market can spill into IT-heavy Indian indices and global chip names.",
       "category": "Markets",
       "source": "ET Markets",
-      "url": "https://example.com/sample",
-      "image_url": "",
-      "published": "2026-07-02T06:30:00+05:30",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-koreas-kospi-fall-nearly-8-on-chip-selloff/articleshow/132131569.cms",
+      "image_url": "https://img.etimg.com/thumb/msid-132131631,width-1200,height-630,imgsize-72621,overlay-etmarkets/articleshow.jpg",
+      "published": "2026-07-02T06:59:52+00:00",
       "top_story": true
+    },
+    {
+      "title": "Sensex jumps 580 points, Nifty closes above 24,150 as IT stocks outperform",
+      "summary": "Indian benchmarks rallied over 0.7% — Sensex up ~580 points to 77,502, Nifty at 24,176 — as crude fell to $70 and India VIX tumbled, with Infosys and TCS leading IT gains. Analysts see support from the India–Japan Summit, US jobs data and the upcoming earnings season. Matters for trading: falling oil plus falling VIX is a risk-on setup for Indian equities into July.",
+      "category": "Markets",
+      "source": "ET Markets",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-rises-over-400-points-nifty-above-24100-as-oil-prices-fall-below-70-infosys-tcs-shares-jump-up-to-3/articleshow/132128415.cms",
+      "image_url": "https://img.etimg.com/thumb/msid-132128455,width-1200,height-630,imgsize-32840,overlay-etmarkets/articleshow.jpg",
+      "published": "2026-07-02T03:56:33+00:00",
+      "top_story": true
+    },
+    {
+      "title": "Crude extends decline for third session as US-Iran talks progress; Brent near $70",
+      "summary": "Oil fell for a third straight session with Brent near $71 and WTI around $68, as Strait of Hormuz shipments climbed past 10 million barrels a day and indirect US-Iran negotiations showed progress. Matters for trading: cheaper crude eases India's import bill and inflation pressure — supportive for the rupee, OMCs, aviation and rate-sensitive stocks.",
+      "category": "Markets",
+      "source": "Mint Markets",
+      "url": "https://www.livemint.com/market/commodities/crude-oil-prices-extend-decline-for-third-session-amid-ongoing-us-iran-talks-brent-crude-near-70-per-barrel-11782960199471.html",
+      "image_url": "https://www.livemint.com/lm-img/img/2026/07/02/1600x900/logo/crude_oil_1697775793536_1782960747073_d364c54c-74b0-469b-9103-31fc39518cc5.jpg",
+      "published": "2026-07-02T02:57:41+00:00",
+      "top_story": true
+    },
+    {
+      "title": "Nifty eyes 24,500-24,800 in July; buy the dip towards 23,600-23,800: Dharmesh Shah",
+      "summary": "ICICI Direct's Dharmesh Shah sees Nifty targeting 24,500-24,800 in July with 23,800 as key support, backed by cooling crude, easing bond yields and slowing FII selling. Banking stocks are showing technical strength that could drive the index higher. Matters for trading: a defined buy-the-dip zone (23,600-23,800) with clear upside targets.",
+      "category": "Markets",
+      "source": "ET Markets",
+      "url": "https://economictimes.indiatimes.com/markets/expert-view/nifty-eyes-24500-24800-in-july-as-crude-cools-and-fii-selling-slows-buy-the-dip-towards-2360023800-dharmesh-shah/articleshow/132135426.cms",
+      "image_url": "https://img.etimg.com/thumb/msid-132135428,width-1200,height-630,imgsize-395700,overlay-etmarkets/articleshow.jpg",
+      "published": "2026-07-02T10:01:35+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Fed can afford to stay patient as inflation risks ease: Steve Englander",
+      "summary": "Standard Chartered's Steve Englander says the Fed is unlikely to rush rate changes as inflation moderates, labour costs stay muted and oil prices ease. Strong productivity growth further reduces urgency for policy shifts. Matters for trading: a patient Fed keeps global liquidity conditions steady — mildly supportive for emerging-market flows into India.",
+      "category": "Markets",
+      "source": "ET Markets",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-can-afford-to-stay-patient-as-inflation-risks-ease-steve-englander/articleshow/132130592.cms",
+      "image_url": "https://img.etimg.com/thumb/msid-132130626,width-1200,height-630,imgsize-27536,overlay-etmarkets/articleshow.jpg",
+      "published": "2026-07-02T06:17:36+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Global M&A hits record $2.8 trillion in H1 2026 as mega-deals dominate",
+      "summary": "Global M&A surged to a record $2.8 trillion in the first half of 2026, driven by mega-deals above $10 billion, easier regulation and cheap financing, with AI and technology targets leading. Cross-border deals and corporate restructuring also accelerated. Matters for trading: heavy dealmaking signals corporate confidence and tends to lift investment-banking and target-sector stocks.",
+      "category": "Markets",
+      "source": "ET Markets",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-ma-hits-record-2-8-trillion-in-h1-2026-as-mega-deals-dominate-activity/articleshow/132128925.cms",
+      "image_url": "https://img.etimg.com/thumb/msid-132128921,width-1200,height-630,imgsize-33877,overlay-etmarkets/articleshow.jpg",
+      "published": "2026-07-02T04:28:58+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Bitcoin near $60,000 after weakest month since June 2022 amid ETF outflows",
+      "summary": "Bitcoin logged its worst monthly performance since June 2022 on heavy ETF outflows, trading near $60,277 despite a 2.85% bounce alongside Ethereum and major altcoins. Analysts say Fed policy and institutional demand will drive prices from here. Matters for trading: sustained ETF outflows signal risk-off in crypto that sometimes precedes broader risk-asset caution.",
+      "category": "Markets",
+      "source": "ET Markets",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-60000-logs-weakest-month-since-june-2022-amid-etf-outflows/articleshow/132134167.cms",
+      "image_url": "https://img.etimg.com/thumb/msid-132134162,width-1200,height-630,imgsize-90984,overlay-etmarkets/articleshow.jpg",
+      "published": "2026-07-02T08:56:27+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Google loses fight over record $4.7 billion EU antitrust fine",
+      "summary": "Europe's top court dismissed Google's final appeal, upholding the ~€4.1 billion ($4.67B) penalty for abusing Android's dominance through pre-installation deals with phone makers. The 2018 fine was the largest the European Commission had ever imposed. Ends an eight-year legal battle and hardens the EU's precedent against Big Tech platform bundling.",
+      "category": "Business",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108329754-1782978643176-gettyimages-458933277-000019668000_XXXLarge.jpeg?v=1782978650&w=1920&h=1080",
+      "published": "2026-07-02T10:07:29+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Amazon and Flipkart gear up to shake up India's delivery-in-minutes sector",
+      "summary": "Quick commerce is set to hit nearly 40% of India's online retail sales by 2030, and Amazon and Walmart-owned Flipkart are mounting an aggressive challenge to the local players who currently lead it. For both giants, the fight is less about growth and more about staying relevant as Indian consumer expectations reset around 15-minute delivery.",
+      "category": "Business",
+      "source": "CNBC Top News",
+      "url": "https://www.cnbc.com/2026/07/02/india-amazon-walmart-flipkart-quick-commerce.html",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108291503-1776220903118-gettyimages-2171810382-avdsept24anklot8f.jpeg?v=1776220923&w=1920&h=1080",
+      "published": "2026-07-02T00:10:37+00:00",
+      "top_story": false
+    },
+    {
+      "title": "US-Iran talks in Doha: what came out of them and what's next",
+      "summary": "Indirect US-Iran technical talks in Doha ended without progress toward a lasting peace, mostly re-treading issues from the two-week-old interim agreement, after days of tit-for-tat strikes over Strait of Hormuz shipping. Qatar, mediating alongside Pakistan, says the next round comes after funeral processions for Iran's former supreme leader. Key watch item for oil and regional risk.",
+      "category": "Geopolitics",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/2/us-iran-talks-in-doha-what-were-the-outcomes-and-whats-next?traffic_source=rss",
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a461084bf3c-1782976644.jpg?resize=1200%2C675",
+      "published": "2026-07-02T09:06:14+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Oil falls to pre-war levels as US-Iran peace hopes rise",
+      "summary": "Brent slipped below $71, back to where it stood before the US-Israel war on Iran began, as negotiators reported progress toward a permanent peace deal. The reversal unwinds the conflict's entire risk premium in crude — a significant signal that markets are pricing in de-escalation.",
+      "category": "Geopolitics",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran?traffic_source=rss",
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-01T093820Z_1180277915_RC2AWLAKSPWG_RTRMADP_3_IRAN-CRISIS-SHIPPING-FEES-1782963523_758afb-1782968112.jpg?resize=1200%2C630&quality=80",
+      "published": "2026-07-02T05:17:25+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Trump says record boats leaving Hormuz, calls communism 'biggest threat'",
+      "summary": "Speaking at the Theodore Roosevelt Presidential Library dedication in North Dakota, Trump said record numbers of ships are transiting the Strait of Hormuz — reinforcing signals that the shipping chokepoint is normalizing after the US-Iran confrontation. He arrived aboard the 'Freedom 250 Train' and used the speech to label communism the greatest threat.",
+      "category": "Geopolitics",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/trump-says-record-boats-leaving-hormuz-calls-communism-biggest-threat?traffic_source=rss",
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/07/image-1782980296.jpg?resize=1620%2C1080&quality=80",
+      "published": "2026-07-02T08:19:11+00:00",
+      "top_story": false
+    },
+    {
+      "title": "German prosecutors charge Ukrainian suspect over Nord Stream explosions",
+      "summary": "German federal prosecutors charged a 50-year-old Ukrainian, identified as Serhii K, over the 2022 explosions that destroyed the Nord Stream gas pipelines linking Russia to Europe. Prosecutors allege he led the operation using a yacht. The case touches a raw nerve in Europe-Ukraine-Russia relations at a delicate moment in the war.",
+      "category": "Geopolitics",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-charge-ukrainian-suspect-over-nord-stream-explosions?traffic_source=rss",
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/07/2025-11-27T141610Z_790974939_RC225IA95SHD_RTRMADP_3_UKRAINE-CRISIS-NORDSTREAM-1782950790_cda6da-1782961627.jpg?resize=1200%2C630&quality=80",
+      "published": "2026-07-02T03:31:32+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+      "summary": "Anthropic released Claude Sonnet 5, a midsize model it says can plan, use browsers and terminals, and run autonomously at a level that recently required larger, pricier models. It lands amid an agentic arms race — OpenAI's GPT-5.6 Sol launched in preview last week and Google's Gemini 3.5 Flash makes similar claims. Agent capability at lower cost is the new battleground.",
+      "category": "AI",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Claude-photo.jpg?w=1024",
+      "published": "2026-06-30T18:00:00+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Trump administration drops export restrictions on Anthropic's Mythos and Fable models",
+      "summary": "The US lifted the export-license requirement on Anthropic's Mythos and Fable — widely considered the most advanced AI models released to date — which had effectively forced Anthropic to pull public access entirely. Access begins restoring July 1 after weeks of talks with Commerce. The episode highlights how unpredictable US AI policy has become for frontier labs.",
+      "category": "AI",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/anthropic-claude-fable.jpg?resize=1200,798",
+      "published": "2026-07-01T02:16:06+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Nvidia competitor Etched hits $5B valuation with $1B in AI chip sales booked",
+      "summary": "Chip startup Etched says it has booked $1 billion in contract orders for its 'frontier inference clusters' — full rack-plus-software systems built on its TSMC-manufactured chip — reaching a $5B valuation. It targets inference, currently AI's biggest bottleneck, promising faster and cheaper serving than rivals. First customer systems are in testing now.",
+      "category": "AI",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Etched-founder-CEO-Gavin-Uberti.jpg?resize=1200,1029",
+      "published": "2026-06-30T18:13:02+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Cloudflare's new policy pushes AI companies to pay for publishers' content",
+      "summary": "From September 15, Cloudflare will block 'mixed-use' crawlers — those blending search, AI training and agent traffic — by default on ad-supported pages, unless site owners opt out. AI firms must separate search crawlers from AI crawlers or lose access to a huge slice of the web. A structural shift in who pays for training data.",
+      "category": "AI",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/09/Matthew-Prince-co-founder-CEO-Cloudflare-1.jpg?resize=1200,800",
+      "published": "2026-07-01T17:48:37+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Delta offers $12 million to take over Spirit's gates at Atlanta fortress hub",
+      "summary": "Delta will pay $12 million for bankrupt Spirit Airlines' two gates (C4 and C6) at Hartsfield-Jackson Atlanta, pending bankruptcy court review, beating at least one rival bidder. As Spirit is sold off piecemeal, Delta deepens its dominance at the world's busiest airport — a case study in how carrier failures reshape hub economics and slot/gate scarcity.",
+      "category": "Aviation",
+      "source": "Simple Flying",
+      "url": "https://simpleflying.com/delta-air-lines-12-million-takeover-spirit-gates-atlanta-fortress/",
+      "image_url": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a-spirit-jet-waits-behind-a-delta-plane-to-take-off-at-hartsfield-jackson-atlanta-international-airport.jpg?w=1600&h=900&fit=crop",
+      "published": "2026-07-02T05:54:55+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Turkish Airlines' ultra-long-range A350 plan: nonstop to Australia by end-2027",
+      "summary": "Under new leadership, Turkish Airlines is finalizing a fleet roadmap centered on 15 A350-1000s to launch nonstop Istanbul-Australia flights by end of 2027, skipping intermediate stopovers to capture premium traffic. Part of a push toward an 800-aircraft fleet — a notable ultra-long-haul strategy amid ongoing supply-chain constraints for widebodies.",
+      "category": "Aviation",
+      "source": "Simple Flying",
+      "url": "https://simpleflying.com/heres-when-turkish-airlines-plans-introduce-ulr-airbus-a350s/",
+      "image_url": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/here-s-when-turkish-airlines-plans-to-introduce-ultra-long-range-airbus-a350s.jpg?w=1600&h=900&fit=crop",
+      "published": "2026-07-02T08:00:18+00:00",
+      "top_story": false
+    },
+    {
+      "title": "At least 18 killed in 'most massive' Russian attack on Kyiv",
+      "summary": "Russia launched a huge overnight drone and missile barrage on Kyiv, killing 18 and injuring around 90, striking locations across an unusually wide area including an ambulance station. Mayor Klitschko called it the most massive attack on the capital and declared a day of mourning. Came hours after Zelensky warned an attack was being prepared.",
+      "category": "World",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3b2e/live/248b9c60-75d1-11f1-be8b-cbfeee563106.jpg",
+      "published": "2026-07-02T10:21:15+00:00",
+      "top_story": true
+    },
+    {
+      "title": "US blocks long-term renewal of North American trade deal",
+      "summary": "The US declined to approve the USMCA's automatic 16-year extension, saying it won't 'rubber stamp' renewal without addressing existing issues — triggering annual rolling reviews and effectively starting a 10-year clock to termination if no unanimous agreement comes. Injects fresh uncertainty into North American trade flows and supply chains.",
+      "category": "World",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ce8j2lmrvrdo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a4da/live/64317d10-757e-11f1-b1b0-0d044d289b5c.jpg",
+      "published": "2026-07-01T18:56:36+00:00",
+      "top_story": true
+    },
+    {
+      "title": "US Supreme Court dealt heavy defeats to Trump while expanding his power",
+      "summary": "The Supreme Court term ended with the birthright-citizenship ruling against Trump — he called it 'too bad for our country' — even as the term overall continued expanding presidential power. Trump endorsed legislation to reinstate citizenship limits, but Senate Democrats make passage unlikely and its constitutionality is doubtful.",
+      "category": "World",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c4gyqeqe8xyo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/df73/live/87eda780-7518-11f1-8e1d-bbbb1017d210.jpg",
+      "published": "2026-06-30T22:29:47+00:00",
+      "top_story": false
+    },
+    {
+      "title": "Sudan's RSF committed crimes against humanity in el-Fasher, Amnesty says",
+      "summary": "An Amnesty International investigation found the RSF committed murder, torture, rape, enslavement, extermination and persecution during its campaign to seize el-Fasher in Darfur — one of the bloodiest episodes of Sudan's civil war. The UN has said the takeover bore hallmarks of genocide; the RSF denies previous accusations.",
+      "category": "World",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cz9lqvx0z1vo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e999/live/8b076ed0-7511-11f1-ab91-bba426c6e310.jpg",
+      "published": "2026-07-01T06:29:31+00:00",
+      "top_story": false
     }
   ]
 }
