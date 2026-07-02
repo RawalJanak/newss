@@ -1,5 +1,5 @@
 from pathlib import Path
-from server.feeds import parse_feed
+from server.feeds import parse_feed, filter_new, mark_seen
 
 FIXTURE = Path(__file__).parent / "fixtures" / "sample_rss.xml"
 
@@ -56,3 +56,30 @@ def test_parse_feed_uses_updated_when_no_published_date():
     items = parse_feed(content, source="Atom Feed")
     assert len(items) == 1
     assert items[0]["published"] == "2026-07-01T10:00:00+00:00"
+
+
+def test_filter_new_drops_seen_urls(tmp_path, monkeypatch):
+    import server.feeds as feeds
+    monkeypatch.setattr(feeds, "SEEN_PATH", tmp_path / "seen.json")
+    items = [
+        {"url": "https://example.com/a", "title": "A"},
+        {"url": "https://example.com/b", "title": "B"},
+    ]
+    assert len(filter_new(items)) == 2
+    mark_seen([items[0]])
+    remaining = filter_new(items)
+    assert len(remaining) == 1
+    assert remaining[0]["url"] == "https://example.com/b"
+
+
+def test_seen_store_prunes_old_entries(tmp_path, monkeypatch):
+    import json, time
+    import server.feeds as feeds
+    seen_file = tmp_path / "seen.json"
+    monkeypatch.setattr(feeds, "SEEN_PATH", seen_file)
+    old = time.time() - 8 * 86400
+    seen_file.write_text(json.dumps({"https://example.com/old": old}))
+    mark_seen([{"url": "https://example.com/new"}])
+    data = json.loads(seen_file.read_text())
+    assert "https://example.com/old" not in data
+    assert "https://example.com/new" in data
