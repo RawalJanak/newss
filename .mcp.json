@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "news-fetcher": {
+      "command": "python",
+      "args": ["-m", "server.news_fetcher"],
+      "cwd": "C:\\Users\\jmraw\\OneDrive\\Desktop\\newss"
+    }
+  }
+}
