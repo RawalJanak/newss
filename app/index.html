@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyNews</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#faf9f7; --fg:#1a1a1a; --muted:#6b6b6b; --card:#ffffff;
+    --accent:#dc2626; --accent-fg:#ffffff; --border:#e5e2dd; --chip:#f0ede8;
+    --chip-fg:#3a3a3a; --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-hover: 0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.05);
+    --focus-ring: #1e40af;
+    --font-serif: 'Newsreader', Georgia, serif;
+    --font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  [data-theme="dark"] {
+    --bg:#121212; --fg:#e8e6e3; --muted:#a3a3a3; --card:#1e1e1e;
+    --accent:#ef4444; --accent-fg:#121212; --border:#2c2c2c; --chip:#262626;
+    --chip-fg:#d4d2ce; --shadow: 0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+    --shadow-hover: 0 4px 16px rgba(0,0,0,0.5), 0 2px 6px rgba(0,0,0,0.4);
+    --focus-ring: #93c5fd;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  a { color: inherit; }
+
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  /* ---------- Header ---------- */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: saturate(180%) blur(8px);
+  }
+  .masthead {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 14px 16px 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .masthead h1 {
+    font-family: var(--font-serif);
+    font-size: 1.65rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .masthead h1 span { color: var(--accent); }
+  .masthead-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #edition {
+    font-size: 0.78rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  #theme-toggle {
+    background: var(--chip);
+    color: var(--chip-fg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 200ms ease, transform 200ms ease, border-color 200ms ease;
+    flex-shrink: 0;
+  }
+  #theme-toggle:hover { background: var(--border); }
+  #theme-toggle:active { transform: scale(0.92); }
+  #theme-toggle svg { width: 17px; height: 17px; display: block; }
+
+  /* ---------- Tabs ---------- */
+  nav#tabs {
+    max-width: 680px;
+    margin: 0 auto;
+    display: flex;
+    gap: 6px;
+    padding: 0 16px 10px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+  nav#tabs::-webkit-scrollbar { height: 4px; }
+  nav#tabs::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+  .tab-btn {
+    flex-shrink: 0;
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.84rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+  }
+  .tab-btn:hover { border-color: var(--accent); color: var(--fg); }
+  .tab-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-fg);
+  }
+
+  /* ---------- Main / layout ---------- */
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 18px 16px 60px;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 0 0 10px 2px;
+  }
+
+  /* ---------- Top stories strip ---------- */
+  #top-stories-wrap { margin-bottom: 26px; }
+  #top-stories {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+  }
+  #top-stories::-webkit-scrollbar { height: 4px; }
+  #top-stories::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+  .top-card {
+    scroll-snap-align: start;
+    flex: 0 0 240px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: box-shadow 200ms ease, transform 200ms ease;
+  }
+  .top-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+  .top-card .top-img-wrap {
+    width: 100%;
+    height: 120px;
+    background: var(--chip);
+    overflow: hidden;
+  }
+  .top-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .top-card .top-body { padding: 10px 12px 12px; }
+  .top-card .meta { margin-bottom: 6px; }
+  .top-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  /* ---------- Meta line ---------- */
+  .meta {
+    font-size: 0.72rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .meta .cat {
+    color: var(--accent);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .meta .dot { opacity: 0.6; }
+
+  /* ---------- Feed cards ---------- */
+  #feed { display: flex; flex-direction: column; gap: 14px; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: box-shadow 200ms ease, border-color 200ms ease;
+    display: flex;
+    gap: 14px;
+  }
+  .card:hover { box-shadow: var(--shadow-hover); border-color: var(--muted); }
+
+  .card .card-media {
+    flex: 0 0 96px;
+    width: 96px;
+    height: 96px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--chip);
+  }
+  .card .card-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card.no-image .card-media { display: none; }
+
+  .card-content { flex: 1; min-width: 0; }
+  .card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+    line-height: 1.35;
+    font-weight: 600;
+    margin: 6px 0 0;
+    color: var(--fg);
+  }
+
+  .summary {
+    display: none;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--muted);
+    margin: 8px 0 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .card.open .summary { display: -webkit-box; }
+
+  .readlink {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .readlink:hover { text-decoration: underline; }
+  .card.open .readlink { display: inline-block; }
+
+  /* ---------- Empty state ---------- */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  /* ---------- Fetch error ---------- */
+  .fetch-error {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--muted);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+  .fetch-error code {
+    background: var(--chip);
+    color: var(--fg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.85em;
+  }
+
+  @media (max-width: 480px) {
+    .card { padding: 12px; gap: 10px; }
+    .card .card-media { flex-basis: 76px; width: 76px; height: 76px; }
+    .masthead h1 { font-size: 1.4rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="masthead">
+    <h1>My<span>News</span></h1>
+    <div class="masthead-right">
+      <span id="edition"></span>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <nav id="tabs" aria-label="Categories"></nav>
+</header>
+<main>
+  <div id="top-stories-wrap" style="display:none;">
+    <p class="section-label">Top stories</p>
+    <div id="top-stories"></div>
+  </div>
+  <div id="feed"></div>
+</main>
+<script>
+const CATEGORIES = ["All","Markets","Business","Geopolitics","AI","Aviation","World"];
+let DATA = { articles: [] };
+let activeTab = "All";
+
+function esc(s) {
+  if (s === undefined || s === null) return "";
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function relTime(iso) {
+  if (!iso) return "";
+  const mins = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (isNaN(mins)) return "";
+  if (mins < 1) return "just now";
+  if (mins < 60) return mins + "m ago";
+  if (mins < 1440) return Math.round(mins / 60) + "h ago";
+  return Math.round(mins / 1440) + "d ago";
+}
+
+function metaHTML(a) {
+  return '<div class="meta">' +
+    '<span class="cat">' + esc(a.category) + '</span>' +
+    '<span class="dot">&middot;</span>' +
+    '<span>' + esc(a.source) + '</span>' +
+    '<span class="dot">&middot;</span>' +
+    '<span>' + esc(relTime(a.published)) + '</span>' +
+    '</div>';
+}
+
+function cardHTML(a, idx) {
+  const hasImg = !!(a.image_url && a.image_url.trim());
+  const imgTag = hasImg
+    ? '<img src="' + esc(a.image_url) + '" alt="" loading="lazy" onerror="this.closest(\'.card\').classList.add(\'no-image\'); this.remove();">'
+    : '';
+  return (
+    '<article class="card' + (hasImg ? '' : ' no-image') + '" data-idx="' + idx + '" tabindex="0" role="button" aria-expanded="false">' +
+      (hasImg ? '<div class="card-media">' + imgTag + '</div>' : '') +
+      '<div class="card-content">' +
+        metaHTML(a) +
+        '<h3>' + esc(a.title) + '</h3>' +
+        '<p class="summary">' + esc(a.summary) + '</p>' +
+        '<a class="readlink" href="' + esc(a.url) + '" target="_blank" rel="noopener noreferrer">Read original &rarr;</a>' +
+      '</div>' +
+    '</article>'
+  );
+}
+
+function topCardHTML(a, idx) {
+  const hasImg = !!(a.image_url && a.image_url.trim());
+  const imgTag = hasImg
+    ? '<img src="' + esc(a.image_url) + '" alt="" loading="lazy" onerror="this.closest(\'.top-img-wrap\').remove();">'
+    : '';
+  return (
+    '<article class="top-card" data-top-idx="' + idx + '" tabindex="0" role="button" aria-label="' + esc(a.title) + '">' +
+      (hasImg ? '<div class="top-img-wrap">' + imgTag + '</div>' : '') +
+      '<div class="top-body">' +
+        metaHTML(a) +
+        '<h3>' + esc(a.title) + '</h3>' +
+      '</div>' +
+    '</article>'
+  );
+}
+
+function attachCardHandlers(container, articles, isTop) {
+  container.querySelectorAll(isTop ? '.top-card' : '.card').forEach(el => {
+    const idx = parseInt(el.dataset[isTop ? 'topIdx' : 'idx'], 10);
+    const article = articles[idx];
+    const openHandler = () => {
+      if (isTop) {
+        // Top strip cards open the original article directly.
+        if (article.url) window.open(article.url, '_blank', 'noopener,noreferrer');
+        return;
+      }
+      const nowOpen = el.classList.toggle('open');
+      el.setAttribute('aria-expanded', nowOpen ? 'true' : 'false');
+    };
+    el.addEventListener('click', openHandler);
+    el.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openHandler();
+      }
+    });
+    const link = el.querySelector('.readlink');
+    if (link) {
+      link.addEventListener('click', (e) => e.stopPropagation());
+    }
+  });
+}
+
+function render() {
+  const feedEl = document.getElementById('feed');
+  const topWrap = document.getElementById('top-stories-wrap');
+  const topEl = document.getElementById('top-stories');
+  const all = DATA.articles || [];
+
+  if (activeTab === 'All') {
+    const tops = all.filter(a => a.top_story);
+    if (tops.length) {
+      topWrap.style.display = '';
+      topEl.innerHTML = tops.map((a, i) => topCardHTML(a, i)).join('');
+      attachCardHandlers(topEl, tops, true);
+    } else {
+      topWrap.style.display = 'none';
+      topEl.innerHTML = '';
+    }
+    const rest = all.filter(a => !a.top_story);
+    const listArticles = rest.length ? rest : all;
+    if (listArticles.length === 0) {
+      feedEl.innerHTML = '<div class="empty-state">No stories in this edition yet.</div>';
+    } else {
+      feedEl.innerHTML = listArticles.map((a, i) => cardHTML(a, i)).join('');
+      attachCardHandlers(feedEl, listArticles, false);
+    }
+  } else {
+    topWrap.style.display = 'none';
+    topEl.innerHTML = '';
+    const filtered = all.filter(a => a.category === activeTab);
+    if (filtered.length === 0) {
+      feedEl.innerHTML = '<div class="empty-state">No stories in ' + esc(activeTab) + ' this edition.</div>';
+    } else {
+      feedEl.innerHTML = filtered.map((a, i) => cardHTML(a, i)).join('');
+      attachCardHandlers(feedEl, filtered, false);
+    }
+  }
+}
+
+function renderTabs() {
+  const tabsEl = document.getElementById('tabs');
+  tabsEl.innerHTML = CATEGORIES.map(c =>
+    '<button type="button" class="tab-btn' + (c === activeTab ? ' active' : '') + '" data-cat="' + esc(c) + '">' + esc(c) + '</button>'
+  ).join('');
+  tabsEl.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeTab = btn.dataset.cat;
+      renderTabs();
+      render();
+    });
+  });
+}
+
+document.getElementById('theme-toggle').onclick = () => {
+  const cur = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = cur;
+  localStorage.setItem('theme', cur);
+};
+
+document.documentElement.dataset.theme = localStorage.getItem('theme') ||
+  (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+fetch('articles.json')
+  .then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  })
+  .then(d => {
+    DATA = d;
+    const dt = new Date(d.generated_at);
+    const timeStr = isNaN(dt) ? '' : dt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    document.getElementById('edition').textContent =
+      (d.edition || '') + ' edition' + (timeStr ? ' · ' + timeStr : '');
+    renderTabs();
+    render();
+  })
+  .catch(() => {
+    document.getElementById('edition').textContent = '';
+    renderTabs();
+    document.getElementById('feed').innerHTML =
+      '<div class="fetch-error">Couldn’t load today’s stories.<br><br>' +
+      'Serve this folder locally, e.g.<br>' +
+      '<code>python -m http.server 8899</code> from <code>app/</code>,<br>' +
+      'then open <code>http://localhost:8899</code>.</div>';
+  });
+</script>
+</body>
+</html>

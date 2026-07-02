@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-02T07:00:00+05:30",
+  "edition": "morning",
+  "articles": [
+    {
+      "title": "Sample: Nifty hits record high on IT rally",
+      "summary": "Indian equity benchmarks closed at record highs led by IT stocks. Analysts cite foreign inflows and a stable rupee. Watch banking earnings later this week.",
+      "category": "Markets",
+      "source": "ET Markets",
+      "url": "https://example.com/sample",
+      "image_url": "",
+      "published": "2026-07-02T06:30:00+05:30",
+      "top_story": true
+    }
+  ]
+}
