@@ -23,4 +23,8 @@ You are running the twice-daily news digest for Janak. Work in
    local hour < 12 else "evening").
 8. Validate: `python -c "import json; json.load(open('app/articles.json'))"`.
    If invalid, fix before finishing.
-9. Final report: one line — item count per category + any feed errors.
+9. Publish to phone: `git add app/articles.json`, commit with message
+   `chore: digest edition <date> <morning|evening>`, then `git push origin master`.
+   If push fails (offline/auth), continue — local app still updated; note the
+   failure in the report.
+10. Final report: one line — item count per category + any feed errors + push status.
