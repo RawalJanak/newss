@@ -16,7 +16,7 @@ def extract_from_html(html: str, url: str) -> dict:
     """Extract article fields from raw HTML. Never raises."""
     try:
         if BACKEND == "newsplease":
-            a = NewsPlease.from_html(html, url=url)
+            a = NewsPlease.from_html(html, url=url, fetch_images=False)
             result = _empty(url)
             result.update({
                 "title": a.title or "",
