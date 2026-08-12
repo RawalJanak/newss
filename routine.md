@@ -1,7 +1,7 @@
 # News Digest Routine
 
 You are running the twice-daily news digest for Janak. Work in
-`C:\Users\jmraw\OneDrive\Desktop\newss`. Follow exactly:
+`C:\Users\jmraw\OneDrive\Desktop\TOMORROW\newss`. Follow exactly:
 
 1. Call MCP tool `news-fetcher / fetch_headlines`.
    - If it errors, retry once. If still failing, STOP — do not overwrite
@@ -28,3 +28,25 @@ You are running the twice-daily news digest for Janak. Work in
    If push fails (offline/auth), continue — local app still updated; note the
    failure in the report.
 10. Final report: one line — item count per category + any feed errors + push status.
+
+## MANDATED verification protocol (added 12 Aug 2026 — applies to every brief and digest)
+
+No item is reported as fact until it clears these tiers. Never relay a headline unchecked.
+
+- **Tier 1 — primary source first.** BSE/NSE corporate announcements, RBI press releases,
+  SEBI circulars, company statements. A filing outranks any news outlet.
+- **Tier 2 — two independent outlets.** Preferably one wire (Bloomberg/Reuters) plus one
+  Indian desk. A single outlet is not verification.
+- **Tier 3 — timestamp everything.** Nothing enters a brief without a "when". Intraday market
+  levels must carry the time they were quoted; markets move between sources.
+- **Tier 4 — label confidence explicitly** on every item:
+  - ✅ verified against two or more independent sources
+  - ⚠️ single-sourced — stated as such
+  - 🔵 rumour / unconfirmed / grey-market chatter
+- **Never present IPO GMP (grey market premium) as data.** It is an unregulated, unverifiable
+  dealer-quoted number. If included at all, it carries 🔵.
+- **Resolve contradictions, don't average them.** If two sources disagree on a market level,
+  it is usually a timing difference — report the movement and both timestamps.
+- **LLM consensus is not verification.** Tools that poll multiple AI models (e.g. eye2.ai)
+  measure agreement between models trained on overlapping data, and are blind to anything
+  newer than their cutoffs. Useful for interpretation questions, never for establishing facts.

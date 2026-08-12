@@ -1,256 +1,296 @@
 {
-  "generated_at": "2026-07-05T19:16:37+05:30",
-  "edition": "evening",
-  "articles": [
-    {
-      "title": "Trump offers to help end Russia-Ukraine war in Putin call, Kremlin says",
-      "summary": "Trump and Putin held a nearly 90-minute call ahead of the NATO summit in Ankara, with Trump offering to broker an end to the Ukraine war; Russia says it wants a political settlement \"with due account of Russia's fundamental approach.\" Zelenskyy separately spoke to Trump the same day about the war's future.",
-      "category": "Geopolitics",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/5/trump-offers-to-help-end-ukraine-war-in-long-call-with-putin-kremlin-says?traffic_source=rss",
-      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/02/AFP__20250815__69N83U4__v1__HighRes__UsUkraineRussiaConflictSummitTrumpPutin-1770337056.jpg?resize=1920%2C1440",
-      "published": "2026-07-05T11:03:51+00:00",
-      "top_story": true
-    },
-    {
-      "title": "OPEC+ approves another oil output increase",
-      "summary": "OPEC+ agreed to raise output quotas by 188,000 barrels per day from August, adding to supply as the Strait of Hormuz gradually reopens after the US-Israel-Iran war. Output is recovering from a May low of 33.13 million bpd but remains below pre-war levels even as prices have already returned to pre-war levels on the news.",
-      "category": "Markets",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/05/opec-set-to-approve-another-oil-output-increase.html",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108327337-17824756732026-06-25t130123z_699290694_rc201mahjgqy_rtrmadp_0_opec-iraq.jpeg?v=1782475720&w=1920&h=1080",
-      "published": "2026-07-05T11:25:33+00:00",
-      "top_story": true
-    },
-    {
-      "title": "Dollar set for biggest weekly drop since April after jobs data lowers Fed hike bets",
-      "summary": "A weak US jobs report cooled expectations of a near-term Fed rate hike, sending the dollar toward its worst week in 12 weeks and lifting the euro, pound and yen. Matters for trading: a softer dollar and lower US rate-hike odds are typically supportive for EM currencies like the rupee and for FII flows into Indian equities.",
-      "category": "Markets",
-      "source": "ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-set-for-biggest-weekly-drop-since-april-after-jobs-data-lowers-fed-hike-bets/articleshow/132174538.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132174556,width-1200,height-630,imgsize-181336,overlay-etmarkets/articleshow.jpg",
-      "published": "2026-07-04T08:11:28+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Successor to Iran's slain leader Khamenei does not appear at funeral",
-      "summary": "Three sons of slain Iranian supreme leader Ali Khamenei prayed at his funeral in Tehran, but Mojtaba Khamenei, who succeeded him as supreme leader, was notably absent. The week-long mass funeral processions come after Khamenei and other family members were killed in a US-Israel airstrike in February, leaving the Islamic Republic's power structure under scrutiny.",
-      "category": "Geopolitics",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/05/successor-to-irans-slain-leader-khamenei-does-not-appear-at-funeral.html",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108330537-1783249109414-gettyimages-2284722367-5v6a1027.jpeg?v=1783249142&w=1920&h=1080",
-      "published": "2026-07-05T11:25:33+00:00",
-      "top_story": true
-    },
-    {
-      "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
-      "summary": "Ukraine struck an oil terminal and a naval base near St Petersburg overnight, part of an intensified drone campaign that Kyiv says has disabled nearly 43% of Russia's oil refining capacity. Putin recently admitted the attacks have caused domestic fuel shortages and has signed a law to boost supplies to the domestic market.",
-      "category": "Geopolitics",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/737c/live/fec2f110-779f-11f1-90c7-73fde41eb72e.png",
-      "published": "2026-07-04T18:41:25+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Cargo vessel in Red Sea reports attack, UK maritime body says",
-      "summary": "A cargo vessel southwest of Yemen's Al Hudaydah triggered a distress alert reporting an attack by unknown assailants, UK maritime authorities said, even as a fragile US-Iran ceasefire holds. The Bab el-Mandeb Strait has become a key relief valve for oil shipping as Strait of Hormuz exports remain constrained, so renewed Red Sea attacks matter for oil-shipping risk premiums.",
-      "category": "Geopolitics",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/05/cargo-vessel-in-red-sea-reports-attack-uk-maritime-body-says.html",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108330539-1783254354000-gettyimages-2268550644-boivin-notitle260330_npSAL.jpeg?v=1783254370&w=1920&h=1080",
-      "published": "2026-07-05T12:57:45+00:00",
-      "top_story": true
-    },
-    {
-      "title": "Falling oil prices give RBI more room to focus on growth, but relief uneven across Asia: Standard Chartered",
-      "summary": "Standard Chartered says falling crude prices are giving the RBI and other Asian central banks more room to prioritise growth, easing pressure on external accounts for heavy energy importers like India. Matters for trading: cheaper oil is disinflationary for India specifically, supporting the case for rate-sensitive sectors even as the relief plays out unevenly across the region.",
-      "category": "Markets",
-      "source": "Economic Times",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/falling-oil-prices-give-rbi-more-room-to-focus-on-growth-but-relief-uneven-across-asia-standard-chartered/articleshow/132194415.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132194435,width-1200,height-630,imgsize-195532,overlay-economictimes/articleshow.jpg",
-      "published": "2026-07-05T10:56:46+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Gold's sharp correction: What lies ahead for prices?",
-      "summary": "Gold has corrected over 30% from its January record high as a stronger dollar and expectations of prolonged high interest rates weigh on prices, with MCX gold down over 23% domestically. Analysts view it as a technical correction rather than a trend reversal and recommend staggered buying; matters for trading as it reshapes near-term positioning in bullion and jewellery-linked stocks.",
-      "category": "Markets",
-      "source": "ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/golds-sharp-correction-what-lies-ahead-for-prices/articleshow/132177503.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132177502,width-1200,height-630,imgsize-168743,overlay-etmarkets/articleshow.jpg",
-      "published": "2026-07-04T08:05:57+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
-      "summary": "Sensex and Nifty extended gains on Friday, up over 0.3% each, helped by easing Middle East tensions, lower Fed rate-hike expectations and a recovering IT sector, adding nearly Rs 44,155 crore to BSE market cap. Matters for trading: analysts flag a more accommodative global rate environment and the start of Q1 earnings season as the key swing factors for Monday's open.",
-      "category": "Markets",
-      "source": "ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/132194145.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132194133,width-1200,height-630,imgsize-54790,overlay-etmarkets/articleshow.jpg",
-      "published": "2026-07-05T11:35:15+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Will Sensex, Nifty continue to rally on Monday? Q1 earnings among 6 factors to drive Dalal Street this week",
-      "summary": "Indian markets closed last week up nearly 0.9% after a sharp three-session rally erased earlier losses, with TCS kicking off Q1 FY27 earnings season on July 9. Matters for trading: earnings season, global rate cues and continuing FII flows are the factors likely to set the tone for the week of July 6-10.",
-      "category": "Markets",
-      "source": "ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-sensex-nifty-continue-to-rally-on-monday-q1-earnings-among-6-factors-to-drive-dalal-street-this-week/articleshow/132191088.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132191095,width-1200,height-630,imgsize-57422,overlay-etmarkets/articleshow.jpg",
-      "published": "2026-07-05T09:59:42+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Rupee ends losing run on whiff of FPI flows into stocks",
-      "summary": "The rupee snapped its losing streak as signs of foreign portfolio inflows into Indian equities returned. Matters for trading: renewed FPI buying, combined with a weaker dollar this week, is a supportive signal for both the currency and the broader equity market.",
-      "category": "Markets",
-      "source": "ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-ends-losing-run-on-whiff-of-fpi-flows-into-stocks/articleshow/132174791.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132174787,width-1200,height-630,imgsize-38656,overlay-etmarkets/articleshow.jpg",
-      "published": "2026-07-04T04:38:03+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Adani Enterprises QIP gets nearly 4x bids, successfully raises Rs 15,000 crore",
-      "summary": "Adani Enterprises raised Rs 15,000 crore via a qualified institutional placement that was oversubscribed nearly four times, drawing Capital Group, Goldman Sachs, BlackRock and major domestic mutual funds. Matters for trading: heavy institutional demand for Adani group paper signals renewed investor confidence and could support sentiment across the group's listed stocks.",
-      "category": "Markets",
-      "source": "ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/healthy-appetite-adani-enterprises-qip-gets-nearly-4x-bids/articleshow/132174746.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132174741,width-1200,height-630,imgsize-59092,overlay-etmarkets/articleshow.jpg",
-      "published": "2026-07-04T04:31:16+00:00",
-      "top_story": false
-    },
-    {
-      "title": "From Macron to Modi, governments are rolling out the red carpet for AI giants",
-      "summary": "France's Macron and India's Modi are personally courting tech CEOs to secure AI infrastructure investment, with Modi recently welcoming Amazon's $48 billion India investment commitment (including $21 billion for AI and cloud) and Macron persuading SoftBank into tens of billions for French data centers. It reflects a broader global race among governments to lock in AI capex and compute capacity.",
-      "category": "AI",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108267442-1771520012938-gettyimages-2261851111-AFP_984W8YJ.jpeg?v=1771520056&w=1920&h=1080",
-      "published": "2026-07-04T09:33:19+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Mark Zuckerberg tells staff AI agents haven't progressed as quickly as he'd hoped",
-      "summary": "At an internal town hall, Meta CEO Mark Zuckerberg admitted AI agent development hasn't accelerated as expected, despite the company laying off roughly 8,000 staff and shifting thousands more into AI-focused teams. He said the promised upside of the AI reorganisation \"hasn't come to fruition yet\" but expects improvement in the next three to six months.",
-      "category": "AI",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-1968119319.jpg?resize=1200,800",
-      "published": "2026-07-02T23:38:10+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Anthropic wants to develop its own drugs",
-      "summary": "Anthropic launched Claude Science, an AI workbench for scientists, and announced it will go further by developing its own drugs, focusing on treatments for \"neglected\" diseases. It's an unusual move for a frontier AI lab, putting Anthropic in the position of both selling software to pharma companies and potentially competing with them.",
-      "category": "AI",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_A_3800fc-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-      "published": "2026-07-03T13:56:52+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Investors looking for shelter from AI storm are turning to India",
-      "summary": "With the global AI rally cooling and volatility rising in AI-heavy markets like South Korea and Taiwan, global investors are rediscovering Indian equities as a relatively stable, low-volatility bet. Matters for trading: in June the Nifty 50 outperformed the MSCI Emerging Markets Index by the most since November, alongside shrinking foreign outflows — a sign of a rotation trade building.",
-      "category": "Markets",
-      "source": "ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/investors-looking-for-shelter-from-ai-storm-are-turning-to-india/articleshow/132190604.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132190616,width-1200,height-630,imgsize-120674,overlay-etmarkets/articleshow.jpg",
-      "published": "2026-07-05T04:10:45+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Macquarie says now is best time to buy Chinese AI chip stocks",
-      "summary": "Macquarie initiated coverage on five China-listed AI chip makers, naming Shanghai-listed Cambricon its top pick, citing China's growing domestic LLM ecosystem and government support for local chipmakers amid Nvidia import restrictions. Matters for trading: it signals a widening AI-chip investment theme beyond the usual US names, relevant for anyone tracking global AI-linked equity flows.",
-      "category": "Markets",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/05/macquarie-says-now-is-best-time-to-buy-chinese-ai-chip-stocks-heres-its-favorite.html",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108069758-1733118336505-2024-12-02T050134Z_2373890_RC2VCZ9ITXAP_RTRMADP_3_USA-CHINA-CHIPS.JPG?v=1733118398&w=1920&h=1080",
-      "published": "2026-07-05T13:01:38+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Prestige Estates to invest Rs 15,000 cr this fiscal in housing, commercial projects",
-      "summary": "Bengaluru-based Prestige Estates will invest Rs 14,000-15,000 crore this fiscal on construction across South India, Mumbai and Delhi-NCR, following record sales bookings of Rs 30,024 crore last fiscal, up 76% year-on-year. The investment underscores continued strength in India's organised real estate segment.",
-      "category": "Business",
-      "source": "Economic Times",
-      "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/prestige-estates-to-invest-rs-15000-cr-this-fiscal-in-housing-commercial-projects/articleshow/132194378.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132194472,width-1200,height-630,imgsize-276372,overlay-economictimes/articleshow.jpg",
-      "published": "2026-07-05T11:17:08+00:00",
-      "top_story": false
-    },
-    {
-      "title": "India's Godrej Consumer expects volume-driven first-quarter revenue rise",
-      "summary": "Godrej Consumer expects high-teens consolidated revenue growth for the June quarter, driven by strong volume growth, after taking calibrated price hikes to offset input costs. Margins are expected to recover progressively through FY27 as commodity prices ease.",
-      "category": "Business",
-      "source": "ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indias-godrej-consumer-expects-volume-driven-first-quarter-revenue-rise/articleshow/132163199.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132163199,width-1200,height-630,imgsize-43438,overlay-etmarkets/articleshow.jpg",
-      "published": "2026-07-03T13:38:38+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Union Minister releases Rs 25,863 crore to states under Viksit Bharat G-RAM-G scheme",
-      "summary": "Rural Development Minister Shivraj Singh Chouhan released the first installment of Rs 25,863 crore under the Viksit Bharat G-RAM-G Yojana, MGNREGA's successor scheme guaranteeing 125 days of rural employment instead of 100. The scheme has drawn criticism for dropping Mahatma Gandhi's name and changing the Centre-State funding ratio.",
-      "category": "Business",
-      "source": "Economic Times",
-      "url": "https://economictimes.indiatimes.com/news/india/union-minister-shivraj-singh-chouhan-releases-rs-25863-crore-to-states-under-viksit-bharat-g-ram-g-scheme/articleshow/132192513.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132192683,width-1200,height-630,imgsize-45036,overlay-economictimes/articleshow.jpg",
-      "published": "2026-07-05T07:52:30+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Air India fined Rs 60,000 for changing booked seats of senior couple mid-flight",
-      "summary": "Punjab's state consumer commission raised compensation to Rs 60,000 after Air India shifted an elderly couple's pre-booked seats at boarding, forcing a hip-replacement patient into a cramped seat for a 14-hour flight that left him bedridden for a month. The airline had originally been ordered to pay just Rs 40,000 by the district forum.",
-      "category": "Aviation",
-      "source": "Economic Times",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/air-india-changed-seats-of-senior-citizen-couple-mid-journey-left-hip-replacement-patient-in-narrow-seat-for-14-hours-punjab-state-commission-enhances-compensation-to-rs-60000/articleshow/132194042.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132194113,width-1200,height-630,imgsize-148244,overlay-economictimes/articleshow.jpg",
-      "published": "2026-07-05T10:47:36+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Here's why US Marine F-35B pilots quit for airline jobs paying roughly double",
-      "summary": "The US Marine Corps is short around 600 fast-jet pilots as high training costs, long pipelines, low flight hours during modernization and gruelling operational tempo push F-35B and Hornet pilots toward airline careers paying nearly twice as much. The retention crisis spans the Air Force, Navy and Marines and highlights the widening pay gap between military and commercial aviation.",
-      "category": "Aviation",
-      "source": "Simple Flying",
-      "url": "https://simpleflying.com/why-us-marine-f-35b-pilots-quit-airline-jobs-paying-roughly-double/",
-      "image_url": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/us-marine-f-35b-pilots.jpg?w=1600&h=900&fit=crop",
-      "published": "2026-07-05T05:10:10+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Saudia denies links to 5 Boeing 777s reportedly smuggled into Iran",
-      "summary": "Saudi Arabia's flag carrier Saudia says it sold five Boeing 777-200s to a UAE-based company back in 2023 and has had no involvement since; two of the jets have reportedly since ended up with Iran's sanctioned Mahan Air, with three more awaiting delivery. The case highlights how used Western aircraft are being routed to sanctioned Iranian carriers through third-party intermediaries.",
-      "category": "Aviation",
-      "source": "Simple Flying",
-      "url": "https://simpleflying.com/saudia-denies-boeing-777-smuggled-iran-mahan-air/",
-      "image_url": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/saudia-boeing-777-200-taxiing-at-the-airport.jpg?w=1600&h=900&fit=crop",
-      "published": "2026-07-05T13:15:16+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Mumbai on Red Alert as 300 mm rain batters city, disrupts flights and traffic",
-      "summary": "Mumbai has crossed 1,000 mm of monsoon rainfall in just 12 days, with over 300 mm falling in 24 hours, triggering an IMD Red Alert, widespread waterlogging and a temporary suspension of runway operations at the international airport due to poor visibility. Authorities have urged residents to stay indoors as heavy showers are expected to continue.",
-      "category": "World",
-      "source": "Economic Times",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/mumbai-pune-maharashtra-rains-red-alert-imd-weather-prediction-sunday-mumbai-traffic-metro-local-flight-train-status-airport-schools-close/articleshow/132189858.cms",
-      "image_url": "https://img.etimg.com/thumb/msid-132189885,width-1200,height-630,imgsize-715870,overlay-economictimes/articleshow.jpg",
-      "published": "2026-07-05T02:15:13+00:00",
-      "top_story": false
-    },
-    {
-      "title": "Evacuations in Guam as super typhoon Bavi approaches",
-      "summary": "Emergency evacuations are underway in Guam and the Northern Mariana Islands as super typhoon Bavi bears down with winds up to 257 km/h, forecast to make landfall early Monday. The US National Weather Service has warned of potentially catastrophic damage, severe flooding and waves nearly 11 metres high.",
-      "category": "World",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5ccc/live/14f8dd50-7840-11f1-a9d9-f754ec615ffe.jpg",
-      "published": "2026-07-05T09:26:56+00:00",
-      "top_story": false
-    }
-  ]
+ "generated_at": "2026-08-12T12:48:32.591606+05:30",
+ "edition": "evening",
+ "articles": [
+  {
+   "title": "Chandrasekaran steps down as chairman of Tata Sons ahead of AGM on August 18",
+   "summary": "N Chandrasekaran has resigned as Tata Sons chairman and will not seek reappointment, though his term ran to February 2027. The exit follows months of deadlock after one board director withheld support for his extension, and no successor has been named ahead of the AGM on August 18. Matters for trading: Tata Sons anchors a large slice of Nifty market value, and a leaderless holding company is a governance risk the market must now price.",
+   "category": "Markets",
+   "source": "ET Markets",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/chandrasekaran-steps-down-as-chairman-of-tata-sons-ahead-of-agm-on-august-18/videoshow/133174268.cms",
+   "image_url": "",
+   "published": "2026-08-12T06:18:55+00:00",
+   "top_story": true
+  },
+  {
+   "title": "Sensex crashes 600 points, Nifty nears 24,250; investors lose  ₹3 lakh crore; key factors behind market selloff explained",
+   "summary": "The Sensex fell more than 650 points (0.80%) to an intraday low of 77,498 and the Nifty 50 slid toward 24,250, a second straight session of losses, with investors down about Rs 3 lakh crore. IT led the decline while PSU banks bucked the trend. Matters for trading: this is a macro-driven selloff (crude, rupee, US CPI) rather than company-specific, so index-level exposure is what is being hit.",
+   "category": "Markets",
+   "source": "Mint Markets",
+   "url": "https://www.livemint.com/market/stock-market-news/sensex-crashes-600-points-nifty-near-24-250-investors-lose-3-lakh-crore-key-factors-behind-market-selloff-explained-11786516924623.html",
+   "image_url": "",
+   "published": "2026-08-12T06:57:30+00:00",
+   "top_story": true
+  },
+  {
+   "title": "INR loses further momentum as oil prices ascend on Hormuz led tensions",
+   "summary": "The rupee fell 6 paise to 95.42 per US dollar as Brent crude pushed toward $90 a barrel, with hopes of a quick US-Iran agreement and a reopened Strait of Hormuz fading. Reports of fresh attacks on shipping added to the pressure. Matters for trading: India imports the bulk of its oil, so crude strength feeds straight into the rupee, imported inflation and the RBI's room to cut rates.",
+   "category": "Markets",
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/capital-market-news/inr-loses-further-momentum-as-oil-prices-ascend-on-hormuz-led-tensions-126081200611_1.html",
+   "image_url": "",
+   "published": "2026-08-12T05:37:00+00:00",
+   "top_story": true
+  },
+  {
+   "title": "US July CPI seen rising moderately, Fed rate outlook in focus",
+   "summary": "US July consumer price data is due today, with economists expecting a moderate rise that would further temper expectations of a Federal Reserve rate hike this year, though inflation stays above target. Matters for trading: the print lands after Indian market hours and sets the tone for foreign flows into Indian equities tomorrow.",
+   "category": "Markets",
+   "source": "ET Markets",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-july-cpi-seen-rising-moderately-fed-rate-outlook-in-focus/articleshow/133172346.cms",
+   "image_url": "",
+   "published": "2026-08-12T06:01:53+00:00",
+   "top_story": true
+  },
+  {
+   "title": "Gold rises ₹1,182 on MCX, silver gains ₹2,314 on investment demand",
+   "summary": "Gold futures on MCX rose Rs 1,182 and silver gained Rs 2,314 on investment demand, with Comex gold near $4,475 an ounce and silver around $66. Matters for trading: for an Indian buyer the rupee price is pushed by two engines at once, the dollar gold price and the falling rupee, which is why local gains outpace global ones.",
+   "category": "Markets",
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/commodities/gold-rises-1-182-on-mcx-silver-gains-2-314-on-investment-demand-126081200395_1.html",
+   "image_url": "",
+   "published": "2026-08-12T04:34:56+00:00",
+   "top_story": true
+  },
+  {
+   "title": "Sebi reviews margin framework to improve commodity market efficiency",
+   "summary": "SEBI is reviewing the margin framework for commodity derivatives to improve efficiency, alongside wider foreign portfolio investor access, simpler settlement rules and lower participation costs while keeping safeguards. The regulator will continue talks with the GST Council on issues affecting participants. Matters for trading: lower margins and more participants generally mean better liquidity and tighter spreads in commodities.",
+   "category": "Markets",
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/news/sebi-commodity-derivatives-position-limits-margin-framework-reforms-126081200719_1.html",
+   "image_url": "",
+   "published": "2026-08-12T06:44:48+00:00",
+   "top_story": false
+  },
+  {
+   "title": "MCX shares rise 2% as JPMorgan upgrades, raises target price after this Sebi proposal",
+   "summary": "MCX shares rose more than 2% after international brokerages including JPMorgan upgraded the stock and raised targets, following SEBI's proposal to let foreign portfolio investors trade physically settled non-agricultural commodity derivatives. Matters for trading: exchanges earn on volume, so any rule change that widens the participant base flows directly to revenue.",
+   "category": "Markets",
+   "source": "ET Markets",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcx-shares-rise-2-as-jpmorgan-upgrades-raises-target-price-after-this-sebi-proposal/articleshow/133171178.cms",
+   "image_url": "",
+   "published": "2026-08-12T05:10:52+00:00",
+   "top_story": false
+  },
+  {
+   "title": "TCS, other Tata stocks fall up to 4% as N Chandrasekaran resigns",
+   "summary": "Tata group companies fell up to 4% led by TCS, the group's largest listed company by market capitalisation, after Chandrasekaran's resignation ahead of the August 18 AGM. Matters for trading: nothing changed in TCS's business today, only the expectation about who runs the group, which is a textbook case of price moving on expectations rather than fundamentals.",
+   "category": "Markets",
+   "source": "ET Markets",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-other-tata-stocks-fall-up-to-4-as-n-chandrasekaran-resigns/articleshow/133172060.cms",
+   "image_url": "",
+   "published": "2026-08-12T05:40:56+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Tata group stocks may shrug off Chandra's exit in the long run: Analysts",
+   "summary": "Analysts told Business Standard that Tata group stocks are unlikely to be materially affected in the long run by Chandrasekaran stepping down, even as TCS, Titan, Tata Communications and Tata Motors PV traded down up to 4% intraday. Matters for trading: worth reading alongside the selloff itself, as it shows the gap between an immediate repricing and a considered view of value.",
+   "category": "Markets",
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/news/tata-group-stocks-may-shrug-off-reports-of-chandra-s-exit-analysts-126081200429_1.html",
+   "image_url": "",
+   "published": "2026-08-12T04:44:42+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Nifty PSU Bank index surges 2% in weak market; PNB, UBI gain up to 5%",
+   "summary": "The Nifty PSU Bank index was the top sectoral gainer, up about 1.6% at 11:31 AM against a 0.74% fall in the Nifty 50, with PNB and Union Bank of India rallying up to 5%. Matters for trading: sector rotation on a red day shows money moving rather than leaving, which is different from broad capitulation.",
+   "category": "Markets",
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/news/nifty-psu-bank-index-surges-2-in-weak-market-pnb-ubi-gain-up-to-5-126081200684_1.html",
+   "image_url": "",
+   "published": "2026-08-12T06:44:47+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Godrej Consumer Products CEO Sitapati's exit triggers 10% slide in stock",
+   "summary": "Godrej Consumer Products fell 10% after chief executive Sudhir Sitapati resigned, with analysts expecting near-term pressure on the stock but no change to core strategy. Matters for trading: this is the second leadership exit repricing a stock on the same day as the Tata news, a useful demonstration that markets treat management continuity as a real asset.",
+   "category": "Markets",
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/news/godrej-consumer-products-ceo-sitapati-s-exit-triggers-10-slide-in-share-price-126081200366_1.html",
+   "image_url": "",
+   "published": "2026-08-12T04:34:29+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Lenskart, Delhivery, among 10 stocks with highest increase in DII holdings in Q1. See full list",
+   "summary": "Domestic institutional investors sharply raised holdings in several companies during the June quarter, with Lenskart and Delhivery among the ten largest increases. Matters for trading: DII buying is the domestic counterweight to foreign outflows, and tracking where it concentrates shows which stories institutions are willing to fund.",
+   "category": "Markets",
+   "source": "ET Markets",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/lenskart-delhivery-among-10-stocks-with-highest-increase-in-dii-holdings-in-q1-see-full-list/slideshow/133170949.cms",
+   "image_url": "",
+   "published": "2026-08-12T04:53:03+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Changes in presumptive taxation scheme",
+   "summary": "The 50% presumptive taxation rule for professionals largely continues under the new Income-tax Act, but Section 58(4) introduces a wider restriction on deductions and losses set against presumptive income. The filing due date is August 31, 2026. Directly relevant if you bill consulting income under Section 44ADA.",
+   "category": "Business",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/wealth/tax/presumptive-taxation-for-professionals-the-50-rule-remains-but-what-changes-for-deductions-and-losses-under-the-new-tax-act/articleshow/133171653.cms",
+   "image_url": "",
+   "published": "2026-08-12T05:34:49+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Ola Electric Eyes Up To ₹7,240 Cr Battery Cell PLI Incentives After Timeline Revision",
+   "summary": "The Centre has revised PLI timelines for Ola Electric's battery cell subsidiary, opening a five-year incentive window through CY2031 worth up to Rs 7,240 crore. The extension gives the company more time to hit milestones and potentially claim incentives across its full 20 GWh allocation.",
+   "category": "Business",
+   "source": "Inc42",
+   "url": "https://inc42.com/buzz/ola-electric-eyes-up-to-%e2%82%b97240-cr-battery-cell-pli-incentives-after-timeline-revision/",
+   "image_url": "",
+   "published": "2026-08-12T05:57:15+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Yulu Bags $93 Mn To Scale EV Fleet, Enter Full-Size Electric Scooter Segment",
+   "summary": "Yulu raised $93 million (about Rs 887.5 crore) in a Series C led by GEF Capital Partners, split as $63 million equity and $30 million debt. The Bengaluru company plans to expand its fleet and enter the full-size electric two-wheeler segment.",
+   "category": "Business",
+   "source": "Inc42",
+   "url": "https://inc42.com/buzz/yulu-bags-93-mn-to-scale-ev-fleet-enter-full-size-electric-scooter-segment/",
+   "image_url": "",
+   "published": "2026-08-12T04:38:51+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Porter posts Rs 6,650 Cr revenue in FY26; profits jump 4X",
+   "summary": "Porter reported Rs 6,650 crore revenue in FY26 with profit up more than fourfold, having turned profitable for the first time in FY25. The intra-city logistics market is getting more crowded as Uber, Rapido and Delhivery push into two-wheeler parcel delivery.",
+   "category": "Business",
+   "source": "Entrackr",
+   "url": "https://entrackr.com/fintrackr/porters-posts-rs-6650-cr-revenue-in-fy26-profits-jump-4x-12252565",
+   "image_url": "",
+   "published": "2026-08-12T04:59:11+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Groww leads stock brokers in July; Sahi records highest 13.6% client growth",
+   "summary": "India's active broker client base held steady at 4.54 crore in July, roughly unchanged from June. Groww kept its lead and added the most active clients, while Sahi, founded by former Swiggy CTO Dale Vaz, climbed two places into the top 20 on 13.6% client growth.",
+   "category": "Business",
+   "source": "Entrackr",
+   "url": "https://entrackr.com/news/groww-leads-stock-brokers-in-july-sahi-records-highest-136-client-growth-12253048",
+   "image_url": "",
+   "published": "2026-08-12T07:09:31+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Uber expands Uber Bike to 100 more Indian cities",
+   "summary": "Uber has extended Uber Bike to 100 more Indian cities, taking coverage past 220 cities across 18 states and one Union Territory, including Jammu, Tirunelveli, Silchar and Jamnagar.",
+   "category": "Business",
+   "source": "Entrackr",
+   "url": "https://entrackr.com/snippets/uber-expands-uber-bike-to-100-more-indian-cities-12252776",
+   "image_url": "",
+   "published": "2026-08-12T05:51:41+00:00",
+   "top_story": false
+  },
+  {
+   "title": "World's largest sovereign wealth fund posts record $184 billion profit as it reveals SpaceX stake for the first time",
+   "summary": "Norway's $2.3 trillion sovereign wealth fund, the world's largest, posted a record half-year profit above $182 billion on a 9.4% return driven by a rally in Asian technology stocks. It also disclosed a 0.05% stake in SpaceX worth just over $1.2 billion, its first such disclosure.",
+   "category": "Business",
+   "source": "CNBC Top News",
+   "url": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html",
+   "image_url": "",
+   "published": "2026-08-12T07:01:56+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Google’s new AI boss inherits a race to catch OpenAI and Anthropic",
+   "summary": "Google DeepMind's incoming leader faces pressure to close the performance gap with OpenAI and Anthropic, both of which have shipped advanced systems in recent months that drew praise and safety concerns alike.",
+   "category": "AI",
+   "source": "CNBC Top News",
+   "url": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+   "image_url": "",
+   "published": "2026-08-12T05:00:01+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Enterprise AI Spend Gets A Reality Check",
+   "summary": "The cost of running AI is collapsing, with the price of processing a million tokens falling roughly tenfold each year. Current benchmarks put DeepSeek V4 Flash at $0.14 per million input tokens, OpenAI's GPT-5.6 Luna at $0.20 and Meta's Muse Spark 1.2 at $1.25, forcing a reassessment of enterprise AI budgets.",
+   "category": "AI",
+   "source": "Inc42",
+   "url": "https://inc42.com/features/enterprise-ai-spend-gets-a-reality-check/",
+   "image_url": "",
+   "published": "2026-08-12T05:30:53+00:00",
+   "top_story": false
+  },
+  {
+   "title": "AI to define this decade as digitalisation defined the 2000s and liberalisation the 1990s, says RBI guv",
+   "summary": "RBI Governor Sanjay Malhotra urged Indian banks to treat artificial intelligence as a board-level strategic commitment rather than a series of technology purchases, warning that institutions which delay will have the transition forced on them. He said AI will define this decade as digitalisation defined the 2000s and liberalisation the 1990s.",
+   "category": "AI",
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/capital-market-news/ai-to-define-this-decade-as-digitalisation-defined-the-2000s-and-liberalisation-the-1990s-says-rbi-guv-126081200525_1.html",
+   "image_url": "",
+   "published": "2026-08-12T05:20:10+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes container ship",
+   "summary": "Iran-backed Houthi rebels killed six people aboard a cargo ship in the Bab el-Mandeb Strait, the first fatalities from Red Sea shipping attacks in more than a year. Within hours US forces fired missiles at a container ship they said tried to breach their blockade. This is the direct driver behind the crude spike hitting Indian markets today.",
+   "category": "Geopolitics",
+   "source": "CNBC Top News",
+   "url": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
+   "image_url": "",
+   "published": "2026-08-12T06:30:07+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Zelenskyy says Ukraine has sent proposals to US to end war with Russia",
+   "summary": "President Volodymyr Zelenskyy said Ukraine has handed the United States new proposals aimed at ending the four-and-a-half-year war with Russia, with both sides suggesting US negotiators will visit shortly.",
+   "category": "Geopolitics",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/8/12/zelenskyy-says-ukraine-has-sent-proposals-to-us-to-end-war-with-russia?traffic_source=rss",
+   "image_url": "",
+   "published": "2026-08-12T05:26:26+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Israeli raids, arrests continue as UN warns West Bank at ‘breaking point’",
+   "summary": "Israeli forces arrested at least 23 Palestinians and demolished several homes in the occupied West Bank as the United Nations warned the territory was at a breaking point, with settler attacks continuing.",
+   "category": "Geopolitics",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/8/12/israeli-raids-demolitions-continue-as-un-warns-west-bank-at-breaking-point?traffic_source=rss",
+   "image_url": "",
+   "published": "2026-08-12T04:59:19+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Does The $2.66 Million Seat Inspection On 453 Boeing 737 MAX Jets Signal A New Era Of FAA Oversight?",
+   "summary": "The FAA has proposed a new airworthiness directive covering seat inspections on 453 Boeing 737 MAX jets at an estimated cost of $2.66 million, just a week after granting Boeing the ability to self-issue airworthiness certificates for the MAX and 787.",
+   "category": "Aviation",
+   "source": "Simple Flying",
+   "url": "https://simpleflying.com/737-max-seat-inspection-faa/",
+   "image_url": "",
+   "published": "2026-08-12T05:00:11+00:00",
+   "top_story": false
+  },
+  {
+   "title": "American Airlines' AI Is Rebooking Passengers Onto Later Flights Without Asking Them",
+   "summary": "American Airlines is facing growing criticism over its AI rebooking software, which was built to move delayed passengers onto reachable connections but has been altering itineraries erroneously and without asking travellers first.",
+   "category": "Aviation",
+   "source": "Simple Flying",
+   "url": "https://simpleflying.com/american-airlines-ai-rebooking-passengers-later-flights/",
+   "image_url": "",
+   "published": "2026-08-12T06:30:31+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Mass evacuations in Beijing as Typhoon Dolphin brings more torrential rain to China",
+   "summary": "Thousands have been evacuated from flood and landslide risk areas in Beijing as the remnants of Typhoon Dolphin bring torrential rain across northern and central China, with forecasters warning the capital could see more than 150mm in 24 hours.",
+   "category": "World",
+   "source": "Guardian World",
+   "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall",
+   "image_url": "",
+   "published": "2026-08-12T04:43:19+00:00",
+   "top_story": false
+  },
+  {
+   "title": "Boat sinks in Zimbabwe's Lake Kariba with 95 people on board",
+   "summary": "A boat carrying 95 people sank on Lake Kariba in Zimbabwe with multiple feared dead and rescue operations under way. Police said 90 passengers and five crew were aboard, and the vessel may have been overloaded.",
+   "category": "World",
+   "source": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/czxe2vyxd7do?at_medium=RSS&at_campaign=rss",
+   "image_url": "",
+   "published": "2026-08-12T06:21:42+00:00",
+   "top_story": false
+  }
+ ]
 }
