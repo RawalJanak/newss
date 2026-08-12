@@ -1,24 +1,40 @@
 {
   "feeds": [
     {"name": "ET Markets", "category": "Markets", "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"},
-    {"name": "Economic Times", "category": "Business", "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms"},
     {"name": "Mint Markets", "category": "Markets", "url": "https://www.livemint.com/rss/markets"},
+    {"name": "Business Standard Markets", "category": "Markets", "url": "https://www.business-standard.com/rss/markets-106.rss"},
+
+    {"name": "RBI Press Releases", "category": "Economy & Policy", "url": "https://www.rbi.org.in/pressreleases_rss.xml"},
+    {"name": "SEBI Updates", "category": "Economy & Policy", "url": "https://www.sebi.gov.in/sebirss.xml"},
+    {"name": "ET Economy", "category": "Economy & Policy", "url": "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"},
+
+    {"name": "Economic Times", "category": "Business", "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms"},
     {"name": "MoneyControl", "category": "Business", "url": "https://www.moneycontrol.com/rss/MCtopnews.xml"},
+    {"name": "Mint Companies", "category": "Business", "url": "https://www.livemint.com/rss/companies"},
+    {"name": "Indian Express Business", "category": "Business", "url": "https://indianexpress.com/section/business/feed/"},
     {"name": "CNBC Top News", "category": "Business", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"},
-    {"name": "BBC World", "category": "World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
-    {"name": "Al Jazeera", "category": "Geopolitics", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
-    {"name": "Guardian World", "category": "World", "url": "https://www.theguardian.com/world/rss"},
+
+    {"name": "Inc42", "category": "Startups", "url": "https://inc42.com/feed/"},
+    {"name": "Entrackr", "category": "Startups", "url": "https://entrackr.com/rss"},
+
     {"name": "TechCrunch AI", "category": "AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
     {"name": "The Verge AI", "category": "AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+    {"name": "ET Tech", "category": "AI", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"},
+
+    {"name": "MIT Technology Review", "category": "Innovation", "url": "https://www.technologyreview.com/feed/"},
+    {"name": "IEEE Spectrum", "category": "Innovation", "url": "https://spectrum.ieee.org/feeds/feed.rss"},
+    {"name": "Ars Technica", "category": "Innovation", "url": "https://feeds.arstechnica.com/arstechnica/index"},
+    {"name": "ScienceDaily Technology", "category": "Innovation", "url": "https://www.sciencedaily.com/rss/top/technology.xml"},
+
+    {"name": "Al Jazeera", "category": "Geopolitics", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
+
+    {"name": "Indian Express India", "category": "India", "url": "https://indianexpress.com/section/india/feed/"},
+    {"name": "The Hindu National", "category": "India", "url": "https://www.thehindu.com/news/national/feeder/default.rss"},
+
     {"name": "Simple Flying", "category": "Aviation", "url": "https://simpleflying.com/feed/"},
     {"name": "Aviation Week", "category": "Aviation", "url": "https://aviationweek.com/rss.xml"},
-    {"name": "RBI Press Releases", "category": "Markets", "url": "https://www.rbi.org.in/pressreleases_rss.xml"},
-    {"name": "SEBI Updates", "category": "Markets", "url": "https://www.sebi.gov.in/sebirss.xml"},
-    {"name": "ET Economy", "category": "Markets", "url": "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"},
-    {"name": "Business Standard Markets", "category": "Markets", "url": "https://www.business-standard.com/rss/markets-106.rss"},
-    {"name": "Indian Express Business", "category": "Business", "url": "https://indianexpress.com/section/business/feed/"},
-    {"name": "Inc42", "category": "Business", "url": "https://inc42.com/feed/"},
-    {"name": "Entrackr", "category": "Business", "url": "https://entrackr.com/rss"},
-    {"name": "MIT Technology Review", "category": "AI", "url": "https://www.technologyreview.com/feed/"}
+
+    {"name": "BBC World", "category": "World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
+    {"name": "Guardian World", "category": "World", "url": "https://www.theguardian.com/world/rss"}
   ]
 }

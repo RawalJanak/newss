@@ -15,9 +15,19 @@ You are running the twice-daily news digest for Janak. Work in
    - Base it on extracted text; if extraction failed for a URL, use the RSS
      summary and keep the item.
    - For Markets items add why it matters for trading (one clause).
-6. Tag each: category = one of Markets | Business | Geopolitics | AI |
-   Aviation | World; top_story = true for max 5 market-moving or globally
-   significant items.
+6. Tag each: category = one of Markets | Economy & Policy | Business | Startups |
+   AI | Innovation | Geopolitics | India | Aviation | World; top_story = true for
+   max 5 market-moving or globally significant items.
+
+   Each article carries BOTH:
+   - `summary` — a one-paragraph standfirst (~40 words) used on cards
+   - `body` — 500-800 words of ORIGINAL long-form analysis, written in our own
+     words: what happened, the hard numbers, the mechanism driving it, what it
+     means for an Indian investor, what to watch next. Never reproduce source
+     article text verbatim — the site is public and the sources are copyrighted.
+     Always link out to the original.
+
+   Target 12-15 fully-written stories per edition. Depth over volume.
 7. Write `app/articles.json` matching the existing schema exactly
    (generated_at = now ISO-8601 with +05:30 offset; edition = "morning" if
    local hour < 12 else "evening").
