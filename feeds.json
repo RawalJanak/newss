@@ -1,40 +1,79 @@
 {
+  "_note": "publisher groups feeds that share an owner, so corroboration counts voices not URLs. kind: news | primary | newsletter | aggregator. aggregators and newsletters never count toward corroboration.",
+
   "feeds": [
-    {"name": "ET Markets", "category": "Markets", "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"},
-    {"name": "Mint Markets", "category": "Markets", "url": "https://www.livemint.com/rss/markets"},
-    {"name": "Business Standard Markets", "category": "Markets", "url": "https://www.business-standard.com/rss/markets-106.rss"},
+    {"name": "ET Markets", "category": "Markets", "region": "india", "publisher": "economic-times", "kind": "news", "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"},
+    {"name": "ET Economy", "category": "Economy & Policy", "region": "india", "publisher": "economic-times", "kind": "news", "url": "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"},
+    {"name": "ET Tech", "category": "AI", "region": "india", "publisher": "economic-times", "kind": "news", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"},
+    {"name": "Economic Times", "category": "Business", "region": "india", "publisher": "economic-times", "kind": "news", "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms"},
 
-    {"name": "RBI Press Releases", "category": "Economy & Policy", "url": "https://www.rbi.org.in/pressreleases_rss.xml"},
-    {"name": "SEBI Updates", "category": "Economy & Policy", "url": "https://www.sebi.gov.in/sebirss.xml"},
-    {"name": "ET Economy", "category": "Economy & Policy", "url": "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"},
+    {"name": "Mint Markets", "category": "Markets", "region": "india", "publisher": "mint", "kind": "news", "url": "https://www.livemint.com/rss/markets"},
+    {"name": "Mint Companies", "category": "Business", "region": "india", "publisher": "mint", "kind": "news", "url": "https://www.livemint.com/rss/companies"},
+    {"name": "Mint Top News", "category": "India", "region": "india", "publisher": "mint", "kind": "news", "url": "https://www.livemint.com/rss/news"},
 
-    {"name": "Economic Times", "category": "Business", "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms"},
-    {"name": "MoneyControl", "category": "Business", "url": "https://www.moneycontrol.com/rss/MCtopnews.xml"},
-    {"name": "Mint Companies", "category": "Business", "url": "https://www.livemint.com/rss/companies"},
-    {"name": "Indian Express Business", "category": "Business", "url": "https://indianexpress.com/section/business/feed/"},
-    {"name": "CNBC Top News", "category": "Business", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"},
+    {"name": "Business Standard Markets", "category": "Markets", "region": "india", "publisher": "business-standard", "kind": "news", "url": "https://www.business-standard.com/rss/markets-106.rss"},
 
-    {"name": "Inc42", "category": "Startups", "url": "https://inc42.com/feed/"},
-    {"name": "Entrackr", "category": "Startups", "url": "https://entrackr.com/rss"},
+    {"name": "Indian Express Business", "category": "Business", "region": "india", "publisher": "indian-express", "kind": "news", "url": "https://indianexpress.com/section/business/feed/"},
+    {"name": "Indian Express India", "category": "India", "region": "india", "publisher": "indian-express", "kind": "news", "url": "https://indianexpress.com/section/india/feed/"},
 
-    {"name": "TechCrunch AI", "category": "AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
-    {"name": "The Verge AI", "category": "AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
-    {"name": "ET Tech", "category": "AI", "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"},
+    {"name": "The Hindu National", "category": "India", "region": "india", "publisher": "the-hindu-group", "kind": "news", "url": "https://www.thehindu.com/news/national/feeder/default.rss"},
+    {"name": "The Hindu Business", "category": "Business", "region": "india", "publisher": "the-hindu-group", "kind": "news", "url": "https://www.thehindu.com/business/feeder/default.rss"},
+    {"name": "Hindu BusinessLine", "category": "Markets", "region": "india", "publisher": "the-hindu-group", "kind": "news", "url": "https://www.thehindubusinessline.com/feeder/default.rss"},
 
-    {"name": "MIT Technology Review", "category": "Innovation", "url": "https://www.technologyreview.com/feed/"},
-    {"name": "IEEE Spectrum", "category": "Innovation", "url": "https://spectrum.ieee.org/feeds/feed.rss"},
-    {"name": "Ars Technica", "category": "Innovation", "url": "https://feeds.arstechnica.com/arstechnica/index"},
-    {"name": "ScienceDaily Technology", "category": "Innovation", "url": "https://www.sciencedaily.com/rss/top/technology.xml"},
+    {"name": "Times of India Business", "category": "Business", "region": "india", "publisher": "times-of-india", "kind": "news", "url": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"},
+    {"name": "News18 Business", "category": "Business", "region": "india", "publisher": "news18", "kind": "news", "url": "https://www.news18.com/rss/business.xml"},
+    {"name": "Business Today", "category": "Business", "region": "india", "publisher": "business-today", "kind": "news", "url": "https://www.businesstoday.in/rss/home"},
+    {"name": "NDTV Profit", "category": "Markets", "region": "india", "publisher": "ndtv", "kind": "news", "url": "https://feeds.feedburner.com/ndtvprofit-latest"},
 
-    {"name": "Al Jazeera", "category": "Geopolitics", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
+    {"name": "MoneyControl", "category": "Business", "region": "india", "publisher": "moneycontrol", "kind": "news", "url": "https://www.moneycontrol.com/rss/MCtopnews.xml"},
+    {"name": "MoneyControl Business", "category": "Business", "region": "india", "publisher": "moneycontrol", "kind": "news", "url": "https://www.moneycontrol.com/rss/business.xml"},
 
-    {"name": "Indian Express India", "category": "India", "url": "https://indianexpress.com/section/india/feed/"},
-    {"name": "The Hindu National", "category": "India", "url": "https://www.thehindu.com/news/national/feeder/default.rss"},
+    {"name": "RBI Press Releases", "category": "Economy & Policy", "region": "india", "publisher": "rbi", "kind": "primary", "url": "https://www.rbi.org.in/pressreleases_rss.xml"},
+    {"name": "SEBI Updates", "category": "Economy & Policy", "region": "india", "publisher": "sebi", "kind": "primary", "url": "https://www.sebi.gov.in/sebirss.xml"},
 
-    {"name": "Simple Flying", "category": "Aviation", "url": "https://simpleflying.com/feed/"},
-    {"name": "Aviation Week", "category": "Aviation", "url": "https://aviationweek.com/rss.xml"},
+    {"name": "Inc42", "category": "Startups", "region": "india", "publisher": "inc42", "kind": "news", "url": "https://inc42.com/feed/"},
+    {"name": "Entrackr", "category": "Startups", "region": "india", "publisher": "entrackr", "kind": "news", "url": "https://entrackr.com/rss"},
 
-    {"name": "BBC World", "category": "World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
-    {"name": "Guardian World", "category": "World", "url": "https://www.theguardian.com/world/rss"}
+    {"name": "AP Top News", "category": "World", "region": "global", "publisher": "ap", "kind": "news", "url": "https://feedx.net/rss/ap.xml"},
+    {"name": "CNBC Top News", "category": "Business", "region": "global", "publisher": "cnbc", "kind": "news", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"},
+    {"name": "BBC World", "category": "World", "region": "global", "publisher": "bbc", "kind": "news", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
+    {"name": "Guardian World", "category": "World", "region": "global", "publisher": "guardian", "kind": "news", "url": "https://www.theguardian.com/world/rss"},
+    {"name": "Al Jazeera", "category": "Geopolitics", "region": "global", "publisher": "al-jazeera", "kind": "news", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
+    {"name": "Axios", "category": "Business", "region": "global", "publisher": "axios", "kind": "news", "url": "https://api.axios.com/feed/"},
+    {"name": "Semafor", "category": "World", "region": "global", "publisher": "semafor", "kind": "news", "url": "https://www.semafor.com/rss.xml"},
+    {"name": "NPR Business", "category": "Business", "region": "global", "publisher": "npr", "kind": "news", "url": "https://feeds.npr.org/1006/rss.xml"},
+    {"name": "Sky News Business", "category": "Business", "region": "global", "publisher": "sky-news", "kind": "news", "url": "https://feeds.skynews.com/feeds/rss/business.xml"},
+    {"name": "DW Business", "category": "Business", "region": "global", "publisher": "dw", "kind": "news", "url": "https://rss.dw.com/rdf/rss-en-bus"},
+    {"name": "Nikkei Asia", "category": "Markets", "region": "global", "publisher": "nikkei", "kind": "news", "url": "https://asia.nikkei.com/rss/feed/nar"},
+    {"name": "SCMP Business", "category": "Business", "region": "global", "publisher": "scmp", "kind": "news", "url": "https://www.scmp.com/rss/92/feed"},
+
+    {"name": "Ars Technica", "category": "Innovation", "region": "global", "publisher": "ars-technica", "kind": "news", "url": "https://feeds.arstechnica.com/arstechnica/index"},
+    {"name": "IEEE Spectrum", "category": "Innovation", "region": "global", "publisher": "ieee", "kind": "news", "url": "https://spectrum.ieee.org/feeds/feed.rss"},
+    {"name": "MIT Technology Review", "category": "Innovation", "region": "global", "publisher": "mit-tech-review", "kind": "news", "url": "https://www.technologyreview.com/feed/"},
+    {"name": "ScienceDaily Technology", "category": "Innovation", "region": "global", "publisher": "sciencedaily", "kind": "news", "url": "https://www.sciencedaily.com/rss/top/technology.xml"},
+    {"name": "TechCrunch AI", "category": "AI", "region": "global", "publisher": "techcrunch", "kind": "news", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"name": "The Verge AI", "category": "AI", "region": "global", "publisher": "the-verge", "kind": "news", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+
+    {"name": "Simple Flying", "category": "Aviation", "region": "global", "publisher": "simple-flying", "kind": "news", "url": "https://simpleflying.com/feed/"},
+    {"name": "Aviation Week", "category": "Aviation", "region": "global", "publisher": "aviation-week", "kind": "news", "url": "https://aviationweek.com/rss.xml"},
+
+    {"name": "Finshots", "category": "Analysis", "region": "india", "publisher": "finshots", "kind": "newsletter", "url": "https://finshots.in/rss/"},
+    {"name": "Stratechery", "category": "Analysis", "region": "global", "publisher": "stratechery", "kind": "newsletter", "url": "https://stratechery.com/feed/"},
+    {"name": "The Diff", "category": "Analysis", "region": "global", "publisher": "the-diff", "kind": "newsletter", "url": "https://www.thediff.co/feed"},
+    {"name": "Money Stuff", "category": "Analysis", "region": "global", "publisher": "money-stuff", "kind": "newsletter", "url": "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine.rss"},
+    {"name": "A Wealth of Common Sense", "category": "Analysis", "region": "global", "publisher": "awealthofcommonsense", "kind": "newsletter", "url": "https://awealthofcommonsense.com/feed/"},
+    {"name": "Abnormal Returns", "category": "Analysis", "region": "global", "publisher": "abnormal-returns", "kind": "newsletter", "url": "https://abnormalreturns.com/feed/"},
+    {"name": "Klement on Investing", "category": "Analysis", "region": "global", "publisher": "klement", "kind": "newsletter", "url": "https://klementoninvesting.substack.com/feed"},
+    {"name": "Calculated Risk", "category": "Analysis", "region": "global", "publisher": "calculated-risk", "kind": "newsletter", "url": "https://www.calculatedriskblog.com/feeds/posts/default"},
+    {"name": "Noahpinion", "category": "Analysis", "region": "global", "publisher": "noahpinion", "kind": "newsletter", "url": "https://www.noahpinion.blog/feed"},
+    {"name": "Marginal Revolution", "category": "Analysis", "region": "global", "publisher": "marginal-revolution", "kind": "newsletter", "url": "https://marginalrevolution.com/feed"},
+    {"name": "Benedict Evans", "category": "Analysis", "region": "global", "publisher": "benedict-evans", "kind": "newsletter", "url": "https://www.ben-evans.com/benedictevans?format=rss"},
+    {"name": "Platformer", "category": "Analysis", "region": "global", "publisher": "platformer", "kind": "newsletter", "url": "https://www.platformer.news/rss/"},
+    {"name": "Import AI", "category": "Analysis", "region": "global", "publisher": "import-ai", "kind": "newsletter", "url": "https://jack-clark.net/feed/"},
+    {"name": "Interconnects", "category": "Analysis", "region": "global", "publisher": "interconnects", "kind": "newsletter", "url": "https://www.interconnects.ai/feed"},
+
+    {"name": "Google News IN Business", "category": "Business", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name": "Google News IN Tech", "category": "AI", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name": "Google News IN Nation", "category": "India", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=en-IN&gl=IN&ceid=IN:en"}
   ]
 }

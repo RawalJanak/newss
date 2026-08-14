@@ -1,3 +1,5 @@
 __pycache__/
 server/state/
 .pytest_cache/
+_clusters.json
+_pick.json

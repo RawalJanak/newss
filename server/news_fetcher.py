@@ -11,8 +11,16 @@ mcp = FastMCP("news-fetcher")
 @mcp.tool()
 def fetch_headlines() -> dict:
     """Fetch all configured RSS feeds; return fresh (previously unseen) headline
-    items and any per-feed errors. Items: title, url, source, published, summary."""
+    items and any per-feed errors. Does NOT mark URLs seen — call
+    confirm_seen after articles.json is written. Items: title, url, source,
+    published, summary, feed_category (when configured), wire (bool)."""
     return feeds.fetch_all(ROOT / "feeds.json")
+
+
+@mcp.tool()
+def confirm_seen(urls: list[str]) -> dict:
+    """Mark headline URLs as seen after a successful digest write."""
+    return feeds.confirm_seen_urls(urls)
 
 
 @mcp.tool()

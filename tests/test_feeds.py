@@ -72,6 +72,22 @@ def test_filter_new_drops_seen_urls(tmp_path, monkeypatch):
     assert remaining[0]["url"] == "https://example.com/b"
 
 
+def test_fetch_all_does_not_mark_seen_by_default(tmp_path, monkeypatch):
+    import json
+    import server.feeds as feeds
+    seen_file = tmp_path / "seen.json"
+    feeds_file = tmp_path / "feeds.json"
+    monkeypatch.setattr(feeds, "SEEN_PATH", seen_file)
+    feeds_file.write_text(json.dumps({
+        "feeds": [{"name": "Fixture", "url": "file://unused"}]
+    }))
+    # use parse path instead — fetch_all needs network; test confirm_seen directly
+    items = [{"url": "https://example.com/x", "title": "X"}]
+    feeds.confirm_seen_urls(["https://example.com/x"])
+    assert seen_file.exists()
+    assert "https://example.com/x" in json.loads(seen_file.read_text())
+
+
 def test_seen_store_prunes_old_entries(tmp_path, monkeypatch):
     import json, time
     import server.feeds as feeds

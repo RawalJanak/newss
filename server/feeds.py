@@ -94,13 +94,11 @@ def mark_seen(items: list[dict]) -> None:
     _save_seen(seen)
 
 
-def fetch_all(feeds_config_path: Path) -> dict:
-    """Fetch every feed in feeds config, return fresh (unseen) items, mark them seen.
+def fetch_all(feeds_config_path: Path, *, mark: bool = False) -> dict:
+    """Fetch every feed in feeds config; return fresh (unseen) items.
 
-    At-most-once delivery by design: items are marked seen immediately, so if a
-    downstream consumer crashes before using them, that batch is skipped, never
-    re-delivered. Acceptable for a twice-daily personal digest; do not add
-    retry/unmark machinery without revisiting.
+    URLs are NOT marked seen here — call confirm_seen() only after
+    articles.json is written successfully, so a failed digest run can retry.
     """
     import urllib.request
 
@@ -115,9 +113,24 @@ def fetch_all(feeds_config_path: Path) -> dict:
             )
             with urllib.request.urlopen(req, timeout=20) as resp:
                 content = resp.read()
-            all_items.extend(parse_feed(content, source=name))
+            items = parse_feed(content, source=name)
+            if feed.get("category"):
+                for item in items:
+                    item["feed_category"] = feed["category"]
+            if feed.get("wire"):
+                for item in items:
+                    item["wire"] = True
+            all_items.extend(items)
         except Exception as exc:
             errors.append({"feed": name, "error": str(exc)})
     fresh = filter_new(all_items)
-    mark_seen(fresh)
+    if mark:
+        mark_seen(fresh)
     return {"items": fresh, "errors": errors}
+
+
+def confirm_seen_urls(urls: list[str]) -> dict:
+    """Mark URLs as seen after a successful digest write."""
+    items = [{"url": u} for u in urls if u]
+    mark_seen(items)
+    return {"marked": len(items)}
