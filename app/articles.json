@@ -41,7 +41,46 @@
     "url": "https://www.reddit.com/r/TCS_India/comments/1vmldh6/tata_sons_chairman_n_chandrasekaran_to_step_down/"
    },
    "read_min": 2,
-   "words": 487
+   "words": 487,
+   "importance": "high",
+   "simple": [
+    "The chairman of the Tata group is leaving. His last day is 20 February 2027.",
+    "He did not choose to go. The trusts that own Tata quietly decided not to give him another term.",
+    "A committee will now pick the next chairman. Nobody has been named yet.",
+    "Tata shares fell up to 4% because investors hate not knowing who is in charge."
+   ],
+   "terms": [
+    {
+     "term": "Tata Sons",
+     "meaning": "The holding company that owns and controls all the Tata companies"
+    },
+    {
+     "term": "Tata Trusts",
+     "meaning": "Charity organisations that own 66% of Tata Sons, so they control the whole group"
+    },
+    {
+     "term": "Selection Committee",
+     "meaning": "A small group formed to find and recommend the next chairman"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "27.9%",
+     "label": "share of Tata Sons owned by Sir Dorabji Tata Trust alone"
+    },
+    {
+     "value": "66%",
+     "label": "share owned by all Tata Trusts together"
+    },
+    {
+     "value": "20 Feb 2027",
+     "label": "when his term officially ends"
+    },
+    {
+     "value": "up to 4%",
+     "label": "how much Tata shares fell"
+    }
+   ]
   },
   {
    "title": "Wholesale inflation moderates to 9.78% in July",
@@ -76,7 +115,46 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 484
+   "words": 484,
+   "importance": "high",
+   "simple": [
+    "There are two inflation numbers in India. Shop prices rose 4.45%. Factory-level prices rose 9.78%.",
+    "Factory prices are rising more than twice as fast as shop prices.",
+    "Almost all of that gap is fuel. Fuel costs at the wholesale level are up 20%.",
+    "This matters to you because businesses eventually pass higher costs on to shoppers."
+   ],
+   "terms": [
+    {
+     "term": "WPI",
+     "meaning": "Wholesale Price Index - prices businesses charge each other, before goods reach a shop"
+    },
+    {
+     "term": "CPI",
+     "meaning": "Consumer Price Index - prices you actually pay in a shop"
+    },
+    {
+     "term": "Core inflation",
+     "meaning": "Inflation after removing food and fuel, which jump around a lot"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "9.78%",
+     "label": "wholesale inflation in July, down from 9.87%"
+    },
+    {
+     "value": "4.45%",
+     "label": "shop-level inflation, for comparison"
+    },
+    {
+     "value": "20.05%",
+     "label": "fuel and power inflation - the cause of the gap"
+    },
+    {
+     "value": "6.65%",
+     "label": "wholesale food inflation, up from 6.14%"
+    }
+   ]
   },
   {
    "title": "Sensex falls 71 points, Nifty closes below 24,400; broader markets underperform. What lies ahead?",
@@ -106,7 +184,46 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 463
+   "words": 463,
+   "importance": "normal",
+   "simple": [
+    "The market opened badly, down almost 300 points, then recovered nearly all of it by the close.",
+    "It finished down just 71 points, which on a 78,000 index is less than 0.1%. That is noise.",
+    "Two things helped during the day: oil got cheaper, and US inflation news was calm.",
+    "Foreign investors sold Indian shares for the third day running. That pressure has not gone."
+   ],
+   "terms": [
+    {
+     "term": "Sensex",
+     "meaning": "India's 30-company benchmark index on the BSE"
+    },
+    {
+     "term": "Nifty 50",
+     "meaning": "India's 50-company benchmark index on the NSE"
+    },
+    {
+     "term": "FII",
+     "meaning": "Foreign Institutional Investor - overseas funds that buy and sell Indian shares"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "-71",
+     "label": "points the Sensex closed down"
+    },
+    {
+     "value": "24,400",
+     "label": "level the Nifty closed below"
+    },
+    {
+     "value": "$87",
+     "label": "Brent crude oil price, down from $90"
+    },
+    {
+     "value": "3rd",
+     "label": "consecutive day of foreign selling"
+    }
+   ]
   },
   {
    "title": "India's trade deficit widens 31.5% to $15bn in July; electronics exports surge 11-fold",
@@ -136,7 +253,42 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 469
+   "words": 469,
+   "importance": "normal",
+   "simple": [
+    "In July, India bought about $15 billion more from the world than it sold.",
+    "That gap is 31.5% bigger than a year ago.",
+    "To pay foreign sellers, Indians must sell rupees and buy dollars. That pushes the rupee down.",
+    "A weaker rupee makes everything imported cost more, which feeds inflation."
+   ],
+   "terms": [
+    {
+     "term": "Trade deficit",
+     "meaning": "When a country imports more than it exports in a period"
+    },
+    {
+     "term": "Current account",
+     "meaning": "A fuller measure that also counts services exports and money sent home by NRIs"
+    },
+    {
+     "term": "NRI",
+     "meaning": "Non-Resident Indian - an Indian citizen living abroad"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "$15bn",
+     "label": "size of July's trade gap"
+    },
+    {
+     "value": "31.5%",
+     "label": "how much bigger than last year"
+    },
+    {
+     "value": "15%",
+     "label": "growth in exports April-July, the encouraging side"
+    }
+   ]
   },
   {
    "title": "Rupee logs weekly decline, with RBI intervention curbing losses",
@@ -166,7 +318,42 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 473
+   "words": 473,
+   "importance": "normal",
+   "simple": [
+    "The rupee got weaker again this week against the US dollar.",
+    "The RBI stepped in to slow the fall by selling dollars from its reserves.",
+    "It traded in a very tight range, 95.38 to 95.43. That tightness is the clue the RBI was active.",
+    "Every dollar spent defending the rupee is a dollar no longer in the country's savings buffer."
+   ],
+   "terms": [
+    {
+     "term": "RBI",
+     "meaning": "Reserve Bank of India - the central bank that manages interest rates and the currency"
+    },
+    {
+     "term": "Intervention",
+     "meaning": "The central bank buying or selling currency to steady the exchange rate"
+    },
+    {
+     "term": "Forex reserves",
+     "meaning": "The country's savings in foreign currency, used to pay for imports in a crisis"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "95.42",
+     "label": "rupees per US dollar"
+    },
+    {
+     "value": "5 paise",
+     "label": "the whole day's trading range - unusually tight"
+    },
+    {
+     "value": "$37bn",
+     "label": "dollars NRIs deposited in under two months, which supports the rupee"
+    }
+   ]
   },
   {
    "title": "Gold Rate Today, Aug 14: Gold prices down in Delhi, Mumbai, Kolkata, Bengaluru, Ahmedabad",
@@ -206,7 +393,38 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 505
+   "words": 505,
+   "importance": "normal",
+   "simple": [
+    "Gold prices fell on Friday in Delhi, Mumbai and other cities.",
+    "Gold usually falls when the dollar strengthens, because gold is priced in dollars worldwide.",
+    "For Indians, gold's price depends on two things: the world gold price AND the rupee.",
+    "Important and often missed: Sovereign Gold Bonds are no longer issued. Ignore old advice about them."
+   ],
+   "terms": [
+    {
+     "term": "SGB",
+     "meaning": "Sovereign Gold Bond - a government gold investment, discontinued since February 2024"
+    },
+    {
+     "term": "Gold ETF",
+     "meaning": "Exchange Traded Fund - a stock-market way to own gold without storing it"
+    },
+    {
+     "term": "MCX",
+     "meaning": "Multi Commodity Exchange - where Indian gold and silver futures trade"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "4 publishers",
+     "label": "carried this story - the most-covered item today"
+    },
+    {
+     "value": "2 engines",
+     "label": "drive your gold return: the dollar price and the rupee"
+    }
+   ]
   },
   {
    "title": "Zetwerk files updated IPO papers with Sebi; plans to raise Rs 2,600-cr via fresh issue",
@@ -241,7 +459,38 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 488
+   "words": 488,
+   "importance": "normal",
+   "simple": [
+    "Zetwerk wants to sell shares to the public and has moved a step closer.",
+    "It connects companies that need parts made with small factories that can make them.",
+    "The regulator reviewed its first application and asked questions. This is the updated answer.",
+    "Before any IPO, check one thing: is the company raising new money, or are early investors cashing out?"
+   ],
+   "terms": [
+    {
+     "term": "IPO",
+     "meaning": "Initial Public Offering - the first time a company sells shares to the public"
+    },
+    {
+     "term": "SEBI",
+     "meaning": "Securities and Exchange Board of India - the stock market regulator"
+    },
+    {
+     "term": "DRHP",
+     "meaning": "Draft Red Herring Prospectus - the detailed document a company must file before an IPO"
+    },
+    {
+     "term": "OFS",
+     "meaning": "Offer For Sale - when existing owners sell their shares, so the money goes to them, not the company"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "Rs 2,600 cr",
+     "label": "amount Zetwerk plans to raise through fresh shares"
+    }
+   ]
   },
   {
    "title": "Air India A320neo Temporarily Lost Flight Controls Before 300-Foot Plunge: Airbus Analysis",
@@ -276,7 +525,55 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 529
+   "words": 529,
+   "importance": "high",
+   "simple": [
+    "An Air India plane from Phuket to Delhi suddenly lost altitude on 4 August.",
+    "The maintenance report found warnings in the systems that move the plane's control surfaces.",
+    "Two of the plane's three independent hydraulic systems showed low levels.",
+    "The captain told investigators he had not slept enough and had taken a permitted rest during the flight.",
+    "Investigators have not yet said the faults caused the drop. Both technical and human factors are being examined."
+   ],
+   "terms": [
+    {
+     "term": "AAIB",
+     "meaning": "Aircraft Accident Investigation Bureau - India's independent air crash investigator"
+    },
+    {
+     "term": "Hydraulic system",
+     "meaning": "Pressurised fluid that moves the wings' control surfaces; the A320 has three for safety"
+    },
+    {
+     "term": "Elevator",
+     "meaning": "The moving surface on the tail that points the plane's nose up or down"
+    },
+    {
+     "term": "Controlled rest",
+     "meaning": "A regulated short nap one pilot may take while the other stays fully alert"
+    },
+    {
+     "term": "DGCA",
+     "meaning": "Directorate General of Civil Aviation - India's aviation safety regulator"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "300 feet",
+     "label": "how far the plane dropped"
+    },
+    {
+     "value": "4 August",
+     "label": "date of the incident"
+    },
+    {
+     "value": "2 of 3",
+     "label": "hydraulic systems showing low levels"
+    },
+    {
+     "value": "VT-EXO",
+     "label": "registration of the specific aircraft"
+    }
+   ]
   },
   {
    "title": "Caste Census 2027: Full list of questions to be asked in the second phase of Census",
@@ -316,7 +613,42 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 489
+   "words": 489,
+   "importance": "normal",
+   "simple": [
+    "India will count caste in the 2027 Census. The question list is now public.",
+    "This has not been done fully since 1931, under British rule.",
+    "Reservation policy today rests on estimates from that 90-year-old data.",
+    "Counting replaces a guess with a measurement, which is why it is politically contested."
+   ],
+   "terms": [
+    {
+     "term": "Census",
+     "meaning": "The official count of every person in the country, done roughly every 10 years"
+    },
+    {
+     "term": "OBC",
+     "meaning": "Other Backward Classes - a reservation category whose true size has never been counted"
+    },
+    {
+     "term": "Delimitation",
+     "meaning": "Redrawing parliamentary constituency boundaries based on new population data"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "1931",
+     "label": "the last full caste count"
+    },
+    {
+     "value": "2011",
+     "label": "the most recent census India actually has - now 16 years old"
+    },
+    {
+     "value": "27%",
+     "label": "OBC reservation in central government jobs, based on an estimate"
+    }
+   ]
   },
   {
    "title": "Peak XV Leads $45 Mn Bet On US-Based AI Code Testing Startup Blacksmith",
@@ -346,7 +678,38 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 488
+   "words": 488,
+   "importance": "low",
+   "simple": [
+    "An Indian investment fund put $45 million into an American startup.",
+    "That direction is unusual. Normally American money flows into Indian startups.",
+    "The startup makes tools that test computer code written by AI.",
+    "Funding is not proof of success. It means someone believes, not that the company works."
+   ],
+   "terms": [
+    {
+     "term": "Peak XV",
+     "meaning": "The former Sequoia Capital India, one of India's largest venture funds"
+    },
+    {
+     "term": "VC",
+     "meaning": "Venture Capital - money invested in young private companies in exchange for ownership"
+    },
+    {
+     "term": "Lead investor",
+     "meaning": "The fund that sets the terms and does the deepest checking; others follow"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "$45mn",
+     "label": "size of the funding round"
+    },
+    {
+     "value": "$550mn",
+     "label": "separate India fund Accel raised the same week"
+    }
+   ]
   },
   {
    "title": "US threatens ‘indefinite’ blockade against Iran: How long can it last?",
@@ -371,7 +734,47 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 477
+   "words": 477,
+   "importance": "high",
+   "simple": [
+    "America says it may block Iran's ports for as long as it takes. Peace talks are stuck.",
+    "Iran says the Strait of Hormuz stays shut until its conditions are met.",
+    "Oddly, oil got CHEAPER anyway, falling to about $87.",
+    "That is because markets had already priced in something worse. Prices move on surprise, not on news.",
+    "This matters to India directly: India imports most of its oil through that waterway."
+   ],
+   "terms": [
+    {
+     "term": "Strait of Hormuz",
+     "meaning": "A narrow sea passage carrying a large share of the world's oil; the only sea route out of the Gulf"
+    },
+    {
+     "term": "Blockade",
+     "meaning": "Using warships to stop goods entering or leaving a country's ports"
+    },
+    {
+     "term": "Risk premium",
+     "meaning": "Extra price built into oil because traders fear future supply problems"
+    },
+    {
+     "term": "Brent crude",
+     "meaning": "The global benchmark oil price"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "$87",
+     "label": "Brent oil price, down from about $90"
+    },
+    {
+     "value": "24%",
+     "label": "how much oil has risen since the conflict began in late February"
+    },
+    {
+     "value": "13",
+     "label": "ships passing through Hormuz daily - near a 3-month low"
+    }
+   ]
   },
   {
    "title": "‘Absolutely unacceptable’: Japan PM Takaichi condemns Putin’s visit to disputed Kuril Islands",
@@ -401,7 +804,34 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 502
+   "words": 502,
+   "importance": "low",
+   "simple": [
+    "Russia's president visited islands that Japan also claims as its own.",
+    "Japan's prime minister called it 'absolutely unacceptable' - very strong language for diplomacy.",
+    "Because of this dispute, Japan and Russia have never signed a peace treaty since World War Two ended.",
+    "It will not move Indian markets. It is here because frozen disputes sometimes suddenly unfreeze."
+   ],
+   "terms": [
+    {
+     "term": "Kuril Islands",
+     "meaning": "A chain between Japan and Russia; Japan calls the four southern ones the Northern Territories"
+    },
+    {
+     "term": "Peace treaty",
+     "meaning": "The formal agreement that officially ends a war between two countries"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "80 years",
+     "label": "since WWII ended with still no Japan-Russia peace treaty"
+    },
+    {
+     "value": "4",
+     "label": "islands under dispute"
+    }
+   ]
   },
   {
    "title": "OpenAI annual revenue set to top $40 billion",
@@ -431,7 +861,42 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 503
+   "words": 503,
+   "importance": "normal",
+   "simple": [
+    "OpenAI, the maker of ChatGPT, is set to earn more than $40 billion a year.",
+    "That is roughly Rs 3.5 lakh crore, from a company that barely sold anything five years ago.",
+    "But revenue is money coming IN. It says nothing about whether the company makes a profit.",
+    "Running AI is enormously expensive, and OpenAI does not publish its costs."
+   ],
+   "terms": [
+    {
+     "term": "Revenue",
+     "meaning": "Total money a company receives from customers, before paying any costs"
+    },
+    {
+     "term": "Profit",
+     "meaning": "What is left after all costs are paid - the number that actually matters"
+    },
+    {
+     "term": "Token",
+     "meaning": "A chunk of text AI systems charge by; roughly three-quarters of a word"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "$40bn",
+     "label": "OpenAI's annual revenue"
+    },
+    {
+     "value": "Rs 3.5 lakh cr",
+     "label": "the same number in rupees"
+    },
+    {
+     "value": "10x cheaper/year",
+     "label": "how fast the price of using AI is falling"
+    }
+   ]
   },
   {
    "title": "IBM partners with OpenAI to bolster enterprise AI push",
@@ -461,7 +926,30 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 514
+   "words": 514,
+   "importance": "low",
+   "simple": [
+    "IBM, an old technology company, has teamed up with OpenAI.",
+    "IBM does not have the best AI. What it has is decades of trust with banks and governments.",
+    "OpenAI gets access to those customers. IBM gets modern AI it did not build.",
+    "This is a deal about distribution and trust, not about technology."
+   ],
+   "terms": [
+    {
+     "term": "Enterprise",
+     "meaning": "Large organisations like banks, hospitals and governments, which buy slowly and cautiously"
+    },
+    {
+     "term": "Distribution",
+     "meaning": "Having a route to customers - often worth more than having the best product"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "3rd",
+     "label": "story this week showing AI competition shifting to distribution, not capability"
+    }
+   ]
   },
   {
    "title": "Ebola outbreak spreads to new province in DR Congo",
@@ -491,7 +979,34 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 472
+   "words": 472,
+   "importance": "normal",
+   "simple": [
+    "An Ebola outbreak in Congo has spread into another province.",
+    "With Ebola, the number that matters is not cases - it is how many places it reaches.",
+    "Each new province means new hospitals, new tracing teams and new vaccine logistics.",
+    "Vaccines exist now, which is a big change. But they must physically reach people."
+   ],
+   "terms": [
+    {
+     "term": "Ebola",
+     "meaning": "A severe, often fatal disease spread by direct contact with body fluids, not through air"
+    },
+    {
+     "term": "Contact tracing",
+     "meaning": "Finding everyone an infected person met, to isolate and vaccinate them"
+    },
+    {
+     "term": "WHO",
+     "meaning": "World Health Organization - the UN body that coordinates global health emergencies"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "1 more",
+     "label": "province now affected, which multiplies the containment effort"
+    }
+   ]
   },
   {
    "title": "Is Vodafone Idea finally making a comeback?",
@@ -516,7 +1031,38 @@
    "origin": "rss",
    "discussion": null,
    "read_min": 2,
-   "words": 529
+   "words": 529,
+   "importance": "low",
+   "simple": [
+    "Vodafone Idea is India's third mobile network, behind Jio and Airtel.",
+    "Its business works - millions of customers pay every month.",
+    "Its problem is debt, especially huge dues owed to the government.",
+    "Lesson worth keeping: a company can run fine and still fail, if its borrowings are too big."
+   ],
+   "terms": [
+    {
+     "term": "AGR",
+     "meaning": "Adjusted Gross Revenue - the disputed formula behind the government dues that crippled the company"
+    },
+    {
+     "term": "Balance sheet",
+     "meaning": "The statement showing what a company owns and owes - it reveals survival, not profit"
+    },
+    {
+     "term": "ARPU",
+     "meaning": "Average Revenue Per User - how much a telecom earns per customer per month"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "3rd",
+     "label": "largest mobile network in India"
+    },
+    {
+     "value": "6%",
+     "label": "how much the share rose earlier this week in a weak market"
+    }
+   ]
   }
  ]
 }
