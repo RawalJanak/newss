@@ -1,0 +1,1388 @@
+{
+ "generated_at": "2026-08-14T17:38:57.935529+05:30",
+ "markets": {
+  "india": {
+   "indices": [
+    {
+     "symbol": "NIFTY 50",
+     "price": 24366.0,
+     "change_pct": -0.89,
+     "currency": "INR"
+    },
+    {
+     "symbol": "SENSEX",
+     "price": 78009.25,
+     "change_pct": -0.68,
+     "currency": "INR"
+    },
+    {
+     "symbol": "BANK NIFTY",
+     "price": 57491.1,
+     "change_pct": -0.34,
+     "currency": "INR"
+    },
+    {
+     "symbol": "USD/INR",
+     "price": 95.42,
+     "change_pct": 0.21,
+     "currency": "INR"
+    }
+   ],
+   "breadth": {
+    "up": 9,
+    "down": 35,
+    "total": 44
+   },
+   "sectors": [
+    {
+     "sector": "Pharma",
+     "avg": 0.94,
+     "n": 4
+    },
+    {
+     "sector": "Industrials",
+     "avg": 0.28,
+     "n": 2
+    },
+    {
+     "sector": "Utilities",
+     "avg": -0.81,
+     "n": 2
+    },
+    {
+     "sector": "Energy",
+     "avg": -0.84,
+     "n": 4
+    },
+    {
+     "sector": "IT",
+     "avg": -0.98,
+     "n": 5
+    },
+    {
+     "sector": "Financials",
+     "avg": -0.99,
+     "n": 9
+    },
+    {
+     "sector": "Auto",
+     "avg": -1.11,
+     "n": 4
+    },
+    {
+     "sector": "FMCG",
+     "avg": -1.56,
+     "n": 5
+    },
+    {
+     "sector": "Materials",
+     "avg": -3.07,
+     "n": 5
+    }
+   ],
+   "gainers": [
+    {
+     "symbol": "DRREDDY",
+     "name": "Dr Reddy's",
+     "sector": "Pharma",
+     "price": 1200.0,
+     "change_pct": 3.56,
+     "currency": "INR",
+     "turnover": 2564316000.0
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "name": "Bharti Airtel",
+     "sector": "Telecom",
+     "price": 1992.1,
+     "change_pct": 2.53,
+     "currency": "INR",
+     "turnover": 24467621624.6
+    },
+    {
+     "symbol": "DIVISLAB",
+     "name": "Divi's Labs",
+     "sector": "Pharma",
+     "price": 8477.0,
+     "change_pct": 2.13,
+     "currency": "INR",
+     "turnover": 2884282296.0
+    },
+    {
+     "symbol": "EICHERMOT",
+     "name": "Eicher Motors",
+     "sector": "Auto",
+     "price": 8066.5,
+     "change_pct": 1.15,
+     "currency": "INR",
+     "turnover": 2396815278.0
+    },
+    {
+     "symbol": "ADANIPORTS",
+     "name": "Adani Ports",
+     "sector": "Industrials",
+     "price": 1700.0,
+     "change_pct": 1.13,
+     "currency": "INR",
+     "turnover": 3362790400.0
+    },
+    {
+     "symbol": "ADANIENT",
+     "name": "Adani Enterprises",
+     "sector": "Conglomerate",
+     "price": 3035.1,
+     "change_pct": 0.83,
+     "currency": "INR",
+     "turnover": 5057508534.0
+    },
+    {
+     "symbol": "BPCL",
+     "name": "BPCL",
+     "sector": "Energy",
+     "price": 319.45,
+     "change_pct": 0.3,
+     "currency": "INR",
+     "turnover": 2566920988.5499997
+    },
+    {
+     "symbol": "HCLTECH",
+     "name": "HCL Tech",
+     "sector": "IT",
+     "price": 1360.0,
+     "change_pct": 0.21,
+     "currency": "INR",
+     "turnover": 1405354640.0
+    }
+   ],
+   "losers": [
+    {
+     "symbol": "GRASIM",
+     "name": "Grasim",
+     "sector": "Materials",
+     "price": 3248.7,
+     "change_pct": -3.9,
+     "currency": "INR",
+     "turnover": 1546332469.5
+    },
+    {
+     "symbol": "TATASTEEL",
+     "name": "Tata Steel",
+     "sector": "Materials",
+     "price": 183.5,
+     "change_pct": -3.54,
+     "currency": "INR",
+     "turnover": 2959589292.0
+    },
+    {
+     "symbol": "ULTRACEMCO",
+     "name": "UltraTech Cement",
+     "sector": "Materials",
+     "price": 11619.0,
+     "change_pct": -3.48,
+     "currency": "INR",
+     "turnover": 2311030719.0
+    },
+    {
+     "symbol": "TCS",
+     "name": "TCS",
+     "sector": "IT",
+     "price": 2361.0,
+     "change_pct": -2.67,
+     "currency": "INR",
+     "turnover": 5269074393.0
+    },
+    {
+     "symbol": "TATACONSUM",
+     "name": "Tata Consumer",
+     "sector": "FMCG",
+     "price": 1079.5,
+     "change_pct": -2.63,
+     "currency": "INR",
+     "turnover": 1122184509.5
+    },
+    {
+     "symbol": "M&M",
+     "name": "Mahindra & Mahindra",
+     "sector": "Auto",
+     "price": 3428.3,
+     "change_pct": -2.52,
+     "currency": "INR",
+     "turnover": 3540703672.1000004
+    },
+    {
+     "symbol": "JSWSTEEL",
+     "name": "JSW Steel",
+     "sector": "Materials",
+     "price": 1270.0,
+     "change_pct": -2.46,
+     "currency": "INR",
+     "turnover": 1238655130.0
+    },
+    {
+     "symbol": "AXISBANK",
+     "name": "Axis Bank",
+     "sector": "Financials",
+     "price": 1217.4,
+     "change_pct": -2.4,
+     "currency": "INR",
+     "turnover": 6765915979.8
+    }
+   ],
+   "actives": [
+    {
+     "symbol": "BHARTIARTL",
+     "name": "Bharti Airtel",
+     "sector": "Telecom",
+     "price": 1992.1,
+     "change_pct": 2.53,
+     "currency": "INR",
+     "turnover": 24467621624.6
+    },
+    {
+     "symbol": "HDFCBANK",
+     "name": "HDFC Bank",
+     "sector": "Financials",
+     "price": 727.0,
+     "change_pct": -0.55,
+     "currency": "INR",
+     "turnover": 14793960729.0
+    },
+    {
+     "symbol": "RELIANCE",
+     "name": "Reliance",
+     "sector": "Energy",
+     "price": 1310.0,
+     "change_pct": -1.3,
+     "currency": "INR",
+     "turnover": 13745000770.0
+    },
+    {
+     "symbol": "APOLLOHOSP",
+     "name": "Apollo Hospitals",
+     "sector": "Healthcare",
+     "price": 8920.5,
+     "change_pct": 0.1,
+     "currency": "INR",
+     "turnover": 11380024578.0
+    },
+    {
+     "symbol": "ICICIBANK",
+     "name": "ICICI Bank",
+     "sector": "Financials",
+     "price": 1417.0,
+     "change_pct": -1.03,
+     "currency": "INR",
+     "turnover": 8629355709.0
+    },
+    {
+     "symbol": "INFY",
+     "name": "Infosys",
+     "sector": "IT",
+     "price": 1169.2,
+     "change_pct": -1.17,
+     "currency": "INR",
+     "turnover": 6831600524.0
+    },
+    {
+     "symbol": "AXISBANK",
+     "name": "Axis Bank",
+     "sector": "Financials",
+     "price": 1217.4,
+     "change_pct": -2.4,
+     "currency": "INR",
+     "turnover": 6765915979.8
+    },
+    {
+     "symbol": "SBIN",
+     "name": "SBI",
+     "sector": "Financials",
+     "price": 1067.7,
+     "change_pct": -0.31,
+     "currency": "INR",
+     "turnover": 6691029261.3
+    }
+   ],
+   "recent": [
+    {
+     "symbol": "LENSKART",
+     "name": "Lenskart",
+     "sector": "Listed 2025",
+     "price": 611.85,
+     "change_pct": 4.38,
+     "currency": "INR",
+     "turnover": 5018060853.6
+    },
+    {
+     "symbol": "NTPCGREEN",
+     "name": "NTPC Green",
+     "sector": "Listed 2024",
+     "price": 91.93,
+     "change_pct": 0.05,
+     "currency": "INR",
+     "turnover": 123525697.49000001
+    },
+    {
+     "symbol": "WAAREEENER",
+     "name": "Waaree Energies",
+     "sector": "Listed 2024",
+     "price": 2682.0,
+     "change_pct": -0.7,
+     "currency": "INR",
+     "turnover": 999812052.0
+    },
+    {
+     "symbol": "BAJAJHFL",
+     "name": "Bajaj Housing Finance",
+     "sector": "Listed 2024",
+     "price": 84.33,
+     "change_pct": -0.86,
+     "currency": "INR",
+     "turnover": 113627591.28
+    },
+    {
+     "symbol": "SWIGGY",
+     "name": "Swiggy",
+     "sector": "Listed 2024",
+     "price": 276.3,
+     "change_pct": -0.97,
+     "currency": "INR",
+     "turnover": 2234068963.2000003
+    },
+    {
+     "symbol": "HYUNDAI",
+     "name": "Hyundai Motor India",
+     "sector": "Listed 2024",
+     "price": 2199.0,
+     "change_pct": -1.08,
+     "currency": "INR",
+     "turnover": 1384365057.0
+    },
+    {
+     "symbol": "AWFIS",
+     "name": "Awfis",
+     "sector": "Listed 2024",
+     "price": 266.55,
+     "change_pct": -1.13,
+     "currency": "INR",
+     "turnover": 170497907.85
+    },
+    {
+     "symbol": "OLAELEC",
+     "name": "Ola Electric",
+     "sector": "Listed 2024",
+     "price": 38.73,
+     "change_pct": -1.45,
+     "currency": "INR",
+     "turnover": 1282410370.2299998
+    },
+    {
+     "symbol": "PREMIERENE",
+     "name": "Premier Energies",
+     "sector": "Listed 2024",
+     "price": 1017.3,
+     "change_pct": -2.57,
+     "currency": "INR",
+     "turnover": 544857741.6
+    },
+    {
+     "symbol": "SAGILITY",
+     "name": "Sagility",
+     "sector": "Listed 2024",
+     "price": 42.28,
+     "change_pct": -3.12,
+     "currency": "INR",
+     "turnover": 408547792.52000004
+    },
+    {
+     "symbol": "FIRSTCRY",
+     "name": "FirstCry",
+     "sector": "Listed 2024",
+     "price": 206.09,
+     "change_pct": -3.14,
+     "currency": "INR",
+     "turnover": 835047003.04
+    },
+    {
+     "symbol": "IXIGO",
+     "name": "ixigo",
+     "sector": "Listed 2024",
+     "price": 174.03,
+     "change_pct": -4.48,
+     "currency": "INR",
+     "turnover": 104863168.74
+    }
+   ],
+   "insight": {
+    "headline": "A broad decline, not a rotation",
+    "body": "Only 9 of 44 large caps closed higher, which makes this a broad fall rather than money moving between sectors. Materials took the worst of it — Grasim, Tata Steel and UltraTech all off more than 3% — while telecom (+2.5%) and pharma (+0.9%) held up. Both are classic defensives: people keep paying phone bills and buying medicine when the cycle turns. The rupee slipped again to 95.42. When breadth is this narrow, the index number understates the damage, because a handful of large names mask how many stocks actually fell."
+   }
+  },
+  "usa": {
+   "indices": [
+    {
+     "symbol": "S&P 500",
+     "price": 7798.99,
+     "change_pct": 1.15,
+     "currency": "USD"
+    },
+    {
+     "symbol": "NASDAQ",
+     "price": 26803.03,
+     "change_pct": 1.73,
+     "currency": "USD"
+    },
+    {
+     "symbol": "DOW",
+     "price": 53839.99,
+     "change_pct": -0.08,
+     "currency": "USD"
+    },
+    {
+     "symbol": "VIX",
+     "price": 14.51,
+     "change_pct": -6.14,
+     "currency": "USD"
+    }
+   ],
+   "breadth": {
+    "up": 21,
+    "down": 14,
+    "total": 35
+   },
+   "sectors": [
+    {
+     "sector": "Energy",
+     "avg": 3.46,
+     "n": 2
+    },
+    {
+     "sector": "Media",
+     "avg": 3.14,
+     "n": 2
+    },
+    {
+     "sector": "Semis",
+     "avg": 2.7,
+     "n": 6
+    },
+    {
+     "sector": "Tech",
+     "avg": 1.92,
+     "n": 6
+    },
+    {
+     "sector": "Healthcare",
+     "avg": 1.12,
+     "n": 4
+    },
+    {
+     "sector": "Financials",
+     "avg": 0.18,
+     "n": 4
+    },
+    {
+     "sector": "Staples",
+     "avg": 0.13,
+     "n": 3
+    },
+    {
+     "sector": "Consumer",
+     "avg": -0.07,
+     "n": 4
+    },
+    {
+     "sector": "Industrials",
+     "avg": -1.6,
+     "n": 3
+    }
+   ],
+   "gainers": [
+    {
+     "symbol": "ARX",
+     "name": "Accelerant Holdings",
+     "sector": "",
+     "price": 19.51,
+     "change_pct": 43.35,
+     "currency": "USD",
+     "turnover": 1347673306.2800002
+    },
+    {
+     "symbol": "AVAH",
+     "name": "Aveanna Healthcare Holdings Inc",
+     "sector": "",
+     "price": 11.29,
+     "change_pct": 24.75,
+     "currency": "USD",
+     "turnover": 113590722.19999999
+    },
+    {
+     "symbol": "WDAY",
+     "name": "Workday, Inc.",
+     "sector": "",
+     "price": 206.45,
+     "change_pct": 17.78,
+     "currency": "USD",
+     "turnover": 3364020995.7999997
+    },
+    {
+     "symbol": "MH",
+     "name": "McGraw Hill, Inc.",
+     "sector": "",
+     "price": 13.57,
+     "change_pct": 16.98,
+     "currency": "USD",
+     "turnover": 24550504.75
+    },
+    {
+     "symbol": "WIX",
+     "name": "Wix.com Ltd.",
+     "sector": "",
+     "price": 80.06,
+     "change_pct": 16.45,
+     "currency": "USD",
+     "turnover": 366858137.40000004
+    },
+    {
+     "symbol": "TBBB",
+     "name": "BBB Foods Inc.",
+     "sector": "",
+     "price": 49.2,
+     "change_pct": 16.31,
+     "currency": "USD",
+     "turnover": 151874938.8
+    },
+    {
+     "symbol": "HUBS",
+     "name": "HubSpot, Inc.",
+     "sector": "",
+     "price": 240.51,
+     "change_pct": 14.46,
+     "currency": "USD",
+     "turnover": 822586289.25
+    },
+    {
+     "symbol": "BVC",
+     "name": "BitVentures Limited",
+     "sector": "",
+     "price": 15.03,
+     "change_pct": 14.38,
+     "currency": "USD",
+     "turnover": 258305.58
+    }
+   ],
+   "losers": [
+    {
+     "symbol": "CLBT",
+     "name": "Cellebrite DI Ltd.",
+     "sector": "",
+     "price": 10.8,
+     "change_pct": -29.18,
+     "currency": "USD",
+     "turnover": 394511364.0
+    },
+    {
+     "symbol": "LFTO",
+     "name": "Liftoff Mobile, Inc.",
+     "sector": "",
+     "price": 20.06,
+     "change_pct": -20.59,
+     "currency": "USD",
+     "turnover": 64475046.599999994
+    },
+    {
+     "symbol": "REZI",
+     "name": "Resideo Technologies, Inc.",
+     "sector": "",
+     "price": 20.46,
+     "change_pct": -20.42,
+     "currency": "USD",
+     "turnover": 152647783.86
+    },
+    {
+     "symbol": "TPR",
+     "name": "Tapestry, Inc.",
+     "sector": "",
+     "price": 128.39,
+     "change_pct": -16.49,
+     "currency": "USD",
+     "turnover": 1009580385.3199999
+    },
+    {
+     "symbol": "BSP",
+     "name": "Bending Spoons S.p.A.",
+     "sector": "",
+     "price": 40.92,
+     "change_pct": -16.46,
+     "currency": "USD",
+     "turnover": 189590052.96
+    },
+    {
+     "symbol": "FRMI",
+     "name": "Fermi Inc.",
+     "sector": "",
+     "price": 6.6,
+     "change_pct": -13.16,
+     "currency": "USD",
+     "turnover": 220335264.6
+    },
+    {
+     "symbol": "DKL",
+     "name": "Delek Logistics Partners, L.P.",
+     "sector": "",
+     "price": 52.3,
+     "change_pct": -12.83,
+     "currency": "USD",
+     "turnover": 85785493.39999999
+    },
+    {
+     "symbol": "BGSI",
+     "name": "Boyd Group Services Inc.",
+     "sector": "",
+     "price": 91.98,
+     "change_pct": -12.45,
+     "currency": "USD",
+     "turnover": 10085790.96
+    }
+   ],
+   "actives": [
+    {
+     "symbol": "OPEN",
+     "name": "Opendoor Technologies Inc",
+     "sector": "",
+     "price": 3.65,
+     "change_pct": 4.58,
+     "currency": "USD",
+     "turnover": 622730657.35
+    },
+    {
+     "symbol": "ONDS",
+     "name": "Ondas Inc",
+     "sector": "",
+     "price": 8.91,
+     "change_pct": -8.8,
+     "currency": "USD",
+     "turnover": 1080530873.73
+    },
+    {
+     "symbol": "SMCI",
+     "name": "Super Micro Computer, Inc.",
+     "sector": "",
+     "price": 39.16,
+     "change_pct": 4.12,
+     "currency": "USD",
+     "turnover": 4697950561.04
+    },
+    {
+     "symbol": "SPCX",
+     "name": "Space Exploration Technologies ",
+     "sector": "",
+     "price": 141.29,
+     "change_pct": -3.33,
+     "currency": "USD",
+     "turnover": 16665972297.49
+    },
+    {
+     "symbol": "NOK",
+     "name": "Nokia Corporation Sponsored",
+     "sector": "",
+     "price": 10.56,
+     "change_pct": 2.33,
+     "currency": "USD",
+     "turnover": 1178830139.52
+    },
+    {
+     "symbol": "PATH",
+     "name": "UiPath, Inc.",
+     "sector": "",
+     "price": 16.68,
+     "change_pct": 9.31,
+     "currency": "USD",
+     "turnover": 1743796155.12
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corporation",
+     "sector": "",
+     "price": 104.56,
+     "change_pct": 3.58,
+     "currency": "USD",
+     "turnover": 11708594399.76
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corporation",
+     "sector": "",
+     "price": 225.3,
+     "change_pct": 0.54,
+     "currency": "USD",
+     "turnover": 21094718915.100002
+    }
+   ],
+   "recent": [
+    {
+     "symbol": "CRCL",
+     "name": "Circle",
+     "sector": "Listed 2025",
+     "price": 75.38,
+     "change_pct": 19.12,
+     "currency": "USD",
+     "turnover": 798873847.9
+    },
+    {
+     "symbol": "TEM",
+     "name": "Tempus AI",
+     "sector": "Listed 2024",
+     "price": 54.29,
+     "change_pct": 17.71,
+     "currency": "USD",
+     "turnover": 114585885.53999999
+    },
+    {
+     "symbol": "KVYO",
+     "name": "Klaviyo",
+     "sector": "Listed 2023",
+     "price": 19.22,
+     "change_pct": 14.88,
+     "currency": "USD",
+     "turnover": 162097136.28
+    },
+    {
+     "symbol": "SAIL",
+     "name": "SailPoint",
+     "sector": "Listed 2025",
+     "price": 19.99,
+     "change_pct": 13.07,
+     "currency": "USD",
+     "turnover": 110969927.27999999
+    },
+    {
+     "symbol": "CART",
+     "name": "Instacart",
+     "sector": "Listed 2023",
+     "price": 50.08,
+     "change_pct": 11.21,
+     "currency": "USD",
+     "turnover": 166084761.12
+    },
+    {
+     "symbol": "BIRK",
+     "name": "Birkenstock",
+     "sector": "Listed 2023",
+     "price": 41.0,
+     "change_pct": 10.22,
+     "currency": "USD",
+     "turnover": 217262157.0
+    },
+    {
+     "symbol": "LINE",
+     "name": "Lineage",
+     "sector": "Listed 2024",
+     "price": 43.03,
+     "change_pct": 5.88,
+     "currency": "USD",
+     "turnover": 37786794.5
+    },
+    {
+     "symbol": "RDDT",
+     "name": "Reddit",
+     "sector": "Listed 2024",
+     "price": 158.12,
+     "change_pct": 4.81,
+     "currency": "USD",
+     "turnover": 515189746.40000004
+    },
+    {
+     "symbol": "ALAB",
+     "name": "Astera Labs",
+     "sector": "Listed 2024",
+     "price": 322.78,
+     "change_pct": -2.63,
+     "currency": "USD",
+     "turnover": 1076389313.8799999
+    },
+    {
+     "symbol": "ARM",
+     "name": "Arm Holdings",
+     "sector": "Listed 2023",
+     "price": 278.65,
+     "change_pct": -2.8,
+     "currency": "USD",
+     "turnover": 1334135795.75
+    }
+   ],
+   "insight": {
+    "headline": "Risk appetite returned, but only in tech",
+    "body": "21 of 35 mega caps rose, the Nasdaq gained 1.73% and the VIX fell 6.1% to 14.5. The VIX measures how much investors are paying for downside protection, so a fall means fear easing. Note the split: the Dow was flat at −0.08% while the Nasdaq ran, which tells you the buying was concentrated in technology rather than broad-based. Energy led the sectors at +3.5% while industrials lagged at −1.6%. Today's biggest movers are earnings reactions — Workday +17.8%, Cellebrite −29.2% — which is what an active results season looks like."
+   }
+  },
+  "china": {
+   "indices": [
+    {
+     "symbol": "SSE COMPOSITE",
+     "price": 3927.18,
+     "change_pct": -0.99,
+     "currency": "CNY"
+    },
+    {
+     "symbol": "HANG SENG",
+     "price": 25116.85,
+     "change_pct": -2.15,
+     "currency": "HKD"
+    },
+    {
+     "symbol": "SHENZHEN",
+     "price": 14354.31,
+     "change_pct": 0.26,
+     "currency": "CNY"
+    },
+    {
+     "symbol": "USD/CNY",
+     "price": 6.73,
+     "change_pct": -0.26,
+     "currency": "CNY"
+    }
+   ],
+   "breadth": {
+    "up": 5,
+    "down": 13,
+    "total": 18
+   },
+   "sectors": [
+    {
+     "sector": "Consumer",
+     "avg": -1.85,
+     "n": 2
+    },
+    {
+     "sector": "Financials",
+     "avg": -1.95,
+     "n": 7
+    },
+    {
+     "sector": "Tech",
+     "avg": -5.5,
+     "n": 4
+    }
+   ],
+   "gainers": [
+    {
+     "symbol": "601398",
+     "name": "ICBC",
+     "sector": "Financials",
+     "price": 7.56,
+     "change_pct": 0.4,
+     "currency": "CNY",
+     "turnover": 2100719124.0
+    },
+    {
+     "symbol": "0941",
+     "name": "China Mobile",
+     "sector": "Telecom",
+     "price": 82.05,
+     "change_pct": 0.24,
+     "currency": "HKD",
+     "turnover": 1614275166.3
+    },
+    {
+     "symbol": "600900",
+     "name": "Yangtze Power",
+     "sector": "Utilities",
+     "price": 28.1,
+     "change_pct": 0.18,
+     "currency": "CNY",
+     "turnover": 2066566308.5
+    },
+    {
+     "symbol": "601288",
+     "name": "AgBank of China",
+     "sector": "Financials",
+     "price": 6.47,
+     "change_pct": 0.15,
+     "currency": "CNY",
+     "turnover": 2444543478.5699997
+    },
+    {
+     "symbol": "300750",
+     "name": "CATL",
+     "sector": "Industrials",
+     "price": 393.93,
+     "change_pct": 0.02,
+     "currency": "CNY",
+     "turnover": 6275365565.22
+    }
+   ],
+   "losers": [
+    {
+     "symbol": "601899",
+     "name": "Zijin Mining",
+     "sector": "Materials",
+     "price": 32.53,
+     "change_pct": -8.24,
+     "currency": "CNY",
+     "turnover": 6323067577.530001
+    },
+    {
+     "symbol": "0700",
+     "name": "Tencent",
+     "sector": "Tech",
+     "price": 440.0,
+     "change_pct": -8.1,
+     "currency": "HKD",
+     "turnover": 13464510400.0
+    },
+    {
+     "symbol": "3690",
+     "name": "Meituan",
+     "sector": "Tech",
+     "price": 87.2,
+     "change_pct": -5.42,
+     "currency": "HKD",
+     "turnover": 6568735016.0
+    },
+    {
+     "symbol": "1810",
+     "name": "Xiaomi",
+     "sector": "Tech",
+     "price": 25.62,
+     "change_pct": -5.32,
+     "currency": "HKD",
+     "turnover": 2332897659.12
+    },
+    {
+     "symbol": "1299",
+     "name": "AIA Group",
+     "sector": "Financials",
+     "price": 70.4,
+     "change_pct": -5.06,
+     "currency": "HKD",
+     "turnover": 2764969152.0
+    },
+    {
+     "symbol": "2318",
+     "name": "Ping An",
+     "sector": "Financials",
+     "price": 54.6,
+     "change_pct": -4.46,
+     "currency": "HKD",
+     "turnover": 2149043223.6
+    },
+    {
+     "symbol": "000858",
+     "name": "Wuliangye",
+     "sector": "Consumer",
+     "price": 73.75,
+     "change_pct": -3.2,
+     "currency": "CNY",
+     "turnover": 2679059020.0
+    },
+    {
+     "symbol": "9988",
+     "name": "Alibaba",
+     "sector": "Tech",
+     "price": 119.9,
+     "change_pct": -3.15,
+     "currency": "HKD",
+     "turnover": 6822932400.900001
+    }
+   ],
+   "actives": [
+    {
+     "symbol": "0700",
+     "name": "Tencent",
+     "sector": "Tech",
+     "price": 440.0,
+     "change_pct": -8.1,
+     "currency": "HKD",
+     "turnover": 13464510400.0
+    },
+    {
+     "symbol": "9988",
+     "name": "Alibaba",
+     "sector": "Tech",
+     "price": 119.9,
+     "change_pct": -3.15,
+     "currency": "HKD",
+     "turnover": 6822932400.900001
+    },
+    {
+     "symbol": "3690",
+     "name": "Meituan",
+     "sector": "Tech",
+     "price": 87.2,
+     "change_pct": -5.42,
+     "currency": "HKD",
+     "turnover": 6568735016.0
+    },
+    {
+     "symbol": "601899",
+     "name": "Zijin Mining",
+     "sector": "Materials",
+     "price": 32.53,
+     "change_pct": -8.24,
+     "currency": "CNY",
+     "turnover": 6323067577.530001
+    },
+    {
+     "symbol": "300750",
+     "name": "CATL",
+     "sector": "Industrials",
+     "price": 393.93,
+     "change_pct": 0.02,
+     "currency": "CNY",
+     "turnover": 6275365565.22
+    },
+    {
+     "symbol": "600519",
+     "name": "Kweichow Moutai",
+     "sector": "Consumer",
+     "price": 1341.99,
+     "change_pct": -0.51,
+     "currency": "CNY",
+     "turnover": 4006262876.85
+    },
+    {
+     "symbol": "600030",
+     "name": "CITIC Securities",
+     "sector": "Financials",
+     "price": 27.31,
+     "change_pct": -2.29,
+     "currency": "CNY",
+     "turnover": 3515802171.8599997
+    },
+    {
+     "symbol": "1299",
+     "name": "AIA Group",
+     "sector": "Financials",
+     "price": 70.4,
+     "change_pct": -5.06,
+     "currency": "HKD",
+     "turnover": 2764969152.0
+    }
+   ],
+   "recent": [
+    {
+     "symbol": "6690",
+     "name": "Haier Smart Home",
+     "sector": "Listed 2020",
+     "price": 21.08,
+     "change_pct": 0.48,
+     "currency": "HKD",
+     "turnover": 291347101.59999996
+    },
+    {
+     "symbol": "9868",
+     "name": "XPeng",
+     "sector": "Listed 2021",
+     "price": 45.52,
+     "change_pct": -2.4,
+     "currency": "HKD",
+     "turnover": 395773822.08000004
+    },
+    {
+     "symbol": "9866",
+     "name": "NIO",
+     "sector": "Listed 2022",
+     "price": 35.18,
+     "change_pct": -4.56,
+     "currency": "HKD",
+     "turnover": 113449906.38
+    },
+    {
+     "symbol": "2015",
+     "name": "Li Auto",
+     "sector": "Listed 2021",
+     "price": 47.46,
+     "change_pct": -4.93,
+     "currency": "HKD",
+     "turnover": 238489489.98000002
+    }
+   ],
+   "insight": {
+    "headline": "Textbook defensive rotation",
+    "body": "The Hang Seng fell 2.15% with technology down 5.5% on average — Tencent −8.1%, Meituan −5.4%, Xiaomi −5.3% — and Zijin Mining off 8.2%. What rose were banks and utilities: ICBC, China Mobile, Yangtze Power and AgBank each up a fraction. That is the classic defensive shift, money leaving growth for regulated, dividend-paying, state-linked names. Shenzhen closed +0.26% while Shanghai fell 0.99%, a mild divergence between the two mainland boards worth watching if it persists."
+   }
+  },
+  "global": {
+   "indices": [
+    {
+     "symbol": "FTSE 100",
+     "price": 10770.54,
+     "change_pct": -1.2,
+     "currency": "GBP"
+    },
+    {
+     "symbol": "DAX",
+     "price": 26529.25,
+     "change_pct": 0.8,
+     "currency": "EUR"
+    },
+    {
+     "symbol": "NIKKEI 225",
+     "price": 68713.8,
+     "change_pct": 4.74,
+     "currency": "JPY"
+    },
+    {
+     "symbol": "CAC 40",
+     "price": 8656.08,
+     "change_pct": -0.8,
+     "currency": "EUR"
+    }
+   ],
+   "breadth": {
+    "up": 5,
+    "down": 7,
+    "total": 12
+   },
+   "sectors": [
+    {
+     "sector": "Metals",
+     "avg": 0.74,
+     "n": 2
+    },
+    {
+     "sector": "Equity",
+     "avg": 0.55,
+     "n": 4
+    },
+    {
+     "sector": "FX",
+     "avg": 0.01,
+     "n": 2
+    },
+    {
+     "sector": "Energy",
+     "avg": -0.61,
+     "n": 2
+    }
+   ],
+   "gainers": [
+    {
+     "symbol": "N225",
+     "name": "Nikkei 225",
+     "sector": "Equity",
+     "price": 68713.8,
+     "change_pct": 4.74,
+     "currency": "JPY",
+     "turnover": 11619503580000.0
+    },
+    {
+     "symbol": "GC=F",
+     "name": "Gold",
+     "sector": "Metals",
+     "price": 4424.2,
+     "change_pct": 1.43,
+     "currency": "USD",
+     "turnover": 260107566.39999998
+    },
+    {
+     "symbol": "GDAXI",
+     "name": "DAX",
+     "sector": "Equity",
+     "price": 26529.25,
+     "change_pct": 0.8,
+     "currency": "EUR",
+     "turnover": 1200419380325.0
+    },
+    {
+     "symbol": "USDINR=X",
+     "name": "USD/INR",
+     "sector": "FX",
+     "price": 95.42,
+     "change_pct": 0.21,
+     "currency": "INR",
+     "turnover": 0.0
+    },
+    {
+     "symbol": "SI=F",
+     "name": "Silver",
+     "sector": "Metals",
+     "price": 65.14,
+     "change_pct": 0.05,
+     "currency": "USD",
+     "turnover": 937885.72
+    }
+   ],
+   "losers": [
+    {
+     "symbol": "HSI",
+     "name": "Hang Seng",
+     "sector": "Equity",
+     "price": 25116.85,
+     "change_pct": -2.15,
+     "currency": "HKD",
+     "turnover": 72052707595000.0
+    },
+    {
+     "symbol": "BTC-USD",
+     "name": "Bitcoin",
+     "sector": "Crypto",
+     "price": 62774.87,
+     "change_pct": -1.78,
+     "currency": "USD",
+     "turnover": 1278461182665277.5
+    },
+    {
+     "symbol": "FTSE",
+     "name": "FTSE 100",
+     "sector": "Equity",
+     "price": 10770.54,
+     "change_pct": -1.2,
+     "currency": "GBP",
+     "turnover": 9095088799302.0
+    },
+    {
+     "symbol": "CL=F",
+     "name": "WTI Crude",
+     "sector": "Energy",
+     "price": 81.6,
+     "change_pct": -0.65,
+     "currency": "USD",
+     "turnover": 4291915.199999999
+    },
+    {
+     "symbol": "BZ=F",
+     "name": "Brent Crude",
+     "sector": "Energy",
+     "price": 87.21,
+     "change_pct": -0.58,
+     "currency": "USD",
+     "turnover": 866256.9299999999
+    },
+    {
+     "symbol": "TNX",
+     "name": "US 10Y Yield",
+     "sector": "Rates",
+     "price": 4.64,
+     "change_pct": -0.41,
+     "currency": "USD",
+     "turnover": 0.0
+    },
+    {
+     "symbol": "DX-Y",
+     "name": "Dollar Index",
+     "sector": "FX",
+     "price": 99.64,
+     "change_pct": -0.18,
+     "currency": "USD",
+     "turnover": 0.0
+    }
+   ],
+   "actives": [
+    {
+     "symbol": "BZ=F",
+     "name": "Brent Crude",
+     "sector": "Energy",
+     "price": 87.21,
+     "change_pct": -0.58,
+     "currency": "USD",
+     "turnover": 866256.9299999999
+    },
+    {
+     "symbol": "CL=F",
+     "name": "WTI Crude",
+     "sector": "Energy",
+     "price": 81.6,
+     "change_pct": -0.65,
+     "currency": "USD",
+     "turnover": 4291915.199999999
+    },
+    {
+     "symbol": "GC=F",
+     "name": "Gold",
+     "sector": "Metals",
+     "price": 4424.2,
+     "change_pct": 1.43,
+     "currency": "USD",
+     "turnover": 260107566.39999998
+    },
+    {
+     "symbol": "SI=F",
+     "name": "Silver",
+     "sector": "Metals",
+     "price": 65.14,
+     "change_pct": 0.05,
+     "currency": "USD",
+     "turnover": 937885.72
+    },
+    {
+     "symbol": "DX-Y",
+     "name": "Dollar Index",
+     "sector": "FX",
+     "price": 99.64,
+     "change_pct": -0.18,
+     "currency": "USD",
+     "turnover": 0.0
+    },
+    {
+     "symbol": "USDINR=X",
+     "name": "USD/INR",
+     "sector": "FX",
+     "price": 95.42,
+     "change_pct": 0.21,
+     "currency": "INR",
+     "turnover": 0.0
+    },
+    {
+     "symbol": "TNX",
+     "name": "US 10Y Yield",
+     "sector": "Rates",
+     "price": 4.64,
+     "change_pct": -0.41,
+     "currency": "USD",
+     "turnover": 0.0
+    },
+    {
+     "symbol": "BTC-USD",
+     "name": "Bitcoin",
+     "sector": "Crypto",
+     "price": 62774.87,
+     "change_pct": -1.78,
+     "currency": "USD",
+     "turnover": 1278461182665277.5
+    },
+    {
+     "symbol": "N225",
+     "name": "Nikkei 225",
+     "sector": "Equity",
+     "price": 68713.8,
+     "change_pct": 4.74,
+     "currency": "JPY",
+     "turnover": 11619503580000.0
+    },
+    {
+     "symbol": "FTSE",
+     "name": "FTSE 100",
+     "sector": "Equity",
+     "price": 10770.54,
+     "change_pct": -1.2,
+     "currency": "GBP",
+     "turnover": 9095088799302.0
+    },
+    {
+     "symbol": "GDAXI",
+     "name": "DAX",
+     "sector": "Equity",
+     "price": 26529.25,
+     "change_pct": 0.8,
+     "currency": "EUR",
+     "turnover": 1200419380325.0
+    },
+    {
+     "symbol": "HSI",
+     "name": "Hang Seng",
+     "sector": "Equity",
+     "price": 25116.85,
+     "change_pct": -2.15,
+     "currency": "HKD",
+     "turnover": 72052707595000.0
+    }
+   ],
+   "recent": [],
+   "insight": {
+    "headline": "The Nikkei ran away from everyone",
+    "body": "Japan's +4.74% dwarfs every other index move today and is the outlier worth explaining rather than ignoring. More instructive for an Indian reader: gold rose 1.44% while both Brent and WTI fell. Those usually move together when Middle East risk drives the tape, so the split suggests gold is being bought on rate expectations rather than war fear. Europe did not move as a bloc — the DAX gained while the FTSE and CAC fell. Bitcoin slipped 1.77%."
+   }
+  }
+ }
+}
