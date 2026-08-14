@@ -20,8 +20,18 @@ CATEGORIES = {
     "India",
     "Aviation",
     "World",
+    "Analysis",
 }
-CONFIDENCE = {"verified", "single_sourced", "rumour"}
+# Computed tiers from scripts/corroborate.py, which counts how many independent
+# publishers carry a story. The three legacy values were asserted by hand and stay
+# valid so older editions still validate.
+CONFIDENCE = {
+    "primary",        # a primary source (RBI, SEBI, filing) is in the cluster
+    "corroborated",   # 3+ independent publishers
+    "thin",           # exactly 2
+    "single",         # 1
+    "verified", "single_sourced", "rumour",   # legacy
+}
 EDITIONS = {"morning", "evening"}
 REQUIRED_ARTICLE = {
     "title",
