@@ -1,196 +1,40 @@
 {
- "generated_at": "2026-08-14T17:10:36.191065+05:30",
- "edition": "evening",
+ "generated_at": "2026-08-17T10:33:31.214720+05:30",
+ "edition": "morning",
  "articles": [
   {
-   "title": "Tata Trusts accepts N. Chandrasekaran’s resignation, initiates process to find successor",
-   "summary": "Sir Dorabji Tata Trust, which controls 27.9% of Tata Sons, has accepted Chandrasekaran's resignation and resolved to set up a Selection Committee. The succession is now formally underway.",
-   "body": "Sir Dorabji Tata Trust has accepted N. Chandrasekaran's decision not to seek re-appointment as chairman of Tata Sons and has passed a resolution to begin setting up a Selection Committee to recommend his successor.\n\nThe Trust's statement is precise about the sequence. On 12 August its nominee directors received an email from Chandrasekaran conveying his decision not to offer himself for re-appointment when his current tenure expires on **20 February 2027**. The Trust said it \"respects\" the decision and placed on record its \"deepest appreciation for his contribution and stewardship over the past decade\", pledging support for a \"smooth, timely and orderly transition\".\n\n## The ownership detail that explains everything\n\nSir Dorabji Tata Trust controls **27.9% of Tata Sons**. Tata Trusts collectively hold about 66%.\n\nThat is why this announcement comes from a philanthropic trust rather than from a listed company's board. Tata Sons is the holding company for the entire group, and the Trusts own it. The Selection Committee is being constituted \"in accordance with the Articles of Association of Tata Sons\" — the private constitutional document that governs how a chairman is appointed.\n\nFor anyone learning how Indian corporate power actually works, this is the lesson: control follows ownership, and ownership here sits in trusts that answer to no public shareholder. The listed Tata companies you can buy — TCS, Titan, Tata Motors — sit beneath this structure. Their chairman is chosen by people you cannot vote for.\n\n## What changed since Wednesday\n\nWednesday's development was a resignation. Today's is **acceptance plus process**, and the difference matters commercially.\n\nAn unresolved leadership question is an open-ended risk that markets price harshly, because uncertainty has no natural end date. A formal selection process converts that into a bounded question: who, and by when. Tata companies fell up to 4% on the announcement; the establishment of a committee is the first step toward closing that discount.\n\nNote also what has *not* happened. No successor has been named, no shortlist disclosed, and no timeline committed beyond \"as soon as possible\". The February 2027 expiry is the only hard date on the table, which leaves roughly six months of transition.\n\n## What people are actually saying\n\nThe discussion on r/TCS_India is revealing in an unglamorous way: employees are less concerned with group strategy than with whether the disruption delays their joining letters. Corporate governance stories are usually written for investors; the people who feel them first are staff.\n\n## What to watch\n\nThe composition of the Selection Committee — specifically whether Noel Tata, who chairs Tata Trusts, sits on it, and whether any independent voice is included. Then whether the search stays internal or goes outside the group, which would be a genuine break with Tata convention.\n\nFor the listed companies, watch whether the 4% discount persists. If Tata stocks recover before a successor is named, the market has decided the group runs on institutional strength rather than one person.",
-   "category": "Business",
-   "region": "india",
-   "source": "The Hindu Business",
-   "url": "https://www.thehindu.com/business/Industry/tata-trusts-accepts-n-chandrasekarans-resignation-initiates-process-to-find-successor/article71340265.ece",
-   "image_url": "https://th-i.thgim.com/public/incoming/ljfmvi/article71340313.ece/alternates/LANDSCAPE_1200/PTI08_12_2026_000379B.jpg",
-   "published": "2026-08-13T11:29:36+00:00",
-   "top_story": true,
-   "confidence": "corroborated",
-   "publisher_count": 3,
-   "sources": [
-    {
-     "publisher": "the-hindu-group",
-     "source": "The Hindu Business",
-     "url": "https://www.thehindu.com/business/Industry/tata-trusts-accepts-n-chandrasekarans-resignation-initiates-process-to-find-successor/article71340265.ece"
-    },
-    {
-     "publisher": "indian-express",
-     "source": "Indian Express Business",
-     "url": "https://indianexpress.com/article/business/tata-trusts-process-selection-committee-tata-sons-chairman-n-chandrasekaran-exit-10831219/"
-    },
-    {
-     "publisher": "mint",
-     "source": "Mint Companies",
-     "url": "https://www.livemint.com/companies/news/tata-trusts-kickstarts-process-for-finding-a-successor-for-tata-sons-11786605020002.html"
-    }
-   ],
-   "origin": "rss",
-   "discussion": {
-    "subreddit": "r/TCS_India",
-    "title": "Tata Sons Chairman N. Chandrasekaran to Step Down in February 2027 Amid Board Disagreement",
-    "score": 24,
-    "comments": 18,
-    "url": "https://www.reddit.com/r/TCS_India/comments/1vmldh6/tata_sons_chairman_n_chandrasekaran_to_step_down/"
-   },
-   "read_min": 2,
-   "words": 487,
-   "importance": "high",
-   "simple": [
-    "The chairman of the Tata group is leaving. His last day is 20 February 2027.",
-    "He did not choose to go. The trusts that own Tata quietly decided not to give him another term.",
-    "A committee will now pick the next chairman. Nobody has been named yet.",
-    "Tata shares fell up to 4% because investors hate not knowing who is in charge."
-   ],
-   "terms": [
-    {
-     "term": "Tata Sons",
-     "meaning": "The holding company that owns and controls all the Tata companies"
-    },
-    {
-     "term": "Tata Trusts",
-     "meaning": "Charity organisations that own 66% of Tata Sons, so they control the whole group"
-    },
-    {
-     "term": "Selection Committee",
-     "meaning": "A small group formed to find and recommend the next chairman"
-    }
-   ],
-   "key_numbers": [
-    {
-     "value": "27.9%",
-     "label": "share of Tata Sons owned by Sir Dorabji Tata Trust alone"
-    },
-    {
-     "value": "66%",
-     "label": "share owned by all Tata Trusts together"
-    },
-    {
-     "value": "20 Feb 2027",
-     "label": "when his term officially ends"
-    },
-    {
-     "value": "up to 4%",
-     "label": "how much Tata shares fell"
-    }
-   ]
-  },
-  {
-   "title": "Wholesale inflation moderates to 9.78% in July",
-   "summary": "Wholesale inflation eased to 9.78% in July from 9.87%, but sits more than double the 4.45% retail print. The gap is almost entirely fuel.",
-   "body": "India's Wholesale Price Index inflation stood at **9.78%** year-on-year in July, easing slightly from 9.87% in June, according to provisional Ministry of Commerce and Industry data released Friday. The all-commodities index slipped to 110.0 from 110.2 on the 2022-23 base.\n\nUnderneath, the components moved in opposite directions:\n\n- **Fuel and Power: 20.05%**, down sharply from 27.41%\n- **Primary Articles: 8.52%**, up from 7.0%\n- **Manufactured Products: 8.29%**, up from 7.48%\n- **WPI Food: 6.65%**, up from 6.14%\n\n## Two inflation numbers, one economy\n\nThis week produced retail inflation at 4.45% and wholesale inflation at 9.78%. Both are correct. They measure different things, and understanding the difference is genuinely useful.\n\n**CPI** measures what households pay at the shop. Its basket is weighted toward food, housing, fuel, education and healthcare — what people actually consume. **WPI** measures what businesses charge each other in bulk, before goods reach a consumer. Its basket is weighted toward commodities, industrial inputs and manufactured goods.\n\nSo WPI is closer to a producer's cost, and CPI is closer to your wallet.\n\n## Why the gap is this wide\n\nFuel and Power at 20.05% is doing almost all of the work. Crude has been elevated for months on the Iran conflict, and fuel carries far more weight in the wholesale basket than in the retail one — the average household spends a small share of income directly on fuel, while a factory, a truck fleet and a chemical plant spend a great deal.\n\nThat is why an oil shock shows up in WPI immediately and violently, and in CPI slowly and partially.\n\n## The part that matters for the months ahead\n\nWholesale inflation tends to lead retail inflation. When producers absorb higher input costs for a period, they eventually pass them to consumers. A sustained wholesale-retail gap this wide usually resolves in one of two ways: either input costs fall, or consumer prices rise.\n\nThe encouraging signal is that Fuel and Power dropped seven percentage points in a single month, reflecting crude easing toward $87. The discouraging signal is that everything *except* fuel rose — primary articles, manufactured products and food all ticked up. Strip out the volatile component and the underlying trend is hardening.\n\n## What it means for rates\n\nThe RBI targets CPI, not WPI, so a 9.78% wholesale print does not directly force policy. But it constrains the room to cut, because it signals cost pressure still working through the pipeline toward the number the RBI does target.\n\nWith CPI at a 19-month high of 4.45%, above the 4% target for a second month, and wholesale costs still in double digits, the case for a near-term rate cut is thin.\n\n## What to watch\n\nWhether Fuel and Power keeps falling — that is a direct read on crude and therefore on Hormuz. And whether manufactured products inflation keeps climbing, because that is the component that eventually reaches your shopping bill.",
-   "category": "Economy & Policy",
-   "region": "india",
-   "source": "Hindu BusinessLine",
-   "url": "https://www.thehindubusinessline.com/economy/wholesale-inflation-moderated-to-978-in-july/article71344428.ece",
-   "image_url": "https://bl-i.thgim.com/public/incoming/lbvjxt/article71103824.ece/alternates/LANDSCAPE_1200/2025-08-14T063739Z_528677941_RC23GDAMGEWN_RTRMADP_3_INDIA-ECONOMY-INFLATION.JPG",
-   "published": "2026-08-14T09:00:00+00:00",
-   "top_story": true,
-   "confidence": "corroborated",
-   "publisher_count": 3,
-   "sources": [
-    {
-     "publisher": "the-hindu-group",
-     "source": "Hindu BusinessLine",
-     "url": "https://www.thehindubusinessline.com/economy/wholesale-inflation-moderated-to-978-in-july/article71344428.ece"
-    },
-    {
-     "publisher": "news18",
-     "source": "News18 Business",
-     "url": "https://www.news18.com/business/economy/indias-wpi-inflation-eases-to-9-78-in-july-2026-vs-9-87-last-month-10272724.html"
-    },
-    {
-     "publisher": "economic-times",
-     "source": "ET Economy",
-     "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-wholesale-inflation-eases-to-9-78-in-july-from-9-87-in-june/articleshow/133230372.cms"
-    }
-   ],
-   "origin": "rss",
-   "discussion": null,
-   "read_min": 2,
-   "words": 484,
-   "importance": "high",
-   "simple": [
-    "There are two inflation numbers in India. Shop prices rose 4.45%. Factory-level prices rose 9.78%.",
-    "Factory prices are rising more than twice as fast as shop prices.",
-    "Almost all of that gap is fuel. Fuel costs at the wholesale level are up 20%.",
-    "This matters to you because businesses eventually pass higher costs on to shoppers."
-   ],
-   "terms": [
-    {
-     "term": "WPI",
-     "meaning": "Wholesale Price Index - prices businesses charge each other, before goods reach a shop"
-    },
-    {
-     "term": "CPI",
-     "meaning": "Consumer Price Index - prices you actually pay in a shop"
-    },
-    {
-     "term": "Core inflation",
-     "meaning": "Inflation after removing food and fuel, which jump around a lot"
-    }
-   ],
-   "key_numbers": [
-    {
-     "value": "9.78%",
-     "label": "wholesale inflation in July, down from 9.87%"
-    },
-    {
-     "value": "4.45%",
-     "label": "shop-level inflation, for comparison"
-    },
-    {
-     "value": "20.05%",
-     "label": "fuel and power inflation - the cause of the gap"
-    },
-    {
-     "value": "6.65%",
-     "label": "wholesale food inflation, up from 6.14%"
-    }
-   ]
-  },
-  {
-   "title": "Sensex falls 71 points, Nifty closes below 24,400; broader markets underperform. What lies ahead?",
-   "summary": "The Sensex closed down about 71 points and the Nifty finished below 24,400, recovering most of a much worse morning after crude eased.",
-   "body": "Indian equities ended Friday modestly lower, with the Sensex shedding roughly 71 points and the Nifty 50 closing below the 24,400 mark. Broader indices were mixed.\n\nThe headline understates the day. The market opened sharply weaker — down close to 300 points at one stage — and spent the session clawing most of it back. A 71-point close after a 300-point drop is a recovery wearing the costume of a decline.\n\n## What turned it\n\nTwo things eased during the day. Brent crude slipped toward **$87**, down from the $90 area that had been pressuring Indian assets all week. And US producer prices came in unchanged, which further reduced expectations of a Federal Reserve rate hike in September.\n\nBoth matter to India through the same channel. Cheaper crude means a smaller import bill, which relieves pressure on the rupee and on imported inflation. Lower odds of US rate hikes make emerging-market assets relatively more attractive, which slows foreign selling.\n\n## The pressure that has not gone away\n\nForeign institutional investors sold Indian shares for a third consecutive session. That is the thread running through the whole week, and it is not primarily about India's companies — it is about the dollar, US rates and the crude bill.\n\nWatch the distinction. Domestic institutions have been buying steadily; foreigners have been selling. When those two forces are roughly matched, you get exactly what Friday delivered: a lot of intraday movement and very little net change.\n\n## How to read a day like this\n\nA beginner reads \"Sensex falls 71 points\" and concludes the market went down. A more useful reading has three parts.\n\n**Where did it open, and where did it close?** A market that opens badly and closes near flat has absorbed selling — buyers appeared at lower levels. The opposite pattern, opening strong and fading into the close, is the genuinely weak one, because it means sellers used the strength to exit.\n\n**What was the range?** A 230-point swing on a 71-point close means real disagreement, not consensus.\n\n**What moved, and what didn't?** Broader indices being mixed while the benchmark fell slightly tells you this was not a broad risk-off day.\n\n## Perspective on the number\n\n71 points on a roughly 77,800 index is **under 0.1%**. That is noise. It is smaller than the round-trip cost of trading in a thin small-cap, and smaller than a typical single-stock daily move.\n\nFinancial media reports it because it must produce a market story every day. Most days do not contain one.\n\n## What to watch\n\nWhether foreign selling extends to a fourth session, and whether crude holds near $87. If both improve together, the pressure that has defined this week lifts. If crude turns back up, Friday's recovery was a pause rather than a floor.",
+   "title": "Why Is Share Market Falling Today? Know Key Reasons Behind Sensex, Nifty Decline on August 17",
+   "summary": "The Sensex fell about 370 points and the Nifty slipped below 24,300 in Monday morning trade, with IT, banks and FMCG all weak.",
+   "body": "Indian equities began the week lower. At 10:12 am the BSE Sensex traded at 77,639.75, down 369.50 points or 0.47%, while the NSE Nifty was at 24,278.60, down 87.40 points or 0.36%, slipping below the 24,300 level.\n\nWeakness was broad across sectors. IT, public sector banks, financial and FMCG stocks all weighed on the benchmarks. Geopolitical tension and elevated crude prices kept investors cautious.\n\n## Why the percentage matters more than the points\n\nA 369-point fall sounds dramatic and a 87-point fall sounds mild. In percentage terms they are almost identical: 0.47% and 0.36%.\n\nThe Sensex sits near 77,600 and the Nifty near 24,300, so the same percentage move produces a much bigger point number on the Sensex. Indian financial media quotes points because they sound larger. Train yourself to read the percentage, because that is what actually happens to your money.\n\nNeither figure is a large move. A 0.5% day is ordinary.\n\n## The pattern from last week has not broken\n\nFriday's session ended with the Sensex down 71 points after recovering from a much worse morning. Monday opened weak again. The same two forces are still in play: crude and the Middle East.\n\nNote which sectors fell. IT companies earn in dollars but are exposed to global technology spending. Public sector banks and financials are sensitive to interest-rate expectations, which stay uncertain while inflation is elevated. FMCG names depend on consumer demand, which food inflation squeezes.\n\nThat combination is not a story about any single company. It is the macro backdrop pressing on everything at once.\n\n## What is not happening\n\nThere is no panic here. A 0.47% fall with no single dramatic cause is the market drifting rather than breaking. The genuinely worrying pattern is a fall that accelerates into the close, on heavy volume, with everything falling together.\n\nFor a beginner the useful discipline is to notice how often \"market falls\" headlines describe moves under 1%. Financial media must produce a market story every day, whether or not one exists.\n\n## What to watch\n\nCrude, and whether foreign investors keep selling. Both drove last week and neither has resolved. Also watch whether the Nifty holds around 24,250-24,300, a zone enough participants treat as a reference point that it becomes mildly self-fulfilling.",
    "category": "Markets",
    "region": "india",
-   "source": "ET Markets",
-   "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-falls-71-points-nifty-closes-below-24400-broader-markets-underperform-what-lies-ahead/articleshow/133237775.cms",
-   "image_url": "https://img.etimg.com/photo/msid-133237775,imgsize-84252.cms",
-   "published": "2026-08-14T10:23:41+00:00",
+   "source": "News18 Business",
+   "url": "https://www.news18.com/business/markets/why-is-share-market-falling-today-know-key-reasons-behind-sensex-nifty-decline-on-august-17-10276986.html",
+   "image_url": "https://images.news18.com/ibnlive/uploads/2025/03/stock-market-crash-2025-03-ea21bd2749ad8f5ba0d0f9f3efbac9b5-3x2.png",
+   "published": "2026-08-17T04:49:20+00:00",
    "top_story": true,
+   "importance": "high",
    "confidence": "thin",
    "publisher_count": 2,
    "sources": [
     {
-     "publisher": "economic-times",
-     "source": "ET Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-falls-71-points-nifty-closes-below-24400-broader-markets-underperform-what-lies-ahead/articleshow/133237775.cms"
+     "publisher": "news18",
+     "source": "News18 Business",
+     "url": "https://www.news18.com/business/markets/why-is-share-market-falling-today-know-key-reasons-behind-sensex-nifty-decline-on-august-17-10276986.html"
     },
     {
-     "publisher": "times-of-india",
-     "source": "Times of India Business",
-     "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-14-august-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/133227175.cms"
+     "publisher": "mint",
+     "source": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-17-august-11786930432332.html"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 463,
-   "importance": "normal",
    "simple": [
-    "The market opened badly, down almost 300 points, then recovered nearly all of it by the close.",
-    "It finished down just 71 points, which on a 78,000 index is less than 0.1%. That is noise.",
-    "Two things helped during the day: oil got cheaper, and US inflation news was calm.",
-    "Foreign investors sold Indian shares for the third day running. That pressure has not gone."
+    "Indian shares opened the week lower. The Sensex was down about 370 points by 10:12 in the morning.",
+    "The Nifty slipped below 24,300, continuing last week's weakness.",
+    "Four groups of stocks fell together: technology, government banks, financial companies and everyday-goods companies.",
+    "Two reasons behind it: oil is still expensive, and tensions around Iran have not eased."
    ],
    "terms": [
     {
@@ -202,867 +46,1039 @@
      "meaning": "India's 50-company benchmark index on the NSE"
     },
     {
-     "term": "FII",
-     "meaning": "Foreign Institutional Investor - overseas funds that buy and sell Indian shares"
+     "term": "FMCG",
+     "meaning": "Fast Moving Consumer Goods - everyday items like soap, tea and biscuits"
+    },
+    {
+     "term": "PSU bank",
+     "meaning": "Public Sector Undertaking bank - a bank majority-owned by the government, such as SBI or PNB"
     }
    ],
    "key_numbers": [
     {
-     "value": "-71",
-     "label": "points the Sensex closed down"
+     "value": "77,639",
+     "label": "Sensex level at 10:12 am"
     },
     {
-     "value": "24,400",
-     "label": "level the Nifty closed below"
+     "value": "-369",
+     "label": "points the Sensex was down"
     },
     {
-     "value": "$87",
-     "label": "Brent crude oil price, down from $90"
+     "value": "24,278",
+     "label": "Nifty level, below the 24,300 mark"
     },
     {
-     "value": "3rd",
-     "label": "consecutive day of foreign selling"
+     "value": "-0.47%",
+     "label": "the fall in percentage terms"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 375
   },
   {
-   "title": "India's trade deficit widens 31.5% to $15bn in July; electronics exports surge 11-fold",
-   "summary": "July's trade deficit widened 31.5% to about $15 billion, with electronics prominent in the import bill. The rupee has to absorb it.",
-   "body": "India's merchandise trade deficit widened **31.5% to about $15 billion** in July, with electronics featuring prominently among imports.\n\n## What a trade deficit actually is\n\nThe value of goods a country imports minus what it exports. A deficit means India bought more from the world than it sold to it that month.\n\nThe reason it belongs in a markets brief is currency. Paying for imports requires foreign currency — mostly dollars. Indian buyers sell rupees to buy those dollars. More imports means more rupee selling, which pushes the rupee down. That is why the trade deficit, the rupee and imported inflation move together, and it is the same chain that connects crude to your grocery bill.\n\nThe rupee has been under pressure all week, trading in a 95.38-95.43 band, with the RBI intervening to curb losses. A widening deficit is the fundamental force the RBI has been leaning against.\n\n## The composition matters more than the number\n\nA deficit driven by consumption imports and a deficit driven by capital goods are different animals wearing the same label.\n\nIf the imports are gold, luxury goods and consumer electronics, the country has spent foreign exchange on consumption that produces nothing further. If they are machinery, industrial components and capital equipment, the country has imported productive capacity that generates output and exports later.\n\nElectronics sits awkwardly between the two — it covers both consumer devices and the components feeding domestic manufacturing under the production-linked incentive schemes. A rising electronics import bill can indicate either a consumption boom or a manufacturing ramp-up. Those have opposite implications.\n\n## The structural problem\n\nIndia runs a persistent merchandise trade deficit, and the largest single reason is energy. The country imports the overwhelming majority of the crude it consumes, so the deficit expands mechanically whenever oil rises — which is exactly what has been happening since the Iran conflict began in late February.\n\nTwo things partly offset it. India runs a large **services** surplus, principally software exports, which the merchandise figure excludes. And remittances from the diaspora are the largest of any country — this week's data showed NRIs parking $37 billion in Indian bank deposits in under two months.\n\nSo the headline merchandise deficit overstates India's external vulnerability. The current account, which counts services and remittances too, is a much better measure.\n\n## What to watch\n\nWhether the deficit narrows as crude eases toward $87 — the effect shows up with a lag of a month or two, since cargoes are contracted in advance. And the export side: separate data this week showed exports rising 15% in April-July, with the Commerce Minister maintaining a $1 trillion target.\n\nA deficit widening because imports surged is a different story from one widening because exports collapsed. This one is the former, which is the less alarming of the two.",
-   "category": "Economy & Policy",
+   "title": "N Chandrasekaran, Noel Tata separately briefed govt about rift: Report",
+   "summary": "Chandrasekaran and Noel Tata separately briefed senior government officials about their rift over strategy and governance before the resignation was announced.",
+   "body": "Outgoing Tata Sons chairman N Chandrasekaran and Tata Trusts chairman Noel Tata separately briefed senior government officials about their differences over the group's strategy and governance, ahead of Chandrasekaran's announcement that he would step down when his term ends in February 2027, according to a Times of India report.\n\nThe discussions reportedly focused on the rift between the two over the direction of new businesses, governance issues, and uncertainty over Chandrasekaran's reappointment. Both engaged with government leaders individually, though exact dates could not be confirmed.\n\n## Why going to the government is the striking part\n\nTata Sons is a private company. Its shareholders are the Tata Trusts and a minority holder. There is no legal requirement to brief ministers about a boardroom disagreement.\n\nThat both men did so anyway tells you something about how large Indian business groups actually work. Tata operates airlines, steel, defence contracts, semiconductors and telecom, all sectors where government licensing, approvals and policy shape the business directly. A leadership fight at the top of that structure is not a purely private matter, and both sides evidently wanted their account heard first.\n\nNote also that they went separately. Two men briefing the same officials about the same dispute, on their own, is not a joint effort to reassure anyone. It is each putting their version on record.\n\n## What the dispute was actually about\n\nTwo things, per the reporting: which new businesses the group should enter, and how it should be governed.\n\nThe first is a genuine strategic question. Tata has moved into semiconductors, electric vehicles and airlines, all enormously capital-hungry with long payback periods. Reasonable people can disagree about how much of the group's cash should fund bets that may take a decade to pay off.\n\nThe second is structural, and it is the deeper issue. Tata Trusts own 66% of Tata Sons but are charities, not commercial operators. Where the line sits between an owner setting direction and an owner running the business is exactly the kind of question that produces this outcome.\n\n## Reading it against Friday\n\nFriday's news was the formal acceptance of the resignation and the resolution to form a Selection Committee. Today's fills in why it happened.\n\nFor an investor the sequence matters. A chairman leaving on good terms is a succession event. A chairman leaving after a governance dispute serious enough that both parties briefed the government is a different kind of risk, because the underlying disagreement does not disappear when one person leaves. Whoever comes next inherits it.\n\n## What to watch\n\nWho sits on the Selection Committee, and whether the successor comes from inside the group. An internal appointment suggests continuity of strategy; an outsider suggests the Trusts want a different direction. Also watch whether Tata companies' capital-heavy projects slow while the question is open.",
+   "category": "Business",
    "region": "india",
-   "source": "Times of India Business",
-   "url": "https://timesofindia.indiatimes.com/business/india-business/indias-trade-portfolio-deficit-widens-31-5-to-15bn-in-july-electronics-exports-surge-11-fold/articleshow/133208954.cms",
-   "image_url": "https://static.toiimg.com/photo/msid-133209646,imgsize-130692.cms",
-   "published": "2026-08-13T11:04:29+00:00",
-   "top_story": false,
+   "source": "Business Today",
+   "url": "https://www.businesstoday.in/latest/corporate/story/n-chandrasekaran-noel-tata-separately-briefed-govt-about-rift-report-549493-2026-08-17?utm_source=rssfeed",
+   "image_url": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202608/6a828882bd3d7-chandrasekaran-and-noel-tata-briefed-govt-about-rift-at-tata--says-report-170511811-16x9.jpg",
+   "published": "2026-08-17T04:07:59+00:00",
+   "top_story": true,
+   "importance": "high",
    "confidence": "thin",
    "publisher_count": 2,
    "sources": [
+    {
+     "publisher": "business-today",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/latest/corporate/story/n-chandrasekaran-noel-tata-separately-briefed-govt-about-rift-report-549493-2026-08-17?utm_source=rssfeed"
+    },
     {
      "publisher": "times-of-india",
      "source": "Times of India Business",
-     "url": "https://timesofindia.indiatimes.com/business/india-business/indias-trade-portfolio-deficit-widens-31-5-to-15bn-in-july-electronics-exports-surge-11-fold/articleshow/133208954.cms"
-    },
-    {
-     "publisher": "economic-times",
-     "source": "ET Economy",
-     "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-electronics-exports-surge-11-fold-to-rs-4-24-lakh-crore-womens-workforce-nears-30/articleshow/133207347.cms"
+     "url": "https://timesofindia.indiatimes.com/business/india-business/before-chandras-exit-he-and-noel-tata-separately-briefed-govt-on-rift-concerns/articleshow/133284282.cms"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 469,
-   "importance": "normal",
    "simple": [
-    "In July, India bought about $15 billion more from the world than it sold.",
-    "That gap is 31.5% bigger than a year ago.",
-    "To pay foreign sellers, Indians must sell rupees and buy dollars. That pushes the rupee down.",
-    "A weaker rupee makes everything imported cost more, which feeds inflation."
+    "The two most senior people at Tata were in disagreement, and both went to the government about it.",
+    "They spoke to officials separately, not together, before the resignation was made public.",
+    "The disagreement was about which new businesses Tata should enter and how the group should be governed.",
+    "This tells you the exit was the result of a real dispute, not a personal decision to move on."
    ],
    "terms": [
     {
-     "term": "Trade deficit",
-     "meaning": "When a country imports more than it exports in a period"
+     "term": "Tata Sons",
+     "meaning": "The holding company that owns and controls all the Tata companies"
     },
     {
-     "term": "Current account",
-     "meaning": "A fuller measure that also counts services exports and money sent home by NRIs"
+     "term": "Tata Trusts",
+     "meaning": "The charities that own 66% of Tata Sons, chaired by Noel Tata"
     },
     {
-     "term": "NRI",
-     "meaning": "Non-Resident Indian - an Indian citizen living abroad"
+     "term": "Governance",
+     "meaning": "The rules and structures deciding who has power in a company and how decisions get made"
+    },
+    {
+     "term": "Reappointment",
+     "meaning": "Renewing someone's term when their current one expires"
     }
    ],
    "key_numbers": [
     {
-     "value": "$15bn",
-     "label": "size of July's trade gap"
+     "value": "2",
+     "label": "separate briefings given to government officials"
     },
     {
-     "value": "31.5%",
-     "label": "how much bigger than last year"
+     "value": "66%",
+     "label": "of Tata Sons owned by Tata Trusts"
     },
     {
-     "value": "15%",
-     "label": "growth in exports April-July, the encouraging side"
+     "value": "20 Feb 2027",
+     "label": "when Chandrasekaran's term ends"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 467
   },
   {
-   "title": "Rupee logs weekly decline, with RBI intervention curbing losses",
-   "summary": "The rupee logged a weekly decline with the RBI actively intervening to limit the fall, trading in a narrow 95.38-95.43 band.",
-   "body": "The rupee ended the week lower against the dollar, with Reserve Bank of India intervention curbing the size of the decline. Intraday it moved in a tight band — opening around 95.38 and trading near 95.43 — a narrowness that is itself evidence of a central bank at work.\n\n## What \"intervention\" means in practice\n\nThe RBI holds foreign exchange reserves, largely dollars. When the rupee falls faster than it wants, it sells dollars from those reserves and buys rupees. The extra demand for rupees slows the decline.\n\nThis is not currency manipulation in the pejorative sense, and it is not an attempt to fix the exchange rate. The RBI's stated position is that it does not target a level, only smooths volatility. In practice, a currency trading in a five-paisa range on a week of crude shocks and foreign outflows is not doing so naturally.\n\n## The cost, which is the part usually left out\n\nIntervention is not free, and the constraint is worth understanding.\n\nEvery dollar sold to defend the rupee is a dollar no longer in reserves. Reserves are finite, and they are the buffer that lets a country pay for imports and service external debt during a crisis. A central bank that spends them defending a level it cannot hold ends up with a weaker currency *and* no buffer — the position several emerging markets have found themselves in historically.\n\nSo intervention is best used to slow a move, not reverse a trend. The RBI has generally been disciplined about that distinction.\n\n## Why the rupee is under pressure\n\nThree forces, all pushing the same way this week. Crude near $87-90 inflates the import bill, requiring more dollar buying. The merchandise trade deficit widened 31.5% to about $15 billion in July. And foreign investors sold Indian shares for a third consecutive session, converting rupees back to dollars as they exit.\n\nAgainst that, one significant support: NRIs have parked roughly $37 billion in foreign-currency non-resident deposits in under two months, through a special RBI window created for precisely this purpose. That is dollars arriving voluntarily rather than reserves being spent.\n\n## Why it matters to you even if you never trade currency\n\nA weaker rupee raises the cost of everything imported — fuel, electronics, edible oil, industrial components — which feeds inflation, which constrains the RBI from cutting rates, which affects equity valuations.\n\nIt also silently changes your returns. Gold is priced in dollars, so a falling rupee lifts the rupee gold price independently of the global move. If you ever hold international funds, a falling rupee adds to your returns; a strengthening one subtracts.\n\n## What to watch\n\nWhether the RBI keeps defending the 95.40 area or lets it drift. A defended level that eventually breaks tends to break fast, because positions that assumed the defence unwind at once.",
-   "category": "Markets",
+   "title": "RBI to close FCNR(B) forex swap facility window on 31 August",
+   "summary": "The RBI is closing its special foreign-currency deposit window on 31 August. It pulled in $52.30 billion of the $56.85 billion raised in total.",
+   "body": "The Reserve Bank of India will close the window for mobilising Foreign Currency Non-Resident (Bank) deposits under its special USD-INR forex swap facility on 31 August 2026, after what it described as an encouraging response.\n\nThe numbers explain the decision. FCNR(B) inflows reached **$52.30 billion** as of 13 August, the bulk of the **$56.85 billion** raised through the scheme overall. Overseas foreign currency borrowings contributed $2.81 billion and external commercial borrowings $1.74 billion.\n\n## What the RBI was solving\n\nThe rupee has been under sustained pressure, trading around 95 to the dollar. The pressure comes from crude near $87-90 inflating the import bill, a merchandise trade deficit that widened 31.5% in July, and foreign investors selling Indian shares.\n\nA central bank facing that has three options. Sell dollars from reserves, which works but depletes the buffer. Raise interest rates, which supports the currency but slows the economy. Or make it attractive for dollars to arrive voluntarily.\n\nThis scheme was the third option, and it is the least costly of the three. By easing terms on deposits that non-resident Indians hold in foreign currency, the RBI made parking dollars in Indian banks appealing.\n\n## Read the composition, not just the total\n\nThe split is the most informative part. Deposits delivered $52.30 billion. Bank and corporate borrowings delivered $4.55 billion between them.\n\nDeposits from individuals overwhelmed institutional borrowing by more than ten to one. India's diaspora responded at a scale that wholesale markets did not, which is a genuinely unusual feature of India's external position. Few countries have a countercyclical funding source of that size — and it works partly because a weak rupee makes sending dollars home more attractive at exactly the moment the country most needs them.\n\n## Why close a scheme that is working\n\nBecause these deposits are not free money. FCNR(B) deposits are denominated in foreign currency, so the depositor takes no rupee risk. The bank does. The swap facility exists to manage that risk, and the RBI carries part of it.\n\nA central bank that leaves such a window open indefinitely builds a large, concentrated future obligation, because deposits raised in one short period come up for renewal in one short period too. Closing it while the response is strong is the disciplined choice.\n\n## What to watch\n\nThe rupee after 31 August, once this support stops. And the maturity profile: money raised in a two-month burst creates a repayment cluster later. That is the cost of solving a problem quickly.",
+   "category": "Economy & Policy",
    "region": "india",
-   "source": "ET Markets",
-   "url": "https://economictimes.indiatimes.com/markets/forex/rupee-logs-weekly-decline-with-rbi-intervention-curbing-losses/articleshow/133237831.cms",
-   "image_url": "https://img.etimg.com/photo/msid-133237831,imgsize-11168.cms",
-   "published": "2026-08-14T10:24:16+00:00",
-   "top_story": false,
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/capital-market-news/rbi-to-close-fcnr-b-forex-swap-facility-window-on-31-august-126081700102_1.html",
+   "image_url": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
+   "published": "2026-08-17T03:34:20+00:00",
+   "top_story": true,
+   "importance": "high",
    "confidence": "thin",
    "publisher_count": 2,
    "sources": [
     {
-     "publisher": "economic-times",
-     "source": "ET Markets",
-     "url": "https://economictimes.indiatimes.com/markets/forex/rupee-logs-weekly-decline-with-rbi-intervention-curbing-losses/articleshow/133237831.cms"
+     "publisher": "business-standard",
+     "source": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/capital-market-news/rbi-to-close-fcnr-b-forex-swap-facility-window-on-31-august-126081700102_1.html"
     },
     {
-     "publisher": "the-hindu-group",
-     "source": "Hindu BusinessLine",
-     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-logs-weekly-decline-with-rbi-intervention-curbing-losses/article71345032.ece"
+     "publisher": "news18",
+     "source": "News18 Business",
+     "url": "https://www.news18.com/business/banking-finance/rbi-advances-closure-of-special-fcnrb-window-to-august-31-from-september-30-ws-l-10276835.html"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 473,
-   "importance": "normal",
    "simple": [
-    "The rupee got weaker again this week against the US dollar.",
-    "The RBI stepped in to slow the fall by selling dollars from its reserves.",
-    "It traded in a very tight range, 95.38 to 95.43. That tightness is the clue the RBI was active.",
-    "Every dollar spent defending the rupee is a dollar no longer in the country's savings buffer."
+    "The RBI opened a special scheme to attract dollars into India from Indians living abroad.",
+    "It worked far better than expected, bringing in about $52 billion in a few months.",
+    "The window now closes on 31 August. The RBI is stopping because it got what it needed.",
+    "Those dollars help support the rupee without the RBI having to spend its own reserves."
    ],
    "terms": [
     {
      "term": "RBI",
-     "meaning": "Reserve Bank of India - the central bank that manages interest rates and the currency"
+     "meaning": "Reserve Bank of India - the central bank"
     },
     {
-     "term": "Intervention",
-     "meaning": "The central bank buying or selling currency to steady the exchange rate"
+     "term": "FCNR(B)",
+     "meaning": "Foreign Currency Non-Resident (Bank) - a deposit an NRI holds in foreign currency, so they take no rupee risk"
     },
     {
-     "term": "Forex reserves",
-     "meaning": "The country's savings in foreign currency, used to pay for imports in a crisis"
+     "term": "Forex swap",
+     "meaning": "A deal where two parties exchange currencies now and agree to reverse it later at a fixed rate"
+    },
+    {
+     "term": "ECB",
+     "meaning": "External Commercial Borrowing - a loan an Indian company takes from a foreign lender"
+    },
+    {
+     "term": "OFCB",
+     "meaning": "Overseas Foreign Currency Borrowing - foreign currency a bank borrows abroad"
     }
    ],
    "key_numbers": [
     {
-     "value": "95.42",
-     "label": "rupees per US dollar"
+     "value": "$52.30bn",
+     "label": "raised through FCNR(B) deposits as of 13 August"
     },
     {
-     "value": "5 paise",
-     "label": "the whole day's trading range - unusually tight"
+     "value": "$56.85bn",
+     "label": "total raised across the whole scheme"
     },
     {
-     "value": "$37bn",
-     "label": "dollars NRIs deposited in under two months, which supports the rupee"
+     "value": "31 Aug",
+     "label": "when the window closes"
+    },
+    {
+     "value": "$2.81bn",
+     "label": "raised through overseas borrowings, far less than deposits"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 414
   },
   {
-   "title": "Gold Rate Today, Aug 14: Gold prices down in Delhi, Mumbai, Kolkata, Bengaluru, Ahmedabad",
-   "summary": "Gold prices fell across Delhi, Mumbai and other metros on Friday as crude eased and the dollar steadied, pausing a run driven by Middle East risk.",
-   "body": "Gold prices declined across major Indian cities on Friday, with rates lower in Delhi, Mumbai and other metros, pausing a rally that had been driven by Middle East tension. This was among the most widely reported stories of the day — four independent publishers carried it — which is itself a comment on how closely Indian households track the metal.\n\n## Why it fell\n\nThe same forces that lifted gold all week eased slightly. Brent crude slipped toward $87, reducing the inflation premium built into the metal. US producer prices came in unchanged, trimming expectations of a Federal Reserve rate hike. And a steadier dollar removes some of gold's appeal.\n\nThat last relationship is worth internalising, because it is the most reliable one in the asset: **gold and the dollar usually move in opposite directions.** Gold is priced in dollars globally, so when the dollar strengthens, it takes fewer dollars to buy the same gold, and the price falls. Much of gold's daily movement is a dollar story wearing a gold costume.\n\n## The two-engine problem, in reverse\n\nFor an Indian buyer, gold's rupee price is driven by the global dollar price *and* by the rupee's own level. Both engines have been running in the same direction for weeks — rising dollar gold and a weakening rupee — which is why domestic prices outpaced global ones.\n\nFriday reversed one engine, not both. The dollar price fell; the rupee stayed weak. So the domestic decline is smaller than the international one.\n\nThis is the single most useful thing to understand about holding gold in India. Your return is never just the gold move. It is the gold move plus the currency move, and they can offset each other entirely.\n\n## Why a one-day move deserves little attention\n\nGold is held for years, not days. A daily price change in a metal bought as a long-term store of value is close to meaningless, and the daily \"gold rate today\" article exists because it reliably draws readers, not because it contains information.\n\nThe variables that actually determine gold's direction over a horizon that matters are real interest rates — the interest rate minus inflation — central bank buying, and currency debasement risk. None of those change in a day.\n\n## The practical routes, updated\n\nWorth restating because most online advice is stale: **Sovereign Gold Bonds are no longer issued.** No new tranche since February 2024, and Budget 2026 narrowed the tax exemption to original subscribers holding to maturity. Ignore any article recommending the \"next SGB tranche\".\n\nCurrent options are gold ETFs and gold mutual funds (no storage or purity risk, easily traded), MCX futures (leveraged, unsuitable for beginners), and physical gold (making charges, purity questions, storage).\n\n## What to watch\n\nReal interest rates and the Iran situation. If crude keeps falling and the ceasefire talks progress, the fear premium in gold unwinds further. Note that Indian demand is also seasonal — festival and wedding buying picks up from September, which supports domestic premiums regardless of the global price.",
+   "title": "Solid debut! Molbio Diagnostics shares list at 21% premium over IPO price",
+   "summary": "Molbio Diagnostics listed at ₹980 against an issue price of ₹807, a 21% premium. The grey market had predicted 15%, and under-shot.",
+   "body": "Molbio Diagnostics shares listed at ₹980 on both the BSE and NSE on Monday, a premium of 21.44% over the IPO issue price of ₹807.\n\nThe listing beat what the grey market had signalled. Ahead of the debut the grey market premium stood at ₹120, implying roughly a 15% pop.\n\n## The honest lesson about grey market premium\n\nThis digest has repeatedly refused to report GMP as data, so it is worth being even-handed now that a listing has beaten it.\n\nGMP is an unofficial price quoted by dealers in an unregulated market outside SEBI's oversight. There is no exchange, no reported volume, no settlement guarantee and no audit trail. Today it under-predicted by six percentage points.\n\nThat it was directionally right does not make it data. A number can be roughly correct and still be unverifiable, and the same dealers quoting it have an interest in the narrative around an issue. The problem with GMP is not that it is always wrong. It is that you have no way of knowing when it is.\n\n## What a listing premium actually tells you\n\nLess than people assume. A 21% opening premium means demand at listing exceeded supply at ₹807 — it is a statement about the IPO's pricing, not about the business.\n\nAn IPO that lists far above its issue price arguably means the company left money on the table: it could have raised more per share. An IPO that lists below means it was priced too aggressively. Neither says much about whether the company will be worth more in three years.\n\nFor someone who did not receive an allotment, a strong listing is also a warning. Buying on day one means paying 21% more than the people selling to you paid, on a stock with no trading history and no public track record as a listed company.\n\n## The wider pipeline\n\nMolbio joins a heavy run of Indian listings. Lalithaa Jewellery's ₹1,700 crore IPO opened today, Shiprocket's allotment is due, and Dhoot Transmission made a strong debut.\n\nA crowded IPO calendar usually means companies and their bankers judge valuations to be favourable. That is a seller's judgement, and it is worth holding in mind while reading enthusiastic coverage of any individual issue.\n\n## What to watch\n\nWhere Molbio trades in a few weeks, once listing-day enthusiasm fades and the first quarterly results as a listed company arrive. Listing pops are frequently given back.",
    "category": "Markets",
    "region": "india",
-   "source": "Hindu BusinessLine",
-   "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-mumbai-chennai-ahmedabad-delhi-hyderabad-bengaluru-kolkata-gold-rates-august-14-2026/article71344709.ece",
-   "image_url": "https://bl-i.thgim.com/public/incoming/z0g6ky/article71344776.ece/alternates/LANDSCAPE_1200/Gold_1.jpg",
-   "published": "2026-08-14T08:32:39+00:00",
-   "top_story": false,
+   "source": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/news/solid-debut-molbio-diagnostics-shares-list-at-21-premium-over-ipo-price-126081700195_1.html",
+   "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260817/thumb-126081700195.jpg",
+   "published": "2026-08-17T04:33:30+00:00",
+   "top_story": true,
+   "importance": "normal",
    "confidence": "corroborated",
    "publisher_count": 4,
    "sources": [
     {
-     "publisher": "the-hindu-group",
-     "source": "Hindu BusinessLine",
-     "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-mumbai-chennai-ahmedabad-delhi-hyderabad-bengaluru-kolkata-gold-rates-august-14-2026/article71344709.ece"
-    },
-    {
-     "publisher": "indian-express",
-     "source": "Indian Express India",
-     "url": "https://indianexpress.com/article/india/gold-rate-today-august-14-check-18-22-and-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-and-other-cities-10832490/"
+     "publisher": "business-standard",
+     "source": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/solid-debut-molbio-diagnostics-shares-list-at-21-premium-over-ipo-price-126081700195_1.html"
     },
     {
      "publisher": "business-today",
      "source": "Business Today",
-     "url": "https://www.businesstoday.in/personal-finance/story/gold-silver-prices-today-august-14-check-latest-rates-in-delhi-mumbai-kolkata-other-cities-549113-2026-08-14?utm_source=rssfeed"
+     "url": "https://www.businesstoday.in/markets/stocks/story/molbio-diagnostics-shares-make-a-strong-d-street-debut-stock-lists-at-21-premium-549501-2026-08-17?utm_source=rssfeed"
     },
     {
      "publisher": "mint",
-     "source": "Mint Top News",
-     "url": "https://www.livemint.com/news/india/petrol-diesel-prices-on-august-14-check-fuel-refill-cost-in-delhi-mumbai-kolkata-bengaluru-today-11786668785541.html"
-    }
-   ],
-   "origin": "rss",
-   "discussion": null,
-   "read_min": 2,
-   "words": 505,
-   "importance": "normal",
-   "simple": [
-    "Gold prices fell on Friday in Delhi, Mumbai and other cities.",
-    "Gold usually falls when the dollar strengthens, because gold is priced in dollars worldwide.",
-    "For Indians, gold's price depends on two things: the world gold price AND the rupee.",
-    "Important and often missed: Sovereign Gold Bonds are no longer issued. Ignore old advice about them."
-   ],
-   "terms": [
-    {
-     "term": "SGB",
-     "meaning": "Sovereign Gold Bond - a government gold investment, discontinued since February 2024"
+     "source": "Mint Markets",
+     "url": "https://www.livemint.com/market/ipo/molbio-diagnostics-ipo-listing-shares-debut-at-a-21-premium-defying-weak-stock-market-sentiment-11786940515415.html"
     },
-    {
-     "term": "Gold ETF",
-     "meaning": "Exchange Traded Fund - a stock-market way to own gold without storing it"
-    },
-    {
-     "term": "MCX",
-     "meaning": "Multi Commodity Exchange - where Indian gold and silver futures trade"
-    }
-   ],
-   "key_numbers": [
-    {
-     "value": "4 publishers",
-     "label": "carried this story - the most-covered item today"
-    },
-    {
-     "value": "2 engines",
-     "label": "drive your gold return: the dollar price and the rupee"
-    }
-   ]
-  },
-  {
-   "title": "Zetwerk files updated IPO papers with Sebi; plans to raise Rs 2,600-cr via fresh issue",
-   "summary": "Manufacturing marketplace Zetwerk has filed updated IPO papers with SEBI, the latest in a heavy pipeline of Indian new-economy listings.",
-   "body": "Zetwerk has filed updated IPO papers with the Securities and Exchange Board of India, moving its planned listing forward. The story was carried by Economic Times alongside both specialist startup outlets, Entrackr and Inc42 — a useful signal, since startup-funding news is an area where a single outlet's scoop often circulates unverified.\n\n## What \"updated papers\" means\n\nAn Indian IPO begins with a **Draft Red Herring Prospectus (DRHP)** filed with SEBI. The regulator reviews it and issues observations — effectively questions and required changes. The company then files an updated draft addressing them.\n\nFiling updated papers therefore means the process is progressing through regulatory review rather than starting. It is a meaningful step, though still short of approval, pricing or a listing date.\n\nThe DRHP itself is the single most useful document a retail investor can read about a company, and almost nobody does. It contains audited financials, risk factors written by lawyers who must disclose genuine problems, related-party transactions, litigation, and exactly how the raised money will be used. It is free.\n\n## What Zetwerk does\n\nIt operates a manufacturing marketplace — connecting companies that need custom industrial components with the workshops and factories that can make them. In effect, an asset-light layer of software and coordination sitting on top of India's fragmented small-manufacturer base.\n\nThe model's appeal is that India has enormous manufacturing capacity distributed across thousands of small units with no efficient way to find customers. Its difficulty is margin: coordinating other people's factories is a thin-margin business, and the marketplace has to add enough value to justify its cut.\n\n## The question to ask about any IPO\n\n**Fresh issue or offer for sale?**\n\nA fresh issue means new shares are created and the money goes into the company to fund growth. An offer for sale means existing shareholders — founders, early investors — are selling their stakes, and the money goes to them, not the business.\n\nNeither is automatically bad. Early investors are entitled to exit, and a fund reaching the end of its life must return capital. But the mix tells you what the listing is *for*. A heavily offer-for-sale IPO priced richly is, in plain terms, an exit event that retail investors are being invited to fund.\n\n## The context\n\nZetwerk joins a crowded pipeline. This week alone: Shiprocket in its subscription window, Quest Global reportedly picking banks for a $1 billion listing, Svatantra Microfin filing its DRHP, and several smaller issues.\n\nA heavy IPO pipeline is usually a signal in itself. Companies and their bankers list when they believe valuations are favourable — which is to say, when sellers think prices are good. That is worth remembering when reading enthusiastic coverage of any individual issue.\n\n## What to watch\n\nThe updated DRHP's financials, particularly whether losses are narrowing and what gross margin the marketplace actually earns. And whether the fresh-issue portion is large enough to fund the growth the story promises.",
-   "category": "Startups",
-   "region": "india",
-   "source": "ET Markets",
-   "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/zetwerk-files-updated-ipo-papers-with-sebi-plans-to-raise-rs-2600-cr-via-fresh-issue/articleshow/133229813.cms",
-   "image_url": "https://img.etimg.com/photo/msid-133229813,imgsize-2106423.cms",
-   "published": "2026-08-14T05:26:03+00:00",
-   "top_story": false,
-   "confidence": "corroborated",
-   "publisher_count": 3,
-   "sources": [
     {
      "publisher": "economic-times",
      "source": "ET Markets",
-     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/zetwerk-files-updated-ipo-papers-with-sebi-plans-to-raise-rs-2600-cr-via-fresh-issue/articleshow/133229813.cms"
-    },
-    {
-     "publisher": "entrackr",
-     "source": "Entrackr",
-     "url": "https://entrackr.com/news/zetwerk-files-udrhp-to-raise-rs-2600-cr-via-fresh-issue-promoters-to-account-for-53-of-ofs-12258489"
-    },
-    {
-     "publisher": "inc42",
-     "source": "Inc42",
-     "url": "https://inc42.com/buzz/zetwerk-files-udrhp-for-%e2%82%b92600-cr-ipo/"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/molbio-diagnostics-shares-to-list-today-check-gmp-ahead-of-debut/articleshow/133285025.cms"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 488,
-   "importance": "normal",
    "simple": [
-    "Zetwerk wants to sell shares to the public and has moved a step closer.",
-    "It connects companies that need parts made with small factories that can make them.",
-    "The regulator reviewed its first application and asked questions. This is the updated answer.",
-    "Before any IPO, check one thing: is the company raising new money, or are early investors cashing out?"
+    "Molbio's shares started trading publicly today for the first time.",
+    "People who got shares in the IPO paid ₹807. The shares opened at ₹980.",
+    "That is a 21% gain on day one for anyone who received an allotment.",
+    "Note: the unofficial 'grey market' predicted only 15%. It was wrong, in this case in your favour."
    ],
    "terms": [
     {
      "term": "IPO",
-     "meaning": "Initial Public Offering - the first time a company sells shares to the public"
+     "meaning": "Initial Public Offering - the first sale of a company's shares to the public"
     },
     {
-     "term": "SEBI",
-     "meaning": "Securities and Exchange Board of India - the stock market regulator"
+     "term": "Listing",
+     "meaning": "The day a company's shares begin trading on the stock exchange"
     },
     {
-     "term": "DRHP",
-     "meaning": "Draft Red Herring Prospectus - the detailed document a company must file before an IPO"
+     "term": "Issue price",
+     "meaning": "The fixed price at which shares were sold in the IPO"
     },
     {
-     "term": "OFS",
-     "meaning": "Offer For Sale - when existing owners sell their shares, so the money goes to them, not the company"
+     "term": "GMP",
+     "meaning": "Grey Market Premium - an unofficial, unregulated price quoted by dealers before listing"
+    },
+    {
+     "term": "Listing premium",
+     "meaning": "How much above the issue price the shares open at"
     }
    ],
    "key_numbers": [
     {
-     "value": "Rs 2,600 cr",
-     "label": "amount Zetwerk plans to raise through fresh shares"
+     "value": "₹807",
+     "label": "the IPO issue price"
+    },
+    {
+     "value": "₹980",
+     "label": "opening price on listing day"
+    },
+    {
+     "value": "21.44%",
+     "label": "the listing premium"
+    },
+    {
+     "value": "15%",
+     "label": "what the grey market had predicted"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 404
   },
   {
-   "title": "Air India A320neo Temporarily Lost Flight Controls Before 300-Foot Plunge: Airbus Analysis",
-   "summary": "A maintenance report on the Air India A320neo that lost altitude on 4 August flags hydraulic and flight-control faults. The AAIB has summoned the crew, and the captain told investigators he was short of sleep.",
-   "body": "A post-flight maintenance report on Air India flight AI2379, the Phuket-Delhi service that suffered a sudden loss of altitude on 4 August, has flagged multiple faults in the aircraft's hydraulic and flight-control systems.\n\nThe report, on an Airbus A320neo registered **VT-EXO**, recorded repeated low-pressure warnings in the hydraulic systems and low-level indications for the **Yellow and Blue hydraulic reservoirs**. Around the same time it logged a fault involving the left and right elevators, and an \"AUTO FLT AP OFF\" message indicating the autopilot had disengaged.\n\nThe report does not establish that these warnings caused the altitude loss, nor whether the hydraulic warnings reflected an actual loss of pressure or fluid.\n\nIndia's **Aircraft Accident Investigation Bureau** has summoned the pilots and crew for questioning. According to sources cited in the reporting, the pilot-in-command told investigators he had not slept adequately and had informed the first officer he would take rest under controlled-rest provisions.\n\n## Why each detail matters\n\nThe **A320 family has three hydraulic systems** — Green, Yellow and Blue — deliberately independent so that no single failure removes control. Hydraulics move the flight control surfaces. Low-level indications on two of the three is not a minor maintenance squawk.\n\nThe **elevators** control pitch, which is to say the aircraft's nose-up and nose-down attitude. A fault involving both left and right elevators, recorded alongside hydraulic warnings, on a flight that experienced a sudden altitude loss, is a coherent and uncomfortable picture — even though the report explicitly stops short of linking them.\n\n**Controlled rest** is a real, regulated procedure. On long flights, one pilot may take a short nap at the controls with the other pilot alert and specific conditions met. It exists because managed rest is safer than fatigue pretending not to exist. But it depends entirely on the other pilot remaining fully alert, and on the resting pilot being fit to fly in the first place.\n\n## The uncomfortable question\n\nThe investigation now has two candidate explanations that are not mutually exclusive: a technical fault in hydraulics and flight controls, and human factors around fatigue.\n\nModern accident investigation almost never finds a single cause. It finds a chain — a technical anomaly, a fatigued crew, a procedure applied imperfectly, an alert missed — where breaking any one link would have prevented the outcome. That is why the AAIB will look at maintenance history, crew scheduling and training together rather than picking one.\n\n## Why this sits in your brief\n\nAviation is your professional field, and this is the kind of story that shapes regulatory posture for years. Note also the corporate context: Air India and Air India Express posted a combined loss of ₹9,800 crore in FY25, and Chandrasekaran told staff earlier that the group was \"going through a challenging time\" while insisting safety \"is non-negotiable\".\n\nCost pressure and safety culture coexist uneasily in every airline. Investigations like this are where the tension becomes visible.\n\n## What to watch\n\nThe AAIB's preliminary report, and whether the DGCA issues any directive on A320neo hydraulic inspections or on controlled-rest procedures. Also whether VT-EXO's maintenance history shows prior hydraulic write-ups — repeat defects are what turn an incident into a systemic finding.",
-   "category": "Aviation",
-   "region": "india",
-   "source": "NDTV Profit",
-   "url": "https://www.ndtvprofit.com/india/airbus-dossier-on-air-india-phuket-delhi-flight-critical-flight-controls-lost-for-4-seconds-11908522#publisher=newsstand",
-   "image_url": "https://c.ndtvimg.com/2026-01/f8d61328_air_india_plan.gif?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-   "published": "2026-08-14T09:47:28+00:00",
+   "title": "Trump says US to ‘substantially reduce’ military drills with South Korea",
+   "summary": "Trump has ordered the Pentagon to scale back joint military exercises with South Korea, citing his relationship with Kim Jong Un.",
+   "body": "US President Donald Trump has ordered the Pentagon to scale back joint military exercises with South Korea, citing his \"very good relationship\" with North Korean leader Kim Jong Un.\n\nIn a social media post on Sunday, Trump said the exercises — due to start on Monday — are costly and \"send a signal that is totally inappropriate and hostile\" to North Korea, which he said \"has been unthreatening and respectful\" during his time in the White House.\n\n## Why joint exercises matter more than they sound\n\nMilitary exercises are not only practice. They are signalling.\n\nTwo allies rehearsing together demonstrates that they can actually operate as one force — communications work, commanders know each other, logistics function. That demonstrated capability is what makes a defence commitment credible. A promise to defend an ally that has never been rehearsed is a weaker promise.\n\nNorth Korea has objected to these drills for decades, viewing them as rehearsal for invasion. Scaling them back is therefore a genuine concession, and it is being made unilaterally rather than in exchange for anything specific.\n\n## The reading both ways\n\nThe case for: exercises are expensive, they reliably provoke North Korean missile tests, and reducing tension has value in itself. If a warmer relationship lowers the chance of conflict on a peninsula with nuclear weapons, that is worth a great deal.\n\nThe case against: alliance credibility is built on demonstrated capability, not statements. Reducing drills without a reciprocal concession gives away a bargaining chip. South Korea, which faces the immediate threat, was reportedly not the driver of this decision.\n\n## Why it appears in an Indian digest\n\nNot because it moves the Nifty today. It does not.\n\nIt is here because it is a data point about how reliable American security guarantees are proving, and that question is being asked in several capitals at once. India is not a US treaty ally, but it has deepened defence and technology cooperation with Washington considerably. Watching how the US treats a treaty ally with 28,000 troops stationed on its soil is relevant information about what such relationships are worth.\n\nRegional security also feeds economics eventually. Japan is rearming at a pace unprecedented since the war, partly over doubts about exactly this.\n\n## What to watch\n\nSouth Korea's official response, and whether North Korea reciprocates with any restraint of its own. A concession that produces nothing in return is the outcome critics predict; a pause in missile testing would strengthen the opposite case.",
+   "category": "Geopolitics",
+   "region": "global",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/8/17/trump-says-us-to-substantially-reduce-military-drills-with-south-korea?traffic_source=rss",
+   "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a823fd8d7-1786920920.jpg?resize=1920%2C1440",
+   "published": "2026-08-17T00:11:18+00:00",
    "top_story": true,
-   "confidence": "thin",
-   "publisher_count": 2,
+   "importance": "normal",
+   "confidence": "corroborated",
+   "publisher_count": 3,
    "sources": [
     {
-     "publisher": "ndtv",
-     "source": "NDTV Profit",
-     "url": "https://www.ndtvprofit.com/india/airbus-dossier-on-air-india-phuket-delhi-flight-critical-flight-controls-lost-for-4-seconds-11908522#publisher=newsstand"
+     "publisher": "al-jazeera",
+     "source": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/8/17/trump-says-us-to-substantially-reduce-military-drills-with-south-korea?traffic_source=rss"
     },
     {
-     "publisher": "the-hindu-group",
-     "source": "Hindu BusinessLine",
-     "url": "https://www.thehindubusinessline.com/economy/logistics/air-india-a320-briefly-lost-key-flight-controls-during-300-foot-drop-airbus-analysis-shows/article71344168.ece"
+     "publisher": "mint",
+     "source": "Mint Top News",
+     "url": "https://www.livemint.com/news/us-news/trump-orders-military-to-substantially-reduce-joint-exercises-with-south-korea-denuclearize-iran-here-why-north-korea-11786924143732.html"
     },
     {
-     "publisher": "google-news",
-     "source": "Google News IN Nation",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX1dOT2VGU2hhRVpqX0JCTnRiR1VydTZMbkJ6Z2lkOVBSc3BncGhTbGpROVFXc0E1dkI5WWRaQ0tJLTJXNVZyY256U1Rmb1Q1SnBsN1lNTUswWlE5SF9ua2RGWGpTUlBQQ2llREpTNDlUQjV0UGRYcnVtbXI3QnRHZEZTWjBvWjdkdC1ETU12dXUzaTBsWWFQQlJmYnJISWxnN2R3QnJJUkZuMVZ0OUozc2liMlk4VVQzeXpZSFZ5UFM?oc=5"
+     "publisher": "cnbc",
+     "source": "CNBC Top News",
+     "url": "https://www.cnbc.com/2026/08/16/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea.html"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 529,
-   "importance": "high",
    "simple": [
-    "An Air India plane from Phuket to Delhi suddenly lost altitude on 4 August.",
-    "The maintenance report found warnings in the systems that move the plane's control surfaces.",
-    "Two of the plane's three independent hydraulic systems showed low levels.",
-    "The captain told investigators he had not slept enough and had taken a permitted rest during the flight.",
-    "Investigators have not yet said the faults caused the drop. Both technical and human factors are being examined."
+    "The US and South Korea normally hold large joint military practice exercises together.",
+    "Trump has ordered these to be substantially reduced, saying they are costly and hostile to North Korea.",
+    "The exercises were due to start on Monday.",
+    "South Korea depends on the US for its defence, so this changes the security balance in the region."
    ],
    "terms": [
     {
-     "term": "AAIB",
-     "meaning": "Aircraft Accident Investigation Bureau - India's independent air crash investigator"
+     "term": "Joint military drills",
+     "meaning": "Practice exercises where two countries' armed forces train together"
     },
     {
-     "term": "Hydraulic system",
-     "meaning": "Pressurised fluid that moves the wings' control surfaces; the A320 has three for safety"
+     "term": "Pentagon",
+     "meaning": "The US Department of Defense headquarters, meaning the US military leadership"
     },
     {
-     "term": "Elevator",
-     "meaning": "The moving surface on the tail that points the plane's nose up or down"
-    },
-    {
-     "term": "Controlled rest",
-     "meaning": "A regulated short nap one pilot may take while the other stays fully alert"
-    },
-    {
-     "term": "DGCA",
-     "meaning": "Directorate General of Civil Aviation - India's aviation safety regulator"
+     "term": "Deterrence",
+     "meaning": "Preventing an attack by convincing an enemy the response would be too costly"
     }
    ],
    "key_numbers": [
     {
-     "value": "300 feet",
-     "label": "how far the plane dropped"
-    },
-    {
-     "value": "4 August",
-     "label": "date of the incident"
-    },
-    {
-     "value": "2 of 3",
-     "label": "hydraulic systems showing low levels"
-    },
-    {
-     "value": "VT-EXO",
-     "label": "registration of the specific aircraft"
+     "value": "Monday",
+     "label": "when the exercises were due to begin"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 413
   },
   {
-   "title": "Caste Census 2027: Full list of questions to be asked in the second phase of Census",
-   "summary": "The full question list for the 2027 Census, including caste enumeration, has been published. It is the first full caste count since 1931.",
-   "body": "The complete list of questions for India's 2027 Census, including caste enumeration, has been published and was carried by Indian Express, Mint and The Hindu.\n\n## Why this is historically significant\n\nIndia has not conducted a full caste census since **1931**, under colonial administration. Post-independence censuses have counted Scheduled Castes and Scheduled Tribes, but not the broader caste categories — notably the Other Backward Classes, whose size has therefore been estimated rather than measured for nearly a century.\n\nThe consequence is that a great deal of Indian public policy — reservations in education and government employment, welfare targeting, political representation — has been built on numbers nobody has actually counted. The 27% OBC reservation in central government jobs rests on a 1980 commission's estimate, itself extrapolated from 1931 data.\n\nCounting changes that. It replaces an inherited estimate with a measurement, and measurements have consequences for how entitlements are allocated.\n\n## Why the questions themselves matter\n\nCensus question design is quietly one of the most consequential technical exercises a state performs, because the categories you offer determine the data you get.\n\nCaste is not a tidy variable. The same community may be classified differently across states, use different names regionally, and sit in different reservation categories depending on jurisdiction. Whether the form captures caste as free text or from a predetermined list, how sub-castes are handled, and how inter-caste households are recorded will all shape the result — and therefore the policy built on it.\n\nThis is why publication of the question list is a story in itself, ahead of any data.\n\n## The economic dimension\n\nCensus data underpins far more than politics. It determines constituency delimitation, the formula for devolving central funds to states, welfare scheme targeting, and the sampling frames for essentially every other Indian statistical survey — including the consumption surveys that set the CPI basket.\n\nThat last point connects directly to the inflation numbers elsewhere in this edition. When the CPI basket is reweighted, it is census-derived population and consumption data doing the work. Stale census data means a stale inflation basket.\n\nThe 2021 Census was postponed and never conducted, so India is currently operating on **2011** population data — sixteen years old at the point the 2027 count happens. Every per-capita figure, every scheme allocation and every survey weight in use today rests on it.\n\n## The honest caveat\n\nCaste enumeration is politically contested, and coverage of it is rarely neutral. Parties that expect the count to support expanded reservations favour it; those that do not, do not. As a reader, separate two questions: whether the counting exercise is methodologically sound, and what any particular actor hopes the numbers will justify.\n\n## What to watch\n\nWhether the caste question survives to the final form unchanged, the enumeration methodology, and the timeline. Delimitation of parliamentary constituencies is due to follow the census, which makes this one of the most consequential data exercises in India's recent history.",
+   "title": "Gold nears $4,400 as traders weigh Fed interest-rate path",
+   "summary": "Gold approached $4,400 an ounce as weak US consumer data eased fears of a rate rise, while the Iran threat kept oil elevated.",
+   "body": "Gold edged toward $4,400 an ounce as traders weighed the Federal Reserve's interest-rate path after fresh data showed the American economy's main engine cooling. Both consumer sentiment and retail sales declined, easing fears of an imminent rate rise — typically a headwind for non-yielding bullion.\n\nThe picture is not one-sided. Oil prices climbed after the US threatened further economic measures against Iran, which keeps inflation risk alive. Chicago Fed President Austan Goolsbee said he was encouraged by recent cooling in inflation but wanted to see more of it in coming months.\n\n## The single most important thing about gold\n\nGold pays you nothing. No interest, no dividend, no earnings.\n\nThat is why interest rates drive it more than almost anything else. When rates are high, holding gold costs you the interest you could have earned elsewhere — economists call this the opportunity cost. When rates are expected to fall, that cost shrinks and gold becomes more attractive.\n\nSo the chain runs: weak US consumer data → economy cooling → less pressure to raise rates → the cost of holding gold falls → gold rises.\n\nOnce you hold that chain, most gold headlines become predictable rather than mysterious.\n\n## Why consumer data specifically\n\nAmerican consumer spending is roughly two-thirds of the US economy. It is the engine.\n\nRetail sales measure what people actually spent. Consumer sentiment measures how they feel about spending next. When both fall together, it suggests genuine cooling rather than a one-month wobble — and the Fed watches it closely, because raising rates into a slowing economy risks causing a recession.\n\n## The tension in today's picture\n\nTwo forces are pulling in opposite directions, and both are visible in the same story.\n\nCooling US demand argues for lower rates, which lifts gold. Rising oil on Iran tension argues for higher inflation, which argues for higher rates, which weighs on gold. Goolsbee's carefully hedged comment — encouraged, but wants more evidence — is what a central banker sounds like when both are true.\n\nGold rising anyway suggests the market currently weights the growth slowdown more heavily than the inflation risk.\n\n## For an Indian buyer\n\nYour return has two engines: the dollar gold price and the rupee. With the rupee near 95 and weak, both have been pushing the same way for weeks, which is why domestic prices have outpaced global ones. That reverses when the rupee strengthens.\n\nWorth repeating: Sovereign Gold Bonds are no longer issued. The practical routes are gold ETFs, gold mutual funds, MCX futures for the experienced, and physical gold with its making charges.\n\n## What to watch\n\nUS inflation data and Fed commentary. And the festival season from September, when Indian buying picks up and supports domestic premiums regardless of the global price.",
+   "category": "Markets",
+   "region": "india",
+   "source": "Hindu BusinessLine",
+   "url": "https://www.thehindubusinessline.com/markets/gold/gold-nears-4400-as-traders-weigh-fed-interest-rate-path/article71354817.ece",
+   "image_url": "https://bl-i.thgim.com/public/todays-paper/tp-others/9vzrkr/article71350776.ece/alternates/LANDSCAPE_1200/Bullion-Cues_-PG6UGDAG3C.4.jpg.jpg",
+   "published": "2026-08-17T03:49:21+00:00",
+   "top_story": false,
+   "importance": "normal",
+   "confidence": "thin",
+   "publisher_count": 2,
+   "sources": [
+    {
+     "publisher": "the-hindu-group",
+     "source": "Hindu BusinessLine",
+     "url": "https://www.thehindubusinessline.com/markets/gold/gold-nears-4400-as-traders-weigh-fed-interest-rate-path/article71354817.ece"
+    },
+    {
+     "publisher": "mint",
+     "source": "Mint Markets",
+     "url": "https://www.livemint.com/market/gold-nears-4-400-as-traders-weigh-fed-interest-rate-path-11786897865527.html"
+    }
+   ],
+   "origin": "rss",
+   "discussion": null,
+   "simple": [
+    "Gold rose to nearly $4,400 per ounce, close to its highest levels.",
+    "US shoppers are spending less and feeling less confident, which suggests the economy is cooling.",
+    "A cooling economy makes an interest rate rise less likely, and that is good for gold.",
+    "Gold pays no interest, so it does best when interest rates are expected to fall or stay low."
+   ],
+   "terms": [
+    {
+     "term": "Ounce",
+     "meaning": "The unit gold is priced in globally; one troy ounce is about 31.1 grams"
+    },
+    {
+     "term": "Fed",
+     "meaning": "US Federal Reserve - America's central bank, which sets US interest rates"
+    },
+    {
+     "term": "Non-yielding",
+     "meaning": "An asset that pays no interest or dividend, like gold - its cost is the interest you gave up"
+    },
+    {
+     "term": "Retail sales",
+     "meaning": "Total spending in shops, a direct measure of how confident consumers feel"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "$4,400",
+     "label": "the level gold approached, per ounce"
+    },
+    {
+     "value": "2",
+     "label": "US data points that fell: consumer sentiment and retail sales"
+    }
+   ],
+   "read_min": 2,
+   "words": 459
+  },
+  {
+   "title": "Lalithaa Jewellery IPO opens today at ₹190-201; issue size ₹1,700 crore",
+   "summary": "Lalithaa Jewellery's ₹1,700 crore IPO opened at ₹190-201 a share. ₹1,200 crore is new money for the company; ₹500 crore goes to the promoter.",
+   "body": "Lalithaa Jewellery Mart's ₹1,700 crore initial public offering opened on Monday with a price band of ₹190-201 per share, closing Wednesday. The issue comprises a fresh issue of up to ₹1,200 crore and an offer for sale of up to ₹500 crore by promoter M Kiran Kumar Jain. Investors must bid for a minimum of 74 shares and in multiples of 74 thereafter.\n\nThe offer follows the book-building process, with not more than 50% reserved for qualified institutional buyers and not less than 15% for the non-institutional portion.\n\n## The split that tells you what an IPO is for\n\nThis is the clearest example in weeks of the question worth asking about every listing: **fresh issue or offer for sale?**\n\nA fresh issue creates new shares. The money goes into the company, funding stores, inventory or debt repayment. An offer for sale transfers existing shares from an owner to you. The money goes to that owner, and the company receives nothing.\n\nHere it is roughly 70% fresh and 30% offer for sale. That is a reasonable balance. A promoter taking some money off the table after building a business is normal and not sinister. An IPO that is overwhelmingly offer for sale is a different proposition — it is an exit being funded by new investors, and it deserves harder questions about why the founders are reducing exposure now.\n\n## How the reserved portions work\n\nIndian IPOs divide shares into buckets. Qualified institutional buyers — mutual funds, insurers, foreign institutions — take up to 50%. Non-institutional investors, mainly high net worth individuals, take at least 15%. Retail investors take the rest.\n\nEach bucket's subscription is reported separately, and this matters when reading coverage. Retail investors bid early; institutions typically bid on the final day, often in the last hours. A low aggregate figure on day one usually means institutions have not shown up yet, not that interest is absent.\n\nThe number that carries the most information is the QIB subscription at close, because institutions do the deepest diligence.\n\n## The minimum you must commit\n\n74 shares at ₹201 is about ₹14,900, so a single retail application costs roughly ₹15,000. This is a real constraint worth knowing: IPO applications are not small commitments, and applying to several open issues at once ties up meaningful money for days.\n\n## The unglamorous checks\n\nRead the prospectus. For a jewellery retailer specifically: how much of the business is gold, since gold near record prices affects both inventory value and customer demand; how many stores and how fast they are opening; and how the valuation compares with listed peers.\n\n## What to watch\n\nThe QIB subscription when the issue closes on Wednesday, and the fresh-versus-OFS proportion in the final allotment. Ignore any grey market number quoted between now and listing.",
+   "category": "Startups",
+   "region": "india",
+   "source": "Hindu BusinessLine",
+   "url": "https://www.thehindubusinessline.com/markets/lalithaa-jewellerys-1700-crore-ipo-opens-today-at-190-201-price-band/article71353602.ece",
+   "image_url": "https://bl-i.thgim.com/public/incoming/f90029/article71354724.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-08-11%20at%203.52.48%20PM.jpeg",
+   "published": "2026-08-17T04:33:45+00:00",
+   "top_story": false,
+   "importance": "normal",
+   "confidence": "corroborated",
+   "publisher_count": 3,
+   "sources": [
+    {
+     "publisher": "the-hindu-group",
+     "source": "Hindu BusinessLine",
+     "url": "https://www.thehindubusinessline.com/markets/lalithaa-jewellerys-1700-crore-ipo-opens-today-at-190-201-price-band/article71353602.ece"
+    },
+    {
+     "publisher": "business-today",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/ipo-corner/story/lalithaa-jewellery-mart-ipo-opens-should-you-subscribe-price-band-gmp-reviews-more-549489-2026-08-17?utm_source=rssfeed"
+    },
+    {
+     "publisher": "economic-times",
+     "source": "ET Markets",
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/lalithaa-jewellery-mart-ipo-opens-today-gmp-signals-15-premium-should-you-subscribe/articleshow/133285001.cms"
+    }
+   ],
+   "origin": "rss",
+   "discussion": null,
+   "simple": [
+    "A jewellery chain is selling shares to the public, aiming to raise ₹1,700 crore.",
+    "The price is set between ₹190 and ₹201 per share. You must bid for at least 74 shares.",
+    "₹1,200 crore of it is new money going into the business to help it grow.",
+    "₹500 crore goes to the founder personally, who is selling some of his own shares.",
+    "That split is the single most useful thing to check in any IPO."
+   ],
+   "terms": [
+    {
+     "term": "Price band",
+     "meaning": "The range within which you can bid; the final price is set inside it"
+    },
+    {
+     "term": "Fresh issue",
+     "meaning": "New shares created, with the money going into the company"
+    },
+    {
+     "term": "OFS",
+     "meaning": "Offer For Sale - existing owners selling their shares, with the money going to them"
+    },
+    {
+     "term": "Promoter",
+     "meaning": "The founder or controlling shareholder of an Indian company"
+    },
+    {
+     "term": "QIB",
+     "meaning": "Qualified Institutional Buyer - large investors like mutual funds and insurers"
+    },
+    {
+     "term": "Book building",
+     "meaning": "A process where investors bid across a price band and the final price is set from demand"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "₹1,700 cr",
+     "label": "total size of the IPO"
+    },
+    {
+     "value": "₹190-201",
+     "label": "the price band per share"
+    },
+    {
+     "value": "₹1,200 cr",
+     "label": "fresh issue - money going into the company"
+    },
+    {
+     "value": "₹500 cr",
+     "label": "offer for sale - money going to the promoter"
+    },
+    {
+     "value": "74",
+     "label": "minimum number of shares you must bid for"
+    }
+   ],
+   "read_min": 2,
+   "words": 465
+  },
+  {
+   "title": "Shiprocket IPO allotment date likely today. GMP, how to check application status online",
+   "summary": "Shiprocket's IPO allotment is expected today. Here is what allotment means and how to check it, without the grey-market noise.",
+   "body": "Shiprocket's IPO allotment is expected to be finalised on Monday. For anyone who applied, or is learning how the process works, this is the stage where the outcome is decided.\n\n## What allotment actually is\n\nWhen an IPO attracts more applications than there are shares, someone has to decide who gets them. That process is the allotment, run by a registrar appointed by the company.\n\nFor retail investors, Indian rules require a broadly fair method. If the retail portion is oversubscribed, allotment happens by lot — effectively a lottery among applicants who bid at or above the final price. Applying for a larger quantity does not improve your chances in the retail category the way it does for institutions.\n\nThis surprises people. In a heavily oversubscribed retail portion, a single minimum-lot application has the same probability as several, which is why applying through multiple family demat accounts is a common tactic.\n\n## The money never actually left\n\nIndian IPO applications use ASBA — Application Supported by Blocked Amount. Your money stays in your own bank account and is simply blocked, earning interest, until allotment.\n\nIf you receive shares, the amount is debited. If you do not, the block is released, typically within a day or two. You were never out of pocket.\n\nThis is a genuinely good piece of market infrastructure and it is worth appreciating. In many countries you send the money and wait for a refund.\n\n## How to check\n\nThree routes, all free. The registrar's website, where you enter your PAN or application number. The BSE website's allotment status page. Or your broker's app, which usually shows it directly.\n\nIgnore any website asking for payment or extra details to \"check allotment faster\". There is no such thing.\n\n## What happens next\n\nIf you were allotted shares, they appear in your demat account before the listing date, and you can sell them the moment trading opens. If you were not, nothing happens beyond your funds unblocking.\n\nListing day pops are common in strong markets — Molbio listed today at a 21% premium — but they are not guaranteed. Plenty of issues list below their issue price, and the ones that do so tend to be the issues that were most enthusiastically covered beforehand.\n\n## What to watch\n\nThe listing date and the final subscription figures by category. And a discipline worth building early: decide before listing day whether you are selling on day one or holding, rather than deciding in the moment based on the opening price.",
+   "category": "Markets",
+   "region": "india",
+   "source": "Mint Markets",
+   "url": "https://www.livemint.com/market/ipo/shiprocket-ipo-allotment-date-likely-today-gmp-how-to-check-allotment-status-online-before-shiprocket-ipo-listing-date-11786938586309.html",
+   "image_url": "https://www.livemint.com/lm-img/img/2026/08/17/1600x900/logo/Shiprocket_IPO_GMP_Allotment_Date_Listing_Date_1786939076263_1786939076370_9472cd40-58d9-4810-9b02-d88d2c6fefce.png",
+   "published": "2026-08-17T04:16:13+00:00",
+   "top_story": false,
+   "importance": "low",
+   "confidence": "corroborated",
+   "publisher_count": 5,
+   "sources": [
+    {
+     "publisher": "mint",
+     "source": "Mint Markets",
+     "url": "https://www.livemint.com/market/ipo/shiprocket-ipo-allotment-date-likely-today-gmp-how-to-check-allotment-status-online-before-shiprocket-ipo-listing-date-11786938586309.html"
+    },
+    {
+     "publisher": "economic-times",
+     "source": "ET Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/behari-lal-engineering-allotment-likely-today-gmp-at-30-heres-how-to-check-status/articleshow/133285794.cms"
+    },
+    {
+     "publisher": "business-today",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/ipo-corner/story/shiprocket-ipo-allotment-step-by-step-guide-to-check-application-status-fresh-gmp-more-549487-2026-08-17?utm_source=rssfeed"
+    },
+    {
+     "publisher": "ndtv",
+     "source": "NDTV Profit",
+     "url": "https://www.ndtvprofit.com/markets/shiprocket-ipo-allotment-today-check-status-gmp-and-listing-date-11919084#publisher=newsstand"
+    },
+    {
+     "publisher": "news18",
+     "source": "News18 Business",
+     "url": "https://www.news18.com/business/ipo/shiprocket-ipo-allotment-today-gmp-at-33-heres-how-to-check-allotment-status-online-ws-l-10276840.html"
+    }
+   ],
+   "origin": "rss",
+   "discussion": null,
+   "simple": [
+    "Shiprocket sold shares in an IPO. More people applied than there were shares available.",
+    "Today the company decides who actually gets shares. That decision is called the allotment.",
+    "If you applied and did not get shares, your blocked money is released back to you.",
+    "You can check your status on the registrar's website or the exchange website using your PAN."
+   ],
+   "terms": [
+    {
+     "term": "Allotment",
+     "meaning": "The decision about which applicants actually receive shares when an IPO is oversubscribed"
+    },
+    {
+     "term": "Oversubscribed",
+     "meaning": "When investors applied for more shares than the company is selling"
+    },
+    {
+     "term": "Registrar",
+     "meaning": "The company that processes IPO applications and runs the allotment"
+    },
+    {
+     "term": "ASBA",
+     "meaning": "Application Supported by Blocked Amount - your money stays in your bank account, only blocked, until shares are allotted"
+    },
+    {
+     "term": "PAN",
+     "meaning": "Permanent Account Number - your tax ID, used to look up your application"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "Today",
+     "label": "when the allotment is expected"
+    },
+    {
+     "value": "0",
+     "label": "rupees actually debited if you do not get an allotment"
+    }
+   ],
+   "read_min": 2,
+   "words": 419
+  },
+  {
+   "title": "India's TANE sector could double GDP share, needs urgent policy support: NITI Aayog",
+   "summary": "A NITI Aayog report says India's telecom and network equipment sector could double its share of GDP and become a $50 billion export hub by 2035 — if import dependence on China is addressed.",
+   "body": "India's telecom and network equipment sector could double its share of GDP and position the country as a $50 billion export hub by 2035, according to a NITI Aayog report — but only with urgent policy support to reduce heavy import dependence, particularly on China.\n\nThe report describes the sector as the backbone of modern connectivity while noting that sharp trade imbalances mark a critical juncture requiring targeted intervention.\n\n## What this equipment actually is\n\nTANE covers the physical machinery that makes phone and internet networks function: routers, switches, base stations, optical fibre gear, transmission equipment and the electronics inside mobile towers.\n\nYou never see it, which is why it attracts little attention relative to its importance. Every mobile call, UPI payment and video stream in India passes through this hardware. A country that cannot make it depends on other countries for the functioning of its own communications.\n\n## Why the China dependence is the story\n\nThis is a strategic question as much as an economic one, and it operates on two levels.\n\nThe economic level: importing equipment means the value added, the jobs and the profits accrue elsewhere. India buys the finished product rather than building the industry.\n\nThe security level is sharper. Network equipment sits inside the infrastructure carrying a country's communications, including government and financial traffic. Concerns about equipment from specific suppliers have driven policy in the US, UK, Australia and elsewhere, and India has its own restrictions on trusted sources for telecom gear.\n\nDepending on a single country for that hardware, particularly one with an unresolved border dispute, is a vulnerability no amount of price advantage fully offsets.\n\n## The realistic view of the target\n\n$50 billion by 2035 is an ambition, not a forecast. NITI Aayog is a policy advocate; reports like this exist partly to argue for the support they recommend.\n\nBuilding a competitive electronics manufacturing base is genuinely hard. It requires component supply chains, testing infrastructure, skilled engineers and years of sustained investment. India's production-linked incentive schemes have produced real results in mobile phone assembly, but assembly is the easier end. Designing and fabricating the components underneath is a much longer road.\n\nTreat the target as a direction rather than a projection.\n\n## Why it matters to you\n\nIf it works, it creates a domestic manufacturing sector, jobs and export earnings that would narrow the trade deficit — which widened 31.5% in July, with electronics prominent among imports.\n\nFor investors, the companies to watch are the ones supplying network equipment and components domestically, and the beneficiaries of any incentive scheme that follows.\n\n## What to watch\n\nWhether a specific scheme with actual money follows this report. A think-tank recommendation with no budget attached changes nothing. The signal to watch for is a notified policy with a defined outlay.",
+   "category": "Economy & Policy",
+   "region": "india",
+   "source": "Hindu BusinessLine",
+   "url": "https://www.thehindubusinessline.com/economy/indias-tane-sector-could-double-gdp-share-needs-urgent-policy-support-niti-aayog/article71354838.ece",
+   "image_url": "https://bl-i.thgim.com/public/incoming/l9gqy3/article71244206.ece/alternates/LANDSCAPE_1200/bl14-Think1-DCdG1CFVP6UE.5.jpg.jpg",
+   "published": "2026-08-17T03:57:16+00:00",
+   "top_story": false,
+   "importance": "normal",
+   "confidence": "thin",
+   "publisher_count": 2,
+   "sources": [
+    {
+     "publisher": "the-hindu-group",
+     "source": "Hindu BusinessLine",
+     "url": "https://www.thehindubusinessline.com/economy/indias-tane-sector-could-double-gdp-share-needs-urgent-policy-support-niti-aayog/article71354838.ece"
+    },
+    {
+     "publisher": "economic-times",
+     "source": "Economic Times",
+     "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-policy/indias-telecom-network-equipment-needs-urgent-policy-support-niti-aayog-says-sector-could-double-gdp-share/articleshow/133285889.cms"
+    }
+   ],
+   "origin": "rss",
+   "discussion": null,
+   "simple": [
+    "India buys most of its telecom equipment from other countries, especially China.",
+    "A government think tank says India could make much more of this equipment itself.",
+    "If that happened, the sector could export $50 billion worth of goods by 2035.",
+    "The report says this needs urgent government policy support to happen."
+   ],
+   "terms": [
+    {
+     "term": "TANE",
+     "meaning": "Telecom And Network Equipment - the routers, switches, towers and gear that carry phone and internet traffic"
+    },
+    {
+     "term": "NITI Aayog",
+     "meaning": "The Indian government's policy think tank, which advises on economic strategy"
+    },
+    {
+     "term": "GDP",
+     "meaning": "Gross Domestic Product - the total value of everything a country produces in a year"
+    },
+    {
+     "term": "Trade imbalance",
+     "meaning": "Importing far more of something than you export"
+    },
+    {
+     "term": "Import dependence",
+     "meaning": "Relying on other countries for goods you cannot make yourself"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "$50bn",
+     "label": "the export target for 2035"
+    },
+    {
+     "value": "2x",
+     "label": "how much the sector's share of GDP could grow"
+    },
+    {
+     "value": "2035",
+     "label": "the target year"
+    }
+   ],
+   "read_min": 2,
+   "words": 465
+  },
+  {
+   "title": "Seven killed, several injured in hotel fire in West Bengal’s Tarapith",
+   "summary": "Seven people were killed in a fire at a four-storey hotel in Tarapith, West Bengal, that broke out around 5am while most guests were asleep.",
+   "body": "At least seven people were killed and several critically injured in a fire at a hotel in Tarapith, in West Bengal's Birbhum district, early on Monday. The blaze began around 5 am on the ground floor of the four-storey building, when most guests were asleep. Fire tenders brought it under control, and the injured were taken to Rampurhat Government Medical College and Hospital. Police initially reported five deaths before revising the toll to seven.\n\n## Why the details of this one matter\n\nThree facts in the report explain the death toll, and together they describe a pattern that recurs in Indian building fires.\n\n**The ground floor.** A fire starting at the bottom of a multi-storey building is the worst case, because staircases act as chimneys. Smoke and heat rise through exactly the route people need to escape. Anyone above the fire may find the only stairwell impassable within minutes.\n\n**5 am.** Sleeping people lose the earliest warning signs. Smoke inhalation, not burns, causes most fire deaths, and it can incapacitate someone before they wake — which is why working smoke alarms matter more than extinguishers in residential settings.\n\n**A pilgrimage town.** Tarapith draws large numbers of visitors, and accommodation in such towns is often built and extended incrementally, sometimes ahead of the safety rules that should govern it.\n\n## The pattern behind the individual tragedy\n\nFires in Indian hotels, hospitals and coaching centres recur with grim regularity, and investigations repeatedly find the same things: blocked or locked emergency exits, a single stairwell, no working alarm, flammable interior materials, and fire clearances that were either never obtained or obtained without genuine inspection.\n\nNone of these are unknown problems, and none are expensive to fix relative to the cost of the buildings. The gap is enforcement, and enforcement is usually strengthened for a period after a disaster and then relaxed.\n\n## The practical takeaway\n\nWorth carrying into any hotel you stay in, and it costs nothing. Note where the emergency exit is when you check in, not when you need it. Check that the stairwell is actually accessible rather than locked or used for storage. Prefer lower floors where reachable by a ladder. If there is smoke, stay low, because the breathable air is near the floor.\n\n## What to watch\n\nWhether the hotel held a valid fire safety clearance, and whether the investigation names structural failures rather than concluding with a short-circuit finding. Also note the initial toll of five being revised to seven — early casualty figures in any disaster are provisional and usually revised upward.",
    "category": "India",
    "region": "india",
    "source": "The Hindu National",
-   "url": "https://www.thehindu.com/news/national/second-phase-of-caste-census-2027-questions-to-be-asked-during-population-enumeration/article71344272.ece",
-   "image_url": "https://th-i.thgim.com/public/news/national/83ncor/article71344285.ece/alternates/LANDSCAPE_1200/image%208.jpg",
-   "published": "2026-08-14T08:51:44+00:00",
+   "url": "https://www.thehindu.com/news/national/west-bengal/seven-killed-several-injured-in-hotel-fire-in-west-bengals-tarapith/article71354899.ece",
+   "image_url": "https://th-i.thgim.com/public/news/national/kerala/l1ti5y/article71285300.ece/alternates/LANDSCAPE_1200/Breaking%20News%20placeholder.jpeg",
+   "published": "2026-08-17T04:35:04+00:00",
    "top_story": false,
+   "importance": "normal",
    "confidence": "corroborated",
    "publisher_count": 3,
    "sources": [
     {
      "publisher": "the-hindu-group",
      "source": "The Hindu National",
-     "url": "https://www.thehindu.com/news/national/second-phase-of-caste-census-2027-questions-to-be-asked-during-population-enumeration/article71344272.ece"
+     "url": "https://www.thehindu.com/news/national/west-bengal/seven-killed-several-injured-in-hotel-fire-in-west-bengals-tarapith/article71354899.ece"
     },
     {
-     "publisher": "mint",
-     "source": "Mint Top News",
-     "url": "https://www.livemint.com/news/india/census-2027-full-list-of-40-questions-including-those-on-caste-to-be-asked-in-phase-2-11786692820220.html"
+     "publisher": "ndtv",
+     "source": "NDTV Profit",
+     "url": "https://www.ndtvprofit.com/india/bengal-tragedy-six-guests-killed-several-injured-in-fire-at-hotel-in-birbhums-tarapith-11919173#publisher=newsstand"
     },
     {
-     "publisher": "indian-express",
-     "source": "Indian Express India",
-     "url": "https://indianexpress.com/article/india/census-2027-centre-questions-caste-aadhaar-list-10832634/"
-    },
-    {
-     "publisher": "google-news",
-     "source": "Google News IN Nation",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWE02aTIzNUxtYzgydHVtVmtkVnZ6a04wTUM0T1dTZUxFLVBxNzlRdWdmXy1fXzJEYktKSWJDRVlYSWFHNnJuaC0ydnJRaUlSLUxkNGR6QUxQZ2ZQOEFUeUw0bTd2UTJhT1FEbUlER3VHTWl5enpVLVQ4UjJyZ3JFRWlGb1NxZGgxTXFDN3pTcjdFT2pwd2NWendUb1hLc2JWdGxRSHZRUV9MQzJxeXVxVEFVVUM1ZGVyLU11UHJ5cTdGOV84Ymg1MlpfSDVhNTloX09GWk01VF9YTUdjVXVZ?oc=5"
+     "publisher": "economic-times",
+     "source": "Economic Times",
+     "url": "https://economictimes.indiatimes.com/news/india/tarapith-temple-birbhum-fire-several-killed-many-injured-in-blaze-incident-at-hotel-in-west-bengal/articleshow/133285535.cms"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 489,
-   "importance": "normal",
    "simple": [
-    "India will count caste in the 2027 Census. The question list is now public.",
-    "This has not been done fully since 1931, under British rule.",
-    "Reservation policy today rests on estimates from that 90-year-old data.",
-    "Counting replaces a guess with a measurement, which is why it is politically contested."
+    "A fire broke out in a hotel in the temple town of Tarapith, in West Bengal, early on Monday.",
+    "It started around 5 in the morning on the ground floor, when most guests were still asleep.",
+    "Seven people died and several others were critically injured.",
+    "Fire services brought it under control and the injured were taken to a government hospital."
    ],
    "terms": [
     {
-     "term": "Census",
-     "meaning": "The official count of every person in the country, done roughly every 10 years"
+     "term": "Tarapith",
+     "meaning": "A temple town in Birbhum district, West Bengal, that draws large numbers of pilgrims"
     },
     {
-     "term": "OBC",
-     "meaning": "Other Backward Classes - a reservation category whose true size has never been counted"
-    },
-    {
-     "term": "Delimitation",
-     "meaning": "Redrawing parliamentary constituency boundaries based on new population data"
+     "term": "Ground floor fire",
+     "meaning": "The most dangerous location in a multi-storey building, because smoke and flames rise through the only exit routes"
     }
    ],
    "key_numbers": [
     {
-     "value": "1931",
-     "label": "the last full caste count"
+     "value": "7",
+     "label": "people killed"
     },
     {
-     "value": "2011",
-     "label": "the most recent census India actually has - now 16 years old"
+     "value": "5 am",
+     "label": "when the fire started"
     },
     {
-     "value": "27%",
-     "label": "OBC reservation in central government jobs, based on an estimate"
+     "value": "4",
+     "label": "storeys in the hotel"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 426
   },
   {
-   "title": "Peak XV Leads $45 Mn Bet On US-Based AI Code Testing Startup Blacksmith",
-   "summary": "Peak XV has led a $45 million round in a US-based AI code-testing startup, an Indian fund writing a cheque into American infrastructure.",
-   "body": "Peak XV Partners has led a **$45 million** investment in a US-based startup building AI code-testing tools, reported by both Entrackr and Inc42.\n\n## Why the direction of this cheque is interesting\n\nPeak XV is the former Sequoia Capital India, which separated from its US parent in 2023 and rebranded. It is among the largest venture funds operating in India.\n\nAn India-anchored fund leading a round in an American company is a reversal of the usual flow. The familiar pattern is US capital funding Indian startups. Indian funds increasingly writing cheques into US infrastructure companies says something about where they see returns — and about their willingness to compete for deals in the most expensive venture market on earth.\n\n## The problem being funded\n\nAI code-testing sits in a genuinely growing niche. As AI systems write more code, the volume of code needing review grows faster than the supply of engineers able to review it. Testing, verification and quality assurance become the bottleneck.\n\nThere is a neat logic to it: AI creates a problem — more code, produced faster, by systems that do not fully understand what they wrote — and the tooling to manage that problem becomes its own market. Historically, the picks-and-shovels layer of a technology boom is often a better business than the boom itself, because it earns regardless of which application companies win.\n\n## How to read venture rounds generally\n\nA few habits worth building, since you will read a lot of these.\n\n**The lead investor is the signal.** Leading a round means setting terms, doing the deepest diligence and usually taking a board seat. Participating investors often follow with far less scrutiny. \"Peak XV leads\" carries real information; \"with participation from\" carries much less.\n\n**Round size is not validation.** A large round at a poor valuation can be a worse outcome for founders than a small one at a good valuation. Coverage almost never reports the valuation, which is the number that actually matters.\n\n**Funding is an input, not an achievement.** It measures how much someone believes, not how much the company has built. The failure rate among well-funded startups is high, and enormous rounds have preceded spectacular collapses often enough that the correlation is weak.\n\n## The Indian context\n\nThis lands in a busy week for Indian venture capital: Accel raised $550 million for India, Bluehill closed a ₹400 crore deeptech fund, and Mirae marked a ₹1,125 crore first close.\n\nA lot of capital is being raised for India, while an Indian fund deploys into the US. Both facts are true simultaneously, and together they describe a venture ecosystem that has matured past being purely a recipient of foreign money.\n\n## What to watch\n\nWhether more Indian funds lead US rounds. If Peak XV's American deals outperform its Indian ones, that would be an uncomfortable data point about where the returns actually are — and one worth watching honestly rather than patriotically.",
-   "category": "Startups",
+   "title": "Stripe clinches over $7 billion deal to buy AI firm OpenRouter",
+   "summary": "Stripe is buying OpenRouter for more than $7 billion, months after the startup was valued at $1.3 billion. It routes companies between AI models to find the cheapest.",
+   "body": "Stripe has finalised an agreement to acquire OpenRouter for more than $7 billion, according to people familiar with the matter. The deal comes just months after OpenRouter raised money at a reported $1.3 billion valuation.\n\nOpenRouter's software helps companies switch between AI models. The reported rationale is demand from businesses to find the most cost-effective AI solution, and a stronger position for Stripe — a payments processor — in the AI sector.\n\n## What OpenRouter does, and why it is worth this much\n\nA company building an AI feature faces a problem. There are many models — from OpenAI, Anthropic, Google, Meta, DeepSeek and others — and they differ in capability, speed and price. Prices change constantly, and the best model for one task is not the best for another.\n\nOpenRouter sits in the middle. Instead of connecting directly to one provider, a company connects to OpenRouter, which routes each request to whichever model suits it.\n\nThat position is valuable for a reason worth understanding: **the layer that sits between buyers and competing suppliers captures value regardless of which supplier wins.** OpenRouter does not need to know whether OpenAI or Anthropic prevails. It profits from the fact that they compete.\n\n## The valuation jump is the real story\n\n$1.3 billion to over $7 billion in months is roughly five times, and that is the number to sit with.\n\nTwo readings, both worth holding. The optimistic one: the routing layer turned out to be far more strategically important than investors realised, and Stripe is paying for a position that becomes more valuable as model competition intensifies.\n\nThe cautious one: this is what late-stage bubble pricing looks like. Valuations multiplying several times in months, without a corresponding change in revenue, is a pattern that has preceded corrections in every technology cycle on record.\n\nBoth can be true. A company can be genuinely strategic and still be bought at a price that never earns a return.\n\n## Why a payments company\n\nLess strange than it appears. Stripe's business is infrastructure — the unglamorous plumbing every online business needs. Payments and AI routing are the same shape of business: a layer that sits between a company and something complicated, charging a small amount for making it simple.\n\nStripe also has relationships with an enormous number of businesses that are now trying to add AI, which is a distribution advantage.\n\n## The theme this belongs to\n\nRead it alongside recent deals: IBM partnering with OpenAI for enterprise reach, Anthropic reportedly buying efficiency technology, Google leaning on Search and Android distribution.\n\nThe consistent pattern is that competition is moving away from who has the best model and toward who controls distribution and cost. This deal is the purest example yet — Stripe is buying the toll booth, not the road.\n\n## What to watch\n\nWhether the deal actually closes at that price, and whether OpenRouter stays neutral between model providers. A routing layer owned by a large company faces pressure to favour partners, and the moment it stops being neutral, the reason it was valuable disappears.",
+   "category": "AI",
    "region": "india",
-   "source": "Inc42",
-   "url": "https://inc42.com/buzz/peak-xv-leads-45-mn-bet-on-us-based-ai-code-testing-startup-blacksmith/",
-   "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/stakcbox-funding-featured-1-1-1-1.jpg",
-   "published": "2026-08-14T07:40:45+00:00",
+   "source": "ET Tech",
+   "url": "https://economictimes.indiatimes.com/tech/technology/stripe-clinches-over-7-billion-deal-to-buy-ai-firm-openrouter/articleshow/133285357.cms",
+   "image_url": "https://img.etimg.com/photo/msid-133285357,imgsize-20180.cms",
+   "published": "2026-08-17T02:52:06+00:00",
    "top_story": false,
+   "importance": "normal",
    "confidence": "thin",
    "publisher_count": 2,
    "sources": [
     {
-     "publisher": "inc42",
-     "source": "Inc42",
-     "url": "https://inc42.com/buzz/peak-xv-leads-45-mn-bet-on-us-based-ai-code-testing-startup-blacksmith/"
+     "publisher": "economic-times",
+     "source": "ET Tech",
+     "url": "https://economictimes.indiatimes.com/tech/technology/stripe-clinches-over-7-billion-deal-to-buy-ai-firm-openrouter/articleshow/133285357.cms"
     },
     {
-     "publisher": "entrackr",
-     "source": "Entrackr",
-     "url": "https://entrackr.com/news/ai-code-testing-platform-blacksmith-raises-45-mn-in-series-b-led-by-peak-xv-12255973"
+     "publisher": "mint",
+     "source": "Mint Companies",
+     "url": "https://www.livemint.com/companies/stripe-clinches-over-7-billion-deal-to-buy-ai-firm-openrouter-11786915829048.html"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 488,
-   "importance": "low",
    "simple": [
-    "An Indian investment fund put $45 million into an American startup.",
-    "That direction is unusual. Normally American money flows into Indian startups.",
-    "The startup makes tools that test computer code written by AI.",
-    "Funding is not proof of success. It means someone believes, not that the company works."
+    "Stripe, a payments company, is buying an AI startup called OpenRouter.",
+    "OpenRouter's product lets a company switch easily between different AI models.",
+    "The price is over $7 billion. The same startup was valued at $1.3 billion a few months ago.",
+    "That is roughly five times more in a matter of months, which tells you how hot this area is."
    ],
    "terms": [
     {
-     "term": "Peak XV",
-     "meaning": "The former Sequoia Capital India, one of India's largest venture funds"
+     "term": "Stripe",
+     "meaning": "A large private company that processes online payments for businesses"
     },
     {
-     "term": "VC",
-     "meaning": "Venture Capital - money invested in young private companies in exchange for ownership"
+     "term": "OpenRouter",
+     "meaning": "A service that sits between a company and many AI models, sending each request to whichever is best or cheapest"
     },
     {
-     "term": "Lead investor",
-     "meaning": "The fund that sets the terms and does the deepest checking; others follow"
+     "term": "Valuation",
+     "meaning": "What investors judge a company to be worth, usually set at its last funding round"
+    },
+    {
+     "term": "Acquisition",
+     "meaning": "One company buying another outright"
     }
    ],
    "key_numbers": [
     {
-     "value": "$45mn",
-     "label": "size of the funding round"
+     "value": "$7bn+",
+     "label": "the acquisition price"
     },
     {
-     "value": "$550mn",
-     "label": "separate India fund Accel raised the same week"
+     "value": "$1.3bn",
+     "label": "OpenRouter's valuation a few months ago"
+    },
+    {
+     "value": "~5x",
+     "label": "how much the price multiplied in months"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 510
   },
   {
-   "title": "US threatens ‘indefinite’ blockade against Iran: How long can it last?",
-   "summary": "The US has threatened an indefinite naval blockade of Iran after ceasefire talks stalled. Crude eased to $87 anyway, which is the surprising part.",
-   "body": "The United States has said it could maintain a naval blockade of Iran indefinitely and increase economic pressure on Tehran, after ceasefire talks failed to make progress. Iran, for its part, maintains that the Strait of Hormuz remains closed and will not reopen until its conditions are met.\n\n**Single-source flag:** this specific framing came from one publisher in today's sweep. The underlying situation is corroborated across many outlets; treat the precise wording of the threat as reported rather than confirmed.\n\n## The counterintuitive market response\n\nBrent crude **fell** toward $87 this week, from the $90 area.\n\nAn escalating blockade threat that pushes oil *down* looks wrong until you separate two things: the news, and what was already priced in.\n\nMarkets had already priced substantial disruption. Crude rose roughly 24% from the start of the conflict in late February. At that level, traders were paying for the risk of severe supply interruption. When the situation persists without worsening — no new supply actually removed, higher inventories, weaker global demand forecasts — some of that premium unwinds even as the rhetoric sharpens.\n\nThis is the same principle that explains a stock falling on record profits: **price moves on the gap between what happens and what was expected**, not on whether news sounds good or bad.\n\n## What a blockade actually does\n\nA naval blockade restricts shipping into and out of a country's ports. For Iran, whose economy depends heavily on oil exports, it is an attempt to cut off revenue.\n\nThe complication is that Iran sits on the Strait of Hormuz, the only sea route out of the Persian Gulf, through which a very large share of the world's seaborne crude passes. A blockade of Iran and a disruption of Hormuz are difficult to separate in practice, because the same waters carry Saudi, Emirati, Kuwaiti and Iraqi oil.\n\n\"Indefinitely\" is the important word. Blockades are expensive to maintain, require sustained naval presence, and create continuous opportunities for miscalculation. Every day one persists is a day something can go wrong at sea.\n\n## Why India is exposed\n\nIndia imports the overwhelming majority of its crude, much of it through this waterway. The chain has been visible all week: crude drives the import bill, which drives the rupee, which drives imported inflation, which constrains the RBI, which affects equity valuations.\n\nFriday's wholesale inflation data made the link explicit — Fuel and Power inflation at 20.05%, easing from 27.41% as crude softened. That single component is the Middle East arriving in India's price statistics.\n\n## What to watch\n\nShipping transit counts rather than statements. Vessel traffic through Hormuz has been near a three-month low, and that number reflects what shipowners actually believe about safety, with their own hulls at stake.\n\nIf transits recover, risk premium comes out of crude quickly. If a vessel is struck, everything reprices the other way within hours.",
-   "category": "Geopolitics",
+   "title": "OpenAI reportedly disbanded its preparedness team",
+   "summary": "OpenAI has reportedly disbanded its preparedness team, which assessed whether models posed serious risks, ahead of an expected IPO.",
+   "body": "OpenAI disbanded its preparedness team at the end of last month, according to the Financial Times. The team's role was to assess whether models posed serious risks and to develop ways to mitigate them. Responsibility has reportedly been divided by area — such as biological and cyber risk — and moved into existing teams.\n\nThe change comes amid continuing upheaval at the company as it heads toward what is expected to be a substantial IPO.\n\n**Single-source flag:** one publisher in today's sweep. Treat the specifics as reported rather than corroborated.\n\n## Reorganisation or retreat?\n\nBoth descriptions can be defended, and it is worth understanding why the answer is genuinely unclear.\n\nThe company's framing is that specialised risk work now sits closer to the teams building the systems, which can improve how quickly findings translate into changes. Safety work isolated in a separate group is sometimes easy to ignore.\n\nThe critical reading is that a dedicated team with a mandate to say no has structural power that distributed responsibility does not. When safety assessment reports into the same leadership as shipping, the incentive to find nothing wrong grows. \"Everyone is responsible\" frequently means nobody is.\n\n## The IPO context is the part to notice\n\nA company preparing to list faces intense pressure to demonstrate growth and control costs. Safety research is a cost centre that produces no revenue and occasionally delays launches.\n\nThat is not an accusation, and the timing may be coincidental. But it is the kind of context that belongs alongside the fact, because it identifies the pressure the decision was made under. Public markets reward shipping speed, and they reward it quarterly.\n\nThis is also the second story in this edition touching the same theme: Anthropic's chief executive reportedly describing the AI backlash as fundamentally a crisis of trust. Whether these companies can be trusted to police themselves is becoming a commercial question, not only an ethical one.\n\n## Why this belongs in a markets brief\n\nBecause it is information about a company that will soon be asking public investors for money, and governance is part of what you buy.\n\nFor anyone building with these tools — the consulting track — there is a practical dimension too. If model providers reduce internal safety capacity, more responsibility for evaluating whether a system behaves acceptably shifts to the people deploying it. That is you, in any client project.\n\n## What to watch\n\nWhether OpenAI publicly confirms or disputes the report, and what its eventual IPO prospectus says about risk governance. Prospectuses must disclose risk factors in writing, with legal consequences for misstatement, which makes them far more reliable than press statements.",
+   "category": "AI",
    "region": "global",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last?traffic_source=rss",
-   "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-03-06T170917Z_1567858913_RC2VWJACERFA_RTRMADP_3_IRAN-CRISIS-1776482104.jpg?resize=1920%2C1440",
-   "published": "2026-08-14T11:06:59+00:00",
-   "top_story": true,
+   "source": "The Verge AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+   "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+   "published": "2026-08-16T21:32:56+00:00",
+   "top_story": false,
+   "importance": "low",
    "confidence": "single",
    "publisher_count": 1,
+   "sources": [
+    {
+     "publisher": "the-verge",
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
+    }
+   ],
+   "origin": "rss",
+   "discussion": null,
+   "simple": [
+    "OpenAI had a team whose job was to check if its AI could cause serious harm.",
+    "According to the Financial Times, that team was disbanded at the end of last month.",
+    "Its work has been split up and moved into other existing teams instead.",
+    "This comes as the company prepares for an expected stock market listing."
+   ],
+   "terms": [
+    {
+     "term": "Preparedness team",
+     "meaning": "A group inside OpenAI that assessed whether new models posed serious risks and built safeguards"
+    },
+    {
+     "term": "FT",
+     "meaning": "Financial Times - the British business newspaper that reported this"
+    },
+    {
+     "term": "IPO",
+     "meaning": "Initial Public Offering - selling shares to the public for the first time"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "1",
+     "label": "publisher carried this - single-sourced, treat as reported not confirmed"
+    },
+    {
+     "value": "end of last month",
+     "label": "when the team was reportedly disbanded"
+    }
+   ],
+   "read_min": 2,
+   "words": 441
+  },
+  {
+   "title": "Ebola outbreak in DR Congo becomes deadliest in country’s history",
+   "summary": "The DR Congo Ebola outbreak has killed 2,325 people, making it the deadliest in the country's history, with 4,945 confirmed infections.",
+   "body": "The Ebola outbreak in the Democratic Republic of the Congo has killed 2,325 people, surpassing the 2018-2020 outbreak to become the deadliest in the country's history. Confirmed infections have risen to 4,945, including 101 new cases detected in the previous 24 hours, according to the DRC's National Public Health Institute.\n\n## The trajectory this digest has been tracking\n\nThis story has appeared here twice before. First as an outbreak spreading to a new province, with the observation that geographic spread matters more than case count because containment scales badly. Then as a continuing situation.\n\nIt has now become the deadliest outbreak in the country's history. The earlier concern about spread was the right thing to watch, and the outcome went the wrong way.\n\nThat progression is worth noting for its own sake. Most stories that look like they might become serious do not. This one did, and the signal that mattered was visible early.\n\n## What the numbers say\n\n2,325 deaths against 4,945 confirmed infections is a case fatality rate of roughly 47%. Close to half of everyone confirmed infected has died.\n\n101 new cases in 24 hours means transmission is still active rather than burning out. In an outbreak that is the number to watch — deaths reflect infections from weeks ago, while new cases tell you what is happening now.\n\nConfirmed cases are also an undercount in almost every outbreak. People who die at home without testing may never enter the statistics.\n\n## Why containment has failed here\n\nEbola is, in principle, controllable. It spreads through direct contact with body fluids, not through the air, so identifying cases, tracing contacts and vaccinating a ring of people around each one works. Effective vaccines exist, which is a major change from the 2014 West Africa epidemic.\n\nThe constraints in eastern DRC are not medical. Ongoing armed conflict has displaced large populations and made areas unreachable for response teams. Displaced people moving between regions is precisely how an outbreak reaches new provinces. Health facilities are sparse and roads are poor. In past outbreaks, treatment centres have been attacked.\n\nMedicine that cannot reach people saves nobody.\n\n## Why it stays in this digest\n\nNot for a market angle. There is none, and manufacturing one would be crass.\n\nIt is here because a news habit built only on markets produces a distorted picture, and because the events that eventually matter most to markets rarely arrive labelled as market news. The useful question about any distant event is what would have to be true for it to become your problem — asked before the answer is obvious to everyone.\n\n## What to watch\n\nWhether daily new cases start falling, and whether the WHO escalates its emergency designation. Also watch response-team access, since in eastern DRC security, not medicine, has consistently been the binding constraint.",
+   "category": "World",
+   "region": "global",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/8/17/ebola-outbreak-in-dr-congo-becomes-deadliest-in-countrys-history?traffic_source=rss",
+   "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7de8a1f313-1786636450.jpg?resize=1920%2C1440",
+   "published": "2026-08-17T01:41:40+00:00",
+   "top_story": false,
+   "importance": "high",
+   "confidence": "thin",
+   "publisher_count": 2,
    "sources": [
     {
      "publisher": "al-jazeera",
      "source": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last?traffic_source=rss"
-    }
-   ],
-   "origin": "rss",
-   "discussion": null,
-   "read_min": 2,
-   "words": 477,
-   "importance": "high",
-   "simple": [
-    "America says it may block Iran's ports for as long as it takes. Peace talks are stuck.",
-    "Iran says the Strait of Hormuz stays shut until its conditions are met.",
-    "Oddly, oil got CHEAPER anyway, falling to about $87.",
-    "That is because markets had already priced in something worse. Prices move on surprise, not on news.",
-    "This matters to India directly: India imports most of its oil through that waterway."
-   ],
-   "terms": [
-    {
-     "term": "Strait of Hormuz",
-     "meaning": "A narrow sea passage carrying a large share of the world's oil; the only sea route out of the Gulf"
-    },
-    {
-     "term": "Blockade",
-     "meaning": "Using warships to stop goods entering or leaving a country's ports"
-    },
-    {
-     "term": "Risk premium",
-     "meaning": "Extra price built into oil because traders fear future supply problems"
-    },
-    {
-     "term": "Brent crude",
-     "meaning": "The global benchmark oil price"
-    }
-   ],
-   "key_numbers": [
-    {
-     "value": "$87",
-     "label": "Brent oil price, down from about $90"
-    },
-    {
-     "value": "24%",
-     "label": "how much oil has risen since the conflict began in late February"
-    },
-    {
-     "value": "13",
-     "label": "ships passing through Hormuz daily - near a 3-month low"
-    }
-   ]
-  },
-  {
-   "title": "‘Absolutely unacceptable’: Japan PM Takaichi condemns Putin’s visit to disputed Kuril Islands",
-   "summary": "Japan's Prime Minister called Putin's visit to the disputed Kuril Islands 'absolutely unacceptable', escalating a dispute that has blocked a peace treaty for eighty years.",
-   "body": "Japanese Prime Minister Takaichi has condemned President Vladimir Putin's visit to the disputed Kuril Islands as \"absolutely unacceptable\", carried by both CNBC and the Guardian.\n\nThis follows Putin's trip to Iturup — Etorofu in Japanese — one of four islands claimed by both countries. Japan's foreign minister had already lodged a formal protest, stating the islands are \"inherently Japanese territory both historically and under international law\".\n\n## Escalation, measured precisely\n\nYesterday this was a foreign ministry protest. Today it is the head of government using the phrase \"absolutely unacceptable\".\n\nDiplomatic language is calibrated, and the ladder is real. \"Regrets\" is mild. \"Concerned\" is a notch up. \"Strongly protests\" is a formal objection. A prime minister personally calling something \"absolutely unacceptable\" is several rungs higher and is intended to be read that way.\n\nLearning to read that register is useful well beyond this story — it applies equally to central bank statements, regulatory notices and earnings calls, where the words are chosen with similar care and the escalation is similarly deliberate.\n\n## The eighty-year background\n\nSoviet forces occupied the islands in the closing days of the Second World War. Japan considers the occupation illegitimate; Russia considers the matter settled by the war's outcome. Because of it, **Japan and Russia have never signed a peace treaty** — eight decades after the war ended.\n\nThe islands sit between Hokkaido and the Kamchatka Peninsula. They matter materially: rich fishing grounds, potential seabed resources, and military significance for Russian access to the Pacific.\n\nA head of state visiting disputed territory is a deliberate assertion of sovereignty. It is not an accident of scheduling.\n\n## Why a frozen dispute is worth tracking\n\nIt will not move the Nifty. It is here because frozen conflicts are not resolved conflicts — they are conflicts where the cost of fighting currently exceeds the benefit, and that calculation can change.\n\nThe instructive parallel is in this same edition. The Strait of Hormuz was a background geopolitical dispute until it became the single largest input into global crude prices, and therefore into India's inflation data and interest rate path.\n\nNobody reading about Iran two years ago was thinking about Indian wholesale fuel inflation at 20%. The chain from a distant dispute to a domestic price statistic is short, and it activates without warning.\n\n## The wider context\n\nRussia is simultaneously engaged in Ukraine, with reports this week of intensified ballistic attacks. A leader visiting a contested island chain on the opposite side of the country, while fighting a war in the west, is making a point about capacity and attention.\n\nJapan is also rearming at a pace unprecedented in its post-war history, driven by concerns about both Russia and China.\n\n## What to watch\n\nWhether Russia announces military infrastructure on the islands, which would be a genuine escalation, and whether Japan responds beyond rhetoric — sanctions, defence posture, or coordination with the United States. For markets, the transmission channel would be Japanese defence spending and regional security costs, both currently distant second-order effects.",
-   "category": "Geopolitics",
-   "region": "global",
-   "source": "CNBC Top News",
-   "url": "https://www.cnbc.com/2026/08/14/putin-kuril-islands-japan.html",
-   "image_url": "https://image.cnbcfm.com/api/v1/image/108349561-1786688703029-gettyimages-2289749565-AFP_C4JL3UZ.jpeg?v=1786688738&amp;w=1920&amp;h=1080",
-   "published": "2026-08-14T11:13:00+00:00",
-   "top_story": false,
-   "confidence": "thin",
-   "publisher_count": 2,
-   "sources": [
-    {
-     "publisher": "cnbc",
-     "source": "CNBC Top News",
-     "url": "https://www.cnbc.com/2026/08/14/putin-kuril-islands-japan.html"
+     "url": "https://www.aljazeera.com/news/2026/8/17/ebola-outbreak-in-dr-congo-becomes-deadliest-in-countrys-history?traffic_source=rss"
     },
     {
      "publisher": "guardian",
      "source": "Guardian World",
-     "url": "https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands"
+     "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 502,
-   "importance": "low",
    "simple": [
-    "Russia's president visited islands that Japan also claims as its own.",
-    "Japan's prime minister called it 'absolutely unacceptable' - very strong language for diplomacy.",
-    "Because of this dispute, Japan and Russia have never signed a peace treaty since World War Two ended.",
-    "It will not move Indian markets. It is here because frozen disputes sometimes suddenly unfreeze."
-   ],
-   "terms": [
-    {
-     "term": "Kuril Islands",
-     "meaning": "A chain between Japan and Russia; Japan calls the four southern ones the Northern Territories"
-    },
-    {
-     "term": "Peace treaty",
-     "meaning": "The formal agreement that officially ends a war between two countries"
-    }
-   ],
-   "key_numbers": [
-    {
-     "value": "80 years",
-     "label": "since WWII ended with still no Japan-Russia peace treaty"
-    },
-    {
-     "value": "4",
-     "label": "islands under dispute"
-    }
-   ]
-  },
-  {
-   "title": "OpenAI annual revenue set to top $40 billion",
-   "summary": "OpenAI's annual revenue is set to top $40 billion. The number is enormous, and it still may not answer the question that matters.",
-   "body": "OpenAI's annual revenue is set to exceed **$40 billion**, reported by Semafor and carried in Indian coverage.\n\n## Putting the number in proportion\n\n$40 billion is roughly ₹3.5 lakh crore. For scale, that is in the region of the annual revenue of some of India's largest listed companies, achieved by a company that had almost no commercial product five years ago.\n\nVery few companies in history have scaled revenue this fast. The number is real and the achievement is real.\n\n## The question it does not answer\n\nRevenue is not profit, and in AI the gap between them is the whole argument.\n\nServing these models costs enormous sums — GPUs, electricity, data centre capacity, and the research staff to keep improving them. TSMC approved a **$29.44 billion** capital budget partly to build the manufacturing capacity this demand requires. Anthropic is reportedly in talks to buy an efficiency startup for **$6 billion**, specifically to extract more work from the chips it already has.\n\nThose two facts describe an industry where the cost of capacity is the binding constraint. A company can grow revenue spectacularly while spending more than it earns to do so, and the history of technology contains many such companies — some of which became extraordinarily profitable, and some of which did not.\n\nWithout disclosed costs, $40 billion tells you about demand. It tells you nothing about whether the business works.\n\n## The countervailing trend\n\nRead it against the pricing collapse: the cost of processing a million AI tokens is falling roughly tenfold each year. DeepSeek, OpenAI and Meta are all pricing aggressively against each other.\n\nThat creates a genuine tension. Revenue is growing while the price per unit of capability collapses, which means volume must grow faster still just to stand still. It is a race between adoption and deflation, and which one wins determines whether these are extraordinary businesses or merely enormous ones.\n\n## The pattern beneath it\n\nThe commercial story of this period is increasingly about distribution rather than capability. Google's Gemini reached a billion monthly users largely by being embedded in Search, Android and Workspace. IBM has partnered with OpenAI to push into enterprise. Microsoft is folding AI features into existing products.\n\nWhen the underlying models converge in capability — and they largely have, for most everyday tasks — competition shifts to who can put them in front of users and who can serve them cheapest. That is a familiar shape: it is what happened to search, to cloud computing, and to smartphones.\n\n## What it means practically\n\nFor you as a user of these tools rather than an investor in them, this is unambiguously good. Competition on price and distribution means capability that was expensive eighteen months ago is now close to free. The constraint on building something useful with AI is no longer the budget.\n\n## What to watch\n\nWhether OpenAI ever discloses costs alongside revenue — an IPO would force it. Until then, treat revenue milestones as demand signals, not proof of a viable business.",
-   "category": "AI",
-   "region": "global",
-   "source": "Semafor",
-   "url": "https://www.semafor.com/article/08/14/2026/openai-revenue-set-to-top-40-billion",
-   "image_url": "https://img.semafor.com/d16bf6d550cc4f54e343c02e6e3a3f17053967a5-2048x1364.jpg",
-   "published": "2026-08-14T10:44:01+00:00",
-   "top_story": false,
-   "confidence": "thin",
-   "publisher_count": 2,
-   "sources": [
-    {
-     "publisher": "semafor",
-     "source": "Semafor",
-     "url": "https://www.semafor.com/article/08/14/2026/openai-revenue-set-to-top-40-billion"
-    },
-    {
-     "publisher": "economic-times",
-     "source": "ET Tech",
-     "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-annualised-revenue-tops-40-billion-ahead-of-ipo/articleshow/133233207.cms"
-    }
-   ],
-   "origin": "rss",
-   "discussion": null,
-   "read_min": 2,
-   "words": 503,
-   "importance": "normal",
-   "simple": [
-    "OpenAI, the maker of ChatGPT, is set to earn more than $40 billion a year.",
-    "That is roughly Rs 3.5 lakh crore, from a company that barely sold anything five years ago.",
-    "But revenue is money coming IN. It says nothing about whether the company makes a profit.",
-    "Running AI is enormously expensive, and OpenAI does not publish its costs."
-   ],
-   "terms": [
-    {
-     "term": "Revenue",
-     "meaning": "Total money a company receives from customers, before paying any costs"
-    },
-    {
-     "term": "Profit",
-     "meaning": "What is left after all costs are paid - the number that actually matters"
-    },
-    {
-     "term": "Token",
-     "meaning": "A chunk of text AI systems charge by; roughly three-quarters of a word"
-    }
-   ],
-   "key_numbers": [
-    {
-     "value": "$40bn",
-     "label": "OpenAI's annual revenue"
-    },
-    {
-     "value": "Rs 3.5 lakh cr",
-     "label": "the same number in rupees"
-    },
-    {
-     "value": "10x cheaper/year",
-     "label": "how fast the price of using AI is falling"
-    }
-   ]
-  },
-  {
-   "title": "IBM partners with OpenAI to bolster enterprise AI push",
-   "summary": "IBM is partnering with OpenAI to push enterprise AI adoption, a deal about distribution and trust rather than technology.",
-   "body": "IBM has announced a partnership with OpenAI aimed at strengthening its enterprise AI offering, reported by TechCrunch.\n\n**Single-source flag:** carried by one publisher in today's sweep. Treat the details as reported rather than corroborated.\n\n## Why IBM, of all companies\n\nIBM has not led a technology wave in decades. It missed personal computing's most valuable phase, arrived late to cloud, and its Watson AI effort in the 2010s became a cautionary tale — heavily marketed, repeatedly disappointing in real deployments, particularly in healthcare.\n\nBut IBM retains something the AI labs do not have and cannot quickly build: **relationships with large, conservative enterprises.** Banks, insurers, hospitals, governments and manufacturers have run on IBM systems for decades. Those customers move slowly, buy on trust, demand contractual guarantees, and care enormously about compliance, auditability and data governance.\n\nThat is a poor fit for a research lab and an excellent fit for IBM.\n\n## What each side is actually buying\n\nOpenAI gets distribution into enterprises that will not buy directly from a young company, no matter how capable its models. Enterprise procurement is a moat built from paperwork: security reviews, regulatory sign-off, indemnities, service-level agreements. IBM has already cleared it.\n\nIBM gets frontier capability without having to build it, and relevance in a wave it was otherwise watching from the side.\n\n## The pattern this week\n\nThis is now the third item in this edition pointing the same way. Google's Gemini reached a billion users on the back of Search and Android distribution. Anthropic is reportedly buying efficiency technology to serve demand more cheaply. IBM is renting capability to serve customers it already owns.\n\nThe theme is consistent: as model capabilities converge, competition moves to **distribution and cost**, not raw intelligence. Every one of these deals is about getting AI in front of users who are already somewhere else, or serving them for less.\n\n## The enterprise reality check\n\nWorth holding alongside this week's finding that enterprise AI spending is getting a reality check.\n\nThe gap between pilot projects and production deployment in large organisations is wide and well documented. Enterprises run trials enthusiastically, then stall on data governance, integration with legacy systems, unclear return on investment, and the awkward discovery that the hard part was never the model — it was the messy internal processes the model was supposed to improve.\n\nA partnership announcement is a starting line. The interesting number is how many deployments reach production a year later, and that number is rarely published.\n\n## Why it belongs in your brief\n\nDirectly relevant to the AI-consulting track. Every one of these partnerships is a signal about where enterprise AI money is actually going: not to raw model access, which is commoditising fast, but to integration, governance and the unglamorous work of making it function inside a real organisation.\n\nThat is the layer where independent consultants can compete, because it does not scale the way software does.\n\n## What to watch\n\nWhich specific IBM products embed OpenAI models, and whether any named enterprise customers appear. Partnerships without disclosed customers are announcements; partnerships with them are businesses.",
-   "category": "AI",
-   "region": "global",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
-   "image_url": "https://techcrunch.com/wp-content/uploads/2022/04/GettyImages-1127480719.jpg?w=1024",
-   "published": "2026-08-13T19:19:49+00:00",
-   "top_story": false,
-   "confidence": "single",
-   "publisher_count": 1,
-   "sources": [
-    {
-     "publisher": "techcrunch",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
-    },
-    {
-     "publisher": "google-news",
-     "source": "Google News IN Business",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUs0MGRiMjY0Z2YzbGlPQmJweVlRWjNZRlROT2lRd1NWbHgwOG9HMFhGdkJZTnlqbkJMUjVabm82bno0SmFfYUgySmZ1RkxDTTlMT3NKanRpV3JoME1YM0FDbVR5NndGOFlGRU1ueTdlTXVsd2xiWVVjWDYyNjAxWlc1dTZWSU1KOVB4eWpIZTJFcVU?oc=5"
-    }
-   ],
-   "origin": "rss",
-   "discussion": null,
-   "read_min": 2,
-   "words": 514,
-   "importance": "low",
-   "simple": [
-    "IBM, an old technology company, has teamed up with OpenAI.",
-    "IBM does not have the best AI. What it has is decades of trust with banks and governments.",
-    "OpenAI gets access to those customers. IBM gets modern AI it did not build.",
-    "This is a deal about distribution and trust, not about technology."
-   ],
-   "terms": [
-    {
-     "term": "Enterprise",
-     "meaning": "Large organisations like banks, hospitals and governments, which buy slowly and cautiously"
-    },
-    {
-     "term": "Distribution",
-     "meaning": "Having a route to customers - often worth more than having the best product"
-    }
-   ],
-   "key_numbers": [
-    {
-     "value": "3rd",
-     "label": "story this week showing AI competition shifting to distribution, not capability"
-    }
-   ]
-  },
-  {
-   "title": "Ebola outbreak spreads to new province in DR Congo",
-   "summary": "An Ebola outbreak in the Democratic Republic of Congo has spread to a new province, widening a containment problem that was previously localised.",
-   "body": "The Ebola outbreak in the Democratic Republic of Congo has spread to a new province, reported by the Guardian and Semafor.\n\n## Why geographic spread is the metric that matters\n\nWith an outbreak of a highly lethal but relatively hard-to-transmit disease, the case count is not the most important number. **Geographic spread is.**\n\nEbola transmits through direct contact with bodily fluids, not through the air. That makes it controllable in principle: identify cases, trace contacts, isolate, vaccinate a ring of people around each case. The strategy works, and has ended previous outbreaks.\n\nBut it works only where health infrastructure can execute it. Every new province means a new set of health facilities, a new contact-tracing effort, new logistics for a vaccine requiring cold-chain storage, and new communities to persuade of what is happening.\n\nContainment scales badly. One outbreak in one province is a hard problem; the same outbreak in three provinces is considerably more than three times harder, because coordination costs rise faster than the case count.\n\n## The DRC's particular difficulty\n\nThe country has faced repeated Ebola outbreaks, and its health workers have more practical experience with the disease than anyone else on earth.\n\nWorking against that: dense forest, poor roads, an ongoing conflict in parts of the east that has displaced large populations, and — in past outbreaks — genuine hostility toward response teams, including attacks on treatment centres. Displaced populations moving across regions are exactly the mechanism by which an outbreak reaches a new province.\n\nEffective vaccines exist now, which is a substantial change from the 2014 West Africa epidemic. Vaccines that cannot reach people, or that people will not accept, save nobody.\n\n## Why it is in a markets-oriented brief\n\nNot because it will move Indian equities. It will not, and pretending otherwise would be dishonest.\n\nIt is here for two reasons. A news habit built only on markets produces a distorted view of the world, and the events that eventually matter most to markets rarely arrive labelled as market news. In December 2019 the most consequential story for global asset prices over the following two years was a cluster of pneumonia cases in a Chinese city, and it appeared in no financial brief.\n\nThe lesson is not that every outbreak becomes a pandemic — the overwhelming majority do not. It is that the relevant question about any distant event is *what would have to be true for this to become my problem*, and that question is worth asking before the answer becomes obvious to everyone at once.\n\n## What to watch\n\nWhether spread continues to further provinces, and whether the WHO declares a Public Health Emergency of International Concern — the formal designation that unlocks international coordination and funding. Also watch response-team access, since in the DRC security has repeatedly been the binding constraint rather than medicine.",
-   "category": "World",
-   "region": "global",
-   "source": "Semafor",
-   "url": "https://www.semafor.com/article/08/14/2026/ebola-outbreak-spreads-to-new-province-in-dr-congo",
-   "image_url": "https://img.semafor.com/fcda5c43a8b62c86c53533131d3437520e81e614-2048x1291.jpg",
-   "published": "2026-08-14T10:48:50+00:00",
-   "top_story": false,
-   "confidence": "thin",
-   "publisher_count": 2,
-   "sources": [
-    {
-     "publisher": "semafor",
-     "source": "Semafor",
-     "url": "https://www.semafor.com/article/08/14/2026/ebola-outbreak-spreads-to-new-province-in-dr-congo"
-    },
-    {
-     "publisher": "guardian",
-     "source": "Guardian World",
-     "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
-    }
-   ],
-   "origin": "rss",
-   "discussion": null,
-   "read_min": 2,
-   "words": 472,
-   "importance": "normal",
-   "simple": [
-    "An Ebola outbreak in Congo has spread into another province.",
-    "With Ebola, the number that matters is not cases - it is how many places it reaches.",
-    "Each new province means new hospitals, new tracing teams and new vaccine logistics.",
-    "Vaccines exist now, which is a big change. But they must physically reach people."
+    "The Ebola outbreak in the Democratic Republic of Congo has now killed 2,325 people.",
+    "That makes it the worst outbreak in that country's history, passing the 2018-2020 outbreak.",
+    "Nearly 5,000 people have been confirmed infected, with 101 new cases in a single day.",
+    "This story has been in this digest twice before. It has now become the worst case, not a contained one."
    ],
    "terms": [
     {
      "term": "Ebola",
-     "meaning": "A severe, often fatal disease spread by direct contact with body fluids, not through air"
+     "meaning": "A severe, often fatal disease spread by direct contact with body fluids, not through the air"
     },
     {
-     "term": "Contact tracing",
-     "meaning": "Finding everyone an infected person met, to isolate and vaccinate them"
+     "term": "Outbreak",
+     "meaning": "A sudden rise in cases of a disease in a particular place"
+    },
+    {
+     "term": "Case fatality rate",
+     "meaning": "The share of confirmed infected people who die - here roughly 47%"
     },
     {
      "term": "WHO",
-     "meaning": "World Health Organization - the UN body that coordinates global health emergencies"
+     "meaning": "World Health Organization - the UN body coordinating global health emergencies"
     }
    ],
    "key_numbers": [
     {
-     "value": "1 more",
-     "label": "province now affected, which multiplies the containment effort"
+     "value": "2,325",
+     "label": "people killed - the deadliest in DRC history"
+    },
+    {
+     "value": "4,945",
+     "label": "confirmed infections"
+    },
+    {
+     "value": "101",
+     "label": "new cases in the previous 24 hours"
+    },
+    {
+     "value": "~47%",
+     "label": "of confirmed cases have died"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 470
   },
   {
-   "title": "Is Vodafone Idea finally making a comeback?",
-   "summary": "Finshots asks whether Vodafone Idea is finally turning a corner — a useful case study in what happens when a company's problem is its balance sheet.",
-   "body": "Finshots this week examines whether Vodafone Idea is finally staging a comeback. It is worth reading alongside the news, because it is the clearest available case study of a business whose problem was never really its business.\n\n**This is analysis, not reporting.** Newsletters sit outside the corroboration count in this digest — they are one person's argument, valuable precisely because it is an argument rather than a wire report.\n\n## Why Vodafone Idea is worth understanding\n\nThe company is the surviving merger of Vodafone India and Idea Cellular, once a genuine third force in Indian telecom against Jio and Airtel. It has spent years in financial distress driven by two things: the price war Jio's 2016 launch triggered, and an enormous liability from the Supreme Court's ruling on **adjusted gross revenue** dues owed to the government.\n\nIt is now a company whose share price moves violently on regulatory decisions and government relief measures rather than on subscriber numbers or tariffs. Vodafone Idea rose 6% in a weak market earlier this week.\n\n## The lesson underneath it\n\nA viable operating business can still fail if its balance sheet is broken.\n\nVodafone Idea has tens of millions of customers who pay every month. The operations function. What does not function is the capital structure — debt and statutory dues so large that cash generated by operations services obligations rather than funding the network investment needed to compete.\n\nThis is the trap: a company can be operationally sound and financially doomed at the same time, and it looks fine right up until it does not.\n\nFor anyone learning to read companies, this is why the balance sheet deserves as much attention as the profit and loss statement. The P&L tells you whether a business earns money. The balance sheet tells you whether it survives long enough to keep earning it.\n\n## Why the government's role matters\n\nVodafone Idea's fate has become partly a policy question. A three-player telecom market is more competitive than a two-player one, and the government has an interest in preventing a duopoly — as well as being, awkwardly, both the company's largest creditor and, after a conversion of dues to equity, a major shareholder.\n\nThat is an unusual position: the state as regulator, creditor and owner simultaneously. It makes the investment case a bet on political will rather than on business performance, which is a genuinely different kind of risk and much harder to analyse.\n\n## How to use a newsletter like this\n\nFinshots explains Indian business simply and quickly, which makes it an excellent bridge from headline to understanding. Read it for the mechanism, not for a recommendation.\n\nThe habit worth building: after reading any analysis, ask what would have to be true for the argument to be wrong. For Vodafone Idea, the bear case is straightforward — subscriber losses continue, the capital raise dilutes existing shareholders heavily, and relief proves insufficient against the scale of the dues.\n\n## What to watch\n\nSubscriber numbers and average revenue per user, which reveal whether the operating business is actually recovering, and any further government decision on dues. The share price will move on the second regardless of the first.",
+   "title": "Jared Kushner meets with Hamas ahead of talks with Netanyahu on Gaza",
+   "summary": "Jared Kushner met Hamas's political chief in Egypt on Sunday and meets Netanyahu on Monday, trying to revive a stalled 15-point ceasefire plan.",
+   "body": "Jared Kushner, US President Donald Trump's son-in-law and envoy, held a rare meeting with Hamas's political chief in Egypt on Sunday, in a renewed effort to move a stalled Gaza ceasefire forward. He is due to meet Israeli Prime Minister Benjamin Netanyahu on Monday, who is under pressure after rejecting a new 15-point US-backed road map.\n\nThe plan envisages Hamas disarming and Israel withdrawing from the territory. At stake are the lives of some two million people in Gaza and the reconstruction of an enclave largely controlled by Israeli forces after more than ten months of war.\n\n## Why meeting both sides separately is the mechanism\n\nIsrael does not negotiate directly with Hamas, which it designates a terrorist organisation. Hamas will not deal directly with Israel.\n\nSo negotiations run through intermediaries — Egypt, Qatar and the United States — who meet each side separately and carry proposals between them. This is called proximity talks, and it is slow by design: every message passes through a third party who may adjust emphasis, and neither side can test the other's reaction directly.\n\nThat a US envoy met Hamas's political leadership at all is notable. Direct American contact with Hamas has been rare and politically costly domestically.\n\n## The sequencing problem at the centre of it\n\nThe plan asks Hamas to disarm and Israel to withdraw. The question that has broken every previous attempt is which happens first.\n\nHamas argues that disarming before an Israeli withdrawal leaves it defenceless with no guarantee the withdrawal follows. Israel argues that withdrawing before Hamas disarms recreates the conditions that led to the war.\n\nBoth positions are internally coherent, which is exactly why this is hard. It is not a failure of goodwill; it is a genuine problem about who moves first when neither can trust the other to follow. Road maps exist to solve precisely this, by breaking it into verifiable steps with third-party monitoring.\n\n## The domestic politics on both sides\n\nNetanyahu rejected the road map and is under pressure — from within his coalition to continue, and from families of hostages and parts of the public to reach a deal. Hamas faces its own internal divisions between political leadership abroad and commanders in Gaza.\n\nNeither leadership is a single actor able to simply agree. This is the usual reason negotiations that look nearly done collapse.\n\n## Why it is here\n\nBeyond its own weight, this connects to the market story running through this edition. Middle East instability is the reason crude has been elevated for months, which feeds India's import bill, the rupee, and the fuel inflation running above 20% at wholesale level.\n\nA durable regional de-escalation would take risk premium out of oil quickly. That is not a reason to want peace, but it is the mechanism connecting this to Indian prices.\n\n## What to watch\n\nWhether Netanyahu shifts after Monday's meeting, and whether any actual sequencing is agreed rather than another statement of principles. Watch also whether Egypt and Qatar publicly endorse the plan, since guarantors are what make sequencing credible.",
+   "category": "Geopolitics",
+   "region": "global",
+   "source": "Guardian World",
+   "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+   "image_url": "https://i.guim.co.uk/img/media/2ab9f13746943762391cd240ceb44d7b9716ead1/0_59_4490_3593/master/4490.jpg?width=140&quality=85&auto=format&fit=max&s=0e7308b5019b256dbcee8695b1396197",
+   "published": "2026-08-16T22:07:32+00:00",
+   "top_story": false,
+   "importance": "normal",
+   "confidence": "thin",
+   "publisher_count": 2,
+   "sources": [
+    {
+     "publisher": "guardian",
+     "source": "Guardian World",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting"
+    },
+    {
+     "publisher": "mint",
+     "source": "Mint Top News",
+     "url": "https://www.livemint.com/news/us-news/gaza-ceasefire-talks-jared-kushner-meets-hamas-chief-ahead-of-crucial-netanyahu-meeting-11786914157802.html"
+    }
+   ],
+   "origin": "rss",
+   "discussion": null,
+   "simple": [
+    "A US envoy met the political leader of Hamas in Egypt on Sunday - a rare direct meeting.",
+    "He meets Israel's prime minister on Monday.",
+    "The aim is to rescue a stalled peace plan with 15 points, which Netanyahu has rejected.",
+    "Under the plan, Hamas would give up its weapons and Israel would withdraw from Gaza."
+   ],
+   "terms": [
+    {
+     "term": "Envoy",
+     "meaning": "A representative sent to negotiate on behalf of a government"
+    },
+    {
+     "term": "Hamas",
+     "meaning": "The Palestinian group that has governed Gaza"
+    },
+    {
+     "term": "Ceasefire",
+     "meaning": "An agreement to stop fighting, usually with conditions attached"
+    },
+    {
+     "term": "Road map",
+     "meaning": "A step-by-step plan setting out what each side must do and in what order"
+    }
+   ],
+   "key_numbers": [
+    {
+     "value": "15",
+     "label": "points in the US-backed plan"
+    },
+    {
+     "value": "2 million",
+     "label": "people in Gaza affected"
+    },
+    {
+     "value": "10+ months",
+     "label": "how long the war has run"
+    }
+   ],
+   "read_min": 2,
+   "words": 509
+  },
+  {
+   "title": "The story of the Indian rupee since 1947",
+   "summary": "Finshots traces how Indian money evolved from 1947 to now — a useful piece of context for a week in which the rupee has been under constant pressure.",
+   "body": "Finshots has published its post-Independence Day special, tracing how money in India has evolved since the British left in 1947.\n\n**This is analysis, not reporting.** Newsletters sit outside this digest's corroboration count — they are one publication's argument, valuable precisely because it is an argument rather than a wire report.\n\n## Why this is worth your time this week\n\nThe rupee has appeared in almost every edition recently: weakening past 95 to the dollar, the RBI intervening to slow the fall, $52 billion pulled in through a special deposit window, a trade deficit widening 31.5%.\n\nReading those stories without knowing how the rupee got here is like walking into a film halfway through. The daily moves make far more sense once you know the arc.\n\n## The arc, in brief\n\nIndia's currency history divides into distinct regimes, and the useful thing to understand is that today's arrangement is recent, not natural.\n\nFor decades after independence the rupee's value was **fixed** by the government rather than set by markets. That approach requires the central bank to defend the chosen rate, which works until reserves run short.\n\nIndia devalued more than once under pressure, most consequentially around the **1991 balance of payments crisis**, when the country came close to being unable to pay for imports. That crisis triggered the liberalisation that reshaped the economy.\n\nSince then the rupee has been broadly **market-determined**, with the RBI intervening to smooth volatility rather than to hold a level. That is exactly the behaviour visible in the news this week: a currency trading in a five-paisa range on a day of crude shocks is not doing so naturally.\n\n## The pattern worth extracting\n\nEvery currency regime is a choice about which problem you would rather have.\n\nA fixed rate gives businesses certainty about future prices but requires reserves to defend, and it breaks violently when the defence fails. A floating rate absorbs shocks gradually — the currency drifts instead of snapping — but leaves importers and exporters facing constant uncertainty.\n\nIndia moved from the first to the second after the first one broke. That is not unusual; most economies made the same journey after their own crises.\n\n## How to read an explainer like this\n\nFinshots explains Indian finance simply and quickly, which makes it a good bridge from headline to understanding. Read it for the mechanism rather than a conclusion.\n\nOne habit worth building: after any explainer, ask what it left out. A history of the rupee that presents the current arrangement as an obvious endpoint is telling a tidier story than the record supports.\n\n## What to watch\n\nNothing here is time-sensitive, which is the point. Read it on a weekend and the next month of currency headlines will cost you less effort.",
    "category": "Analysis",
    "region": "india",
    "source": "Finshots",
-   "url": "https://finshots.in/markets/vodafone-idea-comeback-4/",
-   "image_url": "https://cdn.finshots.app/images/2026/08/VI.jpg",
-   "published": "2026-08-14T01:30:28+00:00",
+   "url": "https://finshots.in/archive/the-story-of-the-indian-rupee-since-1947/",
+   "image_url": "https://cdn.finshots.app/images/2026/08/journey-of-rupee2.jpg",
+   "published": "2026-08-17T01:30:57+00:00",
    "top_story": false,
+   "importance": "low",
    "confidence": "single",
    "publisher_count": 0,
    "sources": [
     {
      "publisher": "finshots",
      "source": "Finshots",
-     "url": "https://finshots.in/markets/vodafone-idea-comeback-4/"
+     "url": "https://finshots.in/archive/the-story-of-the-indian-rupee-since-1947/"
     }
    ],
    "origin": "rss",
    "discussion": null,
-   "read_min": 2,
-   "words": 529,
-   "importance": "low",
    "simple": [
-    "Vodafone Idea is India's third mobile network, behind Jio and Airtel.",
-    "Its business works - millions of customers pay every month.",
-    "Its problem is debt, especially huge dues owed to the government.",
-    "Lesson worth keeping: a company can run fine and still fail, if its borrowings are too big."
+    "This is an explainer, not news: how India's money has changed since independence in 1947.",
+    "It covers how the rupee's value has been set at different times and why it changed.",
+    "Useful this week, because the rupee has been in the news constantly at around 95 to the dollar.",
+    "Understanding how a currency got to where it is makes daily moves far less confusing."
    ],
    "terms": [
     {
-     "term": "AGR",
-     "meaning": "Adjusted Gross Revenue - the disputed formula behind the government dues that crippled the company"
+     "term": "Devaluation",
+     "meaning": "A deliberate government decision to lower the official value of its currency"
     },
     {
-     "term": "Balance sheet",
-     "meaning": "The statement showing what a company owns and owes - it reveals survival, not profit"
+     "term": "Fixed exchange rate",
+     "meaning": "When a government sets its currency's value against another, rather than letting markets decide"
     },
     {
-     "term": "ARPU",
-     "meaning": "Average Revenue Per User - how much a telecom earns per customer per month"
+     "term": "Floating exchange rate",
+     "meaning": "When a currency's value is set by supply and demand in the market, as the rupee is now"
+    },
+    {
+     "term": "Balance of payments crisis",
+     "meaning": "When a country cannot pay for its imports or service foreign debt - India had one in 1991"
     }
    ],
    "key_numbers": [
     {
-     "value": "3rd",
-     "label": "largest mobile network in India"
+     "value": "1947",
+     "label": "the starting point of the story"
     },
     {
-     "value": "6%",
-     "label": "how much the share rose earlier this week in a weak market"
+     "value": "~95",
+     "label": "rupees to the dollar today"
+    },
+    {
+     "value": "1991",
+     "label": "the crisis that triggered India's economic liberalisation"
     }
-   ]
+   ],
+   "read_min": 2,
+   "words": 459
   }
  ]
 }
