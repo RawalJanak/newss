@@ -3,3 +3,7 @@ server/state/
 .pytest_cache/
 _clusters.json
 _pick.json
+.gstack/
+_part*.json
+_picks.json
+_articles.prev.json
