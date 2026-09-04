@@ -4,7 +4,10 @@ from server.exam import (
     FACT_KINDS,
     RELEVANCE,
     WIRE_RELEVANCE,
+    build_wire_exam,
     load_curriculum_labels,
+    should_promote,
+    tag_wire_category,
 )
 
 FIXTURE = Path(__file__).parent / "fixtures" / "gk_curriculum.md"
@@ -44,3 +47,51 @@ def test_load_curriculum_labels_ignores_header_and_separator_rows():
 
 def test_load_curriculum_labels_returns_empty_set_when_file_missing(tmp_path):
     assert load_curriculum_labels(tmp_path / "nope.md") == set()
+
+
+def test_tag_wire_category_detects_sport():
+    assert tag_wire_category(
+        "India beat Australia by 6 wickets to win the ODI series"
+    ) == "Sports — records, terminology, tournaments"
+
+
+def test_tag_wire_category_detects_appointment():
+    assert tag_wire_category(
+        "Ashok Kumar Lahiri appointed NITI Aayog Vice Chairman"
+    ) == "Current affairs — recent appointments/schemes/awards (India, live)"
+
+
+def test_tag_wire_category_returns_none_for_unmatched():
+    assert tag_wire_category("Sensex rebounds 730 points in early trade") is None
+
+
+def test_should_promote_flags_appointments():
+    assert should_promote("Ashok Kumar Lahiri appointed NITI Aayog Vice Chairman")
+
+
+def test_should_promote_flags_awards_records_and_obituaries():
+    assert should_promote("Indian shooter sets world record in Cairo")
+    assert should_promote("Veteran playwright passes away at 88")
+    assert should_promote("Scientist conferred Padma Bhushan")
+
+
+def test_should_promote_ignores_routine_market_headlines():
+    assert not should_promote("Sensex rebounds 730 points as Waller cools hike bets")
+    assert not should_promote("Gold slips Rs 431 ahead of US payrolls")
+
+
+def test_build_wire_exam_shape():
+    block = build_wire_exam("Ashok Kumar Lahiri appointed NITI Aayog Vice Chairman")
+    assert block["relevance"] == "unscored"
+    assert block["promote"] is True
+    assert block["facts"] == []
+    assert block["drill"] is None
+    assert block["categories"] == [
+        "Current affairs — recent appointments/schemes/awards (India, live)"
+    ]
+
+
+def test_build_wire_exam_empty_categories_when_unmatched():
+    block = build_wire_exam("Sensex rebounds 730 points in early trade")
+    assert block["categories"] == []
+    assert block["promote"] is False

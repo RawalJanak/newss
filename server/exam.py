@@ -61,3 +61,86 @@ def load_curriculum_labels(path: Path = CURRICULUM_PATH) -> set[str]:
         labels.add(label)
 
     return labels
+
+
+#: Keyword sets per curriculum row. Labels here MUST match GK_CURRICULUM.md
+#: verbatim — the validator rejects anything that does not.
+CATEGORY_KEYWORDS: dict[str, tuple[str, ...]] = {
+    "Sports — records, terminology, tournaments": (
+        "cricket", "odi", "t20", "test match", "world cup", "olympic",
+        "tournament", "championship", "medal", "trophy", "fifa",
+        "badminton", "chess", "hockey", "wickets", "innings",
+    ),
+    "Awards & Honours (Bharat Ratna, Padma, Khel Ratna, Nobel)": (
+        "padma", "bharat ratna", "nobel", "khel ratna", "laureate",
+        "conferred", "honoured with",
+    ),
+    "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)": (
+        "chief election commissioner", "vice president", "chief justice",
+        "un secretary-general", "rbi governor", "cabinet secretary",
+    ),
+    "Current affairs — recent appointments/schemes/awards (India, live)": (
+        "appointed", "appoints", "sworn in", "takes charge",
+        "yojana", "scheme", "mission launched",
+    ),
+    "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)": (
+        "rbi", "sebi", "nabard", "imf", "world bank", "repo rate",
+        "monetary policy",
+    ),
+    "Books & Authors": ("memoir", "novel", "author", "book launched"),
+    "Science — Pioneers & discoveries (vaccines, inventions, laws)": (
+        "isro", "satellite", "launch vehicle", "vaccine", "spacecraft",
+    ),
+}
+
+#: Headline shapes that signal an examinable fact. Deliberately excludes bare
+#: "index" and "rise/fall", which match routine market copy.
+PROMOTE_PATTERNS: tuple[str, ...] = (
+    "appointed", "appoints", "sworn in", "takes charge", "takes over as",
+    "conferred", "honoured with", "wins award", "awarded",
+    "launches scheme", "inaugurates", "unveils",
+    "sets record", "breaks record", "world record",
+    "passes away", "dies at", "dead at",
+    "ranked", "tops the list",
+    "summit", "signs mou", "signs agreement",
+    "clinches", "lifts the title", "wins the title",
+)
+
+
+def tag_wire_category(title: str) -> str | None:
+    """Best-effort curriculum category for a wire headline.
+
+    Scores each category by keyword hits and returns the leader, or None when
+    nothing matches. Lower quality than hand-authoring by design — wire items
+    are barred from the question bank until promoted and hand-verified.
+    """
+    text = title.lower()
+    best: str | None = None
+    best_hits = 0
+    for label, keywords in CATEGORY_KEYWORDS.items():
+        hits = sum(1 for k in keywords if k in text)
+        if hits > best_hits:
+            best, best_hits = label, hits
+    return best
+
+
+def should_promote(title: str) -> bool:
+    """True when a headline looks like it carries an examinable fact.
+
+    Promoted wire items become the candidate pool for the next edition's brief
+    tier, so brief selection is pre-filtered instead of hand-scanned.
+    """
+    text = title.lower()
+    return any(p in text for p in PROMOTE_PATTERNS)
+
+
+def build_wire_exam(title: str) -> dict:
+    """The complete `exam` block for a wire-tier item."""
+    category = tag_wire_category(title)
+    return {
+        "relevance": WIRE_RELEVANCE,
+        "categories": [category] if category else [],
+        "facts": [],
+        "drill": None,
+        "promote": should_promote(title),
+    }
