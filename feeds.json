@@ -74,6 +74,23 @@
 
     {"name": "Google News IN Business", "category": "Business", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-IN&gl=IN&ceid=IN:en"},
     {"name": "Google News IN Tech", "category": "AI", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-IN&gl=IN&ceid=IN:en"},
-    {"name": "Google News IN Nation", "category": "India", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=en-IN&gl=IN&ceid=IN:en"}
+    {"name": "Google News IN Nation", "category": "India", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=en-IN&gl=IN&ceid=IN:en"},
+
+    {"name":"ESPNcricinfo","category":"Sports","region":"india","publisher":"espncricinfo","kind":"news","url":"https://www.espncricinfo.com/rss/content/story/feeds/0.xml"},
+    {"name":"The Hindu Sport","category":"Sports","region":"india","publisher":"the-hindu-group","kind":"news","url":"https://www.thehindu.com/sport/feeder/default.rss"},
+    {"name":"Times of India Sports","category":"Sports","region":"india","publisher":"times-of-india","kind":"news","url":"https://timesofindia.indiatimes.com/rssfeeds/4719148.cms"},
+    {"name":"Times of India Entertainment","category":"Entertainment","region":"india","publisher":"times-of-india","kind":"news","url":"https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms"},
+    {"name":"The Hindu Sci-Tech","category":"Science","region":"india","publisher":"the-hindu-group","kind":"news","url":"https://www.thehindu.com/sci-tech/feeder/default.rss"},
+    {"name":"The Hindu Education","category":"Education","region":"india","publisher":"the-hindu-group","kind":"news","url":"https://www.thehindu.com/education/feeder/default.rss"},
+    {"name":"PIB (via Google News)","category":"Government","region":"india","publisher":"pib","kind":"aggregator","url":"https://news.google.com/rss/search?q=site:pib.gov.in&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Appointments","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=%22appointed%22+OR+%22sworn+in%22+India&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Awards","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=award+winner+India&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Schemes","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=government+scheme+launched+India&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Summits","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=India+summit+OR+%22signs+MoU%22&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Defence","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=Indian+defence+exercise+OR+DRDO&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Obituaries","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=%22passes+away%22+veteran+OR+scientist+OR+writer&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Rankings","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=India+ranked+index+report&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Championships","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=wins+championship+OR+title+India&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name":"GN Books","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=book+launched+author+India&hl=en-IN&gl=IN&ceid=IN:en"}
   ]
 }
