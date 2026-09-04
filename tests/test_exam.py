@@ -80,6 +80,24 @@ def test_should_promote_ignores_routine_market_headlines():
     assert not should_promote("Gold slips Rs 431 ahead of US payrolls")
 
 
+def test_tag_wire_category_does_not_match_odi_inside_commodity():
+    assert tag_wire_category(
+        "Gold prices rise as commodity markets rally"
+    ) != "Sports — records, terminology, tournaments"
+
+
+def test_tag_wire_category_does_not_match_trophy_inside_atrophy():
+    assert tag_wire_category(
+        "Doctors study muscle atrophy in long-duration astronauts"
+    ) != "Sports — records, terminology, tournaments"
+
+
+def test_tag_wire_category_does_not_match_novel_inside_novel_coronavirus():
+    assert tag_wire_category(
+        "Health officials warn of novel coronavirus variant"
+    ) != "Books & Authors"
+
+
 def test_build_wire_exam_shape():
     block = build_wire_exam("Ashok Kumar Lahiri appointed NITI Aayog Vice Chairman")
     assert block["relevance"] == "unscored"

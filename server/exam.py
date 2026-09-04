@@ -6,6 +6,7 @@ hand-authored during the digest build; only wire is classified here.
 """
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -87,7 +88,7 @@ CATEGORY_KEYWORDS: dict[str, tuple[str, ...]] = {
         "rbi", "sebi", "nabard", "imf", "world bank", "repo rate",
         "monetary policy",
     ),
-    "Books & Authors": ("memoir", "novel", "author", "book launched"),
+    "Books & Authors": ("memoir", "author", "book launched"),
     "Science — Pioneers & discoveries (vaccines, inventions, laws)": (
         "isro", "satellite", "launch vehicle", "vaccine", "spacecraft",
     ),
@@ -118,7 +119,7 @@ def tag_wire_category(title: str) -> str | None:
     best: str | None = None
     best_hits = 0
     for label, keywords in CATEGORY_KEYWORDS.items():
-        hits = sum(1 for k in keywords if k in text)
+        hits = sum(1 for k in keywords if re.search(r'\b' + re.escape(k) + r'\b', text))
         if hits > best_hits:
             best, best_hits = label, hits
     return best
