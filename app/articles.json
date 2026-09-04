@@ -97,7 +97,13 @@
       "discussion": null,
       "publisher_count": 4,
       "words": 662,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "El-Erian says the bond rout isn't over as Norway's $2.3 trillion fund moves to cut Treasuries",
@@ -193,7 +199,13 @@
       "discussion": null,
       "publisher_count": 4,
       "words": 694,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "India's 7.8% GDP print is under attack — and the fight is about a ₹6 lakh crore revision to last year",
@@ -289,7 +301,13 @@
       "discussion": null,
       "publisher_count": 4,
       "words": 664,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "SEBI will propose changing derivative settlement prices after CAS produced a 2,100-point Sensex swing",
@@ -376,7 +394,13 @@
       "discussion": null,
       "publisher_count": 3,
       "words": 605,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "Nepal's flood toll reaches 1,282 with 4,798 missing — and about 600 of them are schoolchildren",
@@ -468,7 +492,13 @@
       "discussion": null,
       "publisher_count": 3,
       "words": 659,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "Sensex rebounds 730 points as Waller cools September hike bets, but Nifty struggles at 24,000",
@@ -559,7 +589,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 583,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "SEBI starts hearings to claw back $22 million from the Hindenburg-Kingdon short trade",
@@ -639,7 +675,13 @@
       "top_story": false,
       "publisher_count": 2,
       "words": 563,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "NSE targets an IPO price band by 11 September — and IFCI has already jumped 42% in a month on the anticipation",
@@ -730,7 +772,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 601,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "UBI expects RBI hikes from December as $136 billion of swap inflows floods the banking system",
@@ -815,7 +863,13 @@
       "top_story": false,
       "publisher_count": 2,
       "words": 640,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "US diesel hits a record $5.85 a gallon as Mirae warns oil may top $100",
@@ -906,7 +960,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 609,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "Bitcoin climbs 4% to $81,000 on ETF inflows — and analysts say the momentum is already overbought",
@@ -987,7 +1047,13 @@
       "top_story": false,
       "publisher_count": 1,
       "words": 576,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "Gold slips ₹431 to ₹1.55 lakh as traders wait for US payrolls to settle the Fed question",
@@ -1074,7 +1140,13 @@
       "top_story": false,
       "publisher_count": 2,
       "words": 603,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "Volkswagen will cut 100,000 jobs in total — and 12% of its India workforce by 2027",
@@ -1166,7 +1238,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 631,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "OpenAI launches GPT-6 Astra and admits it hides its own reasoning — weeks after its agents hacked Hugging Face",
@@ -1257,7 +1335,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 637,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "Nvidia's equity investments hit $99 billion — a 14x jump in a year — as Crusoe reaches a $30 billion valuation",
@@ -1348,7 +1432,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 660,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "EU signs on to 'Operation Economic Outcast' as South Korea weighs sending forces to Hormuz",
@@ -1436,7 +1526,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 639,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "Akasa opens Hanoi, Afcom orders four 777-8F freighters, and an IndiGo A320 hits a docking pole at Srinagar",
@@ -1526,7 +1622,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 614,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "India will require battery storage on new solar and wind projects from July 2027",
@@ -1610,7 +1712,13 @@
       "top_story": false,
       "publisher_count": 2,
       "words": 625,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "Rentomojo prices its IPO at a ₹4,246 crore valuation — 5x its last private round",
@@ -1700,7 +1808,13 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 585,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     },
     {
       "title": "HUL will raise capex to 3% of turnover and hunt acquisitions — as its shares hit a 52-week low",
@@ -1781,7 +1895,15 @@
       "top_story": false,
       "publisher_count": 3,
       "words": 574,
-      "read_min": 3
+      "read_min": 3,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      }
     }
-  ]
+  ],
+  "briefs": [],
+  "wire": []
 }
