@@ -80,6 +80,14 @@ def test_should_promote_ignores_routine_market_headlines():
     assert not should_promote("Gold slips Rs 431 ahead of US payrolls")
 
 
+def test_should_promote_flags_scheme_launches():
+    assert should_promote("Government announces launch of PM RAHAT scheme")
+
+
+def test_should_promote_ignores_ponzi_scheme_false_positive():
+    assert not should_promote("Investors lose crores in Ponzi scheme")
+
+
 def test_tag_wire_category_matches_plural_medals():
     assert tag_wire_category(
         "India wins gold medals at Asian Games"

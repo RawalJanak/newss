@@ -99,7 +99,7 @@ CATEGORY_KEYWORDS: dict[str, tuple[str, ...]] = {
 PROMOTE_PATTERNS: tuple[str, ...] = (
     "appointed", "appoints", "sworn in", "takes charge", "takes over as",
     "conferred", "honoured with", "wins award", "awarded",
-    "launches scheme", "inaugurates", "unveils",
+    "launches scheme", "launch of", "inaugurates", "unveils",
     "sets record", "breaks record", "world record",
     "passes away", "dies at", "dead at",
     "ranked", "tops the list",
