@@ -293,6 +293,67 @@
   .tabbar button.on { color:var(--accent); }
   .empty { text-align:center; color:var(--faint); padding:60px 20px; }
   main { padding-bottom:20px; }
+
+  /* ---------- wide screens ----------
+     The app is authored phone-first. These two breakpoints let the shell breathe on
+     tablets and laptops instead of sitting in a 680px column with dead space either side.
+     Deliberate exception: the article prose column does NOT scale with the shell.
+     Body text stays near a 70-character measure because long lines hurt readability —
+     only the furniture around it (lead image, key numbers, glossary) goes wide. */
+  @media (min-width: 760px) {
+    :root { --w:960px; }
+    body { padding-bottom:110px; }
+
+    /* hero: portrait 4/5 was a phone decision. Landscape here, but capped —
+       16/9 of a 1200px shell is 675px, which would eat a whole laptop viewport. */
+    .hero { aspect-ratio:16/9; max-height:440px; border-radius:24px; }
+    .hero .cap { padding:28px 30px; max-width:70%; }
+    .hero h3 { font-size:32px; }
+    .hero p { font-size:15px; }
+
+    /* rail: horizontal scroll is a touch gesture. With a mouse, just show them all. */
+    .rail {
+      display:grid; grid-template-columns:repeat(3,1fr); gap:16px;
+      overflow:visible; margin:0; padding:0;
+    }
+    .rcard { width:auto; }
+    .rcard img { height:150px; }
+
+    /* list: one column of cards wastes half the viewport */
+    .lgrid { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; align-items:start; }
+    .lcard { margin-bottom:0; height:100%; }
+
+    .nums { grid-template-columns:repeat(3,1fr); }
+    .idxgrid { grid-template-columns:repeat(3,1fr); }
+    .shead h2 { font-size:21px; }
+
+    /* bottom bar becomes a floating pill rather than a full-width phone dock */
+    .tabbar {
+      left:50%; right:auto; transform:translateX(-50%); bottom:24px;
+      border:1px solid var(--line); border-radius:999px; box-shadow:var(--lift);
+      overflow:hidden; padding-bottom:0;
+    }
+    .tabbar .in { grid-template-columns:repeat(3,auto); }
+    .tabbar button { flex-direction:row; gap:9px; padding:12px 26px; font-size:12.5px; }
+  }
+
+  @media (min-width: 1180px) {
+    :root { --w:1200px; }
+    .rail { grid-template-columns:repeat(4,1fr); }
+    .lgrid { grid-template-columns:repeat(3,1fr); }
+    .nums { grid-template-columns:repeat(4,1fr); }
+    .idxgrid { grid-template-columns:repeat(4,1fr); }
+    .hero .cap { max-width:60%; }
+    .hero h3 { font-size:36px; }
+
+    /* Keep the reading measure sane while the shell is 1200px. Constrain every direct
+       child of the article, then let the two full-bleed blocks opt back out. Written as
+       a blanket rule rather than a class list so new article blocks inherit it. */
+    .art > * { max-width:820px; }
+    .art > .lead, .art > .nums { max-width:none; }
+    /* 16/10 of a 1200px column is 750px of photo before a word is read */
+    .art > .lead { max-height:420px; }
+  }
   @media (prefers-reduced-motion: reduce) { * { animation-duration:.001ms !important; transition-duration:.001ms !important; } }
 </style>
 </head>
@@ -450,7 +511,9 @@
     }
     if (others.length) {
       h += '<div class="shead"><h2>' + (cat === "All" ? "Everything else" : esc(cat)) + "</h2></div>" +
-        others.map(function (a) { return listCard(a, DATA.indexOf(a)); }).join("");
+        '<div class="lgrid">' +
+        others.map(function (a) { return listCard(a, DATA.indexOf(a)); }).join("") +
+        "</div>";
     }
     $("view").innerHTML = h;
     bind();
