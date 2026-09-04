@@ -489,7 +489,8 @@
       });
       var pool = DATA.filter(function (a) { return region === "all" || a.region === region; });
       var order = ["Markets", "Economy & Policy", "Business", "Startups", "AI", "Innovation",
-                   "Geopolitics", "India", "Aviation", "World", "Analysis"];
+                   "Geopolitics", "India", "Aviation", "World", "Analysis",
+                   "Sports", "Entertainment", "Science", "Education", "Government", "Exam"];
       var have = {}; pool.forEach(function (a) { have[a.category] = 1; });
       var cats = order.filter(function (k) { return have[k]; });
       if (cats.indexOf(cat) === -1) cat = "All";
@@ -542,8 +543,9 @@
   }
 
   function briefList() {
-    if (!BRIEFS.length) return "";
-    var rows = BRIEFS.map(function (b) {
+    var items = cat === "All" ? BRIEFS : BRIEFS.filter(function (b) { return b.category === cat; });
+    if (!items.length) return "";
+    var rows = items.map(function (b) {
       var flag = b.exam && b.exam.relevance === "high"
         ? '<span class="bexam">exam</span>' : "";
       return '<div class="brow"><div class="bdate">' + esc((b.date || "").slice(5)) + "</div>" +
@@ -551,18 +553,19 @@
         hl(esc(b.text)) + "</div></div>";
     }).join("");
     return '<div class="shead"><h2>In brief</h2><span class="seeall">' +
-      BRIEFS.length + " items</span></div>" + rows;
+      items.length + " items</span></div>" + rows;
   }
 
   function wireList() {
-    if (!WIRE.length) return "";
-    var rows = WIRE.map(function (w) {
+    var items = cat === "All" ? WIRE : WIRE.filter(function (w) { return w.category === cat; });
+    if (!items.length) return "";
+    var rows = items.map(function (w) {
       return '<a class="wrow" href="' + esc(w.url) + '" target="_blank" rel="noopener">' +
         '<span class="wcat">' + esc(w.category) + "</span>" +
         '<span class="wt">' + esc(w.title) + "</span>" +
         '<span class="wsrc">' + esc(w.source) + "</span></a>";
     }).join("");
-    return '<details class="wire"><summary>' + WIRE.length +
+    return '<details class="wire"><summary>' + items.length +
       " more stories today</summary>" +
       '<div class="wirelist">' + rows + "</div></details>";
   }
@@ -620,7 +623,7 @@
     var e = a.exam;
     if (!e || e.relevance === "none" || e.relevance === "unscored") return "";
     var facts = e.facts || [];
-    if (!facts.length) return "";
+    if (!facts.length && !e.drill) return "";
     var chips = facts.map(function (f) {
       return '<div class="efact"><div class="ekind">' + esc(f.kind) + "</div>" +
         '<div class="etext">' + hl(esc(f.fact)) + "</div>" +
@@ -649,6 +652,7 @@
       esc(a.discussion.url) + '" target="_blank" rel="noopener">' + esc(a.discussion.title) + " ↗</a>" +
       '<div class="note">' + esc(a.discussion.subreddit) + " · " + esc(a.discussion.score) +
       " points · " + esc(a.discussion.comments) + " comments</div></div>" : "";
+    var rail = examRail(a);
 
     $("art").innerHTML =
       (a.image_url ? '<img class="lead" src="' + esc(a.image_url) + '" alt="" onerror="this.style.display=\'none\'">' : "") +
@@ -656,7 +660,7 @@
       "<h1>" + esc(a.title) + "</h1>" +
       '<div class="byline">' + esc(a.source) + " · " + ago(a.published) + " · " + a.read_min +
       " min · " + (a.region === "india" ? "India" : "Global") + "</div>" +
-      examRail(a) +
+      rail +
       (simple ? '<div class="simple"><h3>In plain English</h3><ul>' + simple + "</ul></div>" : "") +
       (nums ? '<div class="nums">' + nums + "</div>" : "") +
       (gl ? '<div class="gloss"><h3>Words explained</h3>' + gl + "</div>" : "") +
@@ -668,7 +672,7 @@
       '<a class="srcbtn" href="' + esc(a.url) + '" target="_blank" rel="noopener">Read the original ↗</a>' +
       '<div class="note">Written for this digest from the reporting listed above. The plain-English summary and analysis are ours. ' +
       "Confidence shows how many independent publishers carried the story, not whether they are right. Not financial advice.</div>";
-    $("art").classList.toggle("norail", !examRail(a));
+    $("art").classList.toggle("norail", !rail);
     $("reader").classList.add("open");
     $("reader").scrollTop = 0;
     document.body.style.overflow = "hidden";
