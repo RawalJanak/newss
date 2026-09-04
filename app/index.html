@@ -346,14 +346,34 @@
     .hero .cap { max-width:60%; }
     .hero h3 { font-size:36px; }
 
-    /* Keep the reading measure sane while the shell is 1200px. Constrain every direct
-       child of the article, then let the two full-bleed blocks opt back out. Written as
-       a blanket rule rather than a class list so new article blocks inherit it. */
-    .art > * { max-width:820px; }
+    /* Two-column reader: prose keeps its measure, rail fills the gutter. */
+    .art { display:grid; grid-template-columns:820px minmax(300px,1fr); gap:40px; align-items:start; }
+    .art > * { grid-column:1; max-width:820px; }
     .art > .lead, .art > .nums { max-width:none; }
-    /* 16/10 of a 1200px column is 750px of photo before a word is read */
     .art > .lead { max-height:420px; }
+    .art > .examrail { grid-column:2; max-width:none; position:sticky; top:72px; }
+    .art.norail { grid-template-columns:minmax(0,820px); justify-content:center; }
   }
+  .examrail {
+    background:var(--surface); border:1px solid var(--accent-dim); border-radius:18px;
+    padding:16px 16px 18px; margin:22px 0;
+  }
+  .examrail h3 {
+    margin:0 0 12px; font-size:11.5px; font-weight:800; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--accent);
+  }
+  .efact { padding:9px 0; border-bottom:1px solid var(--line-soft); }
+  .efact:last-of-type { border-bottom:none; }
+  .ekind {
+    font-size:9.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--faint);
+  }
+  .etext { font-size:13.5px; line-height:1.45; margin-top:3px; }
+  .eas { font-size:10.5px; color:var(--faint); margin-top:4px; }
+  .edrill { margin-top:12px; border-top:1px solid var(--line); padding-top:12px; }
+  .edrill summary { font-size:12.5px; font-weight:700; color:var(--accent); cursor:pointer; }
+  .edrill ol { margin:8px 0 0; padding-left:20px; font-size:13px; line-height:1.6; }
+  .eans { font-size:12px; color:var(--faint); margin:8px 0 0; }
   @media (prefers-reduced-motion: reduce) { * { animation-duration:.001ms !important; transition-duration:.001ms !important; } }
 </style>
 </head>
@@ -536,6 +556,23 @@
       return "<p>" + hl(esc(b).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")) + "</p>";
     }).join("");
   }
+  function examRail(a) {
+    var e = a.exam;
+    if (!e || e.relevance === "none" || e.relevance === "unscored") return "";
+    var facts = e.facts || [];
+    if (!facts.length) return "";
+    var chips = facts.map(function (f) {
+      return '<div class="efact"><div class="ekind">' + esc(f.kind) + "</div>" +
+        '<div class="etext">' + hl(esc(f.fact)) + "</div>" +
+        '<div class="eas">as of ' + esc(f.as_of) + "</div></div>";
+    }).join("");
+    var d = e.drill;
+    var drill = d ? '<details class="edrill"><summary>Test yourself</summary><p>' +
+      esc(d.q) + "</p><ol>" +
+      (d.options || []).map(function (o) { return "<li>" + esc(o) + "</li>"; }).join("") +
+      '</ol><p class="eans">Answer: ' + esc(String(d.answer)) + "</p></details>" : "";
+    return '<aside class="examrail"><h3>For the exam</h3>' + chips + drill + "</aside>";
+  }
   function openArt(i) {
     var a = DATA[i]; if (!a) return;
     var simple = (a.simple || []).map(function (s) { return "<li>" + hl(esc(s)) + "</li>"; }).join("");
@@ -559,6 +596,7 @@
       "<h1>" + esc(a.title) + "</h1>" +
       '<div class="byline">' + esc(a.source) + " · " + ago(a.published) + " · " + a.read_min +
       " min · " + (a.region === "india" ? "India" : "Global") + "</div>" +
+      examRail(a) +
       (simple ? '<div class="simple"><h3>In plain English</h3><ul>' + simple + "</ul></div>" : "") +
       (nums ? '<div class="nums">' + nums + "</div>" : "") +
       (gl ? '<div class="gloss"><h3>Words explained</h3>' + gl + "</div>" : "") +
@@ -570,6 +608,7 @@
       '<a class="srcbtn" href="' + esc(a.url) + '" target="_blank" rel="noopener">Read the original ↗</a>' +
       '<div class="note">Written for this digest from the reporting listed above. The plain-English summary and analysis are ours. ' +
       "Confidence shows how many independent publishers carried the story, not whether they are right. Not financial advice.</div>";
+    $("art").classList.toggle("norail", !examRail(a));
     $("reader").classList.add("open");
     $("reader").scrollTop = 0;
     document.body.style.overflow = "hidden";
