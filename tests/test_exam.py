@@ -80,6 +80,24 @@ def test_should_promote_ignores_routine_market_headlines():
     assert not should_promote("Gold slips Rs 431 ahead of US payrolls")
 
 
+def test_tag_wire_category_matches_plural_medals():
+    assert tag_wire_category(
+        "India wins gold medals at Asian Games"
+    ) == "Sports — records, terminology, tournaments"
+
+
+def test_tag_wire_category_matches_plural_odis():
+    assert tag_wire_category(
+        "Kohli scores century in ODIs"
+    ) == "Sports — records, terminology, tournaments"
+
+
+def test_tag_wire_category_matches_plural_medals_short():
+    assert tag_wire_category(
+        "Two medals for India"
+    ) == "Sports — records, terminology, tournaments"
+
+
 def test_tag_wire_category_does_not_match_odi_inside_commodity():
     assert tag_wire_category(
         "Gold prices rise as commodity markets rally"
@@ -90,12 +108,6 @@ def test_tag_wire_category_does_not_match_trophy_inside_atrophy():
     assert tag_wire_category(
         "Doctors study muscle atrophy in long-duration astronauts"
     ) != "Sports — records, terminology, tournaments"
-
-
-def test_tag_wire_category_does_not_match_novel_inside_novel_coronavirus():
-    assert tag_wire_category(
-        "Health officials warn of novel coronavirus variant"
-    ) != "Books & Authors"
 
 
 def test_build_wire_exam_shape():

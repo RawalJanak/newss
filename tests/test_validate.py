@@ -133,6 +133,40 @@ def test_wire_relevance_must_be_unscored():
     assert any("wire relevance must be 'unscored'" in e for e in errs)
 
 
+def _wire(**over):
+    w = {
+        "title": "T", "source": "S", "url": "https://e.com/w",
+        "published": "2026-09-04T10:00:00+05:30", "category": "Sports",
+        "exam": {"relevance": "unscored", "categories": [], "facts": [],
+                 "drill": None, "promote": False},
+    }
+    w.update(over)
+    return w
+
+
+def test_wire_category_must_be_in_enum():
+    errs = validate(_doc(wire=[_wire(category="Not A Category")]), CURRICULUM)
+    assert any("invalid category" in e for e in errs)
+
+
+def test_wire_category_exam_validates_cleanly():
+    errs = validate(_doc(wire=[_wire(category="Exam", url="https://e.com/wexam")]), CURRICULUM)
+    assert errs == []
+
+
+def test_wire_javascript_url_is_rejected():
+    errs = validate(_doc(wire=[_wire(url="javascript:alert(1)")]), CURRICULUM)
+    assert any("invalid url" in e for e in errs)
+
+
+def test_drill_only_allowed_when_relevance_is_high():
+    errs = validate(_doc(articles=_articles(12, exam=_exam(
+        relevance="medium",
+        drill={"q": "Q", "options": ["a", "b", "c", "d"], "answer": 1},
+    ))), CURRICULUM)
+    assert any("drill only allowed when relevance is 'high'" in e for e in errs)
+
+
 def test_duplicate_url_across_tiers_is_rejected():
     b = {
         "text": "A brief.", "category": "Sports", "date": "2026-09-04",

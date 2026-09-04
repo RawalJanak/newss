@@ -76,6 +76,8 @@ def _check_exam(exam, prefix, curriculum, errors, *, wire=False):
             errors.append(f"{prefix}: drill answer must be 1-4, got {answer!r}")
         if not drill.get("q"):
             errors.append(f"{prefix}: drill missing 'q'")
+    elif drill is not None:
+        errors.append(f"{prefix}: drill only allowed when relevance is 'high'")
 
 
 def validate(data: dict, curriculum: set[str] | None = None) -> list[str]:
@@ -140,6 +142,8 @@ def validate(data: dict, curriculum: set[str] | None = None) -> list[str]:
             errors.append(f"{prefix}: missing {sorted(missing)}")
         if b.get("category") not in CATEGORIES:
             errors.append(f"{prefix}: invalid category {b.get('category')!r}")
+        if not b.get("url", "").startswith("http"):
+            errors.append(f"{prefix}: invalid url")
         _dedupe(b.get("url"), prefix)
         if "exam" in b:
             _check_exam(b["exam"], prefix, curriculum, errors)
@@ -155,6 +159,10 @@ def validate(data: dict, curriculum: set[str] | None = None) -> list[str]:
         missing = REQUIRED_WIRE - set(w)
         if missing:
             errors.append(f"{prefix}: missing {sorted(missing)}")
+        if w.get("category") not in CATEGORIES:
+            errors.append(f"{prefix}: invalid category {w.get('category')!r}")
+        if not w.get("url", "").startswith("http"):
+            errors.append(f"{prefix}: invalid url")
         _dedupe(w.get("url"), prefix)
         if "exam" in w:
             _check_exam(w["exam"], prefix, curriculum, errors, wire=True)

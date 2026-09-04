@@ -119,7 +119,7 @@ def tag_wire_category(title: str) -> str | None:
     best: str | None = None
     best_hits = 0
     for label, keywords in CATEGORY_KEYWORDS.items():
-        hits = sum(1 for k in keywords if re.search(r'\b' + re.escape(k) + r'\b', text))
+        hits = sum(1 for k in keywords if re.search(r'\b' + re.escape(k) + r's?\b', text))
         if hits > best_hits:
             best, best_hits = label, hits
     return best
