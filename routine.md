@@ -57,6 +57,31 @@ folder (relative to the TOMORROW workspace root). Follow exactly:
 12. Final report: one line — item count per category + confidence breakdown +
     any feed errors + push status.
 
+## Three-tier output (from 4 Sep 2026)
+
+Each edition writes three tiers into `app/articles.json`.
+
+| Tier | Key | Count | Treatment |
+|---|---|---|---|
+| Deep | `articles` | 15–20 | 600–700 words, Tier 1–4 verification, hand-authored `exam` block |
+| Brief | `briefs` | 40–60 | 1–2 dated sentences, hand-authored `exam` block |
+| Wire | `wire` | 200–400 | Mechanical capture, `server.exam.build_wire_exam()` |
+
+**Wire is built, not written.** After selection, pass every remaining fresh item
+through `build_wire_exam(title)` and emit `{title, source, url, published,
+category, exam}`. Never hand-write wire copy.
+
+**Briefs come from last edition's promotions.** Wire items carrying
+`exam.promote == true` are the candidate pool. Scan those first; only look wider
+if the pool is thin.
+
+**Exam blocks on deep and brief items are hand-authored** while writing the text —
+the sources are already open. Categories must be copied verbatim from
+`AAI/GK_CURRICULUM.md`; the validator rejects anything else. Every fact needs
+`kind` from the closed taxonomy and an `as_of` date.
+
+Nothing in this routine writes to `AAI/QUESTION_BANK.md`. That is Phase 2.
+
 ## MANDATED verification protocol (added 12 Aug 2026 — applies to every brief and digest)
 
 No item is reported as fact until it clears these tiers. Never relay a headline unchecked.
