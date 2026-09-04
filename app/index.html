@@ -277,6 +277,35 @@
   }
   .gsearch::placeholder { color:var(--faint); }
 
+  /* ---------- briefs ---------- */
+  .brow { display:flex; gap:11px; padding:11px 0; border-bottom:1px solid var(--line-soft); }
+  .brow .bdate { font-size:11px; color:var(--faint); flex:none; width:52px; padding-top:2px; }
+  .brow .btxt { font-size:14.5px; line-height:1.5; flex:1; }
+  .brow .bcat {
+    font-size:9.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--accent); display:block; margin-bottom:3px;
+  }
+  .bexam {
+    font-size:9.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--hot); background:var(--hot-wash); border-radius:5px; padding:2px 6px;
+    margin-left:7px;
+  }
+  /* ---------- wire ---------- */
+  .wire { margin:26px 0 10px; }
+  .wire > summary {
+    font-size:14px; font-weight:700; padding:13px 15px; border-radius:14px;
+    background:var(--surface); border:1px solid var(--line); cursor:pointer;
+  }
+  .wirelist { max-height:70vh; overflow-y:auto; margin-top:10px; }
+  .wrow {
+    display:flex; gap:10px; align-items:baseline; padding:9px 2px;
+    border-bottom:1px solid var(--line-soft); text-decoration:none;
+  }
+  .wrow .wcat { font-size:9.5px; font-weight:700; letter-spacing:.08em;
+                text-transform:uppercase; color:var(--faint); flex:none; width:78px; }
+  .wrow .wt { font-size:13.5px; line-height:1.45; flex:1; }
+  .wrow .wsrc { font-size:10.5px; color:var(--faint); flex:none; }
+
   /* ---------- bottom nav ---------- */
   .tabbar {
     position:fixed; left:0; right:0; bottom:0; z-index:70;
@@ -411,6 +440,7 @@
 (function () {
   "use strict";
   var DATA = [], MKT = null, tab = "home", region = "all", cat = "All", market = "india", mstamp = "";
+  var BRIEFS = [], WIRE = [];
   var $ = function (i) { return document.getElementById(i); };
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -511,6 +541,32 @@
       "</button>";
   }
 
+  function briefList() {
+    if (!BRIEFS.length) return "";
+    var rows = BRIEFS.map(function (b) {
+      var flag = b.exam && b.exam.relevance === "high"
+        ? '<span class="bexam">exam</span>' : "";
+      return '<div class="brow"><div class="bdate">' + esc(b.date.slice(5)) + "</div>" +
+        '<div class="btxt"><span class="bcat">' + esc(b.category) + flag + "</span>" +
+        hl(esc(b.text)) + "</div></div>";
+    }).join("");
+    return '<div class="shead"><h2>In brief</h2><span class="seeall">' +
+      BRIEFS.length + " items</span></div>" + rows;
+  }
+
+  function wireList() {
+    if (!WIRE.length) return "";
+    var rows = WIRE.map(function (w) {
+      return '<a class="wrow" href="' + esc(w.url) + '" target="_blank" rel="noopener">' +
+        '<span class="wcat">' + esc(w.category) + "</span>" +
+        '<span class="wt">' + esc(w.title) + "</span>" +
+        '<span class="wsrc">' + esc(w.source) + "</span></a>";
+    }).join("");
+    return '<details class="wire"><summary>' + WIRE.length +
+      " more stories today</summary>" +
+      '<div class="wirelist">' + rows + "</div></details>";
+  }
+
   function renderHome() {
     var list = DATA.filter(function (a) {
       if (region !== "all" && a.region !== region) return false;
@@ -535,6 +591,7 @@
         others.map(function (a) { return listCard(a, DATA.indexOf(a)); }).join("") +
         "</div>";
     }
+    h += briefList() + wireList();
     $("view").innerHTML = h;
     bind();
   }
@@ -719,6 +776,8 @@
   /* ---------- boot ---------- */
   fetch("articles.json?t=" + Date.now()).then(function (r) { return r.json(); }).then(function (d) {
     DATA = d.articles || [];
+    BRIEFS = d.briefs || [];
+    WIRE = d.wire || [];
     var w = new Date(d.generated_at);
     var s = isNaN(w) ? "" : w.toLocaleString("en-IN", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
     var ind = DATA.filter(function (a) { return a.region === "india"; }).length;
