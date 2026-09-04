@@ -546,7 +546,7 @@
     var rows = BRIEFS.map(function (b) {
       var flag = b.exam && b.exam.relevance === "high"
         ? '<span class="bexam">exam</span>' : "";
-      return '<div class="brow"><div class="bdate">' + esc(b.date.slice(5)) + "</div>" +
+      return '<div class="brow"><div class="bdate">' + esc((b.date || "").slice(5)) + "</div>" +
         '<div class="btxt"><span class="bcat">' + esc(b.category) + flag + "</span>" +
         hl(esc(b.text)) + "</div></div>";
     }).join("");
@@ -573,23 +573,26 @@
       if (cat !== "All" && a.category !== cat) return false;
       return true;
     });
-    if (!list.length) { $("view").innerHTML = '<div class="empty">Nothing here yet.</div>'; return; }
-    var must = list.filter(function (a) { return a.importance === "high"; });
-    var lead = must[0] || list[0];
-    var rest = list.filter(function (a) { return a !== lead; });
-    var railItems = rest.filter(function (a) { return a.top_story || a.importance === "high"; }).slice(0, 6);
-    var others = rest.filter(function (a) { return railItems.indexOf(a) === -1; });
+    if (!list.length && !BRIEFS.length && !WIRE.length) { $("view").innerHTML = '<div class="empty">Nothing here yet.</div>'; return; }
+    var h = "";
+    if (list.length) {
+      var must = list.filter(function (a) { return a.importance === "high"; });
+      var lead = must[0] || list[0];
+      var rest = list.filter(function (a) { return a !== lead; });
+      var railItems = rest.filter(function (a) { return a.top_story || a.importance === "high"; }).slice(0, 6);
+      var others = rest.filter(function (a) { return railItems.indexOf(a) === -1; });
 
-    var h = '<div class="shead"><h2>Today\'s lead</h2></div>' + heroCard(lead, DATA.indexOf(lead));
-    if (railItems.length) {
-      h += '<div class="shead"><h2>Also important</h2><span class="seeall">' + railItems.length + " stories</span></div>" +
-        '<div class="rail">' + railItems.map(function (a) { return railCard(a, DATA.indexOf(a)); }).join("") + "</div>";
-    }
-    if (others.length) {
-      h += '<div class="shead"><h2>' + (cat === "All" ? "Everything else" : esc(cat)) + "</h2></div>" +
-        '<div class="lgrid">' +
-        others.map(function (a) { return listCard(a, DATA.indexOf(a)); }).join("") +
-        "</div>";
+      h += '<div class="shead"><h2>Today\'s lead</h2></div>' + heroCard(lead, DATA.indexOf(lead));
+      if (railItems.length) {
+        h += '<div class="shead"><h2>Also important</h2><span class="seeall">' + railItems.length + " stories</span></div>" +
+          '<div class="rail">' + railItems.map(function (a) { return railCard(a, DATA.indexOf(a)); }).join("") + "</div>";
+      }
+      if (others.length) {
+        h += '<div class="shead"><h2>' + (cat === "All" ? "Everything else" : esc(cat)) + "</h2></div>" +
+          '<div class="lgrid">' +
+          others.map(function (a) { return listCard(a, DATA.indexOf(a)); }).join("") +
+          "</div>";
+      }
     }
     h += briefList() + wireList();
     $("view").innerHTML = h;
