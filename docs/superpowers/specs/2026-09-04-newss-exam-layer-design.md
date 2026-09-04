@@ -177,9 +177,12 @@ The rail renders `exam.facts` as labelled chips grouped by `kind`, with `drill`
 collapsed beneath. Articles with `relevance: none` render no rail and the grid collapses
 to a single centred column, so those pages look deliberate rather than broken.
 
-Below 1180px the rail reflows inline beneath the article body rather than hiding. The
-exam layer is the point of the feature; hiding it on the device he actually reads on
-would defeat it.
+Below 1180px the rail reflows inline rather than hiding, sitting directly after the
+byline and above the article body. The exam layer is the point of the feature; hiding it
+on the device he actually reads on would defeat it — and so would burying it under 650
+words of prose. *(Amended 5 Sep 2026 during implementation: this section originally said
+"beneath the article body". Above-the-body is the deliberate choice, for the reason just
+given.)*
 
 ### 6. Home layout at 300–450 items
 
