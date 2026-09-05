@@ -54,19 +54,21 @@ export default function App() {
     if (decayRef.current) cancelAnimationFrame(decayRef.current)
   }
   function handleRelease() {
+    if (decayRef.current) cancelAnimationFrame(decayRef.current)
     let last = performance.now()
+    let strength = pullStrength
     function tick(now) {
       const dt = (now - last) / 1000
       last = now
-      setPullStrength((s) => {
-        const next = decayStrength(s, dt)
-        if (next < 0.02) {
-          setActiveCategory(null)
-          return 0
-        }
-        decayRef.current = requestAnimationFrame(tick)
-        return next
-      })
+      strength = decayStrength(strength, dt)
+      if (strength < 0.02) {
+        setPullStrength(0)
+        setActiveCategory(null)
+        decayRef.current = null
+        return
+      }
+      setPullStrength(strength)
+      decayRef.current = requestAnimationFrame(tick)
     }
     decayRef.current = requestAnimationFrame(tick)
   }
