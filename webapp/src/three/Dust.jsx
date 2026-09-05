@@ -1,10 +1,9 @@
 import { useMemo, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
-import * as THREE from 'three'
 
 // Renders an entire tier (briefs or wire) as ONE Points object — this is
 // the load-bearing perf decision from spec §4.2: never one mesh per item.
-export default function Dust({ items, color, opacity = 0.35 }) {
+export default function Dust({ items, color, opacity = 0.35, reducedMotion = false }) {
   const ref = useRef()
 
   const positions = useMemo(() => {
@@ -18,7 +17,7 @@ export default function Dust({ items, color, opacity = 0.35 }) {
   }, [items])
 
   useFrame((state) => {
-    if (!ref.current) return
+    if (!ref.current || reducedMotion) return
     // slow drift, dimmer/slower than stars per spec §3
     ref.current.rotation.y = state.clock.getElapsedTime() * 0.01
   })

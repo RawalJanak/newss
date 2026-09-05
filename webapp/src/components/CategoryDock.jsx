@@ -9,9 +9,11 @@ export default function CategoryDock({ categories, active, onDragCategory, onRel
         <button
           key={cat}
           className={'category-blob' + (cat === active ? ' active' : '')}
+          aria-pressed={cat === active}
           onPointerDown={() => onDragCategory(cat)}
           onPointerUp={onRelease}
           onPointerLeave={onRelease}
+          onClick={() => { onDragCategory(cat); onRelease() }}
         >
           {cat}
         </button>
