@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { ago, tierTag, hl, bodyHtml, escapeHtml } from '../lib.js'
 
 function ExamRail({ a }) {
@@ -28,7 +29,7 @@ function ExamRail({ a }) {
   )
 }
 
-export default function Reader({ article, onClose }) {
+export default function ReaderPanel({ article, onClose, reducedMotion }) {
   useEffect(() => {
     document.body.style.overflow = article ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
@@ -40,16 +41,35 @@ export default function Reader({ article, onClose }) {
     return () => document.removeEventListener('keydown', onKey)
   }, [article, onClose])
 
-  if (!article) return <div className="reader" />
-  const a = article
+  const transition = reducedMotion ? { duration: 0 } : { duration: 0.32, ease: [0.22, 0.61, 0.36, 1] }
+
+  return (
+    <AnimatePresence>
+      {article && (
+        <motion.div
+          className="reader-panel"
+          role="dialog"
+          aria-modal="true"
+          initial={{ opacity: 0, scale: 0.85 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.9 }}
+          transition={transition}
+        >
+          <ReaderContent article={article} onClose={onClose} />
+        </motion.div>
+      )}
+    </AnimatePresence>
+  )
+}
+
+function ReaderContent({ article: a, onClose }) {
   const t = tierTag(a)
-  const rail = <ExamRail a={a} />
   const hasRail = a.exam && a.exam.relevance !== 'none' && a.exam.relevance !== 'unscored' &&
     ((a.exam.facts || []).length || a.exam.drill)
 
   return (
-    <div className="reader open" role="dialog" aria-modal="true">
-      <div className="rbar"><div className="in"><button className="back" onClick={onClose}>← Back</button></div></div>
+    <>
+      <div className="rbar"><button className="back" onClick={onClose}>← Back</button></div>
       <article className={'art' + (hasRail ? '' : ' norail')}>
         {a.image_url && <img className="lead" src={a.image_url} alt="" onError={(e) => (e.target.style.display = 'none')} />}
         <div className="tagrow" style={{ marginTop: 16 }}>
@@ -61,7 +81,7 @@ export default function Reader({ article, onClose }) {
         <div className="byline">
           {a.source} · {ago(a.published)} · {a.read_min} min · {a.region === 'india' ? 'India' : 'Global'}
         </div>
-        {rail}
+        <ExamRail a={a} />
         {a.simple && a.simple.length > 0 && (
           <div className="simple">
             <h3>In plain English</h3>
@@ -108,6 +128,6 @@ export default function Reader({ article, onClose }) {
           Confidence shows how many independent publishers carried the story, not whether they are right. Not financial advice.
         </div>
       </article>
-    </div>
+    </>
   )
 }
