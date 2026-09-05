@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import Home from './components/Home.jsx'
-import Markets from './components/Markets.jsx'
-import Glossary from './components/Glossary.jsx'
-import Reader from './components/Reader.jsx'
+import MarketsBelt from './components/MarketsBelt.jsx'
+import GlossaryNebula from './components/GlossaryNebula.jsx'
+import ReaderPanel from './components/ReaderPanel.jsx'
 import { CATEGORY_ORDER } from './lib.js'
 
 function readTheme() {
@@ -142,13 +142,13 @@ export default function App() {
         ) : tab === 'home' ? (
           <Home data={data} briefs={briefs} wire={wire} region={region} cat={cat} onOpen={openArticle} />
         ) : tab === 'markets' ? (
-          <Markets mkt={mkt} market={market} stamp={mktStamp} />
+          <MarketsBelt mkt={mkt} market={market} stamp={mktStamp} />
         ) : (
-          <Glossary data={data} />
+          <GlossaryNebula data={data} />
         )}
       </main>
 
-      <Reader article={article} onClose={closeArticle} />
+      <ReaderPanel article={article} onClose={closeArticle} />
 
       <nav className="tabbar">
         <div className="in">

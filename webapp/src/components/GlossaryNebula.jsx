@@ -20,6 +20,7 @@ export default function GlossaryNebula({ data }) {
 
   return (
     <div className="mobile-list">
+      <div className="shead"><h2>Every word explained</h2><span className="seeall">{all.length}</span></div>
       <input className="gsearch" placeholder="Search a word, e.g. WPI or hydraulic" value={q} onChange={(e) => setQ(e.target.value)} />
       {f.length
         ? f.map((t, i) => <div className="gitem" key={i}><b>{t.term}</b><span>{t.meaning}</span></div>)

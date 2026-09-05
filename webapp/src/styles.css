@@ -2,8 +2,9 @@
    If you change a value here, change it there too (and vice versa). */
 :root {
   --bg-0:#0C0914; --bg-1:#15111F; --bg-2:#2A2140;
-  --line:#3A2E55; --ink:#F1ECFF; --muted:#9C8FC4; --faint:#6B5F8F;
+  --line:#3A2E55; --line-soft:#2E2450; --ink:#F1ECFF; --muted:#9C8FC4; --faint:#6B5F8F;
   --violet:#B084FF; --pink:#FF6FB3; --mint:#00E6C3; --amber:#FFD166; --coral:#FF8A65;
+  --up:var(--mint); --down:var(--coral);
   --glow-violet:rgba(176,132,255,.45); --glow-pink:rgba(255,111,179,.45);
   --serif:'Newsreader', Georgia, serif;
   --sans:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -141,5 +142,38 @@ mark { background:rgba(176,132,255,.18); color:var(--violet); font-weight:700; p
 }
 .onboarding-hint p { max-width:360px; font-size:15px; line-height:1.5; color:var(--ink); }
 .onboarding-hint button { background:var(--violet); color:var(--bg-0); font-weight:700; padding:12px 26px; border-radius:999px; }
+
+/* ---------- MarketsBelt and GlossaryNebula components ---------- */
+.idxgrid { display:grid; grid-template-columns:repeat(2,1fr); gap:11px; margin:4px 0 22px; }
+.icard { background:var(--bg-2); border:1px solid var(--line); border-radius:16px; padding:14px; }
+.icard .n { font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--faint); font-weight:700; }
+.icard .p { font-size:19px; font-weight:700; margin-top:6px; font-variant-numeric:tabular-nums; }
+.icard .c { font-size:13px; font-weight:600; margin-top:2px; font-variant-numeric:tabular-nums; }
+.read { background:linear-gradient(160deg, rgba(176,132,255,.12), transparent 65%), var(--bg-2);
+        border:1px solid var(--violet); border-radius:18px; padding:18px; margin-bottom:22px; }
+.read h3 { font-family:var(--serif); font-size:20px; font-weight:600; margin:0 0 9px; }
+.read p { margin:0; font-size:15px; line-height:1.6; color:var(--muted); }
+.bwrap { display:flex; align-items:center; gap:10px; margin-top:14px; font-size:12px; color:var(--faint); }
+.bar2 { flex:1; height:7px; border-radius:4px; background:var(--line); display:flex; overflow:hidden; }
+.bar2 i { display:block; height:100%; }
+.bar2 .g { background:var(--up); }
+.bar2 .r { background:var(--down); }
+.tbl { margin-bottom:24px; }
+.tbl h3 { font-size:11.5px; font-weight:800; letter-spacing:.13em; text-transform:uppercase; color:var(--faint); margin:0 0 10px; }
+.trow { display:flex; align-items:center; gap:12px; padding:11px 0; border-bottom:1px solid var(--line-soft); }
+.trow:last-child { border-bottom:none; }
+.trow .a { flex:1; min-width:0; }
+.trow .s { font-size:14.5px; font-weight:600; }
+.trow .u { font-size:11.5px; color:var(--faint); margin-top:1px; }
+.trow .b { text-align:right; font-variant-numeric:tabular-nums; }
+.trow .pr { font-size:14.5px; }
+.trow .ch { font-size:12.5px; font-weight:600; margin-top:1px; }
+.gsearch { width:100%; padding:13px 15px; border-radius:14px; background:var(--bg-2); border:1px solid var(--line);
+           color:var(--ink); font-size:15px; font-family:inherit; margin-bottom:16px; }
+.gsearch::placeholder { color:var(--faint); }
+.empty { text-align:center; color:var(--faint); padding:60px 20px; }
+.shead { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+.shead h2 { margin:0; font-size:18px; font-weight:600; font-family:var(--serif); }
+.seeall { font-size:13px; color:var(--muted); font-weight:600; }
 
 @media (prefers-reduced-motion: reduce) { * { animation-duration:.001ms !important; transition-duration:.001ms !important; } }

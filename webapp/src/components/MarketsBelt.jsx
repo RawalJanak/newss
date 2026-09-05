@@ -42,14 +42,20 @@ export default function MarketsBelt({ mkt, market, stamp }) {
       <div className="read">
         <h3>{ins.headline}</h3>
         <p>{ins.body}</p>
-        <div>{b.up} up · {b.down} down of {b.total}</div>
+        <div className="bwrap">
+          <span>{b.up} up · {b.down} down of {b.total}</span>
+          <span className="bar2">
+            <i className="g" style={{ width: (b.up / tot) * 100 + '%' }} />
+            <i className="r" style={{ width: (b.down / tot) * 100 + '%' }} />
+          </span>
+        </div>
       </div>
       <MTable title="Sectors — best and worst" items={sect} sub={false} />
       <MTable title="Top gainers" items={m.gainers} sub />
       <MTable title="Top losers" items={m.losers} sub />
       <MTable title="Most traded" items={m.actives} sub />
       <MTable title="Recently listed" items={m.recent} sub />
-      <div className="note">Snapshot taken {stamp}, not a live feed. Data via Yahoo Finance. Not investment advice.</div>
+      <div className="note">Snapshot taken {stamp}, not a live feed — prices update when the digest is rebuilt. India and China lists come from a large-cap universe; US lists are market-wide. Data via Yahoo Finance. Not investment advice.</div>
     </div>
   )
 }
