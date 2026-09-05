@@ -1,4 +1,6 @@
 __pycache__/
+webapp/node_modules/
+webapp/dist/
 server/state/
 .pytest_cache/
 _clusters.json

@@ -57,6 +57,21 @@ folder (relative to the TOMORROW workspace root). Follow exactly:
 12. Final report: one line — item count per category + confidence breakdown +
     any feed errors + push status.
 
+## Frontend build (from 5 Sep 2026)
+
+`app/` is a **build output** now, not hand-edited HTML — the source lives in
+`webapp/` (React + react-three-fiber, Vite). Step 8 above still writes
+`app/articles.json` directly (data pipeline unchanged, untouched by the
+frontend). Only rebuild the UI when `webapp/src/**` changes:
+
+```
+cd webapp && npm run build   # writes ../app/index.html + assets, in place
+```
+
+`vite.config.js` uses `emptyOutDir:false` so this never touches
+`articles.json` / `markets.json`. Don't hand-edit `app/index.html` or
+`app/assets/` — edit `webapp/src/` and rebuild.
+
 ## Three-tier output (from 4 Sep 2026)
 
 Each edition writes three tiers into `app/articles.json`.
