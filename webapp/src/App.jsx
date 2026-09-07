@@ -7,6 +7,7 @@ import MarketsBelt from './components/MarketsBelt.jsx'
 import GlossaryNebula from './components/GlossaryNebula.jsx'
 import MobileList from './components/MobileList.jsx'
 import OnboardingHint from './components/OnboardingHint.jsx'
+import StoryDrawer from './components/StoryDrawer.jsx'
 import { useRenderTier } from './device.js'
 import { decayStrength } from './gravity/gravityPull.js'
 import { CATEGORY_ORDER } from './lib.js'
@@ -162,6 +163,7 @@ export default function App() {
         {region === 'markets' && (
           <div className="market-pills-dock"><MarketPills market={market} onSelect={setMarket} /></div>
         )}
+        {region === 'news' && <StoryDrawer briefs={briefs} wire={wire} activeCategory={activeCategory} />}
       </div>
       <ReaderPanel article={openArticleObj} onClose={closeArticle} reducedMotion={reducedMotion} />
       <OnboardingHint />

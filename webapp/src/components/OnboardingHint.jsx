@@ -21,8 +21,8 @@ export default function OnboardingHint() {
 
   return (
     <div className="onboarding-hint" role="dialog" aria-modal="true">
-      <p>Drag a category blob toward the center to filter the sky toward it.</p>
-      <p>Click a star to open it and read the full story.</p>
+      <p>Each glowing star is a story — drag a category blob toward the center to filter the sky toward it.</p>
+      <p>Click a star to read the full story. "More stories" in the corner has today's shorter briefs and wire updates.</p>
       <button onClick={dismiss}>Got it</button>
     </div>
   )
