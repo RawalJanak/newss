@@ -1,5 +1,5 @@
 function pct(v) {
-  return <span style={{ color: v >= 0 ? 'var(--mint)' : 'var(--coral)' }}>{v > 0 ? '+' : ''}{v.toFixed(2)}%</span>
+  return <span className={v >= 0 ? 'up' : 'dn'}>{v > 0 ? '+' : ''}{v.toFixed(2)}%</span>
 }
 function n2(v) {
   return typeof v === 'number' && v >= 1000 ? v.toLocaleString('en-IN', { maximumFractionDigits: 2 }) : String(v)
@@ -33,7 +33,7 @@ export default function MarketsBelt({ mkt, market, stamp }) {
     : []
 
   return (
-    <div className="mobile-list">
+    <div className="page">
       <div className="idxgrid">
         {(m.indices || []).map((i, k) => (
           <div className="icard" key={k}><div className="n">{i.symbol}</div><div className="p">{n2(i.price)}</div><div className="c">{pct(i.change_pct)}</div></div>

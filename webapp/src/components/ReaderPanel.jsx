@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
 import { ago, tierTag, hl, bodyHtml, escapeHtml } from '../lib.js'
 
 function ExamRail({ a }) {
@@ -29,7 +28,7 @@ function ExamRail({ a }) {
   )
 }
 
-export default function ReaderPanel({ article, onClose, reducedMotion }) {
+export default function ReaderPanel({ article, onClose }) {
   useEffect(() => {
     document.body.style.overflow = article ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
@@ -41,24 +40,10 @@ export default function ReaderPanel({ article, onClose, reducedMotion }) {
     return () => document.removeEventListener('keydown', onKey)
   }, [article, onClose])
 
-  const transition = reducedMotion ? { duration: 0 } : { duration: 0.32, ease: [0.22, 0.61, 0.36, 1] }
-
   return (
-    <AnimatePresence>
-      {article && (
-        <motion.div
-          className="reader-panel"
-          role="dialog"
-          aria-modal="true"
-          initial={{ opacity: 0, scale: 0.85 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.9 }}
-          transition={transition}
-        >
-          <ReaderContent article={article} onClose={onClose} />
-        </motion.div>
-      )}
-    </AnimatePresence>
+    <div className={'reader-panel' + (article ? ' open' : '')} role="dialog" aria-modal="true">
+      {article && <ReaderContent article={article} onClose={onClose} />}
+    </div>
   )
 }
 

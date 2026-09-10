@@ -19,7 +19,7 @@ export default function GlossaryNebula({ data }) {
   const f = q ? all.filter((t) => (t.term + ' ' + t.meaning).toLowerCase().includes(q.toLowerCase())) : all
 
   return (
-    <div className="mobile-list">
+    <div className="page">
       <div className="shead"><h2>Every word explained</h2><span className="seeall">{all.length}</span></div>
       <input className="gsearch" placeholder="Search a word, e.g. WPI or hydraulic" value={q} onChange={(e) => setQ(e.target.value)} />
       {f.length

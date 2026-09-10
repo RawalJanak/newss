@@ -1,55 +1,45 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
-import Starfield from './three/Starfield.jsx'
+import { useEffect, useMemo, useState } from 'react'
+import CardFeed from './components/CardFeed.jsx'
 import ReaderPanel from './components/ReaderPanel.jsx'
-import CategoryDock from './components/CategoryDock.jsx'
-import RegionSwitcher from './components/RegionSwitcher.jsx'
 import MarketsBelt from './components/MarketsBelt.jsx'
 import GlossaryNebula from './components/GlossaryNebula.jsx'
-import MobileList from './components/MobileList.jsx'
-import OnboardingHint from './components/OnboardingHint.jsx'
-import StoryDrawer from './components/StoryDrawer.jsx'
-import { useRenderTier } from './device.js'
-import { decayStrength } from './gravity/gravityPull.js'
 import { CATEGORY_ORDER } from './lib.js'
 
-function readReducedMotion() {
-  return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
-}
-
 const MARKET_OPTIONS = [['india', '🇮🇳 India'], ['usa', '🇺🇸 USA'], ['china', '🇨🇳 China'], ['global', '🌍 Global']]
-function MarketPills({ market, onSelect }) {
-  return (
-    <div className="mobile-chip-row">
-      {MARKET_OPTIONS.map(([id, label]) => (
-        <button key={id} className={'mobile-chip' + (market === id ? ' on' : '')} onClick={() => onSelect(id)}>
-          {label}
-        </button>
-      ))}
-    </div>
-  )
+
+function readTheme() {
+  try { return localStorage.getItem('mynews-theme') || null } catch { return null }
 }
 
 export default function App() {
-  const tier = useRenderTier() // 'full' | 'reduced' | 'mobile'
-  const reducedMotion = tier === 'reduced' || readReducedMotion()
+  const [theme, setTheme] = useState(readTheme)
+  const [tab, setTab] = useState('home')
+  const [region, setRegion] = useState('all')
+  const [cat, setCat] = useState('All')
+  const [market, setMarket] = useState('india')
 
   const [digest, setDigest] = useState(null)
   const [mkt, setMkt] = useState(null)
   const [error, setError] = useState(null)
-  const [region, setRegion] = useState('news')
-  const [market, setMarket] = useState('india')
-  const [activeCategory, setActiveCategory] = useState(null)
-  const [pullStrength, setPullStrength] = useState(0)
   const [openUrl, setOpenUrl] = useState(null)
-  const decayRef = useRef(null)
-  // Mirrors pullStrength synchronously so handleRelease reads the live value
-  // instead of a stale render closure — matters when onDragCategory and
-  // onRelease fire back-to-back in the same event handler (click/keyboard
-  // activation), which React batches into a single commit.
-  const pullRef = useRef(0)
 
-  // Article deep-link: keep the hash in sync with the open article so the
-  // browser Back button (mobile's native dismiss gesture) closes the reader.
+  useEffect(() => {
+    if (theme) document.documentElement.setAttribute('data-theme', theme)
+    else document.documentElement.removeAttribute('data-theme')
+    try { if (theme) localStorage.setItem('mynews-theme', theme) } catch { /* ignore */ }
+  }, [theme])
+
+  useEffect(() => {
+    fetch('articles.json?t=' + Date.now()).then((r) => r.json()).then(setDigest).catch((e) => setError(e.message))
+  }, [])
+
+  useEffect(() => {
+    if (tab !== 'markets' || mkt) return
+    fetch('markets.json?t=' + Date.now()).then((r) => r.json()).then(setMkt).catch((e) => setError(e.message))
+  }, [tab, mkt])
+
+  // Article deep-link: keeps the hash in sync so the browser Back button
+  // closes the reader — the phone's native dismiss gesture.
   function openArticle(url) {
     setOpenUrl(url)
     const hash = '#a' + encodeURIComponent(url)
@@ -60,113 +50,108 @@ export default function App() {
     if (location.hash) history.replaceState(null, '', location.pathname + location.search)
   }
   useEffect(() => {
-    function onHashChange() {
-      if (!location.hash) setOpenUrl(null)
-    }
+    function onHashChange() { if (!location.hash) setOpenUrl(null) }
     window.addEventListener('hashchange', onHashChange)
     return () => window.removeEventListener('hashchange', onHashChange)
   }, [])
-
-  useEffect(() => {
-    fetch('articles.json?t=' + Date.now()).then((r) => r.json()).then(setDigest).catch((e) => setError(e.message))
-  }, [])
-
-  useEffect(() => {
-    if (region !== 'markets' || mkt) return
-    fetch('markets.json?t=' + Date.now()).then((r) => r.json()).then(setMkt).catch((e) => setError(e.message))
-  }, [region, mkt])
 
   const data = digest?.articles || []
   const briefs = digest?.briefs || []
   const wire = digest?.wire || []
 
   const categories = useMemo(() => {
-    const have = new Set(data.map((a) => a.category))
+    const pool = data.filter((a) => region === 'all' || a.region === region)
+    const have = new Set(pool.map((a) => a.category))
     return CATEGORY_ORDER.filter((k) => have.has(k))
-  }, [data])
+  }, [data, region])
 
-  // Gravity-drag: dragging sets strength to 1 immediately; releasing starts
-  // an exponential decay back to 0 each animation frame (spec §4.3).
-  function handleDragCategory(category) {
-    setActiveCategory(category)
-    setPullStrength(1)
-    pullRef.current = 1
-    if (decayRef.current) cancelAnimationFrame(decayRef.current)
+  useEffect(() => {
+    if (cat !== 'All' && categories.indexOf(cat) === -1) setCat('All')
+  }, [categories, cat])
+
+  const stamp = useMemo(() => {
+    if (!digest) return 'loading'
+    const w = new Date(digest.generated_at)
+    const s = isNaN(w) ? '' : w.toLocaleString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })
+    const ind = data.filter((a) => a.region === 'india').length
+    return s + ' · ' + data.length + ' stories · ' + ind + ' India / ' + (data.length - ind) + ' global'
+  }, [digest, data])
+
+  const mktStamp = useMemo(() => {
+    if (!mkt) return ''
+    const w = new Date(mkt.generated_at)
+    return isNaN(w) ? '' : w.toLocaleString('en-IN', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })
+  }, [mkt])
+
+  function switchTab(t) {
+    setTab(t)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
-  function handleRelease() {
-    if (decayRef.current) cancelAnimationFrame(decayRef.current)
-    let last = performance.now()
-    let strength = pullRef.current
-    function tick(now) {
-      const dt = (now - last) / 1000
-      last = now
-      strength = decayStrength(strength, dt)
-      pullRef.current = strength
-      if (strength < 0.02) {
-        pullRef.current = 0
-        setPullStrength(0)
-        setActiveCategory(null)
-        decayRef.current = null
-        return
-      }
-      setPullStrength(strength)
-      decayRef.current = requestAnimationFrame(tick)
-    }
-    decayRef.current = requestAnimationFrame(tick)
+  function pick(fn) {
+    fn()
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const openArticleObj = data.find((a) => a.url === openUrl) || null
 
-  if (error) return <div className="empty">Could not load.<br />{error}</div>
-  if (!digest) return <div className="empty">Loading…</div>
-
-  if (tier === 'mobile') {
-    return (
-      <>
-        <RegionSwitcher region={region} onSwitch={setRegion} />
-        {region === 'news' && (
-          <MobileList
-            articles={data} briefs={briefs} categories={categories}
-            activeCategory={activeCategory} onSelectCategory={setActiveCategory}
-            onOpenArticle={openArticle}
-          />
-        )}
-        {region === 'markets' && (
-          <>
-            <MarketPills market={market} onSelect={setMarket} />
-            <MarketsBelt mkt={mkt} market={market} stamp={mkt ? new Date(mkt.generated_at).toLocaleString('en-IN') : ''} />
-          </>
-        )}
-        {region === 'glossary' && <GlossaryNebula data={data} />}
-        <ReaderPanel article={openArticleObj} onClose={closeArticle} reducedMotion />
-        <OnboardingHint />
-      </>
-    )
-  }
-
   return (
     <>
-      {region === 'news' && (
-        <Starfield
-          articles={data} briefs={briefs} wire={wire}
-          activeCategory={activeCategory} pullStrength={pullStrength}
-          onOpenArticle={openArticle} openArticleUrl={openUrl} reducedMotion={reducedMotion}
-        />
-      )}
-      {region === 'markets' && <div className="chrome"><MarketsBelt mkt={mkt} market={market} stamp={mkt ? new Date(mkt.generated_at).toLocaleString('en-IN') : ''} /></div>}
-      {region === 'glossary' && <div className="chrome"><GlossaryNebula data={data} /></div>}
-      <div className="chrome">
-        <RegionSwitcher region={region} onSwitch={setRegion} />
-        {region === 'news' && (
-          <CategoryDock categories={categories} active={activeCategory} onDragCategory={handleDragCategory} onRelease={handleRelease} />
-        )}
-        {region === 'markets' && (
-          <div className="market-pills-dock"><MarketPills market={market} onSelect={setMarket} /></div>
-        )}
-        {region === 'news' && <StoryDrawer briefs={briefs} wire={wire} activeCategory={activeCategory} />}
+      <div className="bar">
+        <div className="in">
+          <div className="brand">My<em>News</em></div>
+          <button className="round" aria-label="Switch theme" onClick={() => setTheme((t) => ((t || 'dark') === 'dark' ? 'light' : 'dark'))}>☾</button>
+          <button className="round" aria-label="Refresh" onClick={() => location.reload()}>⟳</button>
+        </div>
+        <div className="stamp">{stamp}</div>
+        <div className="pills">
+          {tab === 'home' && (
+            <>
+              {['all', 'india', 'global'].map((r) => (
+                <button key={r} className={'pill' + (region === r ? ' on' : '')} onClick={() => pick(() => setRegion(r))}>
+                  {r === 'all' ? 'All news' : r === 'india' ? '🇮🇳 India' : '🌍 Global'}
+                </button>
+              ))}
+              <button className={'pill' + (cat === 'All' ? ' on' : '')} onClick={() => pick(() => setCat('All'))}>Everything</button>
+              {categories.map((k) => (
+                <button key={k} className={'pill' + (cat === k ? ' on' : '')} onClick={() => pick(() => setCat(k))}>{k}</button>
+              ))}
+            </>
+          )}
+          {tab === 'markets' && MARKET_OPTIONS.map(([id, label]) => (
+            <button key={id} className={'pill' + (market === id ? ' on' : '')} onClick={() => pick(() => setMarket(id))}>{label}</button>
+          ))}
+        </div>
       </div>
-      <ReaderPanel article={openArticleObj} onClose={closeArticle} reducedMotion={reducedMotion} />
-      <OnboardingHint />
+
+      <main className="wrap">
+        {error ? (
+          <div className="empty">Could not load.<br />{error}</div>
+        ) : !digest ? (
+          <div className="empty">Loading…</div>
+        ) : tab === 'home' ? (
+          <CardFeed data={data} briefs={briefs} wire={wire} region={region} cat={cat} onOpen={(a) => openArticle(a.url)} />
+        ) : tab === 'markets' ? (
+          <MarketsBelt mkt={mkt} market={market} stamp={mktStamp} />
+        ) : (
+          <GlossaryNebula data={data} />
+        )}
+      </main>
+
+      <ReaderPanel article={openArticleObj} onClose={closeArticle} />
+
+      <nav className="tabbar">
+        <div className="in">
+          <button className={tab === 'home' ? 'on' : ''} onClick={() => switchTab('home')}>
+            <svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5" /><path d="M5 9.5V21h14V9.5" /></svg>Home
+          </button>
+          <button className={tab === 'markets' ? 'on' : ''} onClick={() => switchTab('markets')}>
+            <svg viewBox="0 0 24 24"><path d="M3 17l5-6 4 3 5-7 4 4" /><path d="M3 21h18" /></svg>Markets
+          </button>
+          <button className={tab === 'glossary' ? 'on' : ''} onClick={() => switchTab('glossary')}>
+            <svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1-2-2z" /><path d="M9 8h7M9 12h7" /></svg>Words
+          </button>
+        </div>
+      </nav>
     </>
   )
 }
