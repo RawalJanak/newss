@@ -60,7 +60,9 @@ folder (relative to the TOMORROW workspace root). Follow exactly:
 ## Frontend build (from 5 Sep 2026)
 
 `app/` is a **build output** now, not hand-edited HTML — the source lives in
-`webapp/` (React + react-three-fiber, Vite). Step 8 above still writes
+`webapp/` (React + Vite, plain CSS, no 3D — a labeled card feed after the
+constellation redesign was reverted for being unreadable at real content
+volume). Step 8 above still writes
 `app/articles.json` directly (data pipeline unchanged, untouched by the
 frontend). Only rebuild the UI when `webapp/src/**` changes:
 
