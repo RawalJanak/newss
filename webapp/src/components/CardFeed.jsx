@@ -1,4 +1,10 @@
-import { ago, tierTag, hl, escapeHtml } from '../lib.js'
+import { ago, tierTag, hl, escapeHtml, examLevel } from '../lib.js'
+
+function ExamTag({ item }) {
+  const lvl = examLevel(item)
+  if (!lvl) return null
+  return <span className={'examtag ' + lvl}>AAI</span>
+}
 
 function Tags({ a }) {
   const t = tierTag(a)
@@ -6,6 +12,7 @@ function Tags({ a }) {
     <>
       {t.must && <span className="tag must">Must read</span>}
       <span className={'tag ' + t.cls}>{t.label}</span>
+      <ExamTag item={a} />
     </>
   )
 }
@@ -33,7 +40,7 @@ function RailCard({ a, onOpen }) {
     <button className="rcard" onClick={onOpen}>
       {a.image_url && <img src={a.image_url} alt="" loading="lazy" onError={(e) => (e.target.style.display = 'none')} />}
       <span className="pad">
-        <span className="tagrow"><span className="cat">{a.category}</span></span>
+        <span className="tagrow"><span className="cat">{a.category}</span><ExamTag item={a} /></span>
         <h4>{a.title}</h4>
         <div className="meta">{ago(a.published)} · {a.read_min} min</div>
       </span>
@@ -70,7 +77,7 @@ function BriefList({ briefs, cat }) {
           <div className="btxt">
             <span className="bcat">
               {b.category}
-              {b.exam && b.exam.relevance === 'high' && <span className="bexam">exam</span>}
+              <ExamTag item={b} />
             </span>
             <span dangerouslySetInnerHTML={{ __html: hl(escapeHtml(b.text)) }} />
           </div>

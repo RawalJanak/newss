@@ -192,8 +192,19 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .brow .btxt { font-size:14.5px; line-height:1.5; flex:1; }
 .brow .bcat { font-size:9.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--accent);
               display:block; margin-bottom:3px; }
-.bexam { font-size:9.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--hot);
-         background:var(--hot-wash); border-radius:5px; padding:2px 6px; margin-left:7px; }
+.examtag { font-size:9.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+           border-radius:5px; padding:2px 6px; margin-left:7px; }
+.examtag.high { color:var(--hot); background:var(--hot-wash); }
+.examtag.medium { color:var(--hot); background:transparent; border:1px solid var(--hot-wash); }
+
+/* ---------- important (cross-edition) ---------- */
+.impcard { display:flex; gap:11px; align-items:flex-start; background:var(--surface); border:1px solid var(--hot-wash);
+           border-radius:14px; padding:12px 13px; margin-bottom:10px; text-decoration:none; color:var(--ink); }
+.impcard .idate { font-size:11px; color:var(--faint); flex:none; width:46px; padding-top:2px; }
+.impcard .itxt { flex:1; min-width:0; }
+.impcard .itagrow { display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:4px; }
+.impcard h4 { font-family:var(--serif); font-size:15px; line-height:1.35; font-weight:600; margin:0; }
+.impcard .isrc { font-size:11.5px; color:var(--faint); margin-top:4px; }
 
 /* ---------- wire ---------- */
 .wire { margin:26px 0 10px; }

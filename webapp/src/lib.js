@@ -59,6 +59,11 @@ export function escapeHtml(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
 }
 
+export function examLevel(item) {
+  const r = item?.exam?.relevance
+  return r === 'high' || r === 'medium' ? r : null
+}
+
 export const CATEGORY_ORDER = [
   'Markets', 'Economy & Policy', 'Business', 'Startups', 'AI', 'Innovation',
   'Geopolitics', 'India', 'Aviation', 'World', 'Analysis',

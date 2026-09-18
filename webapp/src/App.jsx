@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import CardFeed from './components/CardFeed.jsx'
+import ImportantSection from './components/ImportantSection.jsx'
 import ReaderPanel from './components/ReaderPanel.jsx'
 import MarketsBelt from './components/MarketsBelt.jsx'
 import GlossaryNebula from './components/GlossaryNebula.jsx'
@@ -19,6 +20,7 @@ export default function App() {
   const [market, setMarket] = useState('india')
 
   const [digest, setDigest] = useState(null)
+  const [important, setImportant] = useState(null)
   const [mkt, setMkt] = useState(null)
   const [error, setError] = useState(null)
   const [openUrl, setOpenUrl] = useState(null)
@@ -31,6 +33,7 @@ export default function App() {
 
   useEffect(() => {
     fetch('articles.json?t=' + Date.now()).then((r) => r.json()).then(setDigest).catch((e) => setError(e.message))
+    fetch('important.json?t=' + Date.now()).then((r) => r.json()).then((d) => setImportant(d.items || [])).catch(() => setImportant([]))
   }, [])
 
   useEffect(() => {
@@ -129,7 +132,10 @@ export default function App() {
         ) : !digest ? (
           <div className="empty">Loading…</div>
         ) : tab === 'home' ? (
-          <CardFeed data={data} briefs={briefs} wire={wire} region={region} cat={cat} onOpen={(a) => openArticle(a.url)} />
+          <>
+            {cat === 'All' && <ImportantSection items={important} />}
+            <CardFeed data={data} briefs={briefs} wire={wire} region={region} cat={cat} onOpen={(a) => openArticle(a.url)} />
+          </>
         ) : tab === 'markets' ? (
           <MarketsBelt mkt={mkt} market={market} stamp={mktStamp} />
         ) : (

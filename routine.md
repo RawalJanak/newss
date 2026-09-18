@@ -44,6 +44,10 @@ folder (relative to the TOMORROW workspace root). Follow exactly:
 
    Target 12-15 fully-written stories per edition. Depth over volume.
 7. Archive the current edition: `python scripts/archive_edition.py`
+   Then rebuild the cross-edition digest: `python scripts/build_important.py`
+   — writes `app/important.json` from every `archive/*.json` plus the current
+   edition (items with `importance=="high"`, `top_story`, or
+   `exam.relevance` in high/medium). Powers the "Important" section in the UI.
 8. Write `app/articles.json` matching the schema (generated_at = now ISO-8601
    with +05:30 offset; edition = "morning" if local hour < 12 else "evening").
 9. Validate: `python scripts/validate_articles.py`
@@ -81,7 +85,7 @@ Each edition writes three tiers into `app/articles.json`.
 | Tier | Key | Count | Treatment |
 |---|---|---|---|
 | Deep | `articles` | 15–20 | 600–700 words, Tier 1–4 verification, hand-authored `exam` block |
-| Brief | `briefs` | 40–60 | 1–2 dated sentences, hand-authored `exam` block |
+| Brief | `briefs` | 40–60 | 2 dated sentences: fact + why-it-matters/context, hand-authored `exam` block |
 | Wire | `wire` | 200–400 | Mechanical capture, `server.exam.build_wire_exam()` |
 
 **Wire is built, not written.** After selection, pass every remaining fresh item
@@ -91,6 +95,10 @@ category, exam}`. Never hand-write wire copy.
 **Briefs come from last edition's promotions.** Wire items carrying
 `exam.promote == true` are the candidate pool. Scan those first; only look wider
 if the pool is thin.
+
+**Every brief needs two sentences, not one.** Sentence 1 states the fact.
+Sentence 2 adds context or why it matters — never just restate the headline.
+A brief that reads as one bare paraphrased title is incomplete.
 
 **Exam blocks on deep and brief items are hand-authored** while writing the text —
 the sources are already open. Categories must be copied verbatim from
