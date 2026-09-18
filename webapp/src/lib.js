@@ -79,12 +79,10 @@ export function catColor(cat) {
   return 'hsl(' + catHue(cat) + ' 65% 62%)'
 }
 
-// A curated flat palette (no per-string hue rotation) so colors look
-// deliberately picked rather than randomly saturated -- each name gets a
-// consistent, stable color from this set.
+// A narrow, restrained cool palette -- plain and deliberate rather than a
+// rainbow of unrelated hues. Every name gets a consistent, stable color.
 export const FLAT_PALETTE = [
-  '#F97066', '#FDB022', '#84CC16', '#22C55E', '#14B8A6', '#06B6D4',
-  '#38BDF8', '#6366F1', '#A78BFA', '#E879F9', '#F472B6', '#FB7185',
+  '#22D3EE', '#38BDF8', '#60A5FA', '#818CF8', '#A78BFA', '#2DD4BF',
 ]
 
 export function pickColor(key) {

@@ -7,6 +7,7 @@ const H = 560
 const TICKS = 400
 const POPUP_W = 260
 const BBOX_PAD = 60
+const LABEL_H = 16
 
 function layout(nodes, edges) {
   const nodeCopies = nodes.map((n) => ({
@@ -35,9 +36,7 @@ function layout(nodes, edges) {
 }
 
 // Each story is colored by the first entity it's connected to, so a
-// cluster reads as one dominant color (like a discipline in a citation
-// map) instead of every dot being tinted by its own unrelated news
-// category.
+// cluster reads as one dominant color instead of a mix of unrelated hues.
 function primaryEntityByStory(edges) {
   const map = new Map()
   edges.forEach((e) => {
@@ -46,42 +45,64 @@ function primaryEntityByStory(edges) {
   return map
 }
 
-// A cluster's label floats above the centroid of its entity node plus all
-// the stories attached to it — not pinned to the entity dot itself — the
-// same way a discipline name floats over its region in a map-of-science
-// graph rather than labeling one node.
-function clusterLabelPositions(nodes, edges) {
-  const byId = new Map(nodes.map((n) => [n.id, n]))
-  const groups = new Map()
-  nodes.forEach((n) => { if (n.type === 'entity') groups.set(n.id, [n]) })
-  edges.forEach((e) => {
-    const entity = e.target.id || e.target
-    const story = byId.get(e.source.id || e.source)
-    if (story && groups.has(entity)) groups.get(entity).push(story)
-  })
+function estCharWidth(s) {
+  return String(s).length * 6.6 + 10
+}
+
+// Labels start anchored just above each entity's own node (not the whole
+// cluster, which can be wide and drift into a neighbor's space), then a
+// short separation pass nudges any pair whose boxes still overlap apart --
+// the actual cause of the earlier overlapping-text problem.
+function resolveLabelPositions(entityNodes) {
+  const labels = entityNodes.map((n) => ({
+    id: n.id, w: estCharWidth(n.label), h: LABEL_H,
+    x: n.x, y: n.y - n.r - 10,
+  }))
+  for (let pass = 0; pass < 40; pass++) {
+    let moved = false
+    for (let i = 0; i < labels.length; i++) {
+      for (let j = i + 1; j < labels.length; j++) {
+        const a = labels[i], b = labels[j]
+        const dx = Math.abs(a.x - b.x)
+        const dy = Math.abs(a.y - b.y)
+        const overlapX = (a.w + b.w) / 2 - dx
+        const overlapY = (a.h + b.h) / 2 - dy
+        if (overlapX > 0 && overlapY > 0) {
+          moved = true
+          if (overlapX < overlapY) {
+            const push = overlapX / 2 + 1
+            if (a.x < b.x) { a.x -= push; b.x += push } else { a.x += push; b.x -= push }
+          } else {
+            const push = overlapY / 2 + 1
+            if (a.y < b.y) { a.y -= push; b.y += push } else { a.y += push; b.y -= push }
+          }
+        }
+      }
+    }
+    if (!moved) break
+  }
   const positions = new Map()
-  groups.forEach((members, id) => {
-    const sumX = members.reduce((a, m) => a + m.x, 0)
-    const sumY = members.reduce((a, m) => a + m.y, 0)
-    const topY = Math.min(...members.map((m) => m.y - m.r))
-    positions.set(id, { x: sumX / members.length, y: topY - 8 })
-  })
+  labels.forEach((l) => positions.set(l.id, { x: l.x, y: l.y }))
   return positions
 }
 
-// Nothing gets clipped: the viewBox is sized from the settled nodes'
-// actual extent, not a fixed box the layout has to fit inside. Overflow is
-// a scrollbar on the container, never lost content.
-function boundingViewBox(nodes) {
+// Nothing gets clipped: the viewBox is sized from the settled nodes' and
+// labels' actual extent. Overflow is a scrollbar on the container, never
+// lost content.
+function boundingViewBox(nodes, labelPos) {
   if (!nodes.length) return { minX: 0, minY: 0, w: W, h: H }
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity
   nodes.forEach((n) => {
     minX = Math.min(minX, n.x - n.r); maxX = Math.max(maxX, n.x + n.r)
     minY = Math.min(minY, n.y - n.r); maxY = Math.max(maxY, n.y + n.r)
   })
+  labelPos.forEach((p) => {
+    minX = Math.min(minX, p.x - 60); maxX = Math.max(maxX, p.x + 60)
+    minY = Math.min(minY, p.y - 12); maxY = Math.max(maxY, p.y + 12)
+  })
   return {
-    minX: minX - BBOX_PAD, minY: minY - BBOX_PAD - 20,
-    w: (maxX - minX) + BBOX_PAD * 2, h: (maxY - minY) + BBOX_PAD * 2 + 20,
+    minX: minX - BBOX_PAD, minY: minY - BBOX_PAD,
+    w: (maxX - minX) + BBOX_PAD * 2, h: (maxY - minY) + BBOX_PAD * 2,
   }
 }
 
@@ -134,9 +155,10 @@ export default function ObsidianGraph({ graph }) {
     return layout(graph.nodes, graph.edges)
   }, [graph])
 
-  const box = useMemo(() => boundingViewBox(nodes), [nodes])
+  const entityNodes = useMemo(() => nodes.filter((n) => n.type === 'entity'), [nodes])
+  const labelPos = useMemo(() => resolveLabelPositions(entityNodes), [entityNodes])
+  const box = useMemo(() => boundingViewBox(nodes, labelPos), [nodes, labelPos])
   const primaryEntity = useMemo(() => primaryEntityByStory(links), [links])
-  const labelPos = useMemo(() => clusterLabelPositions(nodes, links), [nodes, links])
 
   const neighborIds = useMemo(() => {
     if (!focused) return null
@@ -197,29 +219,41 @@ export default function ObsidianGraph({ graph }) {
           className="ograph"
           onClick={() => setFocused(null)}
         >
-          {links.map((l, i) => {
-            const s = l.source, t = l.target
-            const dim = active && !(active.has(s.id) && active.has(t.id))
-            return <line key={i} x1={s.x} y1={s.y} x2={t.x} y2={t.y} className={'oedge' + (dim ? ' dim' : '')} />
-          })}
+          <defs>
+            <filter id="oglow" x="-60%" y="-60%" width="220%" height="220%">
+              <feGaussianBlur stdDeviation="3.2" result="blur" />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+          </defs>
 
-          {nodes.map((n) => {
-            const dim = active && !active.has(n.id)
-            const fill = nodeColor(n)
-            return (
-              <circle
-                key={n.id}
-                cx={n.x} cy={n.y} r={n.r}
-                className={'onode' + (n.type === 'entity' ? ' oentity' : ' ostory') + (n.examTagged ? ' exam' : '') + (dim ? ' dim' : '')}
-                style={{ fill }}
-                onClick={(e) => pickNode(e, n.id)}
-              >
-                <title>{n.label}</title>
-              </circle>
-            )
-          })}
+          <g filter="url(#oglow)">
+            {links.map((l, i) => {
+              const s = l.source, t = l.target
+              const dim = active && !(active.has(s.id) && active.has(t.id))
+              return <line key={i} x1={s.x} y1={s.y} x2={t.x} y2={t.y} className={'oedge' + (dim ? ' dim' : '')} />
+            })}
 
-          {nodes.filter((n) => n.type === 'entity').map((n) => {
+            {nodes.map((n) => {
+              const dim = active && !active.has(n.id)
+              const fill = nodeColor(n)
+              return (
+                <circle
+                  key={n.id}
+                  cx={n.x} cy={n.y} r={n.r}
+                  className={'onode' + (n.type === 'entity' ? ' oentity' : ' ostory') + (n.examTagged ? ' exam' : '') + (dim ? ' dim' : '')}
+                  style={{ fill }}
+                  onClick={(e) => pickNode(e, n.id)}
+                >
+                  <title>{n.label}</title>
+                </circle>
+              )
+            })}
+          </g>
+
+          {entityNodes.map((n) => {
             const pos = labelPos.get(n.id) || n
             const dim = active && !active.has(n.id)
             return (
