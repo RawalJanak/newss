@@ -84,8 +84,25 @@ export const FLAT_PALETTE = [
   '#FF3B30', '#0A84FF', '#30D158', '#FFD60A', '#7C3AED', '#A21CAF', '#FF2D9E',
 ]
 
+// Real brand colors for entities recognizable enough to have one. Only
+// includes names we're actually confident about -- anything else falls
+// back to the hashed palette rather than guessing at a color that isn't
+// really theirs.
+const BRAND_COLORS = {
+  Anthropic: '#D97757',
+  OpenAI: '#10A37F',
+  Meta: '#0668E1',
+  Microsoft: '#00A4EF',
+  Nvidia: '#76B900',
+  Google: '#4285F4',
+  Amazon: '#FF9900',
+  'Tata Sons': '#0F428C',
+  'Tata Chemicals': '#0F428C',
+  'Tata Electronics': '#0F428C',
+}
+
 export function pickColor(key) {
-  return FLAT_PALETTE[stringHash(key) % FLAT_PALETTE.length]
+  return BRAND_COLORS[key] || FLAT_PALETTE[stringHash(key) % FLAT_PALETTE.length]
 }
 
 export const CATEGORY_ORDER = [
