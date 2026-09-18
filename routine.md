@@ -48,6 +48,10 @@ folder (relative to the TOMORROW workspace root). Follow exactly:
    — writes `app/important.json` from every `archive/*.json` plus the current
    edition (items with `importance=="high"`, `top_story`, or
    `exam.relevance` in high/medium). Powers the "Important" section in the UI.
+   Then rebuild the graph view: `python scripts/build_graph.py`
+   — writes `app/graph.json` from the same qualifying pool as
+   `build_important.py`, matched against a maintained entity keyword dict.
+   Powers the "Obsidian" tab in the UI.
 8. Write `app/articles.json` matching the schema (generated_at = now ISO-8601
    with +05:30 offset; edition = "morning" if local hour < 12 else "evening").
 9. Validate: `python scripts/validate_articles.py`
