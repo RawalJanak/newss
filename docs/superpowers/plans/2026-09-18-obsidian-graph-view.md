@@ -182,10 +182,11 @@ def _exam(relevance="none", categories=None):
     return {"relevance": relevance, "categories": categories or [], "facts": [], "drill": None}
 
 
-def _article(url, title, summary="", importance="high", top_story=False, exam=None, category="Markets"):
+def _article(url, title, summary="", importance="high", top_story=False, exam=None, category="Markets",
+             published="2026-09-18T09:00:00+05:30"):
     return {
         "title": title, "url": url, "source": "ET", "category": category,
-        "published": "2026-09-18T09:00:00+05:30", "importance": importance,
+        "published": published, "importance": importance,
         "top_story": top_story, "summary": summary, "exam": exam or _exam(),
     }
 
@@ -232,11 +233,13 @@ def test_build_graph_drops_items_with_zero_entity_matches():
 
 def test_build_graph_dedups_by_url_keeping_newest():
     old_edition = _edition(
-        articles=[_article("https://e.com/a3", "RBI old headline", "RBI news.")],
+        articles=[_article("https://e.com/a3", "RBI old headline", "RBI news.",
+                            published="2026-09-10T09:00:00+05:30")],
         generated_at="2026-09-10T09:00:00+05:30",
     )
     new_edition = _edition(
-        articles=[_article("https://e.com/a3", "RBI new headline", "RBI news.")],
+        articles=[_article("https://e.com/a3", "RBI new headline", "RBI news.",
+                            published="2026-09-18T09:00:00+05:30")],
         generated_at="2026-09-18T09:00:00+05:30",
     )
     graph = build_graph([old_edition, new_edition])

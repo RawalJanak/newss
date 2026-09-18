@@ -1,0 +1,2329 @@
+{
+  "nodes": [
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/indias-july-inflation-quickens-to-4-45-from-4-38-in-june-stays-above-rbi-target/articleshow/133178130.cms",
+      "type": "story",
+      "label": "India’s July inflation quickens to 4.45% from 4.38% in June, stays above RBI target",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-12T10:34:13+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
+      "id": "https://www.cnbc.com/2026/08/13/us-iran-war-trump-hormuz-irgc.html",
+      "type": "story",
+      "label": "‘Hormuz remains blocked’: Iran disputes Trump claims as traffic sinks to near 3-month lows",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-13T05:19:50+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
+      "id": "https://www.thehindu.com/business/markets/nifty-falls-for-7th-day-sensex-down-326-points-as-rising-crude-oil-prices-unnerve-investors/article71364459.ece",
+      "type": "story",
+      "label": "Seventh straight losing session — Nifty 24,206, and only 10 of 44 large caps green",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-19T11:01:27+00:00",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/hdfc-bank-shares-rise-2-from-52-week-low-as-rbi-clears-lic-stake-increase/article71367820.ece",
+      "type": "story",
+      "label": "RBI clears LIC to go to 9.99% in HDFC Bank — shares bounce off a 52-week low",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-20T04:59:17+00:00",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.business-standard.com/markets/news/sebi-bets-on-trading-reforms-to-reverse-outflow-of-foreign-capital-126082000117_1.html",
+      "type": "story",
+      "label": "SEBI bets on trading reforms to reverse the foreign-capital outflow",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-20T03:27:28+00:00",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.livemint.com/news/us-news/trump-announces-crushing-economic-operation-against-iran-warns-consequences-for-countries-doing-business-with-tehran-11787185018696.html",
+      "type": "story",
+      "label": "Trump announces a 'crushing economic operation' against Iran as the ceasefire lapses",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-20T00:25:17+00:00",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/bonds/investors-dump-india-bonds-after-hawkish-rbi-minutes/articleshow/133377449.cms",
+      "type": "story",
+      "label": "RBI minutes turn hawkish and the bond market blinks — 10-year yield at a two-month high",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-20T17:59:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.cnbc.com/2026/08/20/oil-prices-brent-wti-hormuz-trump.html",
+      "type": "story",
+      "label": "Trump declares an 'economic D-Day' on Iran and Brent runs to $94",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-20T08:33:57+00:00",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-jumps-11-to-71k-hits-2-month-high-190-billion-added-to-crypto-market-cap-after-trumps-crypto-push/articleshow/133373099.cms",
+      "type": "story",
+      "label": "Bitcoin jumps 11% to $71,000 as Trump backs the Clarity Act and yields fall",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-20T15:26:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/stock-markets/nse-said-to-plan-trading-of-its-shares-on-own-platform/article71369038.ece",
+      "type": "story",
+      "label": "NSE may let its own shares trade on its own platform — and BSE gave up its gains",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-20T17:52:43+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/sebi-bars-2-entities-over-prima-facie-manipulation-in-new-closing-auction/article71366301.ece",
+      "type": "story",
+      "label": "SEBI freezes two entities over closing-auction manipulation on Sensex expiry",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-19T22:14:14+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan",
+      "type": "story",
+      "label": "Evergrande's founder gets life in prison, closing China's biggest property collapse",
+      "category": "World",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-20T12:03:39+00:00",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.cnbc.com/2026/08/24/iran-hormuz-ship-seizures-bessent-sanctions.html",
+      "type": "story",
+      "label": "'Economic D-Day': Bessent's sanctions land as Iran threatens to seize ships in Hormuz",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-24T02:25:07+00:00",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.business-standard.com/markets/news/sebi-rejects-settlement-applications-by-13-foreign-funds-in-adani-probe-126082400130_1.html",
+      "type": "story",
+      "label": "SEBI rejects settlement bids from 13 Adani-linked foreign funds",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-24T07:00:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-market-nvidia-earnings-jackson-hole-to-test-strength-of-ai-led-stock-rally/articleshow/133451150.cms",
+      "type": "story",
+      "label": "Nvidia's earnings and Warsh's Jackson Hole debut are the two tests the AI rally faces this week",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-24T10:01:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/forex/rbi-likely-intervenes-anchoring-rupee-in-face-of-global-ructions-traders-say/article71383110.ece",
+      "type": "story",
+      "label": "RBI leans on the rupee at 95.64 as hawkish minutes and $93 crude cloud the outlook",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-24T09:37:16+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-market-debut-could-break-spacex-ipo-record/articleshow/133442327.cms",
+      "type": "story",
+      "label": "Anthropic's IPO could beat SpaceX's record, Hugging Face weighs a $13bn sale, SoftBank borrows ¥1tn",
+      "category": "AI",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-23T21:39:52+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.livemint.com/companies/news/ai-creates-more-jobs-than-it-cuts-in-india-but-freshers-are-losing-out-says-report-11787504477755.html",
+      "type": "story",
+      "label": "Nomura: AI has added more jobs than it cut in India — but 55% of IT firms have cut fresher hiring",
+      "category": "India",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-23T18:00:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/news/world/iran-approves-service-fees-for-authorised-ships-transiting-strait-of-hormuz/article71383083.ece",
+      "type": "story",
+      "label": "Iran's Hormuz fee regime: a blockade turns into a toll booth",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-24T08:41:27+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-price-drop-as-iran-oman-talks-raise-hormuz-hopes/article71391403.ece",
+      "type": "story",
+      "label": "Brent breaks below $90 on Iran-Oman corridor talks — but Tehran says Hormuz is still shut",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-26T09:48:04+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
+      "type": "story",
+      "label": "'Operation Economic Outcast' names four Indian firms — and 24 Chinese ones",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-26T08:47:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/news/world/canada-announces-retaliatory-tariffs-on-20-billion-worth-of-us-goods-unveils-support-measures/article71391236.ece",
+      "type": "story",
+      "label": "Canada retaliates dollar-for-dollar: 50% tariffs on US steel, furniture and clothing from 8 September",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-26T09:20:35+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-warns-food-fuel-costs-could-reignite-broader-inflation/articleshow/133511523.cms",
+      "type": "story",
+      "label": "RBI flags second-round inflation risk as Q1 growth is seen slowing to 7.1%",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-25T18:35:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/companies/air-india-seeks-1-5-billion-fresh-equity-from-tata-sons-singapore-airlines/article71390726.ece",
+      "type": "story",
+      "label": "Air India asks Tata Sons and Singapore Airlines for $1.5 billion after a record $2.33bn loss",
+      "category": "Aviation",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-26T07:16:06+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/technology/nvidia-faces-growth-test-as-rubin-debut-meets-ai-financing-scrutiny/articleshow/133517900.cms",
+      "type": "story",
+      "label": "Nvidia reports tonight with $92bn expected — and an Indian buyer has just ordered 9,000 Rubin GPUs",
+      "category": "AI",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-25T16:12:42+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/persisting-retail-fo-losses-spur-call-for-tighter-eligibility-filters/article71390041.ece",
+      "type": "story",
+      "label": "87.7% of retail F&O traders lost money in FY26 — and the industry is asking SEBI for entry barriers",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-25T22:35:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/news/national/india-china-agree-to-seek-political-settlement-of-boundary-issue-mea/article71391095.ece",
+      "type": "story",
+      "label": "Doval and Wang Yi agree to seek a 'political settlement' on the boundary, weeks before Xi's expected Delhi visit",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-26T08:42:30+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/warshs-inflation-warning-sets-up-september-showdown-for-the-fed/article71405126.ece",
+      "type": "story",
+      "label": "Warsh says the Fed 'has work to do' — and September hike odds jump from 30% to 57%",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-29T19:47:24+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platform-gets-sebis-nod-for-rs-37000-crore-ipo/articleshow/133603362.cms",
+      "type": "story",
+      "label": "Jio Platforms clears SEBI for a ₹37,000-crore IPO — India's largest ever, at a ₹9.5 lakh crore valuation",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-29T09:28:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/trump-venezuela-oil-deal",
+      "type": "story",
+      "label": "Trump claims 'biggest oil deal in history' with Venezuela as Iran's IRGC declares Hormuz closed",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-28T23:54:19+00:00",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/bonds/rbi-rate-hike-risk-rises-bandhan-amcs-suyash-choudhary-dials-back-duration-in-bond-portfolios/articleshow/133605170.cms",
+      "type": "story",
+      "label": "Bandhan AMC cuts duration as RBI hike risk rises, while forex reserves hit a record $729bn",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-29T11:24:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-stocks-show-widest-exchange-price-gap-in-decades/articleshow/133604969.cms",
+      "type": "story",
+      "label": "IndusInd closed ₹33 apart on NSE and BSE — the widest gap in two decades, and CAS is the reason",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-29T11:16:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://inc42.com/features/metas-18-bn-settlement-why-should-teen-safety-stop-at-the-us-border/",
+      "type": "story",
+      "label": "Meta's $18bn settlement rewrites teen social media — but only inside participating US states",
+      "category": "World",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-29T17:10:07+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/funding/andreessen-horowitz-raises-1-1-billion-for-ai-infrastructure-fund/articleshow/133603547.cms",
+      "type": "story",
+      "label": "a16z raises $1.1bn for AI hardware, Lambda borrows $1bn for chips, and Nvidia's moat turns out to be the rack",
+      "category": "AI",
+      "exam": {
+        "relevance": "none"
+      },
+      "date": "2026-08-29T09:36:57+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/market-chaos-after-cas-what-exactly-is-sebi-reviewing/articleshow/133757024.cms",
+      "type": "story",
+      "label": "SEBI will propose changing derivative settlement prices after CAS produced a 2,100-point Sensex swing",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-04T14:12:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/sebi-goes-after-hindenburg-others-in-adani-case/article71427687.ece",
+      "type": "story",
+      "label": "SEBI starts hearings to claw back $22 million from the Hindenburg-Kingdon short trade",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-04T14:46:26+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-5-75-6-in-h2-fy27-rate-hike-cycle-likely-from-december-ubi/articleshow/133756522.cms",
+      "type": "story",
+      "label": "UBI expects RBI hikes from December as $136 billion of swap inflows floods the banking system",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-04T13:36:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://apnews.com/article/diesel-prices-record-iran-war-fuel",
+      "type": "story",
+      "label": "US diesel hits a record $5.85 a gallon as Mirae warns oil may top $100",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-04T08:53:02+00:00",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety/articleshow/133754302.cms",
+      "type": "story",
+      "label": "OpenAI launches GPT-6 Astra and admits it hides its own reasoning — weeks after its agents hacked Hugging Face",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-04T08:41:46+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.cnbc.com/2026/09/04/nvidias-investments-grow-to-99-billion-as-chip-giant-backs-ai-companies.html",
+      "type": "story",
+      "label": "Nvidia's equity investments hit $99 billion — a 14x jump in a year — as Crusoe reaches a $30 billion valuation",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-04T08:08:51+00:00",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.cnbc.com/2026/09/04/us-economic-outcast-operation-gains-momentum-as-eu-joins-sanctions.html",
+      "type": "story",
+      "label": "EU signs on to 'Operation Economic Outcast' as South Korea weighs sending forces to Hormuz",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-04T02:45:11+00:00",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/commodities/news/oil-ends-week-higher-on-renewed-us-iran-strikes-diesel-hits-record/articleshow/133786882.cms",
+      "type": "story",
+      "label": "Brent gains 7.6% on the week and US diesel sets a record — while Bessent forecasts $40 crude",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Brent crude settled at $92.68 a barrel on 4 September 2026",
+            "kind": "number",
+            "as_of": "2026-09-05"
+          },
+          {
+            "fact": "US average retail diesel reached a record $5.85 per gallon",
+            "kind": "number",
+            "as_of": "2026-09-05"
+          },
+          {
+            "fact": "The US-Iran conflict is in its seventh month as of September 2026",
+            "kind": "date",
+            "as_of": "2026-09-05"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-05T09:28:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-turns-to-longer-dated-vrrr-for-liquidity-mop-up/articleshow/133787243.cms",
+      "type": "story",
+      "label": "RBI moves to 30-day VRRR as banking liquidity hits a record ₹10.3 lakh crore",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "India's policy repo rate is 5.25%",
+            "kind": "number",
+            "as_of": "2026-09-05"
+          },
+          {
+            "fact": "Weighted call money rate fell to 4.95%, below the repo rate",
+            "kind": "number",
+            "as_of": "2026-09-05"
+          },
+          {
+            "fact": "Surplus banking liquidity reached a record ₹10.3 lakh crore on 3 September 2026",
+            "kind": "number",
+            "as_of": "2026-09-05"
+          },
+          {
+            "fact": "VRRR is the RBI's variable rate reverse repo, used to absorb surplus liquidity",
+            "kind": "body",
+            "as_of": "2026-09-05"
+          }
+        ],
+        "drill": {
+          "q": "Which RBI tool is used to absorb surplus liquidity from the banking system?",
+          "options": [
+            "Marginal Standing Facility",
+            "Variable Rate Reverse Repo",
+            "Open Market Purchase",
+            "Long Term Repo Operation"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-05T09:45:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/capital-market-stocks-rise-on-cas-fix-hopes-index-closes-1-higher/articleshow/133787577.cms",
+      "type": "story",
+      "label": "Capital market stocks jump 1% on hopes SEBI unpicks the CAS settlement link",
+      "category": "Markets",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "SEBI introduced the Closing Auction Session on 3 August 2026",
+            "kind": "date",
+            "as_of": "2026-09-05"
+          },
+          {
+            "fact": "SEBI is the Securities and Exchange Board of India, the securities market regulator",
+            "kind": "body",
+            "as_of": "2026-09-05"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-05T09:58:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss",
+      "type": "story",
+      "label": "Witkoff and Kushner carry a peace proposal to Moscow and Kyiv this weekend",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Russia's full-scale invasion of Ukraine began in February 2022",
+            "kind": "date",
+            "as_of": "2026-09-05"
+          },
+          {
+            "fact": "Russia controls about 20% of Ukrainian territory as of September 2026",
+            "kind": "number",
+            "as_of": "2026-09-05"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-04T14:27:10+00:00",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-china-gear-up-for-mid-september-ai-safety-talks/articleshow/133786667.cms",
+      "type": "story",
+      "label": "US and China plan their first dedicated AI safety talks — weeks after 700 rogue agents hacked Hugging Face",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Scott Bessent is US Treasury Secretary",
+            "kind": "officeholder",
+            "as_of": "2026-09-05"
+          },
+          {
+            "fact": "Trump and Xi Jinping are due to meet on 24 September 2026 in Washington",
+            "kind": "date",
+            "as_of": "2026-09-05"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-05T09:18:43+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.livemint.com/news/us-news/us-fda-approves-astrazeneca-s-new-breast-cancer-pill-etcamah-dosage-high-risk-and-side-effects-all-you-need-to-know-11788585060737.html",
+      "type": "story",
+      "label": "The US FDA has approved AstraZeneca's Etcamah, a pill for metastatic breast cancer.",
+      "category": "Science",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [
+          {
+            "fact": "Etcamah is AstraZeneca's breast cancer pill approved by the US FDA in September 2026",
+            "kind": "scheme",
+            "as_of": "2026-09-05"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-05",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "https://www.livemint.com/news/india/indiaus-trade-deal-to-be-finalised-in-next-few-months-trump-s-priority-at-g20-and-a-hint-from-us-envoy-sergio-gor-11788580296390.html#g20",
+      "type": "story",
+      "label": "The 2026 G20 Summit will be hosted by the US at Trump National Doral Miami, Florida, on 14-15 December.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The 2026 G20 Summit is in Miami, Florida on 14-15 December 2026",
+            "kind": "date",
+            "as_of": "2026-09-05"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-05",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "https://indianexpress.com/article/business/strait-of-hormuz-india-ships-blacklisted-by-iran-10849537/",
+      "type": "story",
+      "label": "Iran blacklists 45 ships including two Indian vessels as the Strait of Hormuz crisis deepens",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman and Arabian Sea",
+            "kind": "place",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "The Strait of Hormuz normally carries about a fifth of global oil and LNG shipments",
+            "kind": "number",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-10T09:00:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/international/world-news/iran-attacks-10-ships-near-strait-of-hormuz-in-response-to-us-strikes-oil-prices-surge/articleshow/133989231.cms",
+      "type": "story",
+      "label": "Iran strikes a US base in Jordan and ten ships near Hormuz as the war widens on multiple fronts",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "Iran's strikes on US forces in Jordan target the Muwaffaq Salti Air Base near Al-Azraq",
+            "kind": "place",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-10T08:15:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+      "type": "story",
+      "label": "Oil crosses $100 a barrel and Trump ties the war's end to the midterms as advisers warn of a longer conflict",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-10T09:30:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/2026/sep/09/trump-republican-convention-speech-midterm-elections",
+      "type": "story",
+      "label": "Trump pledges a $5,000 'dividend' to every American adult if Republicans hold Congress",
+      "category": "World",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The Republican Party held its first-ever midterm convention in Dallas in September 2026",
+            "kind": "date",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "Trump pledged a $5,000 payout to American adults contingent on Republicans winning the November midterms",
+            "kind": "number",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-10T07:00:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.livemint.com/news/us-news/iran-nuclear-impasse-deepens-after-us-wins-un-watchdog-vote-11788981453559.html",
+      "type": "story",
+      "label": "US wins IAEA vote to refer Iran's nuclear file to the UN Security Council, deepening the diplomatic rift",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The International Atomic Energy Agency (IAEA) is the UN's nuclear watchdog",
+            "kind": "body",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "The IAEA board passed a censure resolution against Iran with 23 of 35 votes in September 2026",
+            "kind": "number",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-10T06:30:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/policy/brics-summit-in-new-delhi-the-grande-finale-is-indias-moment-to-navigate-a-bigger-and-more-divided-bloc/articleshow/133956218.cms",
+      "type": "story",
+      "label": "BRICS opens its New Delhi summit as India tries to hold together an 11-member bloc split over Iran and trade",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)",
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The BRICS leaders' summit in New Delhi runs 12-13 September 2026",
+            "kind": "date",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "BRICS originally stood for Brazil, Russia, India, China (BRIC); South Africa joined in 2010 to form BRICS",
+            "kind": "date",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "Egypt, Ethiopia, Iran, Saudi Arabia and the UAE joined BRICS in 2024; Indonesia joined in 2025",
+            "kind": "date",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "BRICS now has 11 full members",
+            "kind": "number",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": {
+          "q": "How many full members does BRICS have as of the 2026 New Delhi summit?",
+          "options": [
+            "5",
+            "9",
+            "11",
+            "15"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-10T09:45:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/finance/india-rbi-uses-currency-swaps-to-cut-115-billion-cash-surplus/articleshow/133969593.cms",
+      "type": "story",
+      "label": "RBI drains a record $115 billion cash surplus from banks using currency swaps",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "India's banking system surplus liquidity reached a record 11 trillion rupees (~$115 billion) in September 2026",
+            "kind": "number",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "RBI's sell-buy foreign exchange swap sells dollars for rupees and buys the dollars back later, draining rupee liquidity",
+            "kind": "body",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-10T08:00:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/india-august-consumer-inflation-likely-hit-20-month-high-on-food-fuel-prices-reuters-poll/articleshow/133961856.cms",
+      "type": "story",
+      "label": "India's August inflation seen hitting a 20-month high as food and fuel prices bite",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "India's RBI has a medium-term CPI inflation target of 4%, within a 2%-6% band",
+            "kind": "number",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "August 2026 CPI inflation was forecast at 4.80% in a Reuters poll, a 20-month high",
+            "kind": "number",
+            "as_of": "2026-09-10"
+          },
+          {
+            "fact": "India's CPI data for a given month is released around the 12th-14th of the following month",
+            "kind": "date",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": {
+          "q": "What is the RBI's medium-term CPI inflation target?",
+          "options": [
+            "2%",
+            "4%",
+            "6%",
+            "8%"
+          ],
+          "answer": 1
+        }
+      },
+      "date": "2026-09-10T07:30:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-researcher-quits-says-ai-firms-gambling-with-our-lives/articleshow/133951248.cms",
+      "type": "story",
+      "label": "An Anthropic researcher quits warning 'AI could kill all humans' as the company discloses a fourth security breach",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [
+          {
+            "fact": "Anthropic is the AI company that develops the Claude model family",
+            "kind": "body",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-10T08:45:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/finance/rbi-explores-tokenising-gold-amid-push-to-expand-unified-markets-interface/articleshow/133967357.cms",
+      "type": "story",
+      "label": "India's RBI is exploring tokenising gold as part of an expansion of its Unified Markets Interface.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "RBI's Unified Markets Interface is a platform integrating India's financial market infrastructure",
+            "kind": "scheme",
+            "as_of": "2026-09-10"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-10",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/retail-inflation-in-august-rises-to-4-8-wholesale-print-up-9-9/articleshow/134247430.cms",
+      "type": "story",
+      "label": "India's retail inflation hits 4.8%, a third straight month above target, as wholesale prices near double digits",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "India's RBI has a medium-term CPI inflation target of 4%, within a 2-percentage-point tolerance band either side",
+            "kind": "number",
+            "as_of": "2026-09-15"
+          },
+          {
+            "fact": "August 2026 CPI inflation was 4.8%, the highest since the revised CPI series (2024 base year) launched in January 2026",
+            "kind": "number",
+            "as_of": "2026-09-15"
+          },
+          {
+            "fact": "August 2026 WPI (wholesale) inflation was 9.9%, up from 9.8% in July",
+            "kind": "number",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": {
+          "q": "What is the RBI's tolerance band around its 4% medium-term CPI target?",
+          "options": [
+            "±1 percentage point",
+            "±2 percentage points",
+            "±3 percentage points",
+            "No formal band"
+          ],
+          "answer": 1
+        }
+      },
+      "date": "2026-09-15T09:00:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/international/world-news/saudi-pipeline-hit-by-drones-to-be-out-of-service-for-weeks-further-restricting-oil-flow/articleshow/134250442.cms",
+      "type": "story",
+      "label": "Saudi Arabia's main oil export pipeline is knocked out for weeks as Houthis seize Red Sea islands too",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "Saudi Arabia's East-West Pipeline runs 1,200 km from Gulf oilfields to the Red Sea port of Yanbu",
+            "kind": "number",
+            "as_of": "2026-09-15"
+          },
+          {
+            "fact": "The East-West Pipeline has a capacity of about 7 million barrels a day",
+            "kind": "number",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-15T09:30:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ck790xg41ygro?at_medium=RSS&at_campaign=rss",
+      "type": "story",
+      "label": "US confirms for the first time it has weapons deployed in orbit",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World",
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [
+          {
+            "fact": "The 1967 Outer Space Treaty banned weapons of mass destruction in Earth orbit",
+            "kind": "date",
+            "as_of": "2026-09-15"
+          },
+          {
+            "fact": "The US Space Force was launched in 2019 as the newest branch of the US military in over 70 years",
+            "kind": "date",
+            "as_of": "2026-09-15"
+          },
+          {
+            "fact": "The US confirmed for the first time in September 2026 that it has deployed a weapon in orbit",
+            "kind": "date",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": {
+          "q": "In what year was the US Space Force established?",
+          "options": [
+            "2015",
+            "2017",
+            "2019",
+            "2021"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-15T08:00:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-dismisses-ai-safety-alarm-says-us-already-has-tools-to-police-industry/articleshow/134251418.cms",
+      "type": "story",
+      "label": "Trump calls AI safety fears 'a hoax' in a live call to Nvidia's CEO, dismissing his own industry's alarm",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Jensen Huang is the CEO of Nvidia",
+            "kind": "officeholder",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-15T08:30:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/news/world/us-supreme-court-blocks-trump-mail-ballot-restrictions-for-midterm-elections/article71466512.ece",
+      "type": "story",
+      "label": "US Supreme Court blocks Trump's mail-ballot restrictions with midterm voting already underway",
+      "category": "World",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The US Supreme Court blocked the Trump administration's mail-ballot restrictions for the 2026 midterms in September 2026",
+            "kind": "date",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-15T06:30:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/bse-groww-other-broking-stocks-in-focus-as-sebi-proposes-changes-to-cas-what-does-it-mean-for-investors/articleshow/134251262.cms",
+      "type": "story",
+      "label": "SEBI proposes two settlement fixes for the derivatives pricing distortion that rattled traders for weeks",
+      "category": "Markets",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "SEBI (Securities and Exchange Board of India) is India's securities market regulator",
+            "kind": "body",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-15T09:00:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/sbi-research-idfc-first-expect-rate-hike-in-october-as-crude-prices-climb-higher-oil-prices-inflation-raise-likelihood-of-policy-tightening/articleshow/134246894.cms",
+      "type": "story",
+      "label": "Economists bring forward RBI rate-hike forecasts to October as oil crosses $108 and inflation confirms above target",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "India's RBI Monetary Policy Committee has six members",
+            "kind": "number",
+            "as_of": "2026-09-15"
+          },
+          {
+            "fact": "The RBI's October 2026 MPC meeting is scheduled for 5-7 October",
+            "kind": "date",
+            "as_of": "2026-09-15"
+          },
+          {
+            "fact": "India's repo rate stood at 5.25% as of mid-September 2026",
+            "kind": "number",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": {
+          "q": "How many members sit on the RBI's Monetary Policy Committee?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-15T08:00:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-buzz-lifts-5-group-stocks-by-rs-17200-crore-who-gains-the-most/articleshow/134252806.cms",
+      "type": "story",
+      "label": "RBI blocks Tata Sons' bid to stay private, forcing the ₹2 lakh crore holding company toward a public listing",
+      "category": "Business",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)",
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "Tata Sons is the principal holding company of the Tata Group, India's largest business conglomerate",
+            "kind": "body",
+            "as_of": "2026-09-15"
+          },
+          {
+            "fact": "NBFC-Upper Layer is an RBI regulatory classification requiring stricter compliance including, potentially, a stock exchange listing",
+            "kind": "body",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-15T09:15:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-in-focus-as-lender-shortlists-ceo-candidates-why-bernstein-nomura-others-see-up-to-62-upside/articleshow/134251201.cms",
+      "type": "story",
+      "label": "HDFC Bank formally begins CEO succession, submitting two names to the RBI as Jagdishan's exit nears",
+      "category": "Business",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)",
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "HDFC Bank's outgoing CEO is Sashidhar Jagdishan",
+            "kind": "officeholder",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-15T09:30:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/technology/meta-to-report-child-sexual-abuse-cases-to-indian-authorities-sources/articleshow/134250715.cms",
+      "type": "story",
+      "label": "Meta will begin reporting child sexual abuse material cases to Indian law enforcement authorities, per sources.",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "Meta owns Facebook, Instagram and WhatsApp",
+            "kind": "body",
+            "as_of": "2026-09-15"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-15",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "https://indianexpress.com/article/business/world-market/us-federal-reserve-hikes-key-interest-rate-for-first-time-in-3-years-10881199/",
+      "type": "story",
+      "label": "The US Federal Reserve hikes rates for the first time since 2023, and the rupee breaches 96 in response",
+      "category": "Markets",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The US Federal Reserve raised its benchmark rate by 25 basis points in September 2026, its first hike since 2023",
+            "kind": "date",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "The Fed's benchmark rate stood at approximately 3.9% after the September 2026 hike",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": {
+          "q": "What was the US Federal Reserve's first rate hike since which year, as of September 2026?",
+          "options": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-18T09:00:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.livemint.com/market/stock-market-news/bank-of-japan-increase-interest-rates-at-31-year-high-of-125-11789701327836.html",
+      "type": "story",
+      "label": "Bank of Japan raises rates to a 31-year high of 1.25% as inflation runs hot",
+      "category": "Markets",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World",
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The Bank of Japan raised its policy rate to 1.25% in September 2026, a 31-year high",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "Kazuo Ueda is the Governor of the Bank of Japan",
+            "kind": "officeholder",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": {
+          "q": "What was the Bank of Japan's policy rate after its September 2026 hike?",
+          "options": [
+            "0.75%",
+            "1.00%",
+            "1.25%",
+            "1.50%"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-18T08:30:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/us-federal-reserve-fed-rate-hike-india-impact-rbi-repo-rate-october-december-policy-rupee-breaches-96-dollar-inflation-economists/articleshow/134303331.cms",
+      "type": "story",
+      "label": "RBI faces an October-or-December dilemma as the Fed's hike pushes the rupee past 96",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "India's RBI Monetary Policy Committee meets 5-7 October 2026",
+            "kind": "date",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-18T09:30:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/moodys-raises-india-fy27-growth-forecast-to-7-from-6-breaks-above-imf-sp-projections/articleshow/134324328.cms",
+      "type": "story",
+      "label": "Moody's raises India's FY27 growth forecast to 7%, breaking above IMF and S&P projections",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Moody's raised India's FY27 (year ending March 2027) real GDP growth forecast to 7% from 6% in September 2026",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "India's real GDP grew 8.2% year-on-year in the first six months of calendar 2026",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "The IMF's FY27 India GDP growth projection stood at 6.4% as of this Moody's revision",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": {
+          "q": "To what level did Moody's raise its India FY27 real GDP growth forecast?",
+          "options": [
+            "6.0%",
+            "6.4%",
+            "6.8%",
+            "7.0%"
+          ],
+          "answer": 3
+        }
+      },
+      "date": "2026-09-18T07:30:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/policy/cbdt-removes-arrest-and-imprisonment-as-prescribed-route-for-tax-recovery/articleshow/134325963.cms",
+      "type": "story",
+      "label": "CBDT scraps arrest and imprisonment as a tax-recovery tool, shifting entirely to property seizure",
+      "category": "Government",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "CBDT stands for Central Board of Direct Taxes, India's apex direct-tax administrative body",
+            "kind": "body",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "CBDT amended Rule 225 to remove arrest/imprisonment as a prescribed tax recovery route, effective from a 17 September 2026 notification",
+            "kind": "date",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-18T08:15:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-rally-1-as-trump-xi-meeting-raises-trade-hopes/articleshow/134327719.cms",
+      "type": "story",
+      "label": "China stocks post their best day in a month as markets bet on a Trump-Xi trade breakthrough",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The Trump-Xi summit is scheduled for 24 September 2026 in Washington, their second meeting of the year",
+            "kind": "date",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-18T09:15:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://www.aljazeera.com/news/2026/9/18/oman-oil-escape-route-how-ship-to-ship-transfers-work-despite-big?traffic_source=rss",
+      "type": "story",
+      "label": "How Saudi Arabia is now smuggling its own oil to market: ship-to-ship transfers off Oman",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "Sohar and Fujairah are two ports outside the Strait of Hormuz now central to bypassing it",
+            "kind": "place",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-18T09:45:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself/articleshow/134324707.cms",
+      "type": "story",
+      "label": "Anthropic says Claude is now doing 26% of the work to build its own successor",
+      "category": "AI",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [
+          {
+            "fact": "Anthropic is the AI company that develops the Claude model family; Dario Amodei is its CEO",
+            "kind": "officeholder",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "Anthropic disclosed Claude leads 26% of the company's own model R&D as of September 2026",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": {
+          "q": "What share of Anthropic's model R&D does the company say Claude currently leads?",
+          "options": [
+            "10%",
+            "26%",
+            "50%",
+            "90%"
+          ],
+          "answer": 1
+        }
+      },
+      "date": "2026-09-18T08:45:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-why-tata-chemicals-may-be-the-biggest-beneficiary-although-tata-motors-tata-steel-own-bigger-stake/articleshow/134329137.cms",
+      "type": "story",
+      "label": "A corporate battle erupts at Bombay House as Noel Tata calls Chandrasekaran's extension 'illegal' ahead of the Tata Sons IPO",
+      "category": "Business",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)",
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "N Chandrasekaran is Chairman of Tata Sons",
+            "kind": "officeholder",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "Tata Trusts, through the Sir Ratan Tata Trust and Sir Dorabji Tata Trust, controls 66% of Tata Sons",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "Shapoorji Pallonji Group holds over 18% of Tata Sons, its largest minority shareholder",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-18T09:30:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/technology/nexperia-says-it-will-partner-with-tata-on-chip-production-packaging-in-india/articleshow/134315489.cms",
+      "type": "story",
+      "label": "After splitting from its Chinese parent, Dutch chipmaker Nexperia partners with Tata to build chips in India",
+      "category": "Innovation",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "Randhir Thakur is CEO of Tata Electronics",
+            "kind": "officeholder",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "Tata Electronics is building an $11 billion chip plant in Dholera, Gujarat",
+            "kind": "number",
+            "as_of": "2026-09-18"
+          },
+          {
+            "fact": "Tata Electronics has a chip packaging facility in Jagiroad, Assam",
+            "kind": "place",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": {
+          "q": "In which Indian state is Tata Electronics building its $11 billion semiconductor plant?",
+          "options": [
+            "Maharashtra",
+            "Gujarat",
+            "Karnataka",
+            "Tamil Nadu"
+          ],
+          "answer": 1
+        }
+      },
+      "date": "2026-09-18T08:15:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/us-stocks/news/how-bessent-americas-bond-salesman-cornered-japan-on-big-spending/articleshow/134326610.cms",
+      "type": "story",
+      "label": "US Treasury Secretary Scott Bessent has reportedly pressured Japan on bond-market spending, per an ET Markets feature. The pressure ties into the BOJ's own rate-hike decision covered elsewhere in this edition, adding a second layer of US-Japan financial friction.",
+      "category": "Markets",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Scott Bessent is US Treasury Secretary",
+            "kind": "officeholder",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-18",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/finance/digital-gold-may-come-under-rbi-sebi-oversight-physical-backing-proposed/articleshow/134319873.cms",
+      "type": "story",
+      "label": "Digital gold may come under joint RBI-SEBI oversight, with physical backing proposed. Bringing digital gold under formal RBI-SEBI oversight would close a regulatory gap that has left buyers without clear recourse if a platform defaults.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "RBI and SEBI are India's central bank and securities regulator respectively",
+            "kind": "body",
+            "as_of": "2026-09-18"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-18",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "RBI",
+      "type": "entity",
+      "label": "RBI",
+      "degree": 19,
+      "examTagged": true
+    },
+    {
+      "id": "Iran",
+      "type": "entity",
+      "label": "Iran",
+      "degree": 19,
+      "examTagged": true
+    },
+    {
+      "id": "Trump",
+      "type": "entity",
+      "label": "Trump",
+      "degree": 16,
+      "examTagged": true
+    },
+    {
+      "id": "SEBI",
+      "type": "entity",
+      "label": "SEBI",
+      "degree": 12,
+      "examTagged": true
+    },
+    {
+      "id": "China",
+      "type": "entity",
+      "label": "China",
+      "degree": 9,
+      "examTagged": true
+    },
+    {
+      "id": "US Treasury",
+      "type": "entity",
+      "label": "US Treasury",
+      "degree": 5,
+      "examTagged": true
+    },
+    {
+      "id": "Nvidia",
+      "type": "entity",
+      "label": "Nvidia",
+      "degree": 5,
+      "examTagged": true
+    },
+    {
+      "id": "Anthropic",
+      "type": "entity",
+      "label": "Anthropic",
+      "degree": 4,
+      "examTagged": true
+    },
+    {
+      "id": "Tata Sons",
+      "type": "entity",
+      "label": "Tata Sons",
+      "degree": 3,
+      "examTagged": true
+    },
+    {
+      "id": "Xi Jinping",
+      "type": "entity",
+      "label": "Xi Jinping",
+      "degree": 1,
+      "examTagged": false
+    },
+    {
+      "id": "Fed",
+      "type": "entity",
+      "label": "Fed",
+      "degree": 3,
+      "examTagged": true
+    },
+    {
+      "id": "Meta",
+      "type": "entity",
+      "label": "Meta",
+      "degree": 3,
+      "examTagged": true
+    },
+    {
+      "id": "Microsoft",
+      "type": "entity",
+      "label": "Microsoft",
+      "degree": 1,
+      "examTagged": false
+    },
+    {
+      "id": "OpenAI",
+      "type": "entity",
+      "label": "OpenAI",
+      "degree": 2,
+      "examTagged": true
+    },
+    {
+      "id": "Houthi",
+      "type": "entity",
+      "label": "Houthi",
+      "degree": 3,
+      "examTagged": true
+    },
+    {
+      "id": "Saudi Arabia",
+      "type": "entity",
+      "label": "Saudi Arabia",
+      "degree": 4,
+      "examTagged": true
+    },
+    {
+      "id": "SEC",
+      "type": "entity",
+      "label": "SEC",
+      "degree": 1,
+      "examTagged": true
+    },
+    {
+      "id": "BOJ",
+      "type": "entity",
+      "label": "BOJ",
+      "degree": 2,
+      "examTagged": true
+    },
+    {
+      "id": "IMF",
+      "type": "entity",
+      "label": "IMF",
+      "degree": 1,
+      "examTagged": true
+    },
+    {
+      "id": "Moody's",
+      "type": "entity",
+      "label": "Moody's",
+      "degree": 1,
+      "examTagged": true
+    },
+    {
+      "id": "CBDT",
+      "type": "entity",
+      "label": "CBDT",
+      "degree": 1,
+      "examTagged": true
+    },
+    {
+      "id": "Tata Chemicals",
+      "type": "entity",
+      "label": "Tata Chemicals",
+      "degree": 1,
+      "examTagged": true
+    },
+    {
+      "id": "Nexperia",
+      "type": "entity",
+      "label": "Nexperia",
+      "degree": 1,
+      "examTagged": true
+    },
+    {
+      "id": "Tata Electronics",
+      "type": "entity",
+      "label": "Tata Electronics",
+      "degree": 1,
+      "examTagged": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/indias-july-inflation-quickens-to-4-45-from-4-38-in-june-stays-above-rbi-target/articleshow/133178130.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/08/13/us-iran-war-trump-hormuz-irgc.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/08/13/us-iran-war-trump-hormuz-irgc.html",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.thehindu.com/business/markets/nifty-falls-for-7th-day-sensex-down-326-points-as-rising-crude-oil-prices-unnerve-investors/article71364459.ece",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/hdfc-bank-shares-rise-2-from-52-week-low-as-rbi-clears-lic-stake-increase/article71367820.ece",
+      "target": "RBI"
+    },
+    {
+      "source": "https://www.business-standard.com/markets/news/sebi-bets-on-trading-reforms-to-reverse-outflow-of-foreign-capital-126082000117_1.html",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://www.livemint.com/news/us-news/trump-announces-crushing-economic-operation-against-iran-warns-consequences-for-countries-doing-business-with-tehran-11787185018696.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.livemint.com/news/us-news/trump-announces-crushing-economic-operation-against-iran-warns-consequences-for-countries-doing-business-with-tehran-11787185018696.html",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/bonds/investors-dump-india-bonds-after-hawkish-rbi-minutes/articleshow/133377449.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/08/20/oil-prices-brent-wti-hormuz-trump.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/08/20/oil-prices-brent-wti-hormuz-trump.html",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-jumps-11-to-71k-hits-2-month-high-190-billion-added-to-crypto-market-cap-after-trumps-crypto-push/articleshow/133373099.cms",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/stock-markets/nse-said-to-plan-trading-of-its-shares-on-own-platform/article71369038.ece",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/sebi-bars-2-entities-over-prima-facie-manipulation-in-new-closing-auction/article71366301.ece",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan",
+      "target": "China"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/08/24/iran-hormuz-ship-seizures-bessent-sanctions.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/08/24/iran-hormuz-ship-seizures-bessent-sanctions.html",
+      "target": "US Treasury"
+    },
+    {
+      "source": "https://www.business-standard.com/markets/news/sebi-rejects-settlement-applications-by-13-foreign-funds-in-adani-probe-126082400130_1.html",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-market-nvidia-earnings-jackson-hole-to-test-strength-of-ai-led-stock-rally/articleshow/133451150.cms",
+      "target": "Nvidia"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/forex/rbi-likely-intervenes-anchoring-rupee-in-face-of-global-ructions-traders-say/article71383110.ece",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-market-debut-could-break-spacex-ipo-record/articleshow/133442327.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://www.livemint.com/companies/news/ai-creates-more-jobs-than-it-cuts-in-india-but-freshers-are-losing-out-says-report-11787504477755.html",
+      "target": "China"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/news/world/iran-approves-service-fees-for-authorised-ships-transiting-strait-of-hormuz/article71383083.ece",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-price-drop-as-iran-oman-talks-raise-hormuz-hopes/article71391403.ece",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-price-drop-as-iran-oman-talks-raise-hormuz-hopes/article71391403.ece",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
+      "target": "China"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/news/world/canada-announces-retaliatory-tariffs-on-20-billion-worth-of-us-goods-unveils-support-measures/article71391236.ece",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-warns-food-fuel-costs-could-reignite-broader-inflation/articleshow/133511523.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/companies/air-india-seeks-1-5-billion-fresh-equity-from-tata-sons-singapore-airlines/article71390726.ece",
+      "target": "Tata Sons"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/nvidia-faces-growth-test-as-rubin-debut-meets-ai-financing-scrutiny/articleshow/133517900.cms",
+      "target": "Nvidia"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/persisting-retail-fo-losses-spur-call-for-tighter-eligibility-filters/article71390041.ece",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/news/national/india-china-agree-to-seek-political-settlement-of-boundary-issue-mea/article71391095.ece",
+      "target": "China"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/news/national/india-china-agree-to-seek-political-settlement-of-boundary-issue-mea/article71391095.ece",
+      "target": "Xi Jinping"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/warshs-inflation-warning-sets-up-september-showdown-for-the-fed/article71405126.ece",
+      "target": "Fed"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platform-gets-sebis-nod-for-rs-37000-crore-ipo/articleshow/133603362.cms",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/trump-venezuela-oil-deal",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/trump-venezuela-oil-deal",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/bonds/rbi-rate-hike-risk-rises-bandhan-amcs-suyash-choudhary-dials-back-duration-in-bond-portfolios/articleshow/133605170.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-stocks-show-widest-exchange-price-gap-in-decades/articleshow/133604969.cms",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://inc42.com/features/metas-18-bn-settlement-why-should-teen-safety-stop-at-the-us-border/",
+      "target": "Meta"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/funding/andreessen-horowitz-raises-1-1-billion-for-ai-infrastructure-fund/articleshow/133603547.cms",
+      "target": "Microsoft"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/funding/andreessen-horowitz-raises-1-1-billion-for-ai-infrastructure-fund/articleshow/133603547.cms",
+      "target": "Nvidia"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/market-chaos-after-cas-what-exactly-is-sebi-reviewing/articleshow/133757024.cms",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/sebi-goes-after-hindenburg-others-in-adani-case/article71427687.ece",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-5-75-6-in-h2-fy27-rate-hike-cycle-likely-from-december-ubi/articleshow/133756522.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://apnews.com/article/diesel-prices-record-iran-war-fuel",
+      "target": "Iran"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety/articleshow/133754302.cms",
+      "target": "OpenAI"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/04/nvidias-investments-grow-to-99-billion-as-chip-giant-backs-ai-companies.html",
+      "target": "Nvidia"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/04/us-economic-outcast-operation-gains-momentum-as-eu-joins-sanctions.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/04/us-economic-outcast-operation-gains-momentum-as-eu-joins-sanctions.html",
+      "target": "US Treasury"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/commodities/news/oil-ends-week-higher-on-renewed-us-iran-strikes-diesel-hits-record/articleshow/133786882.cms",
+      "target": "Iran"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/commodities/news/oil-ends-week-higher-on-renewed-us-iran-strikes-diesel-hits-record/articleshow/133786882.cms",
+      "target": "US Treasury"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-turns-to-longer-dated-vrrr-for-liquidity-mop-up/articleshow/133787243.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/capital-market-stocks-rise-on-cas-fix-hopes-index-closes-1-higher/articleshow/133787577.cms",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-china-gear-up-for-mid-september-ai-safety-talks/articleshow/133786667.cms",
+      "target": "China"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-china-gear-up-for-mid-september-ai-safety-talks/articleshow/133786667.cms",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-china-gear-up-for-mid-september-ai-safety-talks/articleshow/133786667.cms",
+      "target": "US Treasury"
+    },
+    {
+      "source": "https://www.livemint.com/news/us-news/us-fda-approves-astrazeneca-s-new-breast-cancer-pill-etcamah-dosage-high-risk-and-side-effects-all-you-need-to-know-11788585060737.html",
+      "target": "Meta"
+    },
+    {
+      "source": "https://www.livemint.com/news/india/indiaus-trade-deal-to-be-finalised-in-next-few-months-trump-s-priority-at-g20-and-a-hint-from-us-envoy-sergio-gor-11788580296390.html#g20",
+      "target": "Trump"
+    },
+    {
+      "source": "https://indianexpress.com/article/business/strait-of-hormuz-india-ships-blacklisted-by-iran-10849537/",
+      "target": "Iran"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/iran-attacks-10-ships-near-strait-of-hormuz-in-response-to-us-strikes-oil-prices-surge/articleshow/133989231.cms",
+      "target": "Houthi"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/iran-attacks-10-ships-near-strait-of-hormuz-in-response-to-us-strikes-oil-prices-surge/articleshow/133989231.cms",
+      "target": "Iran"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/iran-attacks-10-ships-near-strait-of-hormuz-in-response-to-us-strikes-oil-prices-surge/articleshow/133989231.cms",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.theguardian.com/us-news/2026/sep/09/trump-republican-convention-speech-midterm-elections",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.livemint.com/news/us-news/iran-nuclear-impasse-deepens-after-us-wins-un-watchdog-vote-11788981453559.html",
+      "target": "China"
+    },
+    {
+      "source": "https://www.livemint.com/news/us-news/iran-nuclear-impasse-deepens-after-us-wins-un-watchdog-vote-11788981453559.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/policy/brics-summit-in-new-delhi-the-grande-finale-is-indias-moment-to-navigate-a-bigger-and-more-divided-bloc/articleshow/133956218.cms",
+      "target": "Iran"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/policy/brics-summit-in-new-delhi-the-grande-finale-is-indias-moment-to-navigate-a-bigger-and-more-divided-bloc/articleshow/133956218.cms",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/finance/india-rbi-uses-currency-swaps-to-cut-115-billion-cash-surplus/articleshow/133969593.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/india-august-consumer-inflation-likely-hit-20-month-high-on-food-fuel-prices-reuters-poll/articleshow/133961856.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-researcher-quits-says-ai-firms-gambling-with-our-lives/articleshow/133951248.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-researcher-quits-says-ai-firms-gambling-with-our-lives/articleshow/133951248.cms",
+      "target": "OpenAI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/finance/rbi-explores-tokenising-gold-amid-push-to-expand-unified-markets-interface/articleshow/133967357.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/retail-inflation-in-august-rises-to-4-8-wholesale-print-up-9-9/articleshow/134247430.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/saudi-pipeline-hit-by-drones-to-be-out-of-service-for-weeks-further-restricting-oil-flow/articleshow/134250442.cms",
+      "target": "Houthi"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/saudi-pipeline-hit-by-drones-to-be-out-of-service-for-weeks-further-restricting-oil-flow/articleshow/134250442.cms",
+      "target": "Iran"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/saudi-pipeline-hit-by-drones-to-be-out-of-service-for-weeks-further-restricting-oil-flow/articleshow/134250442.cms",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/ck790xg41ygro?at_medium=RSS&at_campaign=rss",
+      "target": "China"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/ck790xg41ygro?at_medium=RSS&at_campaign=rss",
+      "target": "RBI"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/ck790xg41ygro?at_medium=RSS&at_campaign=rss",
+      "target": "SEC"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/ck790xg41ygro?at_medium=RSS&at_campaign=rss",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-dismisses-ai-safety-alarm-says-us-already-has-tools-to-police-industry/articleshow/134251418.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-dismisses-ai-safety-alarm-says-us-already-has-tools-to-police-industry/articleshow/134251418.cms",
+      "target": "Nvidia"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-dismisses-ai-safety-alarm-says-us-already-has-tools-to-police-industry/articleshow/134251418.cms",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/news/world/us-supreme-court-blocks-trump-mail-ballot-restrictions-for-midterm-elections/article71466512.ece",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/bse-groww-other-broking-stocks-in-focus-as-sebi-proposes-changes-to-cas-what-does-it-mean-for-investors/articleshow/134251262.cms",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/sbi-research-idfc-first-expect-rate-hike-in-october-as-crude-prices-climb-higher-oil-prices-inflation-raise-likelihood-of-policy-tightening/articleshow/134246894.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-buzz-lifts-5-group-stocks-by-rs-17200-crore-who-gains-the-most/articleshow/134252806.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-buzz-lifts-5-group-stocks-by-rs-17200-crore-who-gains-the-most/articleshow/134252806.cms",
+      "target": "Tata Sons"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-in-focus-as-lender-shortlists-ceo-candidates-why-bernstein-nomura-others-see-up-to-62-upside/articleshow/134251201.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/meta-to-report-child-sexual-abuse-cases-to-indian-authorities-sources/articleshow/134250715.cms",
+      "target": "Meta"
+    },
+    {
+      "source": "https://indianexpress.com/article/business/world-market/us-federal-reserve-hikes-key-interest-rate-for-first-time-in-3-years-10881199/",
+      "target": "Fed"
+    },
+    {
+      "source": "https://indianexpress.com/article/business/world-market/us-federal-reserve-hikes-key-interest-rate-for-first-time-in-3-years-10881199/",
+      "target": "RBI"
+    },
+    {
+      "source": "https://www.livemint.com/market/stock-market-news/bank-of-japan-increase-interest-rates-at-31-year-high-of-125-11789701327836.html",
+      "target": "BOJ"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/us-federal-reserve-fed-rate-hike-india-impact-rbi-repo-rate-october-december-policy-rupee-breaches-96-dollar-inflation-economists/articleshow/134303331.cms",
+      "target": "Fed"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/us-federal-reserve-fed-rate-hike-india-impact-rbi-repo-rate-october-december-policy-rupee-breaches-96-dollar-inflation-economists/articleshow/134303331.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/moodys-raises-india-fy27-growth-forecast-to-7-from-6-breaks-above-imf-sp-projections/articleshow/134324328.cms",
+      "target": "IMF"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/moodys-raises-india-fy27-growth-forecast-to-7-from-6-breaks-above-imf-sp-projections/articleshow/134324328.cms",
+      "target": "Moody's"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/policy/cbdt-removes-arrest-and-imprisonment-as-prescribed-route-for-tax-recovery/articleshow/134325963.cms",
+      "target": "CBDT"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-rally-1-as-trump-xi-meeting-raises-trade-hopes/articleshow/134327719.cms",
+      "target": "China"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-rally-1-as-trump-xi-meeting-raises-trade-hopes/articleshow/134327719.cms",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/18/oman-oil-escape-route-how-ship-to-ship-transfers-work-despite-big?traffic_source=rss",
+      "target": "Houthi"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/18/oman-oil-escape-route-how-ship-to-ship-transfers-work-despite-big?traffic_source=rss",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/18/oman-oil-escape-route-how-ship-to-ship-transfers-work-despite-big?traffic_source=rss",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself/articleshow/134324707.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-why-tata-chemicals-may-be-the-biggest-beneficiary-although-tata-motors-tata-steel-own-bigger-stake/articleshow/134329137.cms",
+      "target": "Tata Chemicals"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-why-tata-chemicals-may-be-the-biggest-beneficiary-although-tata-motors-tata-steel-own-bigger-stake/articleshow/134329137.cms",
+      "target": "Tata Sons"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/nexperia-says-it-will-partner-with-tata-on-chip-production-packaging-in-india/articleshow/134315489.cms",
+      "target": "China"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/nexperia-says-it-will-partner-with-tata-on-chip-production-packaging-in-india/articleshow/134315489.cms",
+      "target": "Nexperia"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/nexperia-says-it-will-partner-with-tata-on-chip-production-packaging-in-india/articleshow/134315489.cms",
+      "target": "Tata Electronics"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/us-stocks/news/how-bessent-americas-bond-salesman-cornered-japan-on-big-spending/articleshow/134326610.cms",
+      "target": "BOJ"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/us-stocks/news/how-bessent-americas-bond-salesman-cornered-japan-on-big-spending/articleshow/134326610.cms",
+      "target": "US Treasury"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/finance/digital-gold-may-come-under-rbi-sebi-oversight-physical-backing-proposed/articleshow/134319873.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/finance/digital-gold-may-come-under-rbi-sebi-oversight-physical-backing-proposed/articleshow/134319873.cms",
+      "target": "SEBI"
+    }
+  ],
+  "generated_at": "2026-09-18T16:34:09.059278+05:30"
+}
