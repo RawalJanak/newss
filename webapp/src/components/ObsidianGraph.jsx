@@ -6,42 +6,67 @@ const W = 700
 const H = 560
 const TICKS = 400
 const POPUP_W = 260
-const BBOX_PAD = 50
-const STORY_R = 6
-
-// Entity nodes are flat pill-shaped chips sized to fit their own label —
-// the name renders inside the shape instead of floating beside it.
-function entityBox(label) {
-  const w = Math.max(50, String(label).length * 7.2 + 26)
-  const h = 28
-  return { w, h }
-}
+const BBOX_PAD = 60
 
 function layout(nodes, edges) {
-  const nodeCopies = nodes.map((n) => {
-    if (n.type === 'entity') {
-      const { w, h } = entityBox(n.label)
-      return { ...n, w, h, r: Math.max(w, h) / 2 + 6 }
-    }
-    return { ...n, r: STORY_R }
-  })
+  const nodeCopies = nodes.map((n) => ({
+    ...n,
+    r: n.type === 'entity' ? 5 + Math.sqrt(n.degree || 1) * 2.4 : 4,
+  }))
   const linkCopies = edges.map((e) => ({ ...e }))
   const sim = forceSimulation(nodeCopies)
-    // Entities repel each other hard so chips never overlap; stories barely
-    // repel at all, so they hug their hub tightly instead of scattering.
-    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -280 : -8)))
-    .force('link', forceLink(linkCopies).id((d) => d.id).distance(60))
+    // Entities repel each other so clusters stay visually separate; stories
+    // barely repel at all, so they form a tight cloud around their own hub
+    // instead of scattering across the canvas.
+    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -320 : -4)))
+    .force('link', forceLink(linkCopies).id((d) => d.id).distance(26))
     .force('center', forceCenter(W / 2, H / 2))
     // Without this, disconnected clusters (no story-story edges exist) only
     // repel each other and drift apart indefinitely. Entities get a weak
-    // pull so they still spread out; stories get almost none, since their
-    // own link force is what should hold them near their hub.
-    .force('x', forceX(W / 2).strength((d) => (d.type === 'entity' ? 0.02 : 0.006)))
-    .force('y', forceY(H / 2).strength((d) => (d.type === 'entity' ? 0.02 : 0.006)))
-    .force('collide', forceCollide((d) => d.r).iterations(3))
+    // pull so they still spread out into distinct regions; stories get
+    // almost none, since the link force above is what holds their cloud
+    // shape together.
+    .force('x', forceX(W / 2).strength((d) => (d.type === 'entity' ? 0.018 : 0.004)))
+    .force('y', forceY(H / 2).strength((d) => (d.type === 'entity' ? 0.018 : 0.004)))
+    .force('collide', forceCollide((d) => d.r + 1.5).iterations(3))
     .stop()
   for (let i = 0; i < TICKS; i++) sim.tick()
   return { nodes: nodeCopies, links: linkCopies }
+}
+
+// Each story is colored by the first entity it's connected to, so a
+// cluster reads as one dominant color (like a discipline in a citation
+// map) instead of every dot being tinted by its own unrelated news
+// category.
+function primaryEntityByStory(edges) {
+  const map = new Map()
+  edges.forEach((e) => {
+    if (!map.has(e.source)) map.set(e.source, e.target)
+  })
+  return map
+}
+
+// A cluster's label floats above the centroid of its entity node plus all
+// the stories attached to it — not pinned to the entity dot itself — the
+// same way a discipline name floats over its region in a map-of-science
+// graph rather than labeling one node.
+function clusterLabelPositions(nodes, edges) {
+  const byId = new Map(nodes.map((n) => [n.id, n]))
+  const groups = new Map()
+  nodes.forEach((n) => { if (n.type === 'entity') groups.set(n.id, [n]) })
+  edges.forEach((e) => {
+    const entity = e.target.id || e.target
+    const story = byId.get(e.source.id || e.source)
+    if (story && groups.has(entity)) groups.get(entity).push(story)
+  })
+  const positions = new Map()
+  groups.forEach((members, id) => {
+    const sumX = members.reduce((a, m) => a + m.x, 0)
+    const sumY = members.reduce((a, m) => a + m.y, 0)
+    const topY = Math.min(...members.map((m) => m.y - m.r))
+    positions.set(id, { x: sumX / members.length, y: topY - 8 })
+  })
+  return positions
 }
 
 // Nothing gets clipped: the viewBox is sized from the settled nodes'
@@ -55,8 +80,8 @@ function boundingViewBox(nodes) {
     minY = Math.min(minY, n.y - n.r); maxY = Math.max(maxY, n.y + n.r)
   })
   return {
-    minX: minX - BBOX_PAD, minY: minY - BBOX_PAD,
-    w: (maxX - minX) + BBOX_PAD * 2, h: (maxY - minY) + BBOX_PAD * 2,
+    minX: minX - BBOX_PAD, minY: minY - BBOX_PAD - 20,
+    w: (maxX - minX) + BBOX_PAD * 2, h: (maxY - minY) + BBOX_PAD * 2 + 20,
   }
 }
 
@@ -110,6 +135,8 @@ export default function ObsidianGraph({ graph }) {
   }, [graph])
 
   const box = useMemo(() => boundingViewBox(nodes), [nodes])
+  const primaryEntity = useMemo(() => primaryEntityByStory(links), [links])
+  const labelPos = useMemo(() => clusterLabelPositions(nodes, links), [nodes, links])
 
   const neighborIds = useMemo(() => {
     if (!focused) return null
@@ -133,6 +160,12 @@ export default function ObsidianGraph({ graph }) {
   if (!nodes.length) return <div className="empty">Nothing connected yet.</div>
 
   const active = matchIds || neighborIds
+
+  function nodeColor(n) {
+    if (n.type === 'entity') return pickColor(n.label)
+    const entity = primaryEntity.get(n.id)
+    return entity ? pickColor(entity) : pickColor(n.category)
+  }
 
   function pickNode(e, id) {
     e.stopPropagation()
@@ -172,28 +205,33 @@ export default function ObsidianGraph({ graph }) {
 
           {nodes.map((n) => {
             const dim = active && !active.has(n.id)
-            const fill = n.type === 'entity' ? pickColor(n.label) : pickColor(n.category)
+            const fill = nodeColor(n)
             return (
-              <g
+              <circle
                 key={n.id}
-                className={'onode' + (dim ? ' dim' : '')}
-                transform={'translate(' + n.x + ',' + n.y + ')'}
+                cx={n.x} cy={n.y} r={n.r}
+                className={'onode' + (n.type === 'entity' ? ' oentity' : ' ostory') + (n.examTagged ? ' exam' : '') + (dim ? ' dim' : '')}
+                style={{ fill }}
                 onClick={(e) => pickNode(e, n.id)}
               >
                 <title>{n.label}</title>
-                {n.type === 'entity' ? (
-                  <>
-                    <rect
-                      x={-n.w / 2} y={-n.h / 2} width={n.w} height={n.h} rx={n.h / 2}
-                      className={'oentity' + (n.examTagged ? ' exam' : '')}
-                      style={{ fill }}
-                    />
-                    <text x={0} y={4} textAnchor="middle" className="olabel entity">{n.label}</text>
-                  </>
-                ) : (
-                  <circle r={n.r} className="ostory" style={{ fill }} />
-                )}
-              </g>
+              </circle>
+            )
+          })}
+
+          {nodes.filter((n) => n.type === 'entity').map((n) => {
+            const pos = labelPos.get(n.id) || n
+            const dim = active && !active.has(n.id)
+            return (
+              <text
+                key={'lbl-' + n.id}
+                x={pos.x} y={pos.y}
+                textAnchor="middle"
+                className={'olabel' + (dim ? ' dim' : '')}
+                style={{ fill: pickColor(n.label) }}
+              >
+                {n.label}
+              </text>
             )
           })}
         </svg>
