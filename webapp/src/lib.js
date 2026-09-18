@@ -79,10 +79,9 @@ export function catColor(cat) {
   return 'hsl(' + catHue(cat) + ' 65% 62%)'
 }
 
-// A narrow, restrained cool palette -- plain and deliberate rather than a
-// rainbow of unrelated hues. Every name gets a consistent, stable color.
+// Bright, distinct hues -- red, blue, green, yellow, violet, purple, pink.
 export const FLAT_PALETTE = [
-  '#22D3EE', '#38BDF8', '#60A5FA', '#818CF8', '#A78BFA', '#2DD4BF',
+  '#FF3B30', '#0A84FF', '#30D158', '#FFD60A', '#7C3AED', '#A21CAF', '#FF2D9E',
 ]
 
 export function pickColor(key) {

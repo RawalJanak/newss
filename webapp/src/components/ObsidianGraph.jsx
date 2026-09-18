@@ -17,19 +17,20 @@ function layout(nodes, edges) {
   const linkCopies = edges.map((e) => ({ ...e }))
   const sim = forceSimulation(nodeCopies)
     // Entities repel each other so clusters stay visually separate; stories
-    // barely repel at all, so they form a tight cloud around their own hub
-    // instead of scattering across the canvas.
-    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -320 : -4)))
-    .force('link', forceLink(linkCopies).id((d) => d.id).distance(26))
+    // repel their siblings just enough to fan out into a readable spread
+    // instead of piling on top of each other.
+    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -240 : -16)))
+    .force('link', forceLink(linkCopies).id((d) => d.id).distance((l) => ((l.source.type === 'entity' || l.target.type === 'entity') ? 42 : 42)))
     .force('center', forceCenter(W / 2, H / 2))
     // Without this, disconnected clusters (no story-story edges exist) only
-    // repel each other and drift apart indefinitely. Entities get a weak
-    // pull so they still spread out into distinct regions; stories get
-    // almost none, since the link force above is what holds their cloud
-    // shape together.
-    .force('x', forceX(W / 2).strength((d) => (d.type === 'entity' ? 0.018 : 0.004)))
-    .force('y', forceY(H / 2).strength((d) => (d.type === 'entity' ? 0.018 : 0.004)))
-    .force('collide', forceCollide((d) => d.r + 1.5).iterations(3))
+    // repel each other and drift apart indefinitely -- a strong enough pull
+    // here is what keeps a lightly-connected cluster (like a single-story
+    // entity) from ending up stranded far from everything else. Stories
+    // get almost none, since the link force above is what holds their
+    // cloud shape together.
+    .force('x', forceX(W / 2).strength((d) => (d.type === 'entity' ? 0.05 : 0.004)))
+    .force('y', forceY(H / 2).strength((d) => (d.type === 'entity' ? 0.05 : 0.004)))
+    .force('collide', forceCollide((d) => d.r + (d.type === 'entity' ? 1.5 : 3)).iterations(3))
     .stop()
   for (let i = 0; i < TICKS; i++) sim.tick()
   return { nodes: nodeCopies, links: linkCopies }
