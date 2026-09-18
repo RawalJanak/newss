@@ -1,22 +1,36 @@
 import { useMemo, useRef, useState } from 'react'
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY } from 'd3-force'
-import { catHue } from '../lib.js'
+import { pickColor } from '../lib.js'
 
 const W = 700
 const H = 560
 const TICKS = 400
 const POPUP_W = 260
-const BBOX_PAD = 140
+const BBOX_PAD = 50
+const STORY_R = 6
+
+// Entity nodes are flat pill-shaped chips sized to fit their own label —
+// the name renders inside the shape instead of floating beside it.
+function entityBox(label) {
+  const w = Math.max(50, String(label).length * 7.2 + 26)
+  const h = 28
+  return { w, h }
+}
 
 function layout(nodes, edges) {
-  const nodeCopies = nodes.map((n) => ({ ...n }))
+  const nodeCopies = nodes.map((n) => {
+    if (n.type === 'entity') {
+      const { w, h } = entityBox(n.label)
+      return { ...n, w, h, r: Math.max(w, h) / 2 + 6 }
+    }
+    return { ...n, r: STORY_R }
+  })
   const linkCopies = edges.map((e) => ({ ...e }))
   const sim = forceSimulation(nodeCopies)
-    // Entities repel each other hard so hubs never overlap into an
-    // unreadable pile; stories barely repel at all, so they hug their hub
-    // tightly instead of scattering.
-    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -260 : -8)))
-    .force('link', forceLink(linkCopies).id((d) => d.id).distance((l) => (l.target.type === 'entity' || l.source.type === 'entity' ? 60 : 60)))
+    // Entities repel each other hard so chips never overlap; stories barely
+    // repel at all, so they hug their hub tightly instead of scattering.
+    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -280 : -8)))
+    .force('link', forceLink(linkCopies).id((d) => d.id).distance(60))
     .force('center', forceCenter(W / 2, H / 2))
     // Without this, disconnected clusters (no story-story edges exist) only
     // repel each other and drift apart indefinitely. Entities get a weak
@@ -24,21 +38,21 @@ function layout(nodes, edges) {
     // own link force is what should hold them near their hub.
     .force('x', forceX(W / 2).strength((d) => (d.type === 'entity' ? 0.02 : 0.006)))
     .force('y', forceY(H / 2).strength((d) => (d.type === 'entity' ? 0.02 : 0.006)))
-    .force('collide', forceCollide((d) => (d.type === 'entity' ? 20 + Math.sqrt(d.degree || 1) * 6 : 6)).iterations(3))
+    .force('collide', forceCollide((d) => d.r).iterations(3))
     .stop()
   for (let i = 0; i < TICKS; i++) sim.tick()
   return { nodes: nodeCopies, links: linkCopies }
 }
 
 // Nothing gets clipped: the viewBox is sized from the settled nodes'
-// actual extent (padded for label text), not a fixed box the layout has to
-// fit inside. Overflow is a scrollbar on the container, never lost content.
+// actual extent, not a fixed box the layout has to fit inside. Overflow is
+// a scrollbar on the container, never lost content.
 function boundingViewBox(nodes) {
   if (!nodes.length) return { minX: 0, minY: 0, w: W, h: H }
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity
   nodes.forEach((n) => {
-    minX = Math.min(minX, n.x); maxX = Math.max(maxX, n.x)
-    minY = Math.min(minY, n.y); maxY = Math.max(maxY, n.y)
+    minX = Math.min(minX, n.x - n.r); maxX = Math.max(maxX, n.x + n.r)
+    minY = Math.min(minY, n.y - n.r); maxY = Math.max(maxY, n.y + n.r)
   })
   return {
     minX: minX - BBOX_PAD, minY: minY - BBOX_PAD,
@@ -97,22 +111,6 @@ export default function ObsidianGraph({ graph }) {
 
   const box = useMemo(() => boundingViewBox(nodes), [nodes])
 
-  const hues = useMemo(() => {
-    const set = new Set()
-    nodes.forEach((n) => { if (n.type === 'story') set.add(catHue(n.category)) })
-    return [...set]
-  }, [nodes])
-
-  // Every entity gets its own distinct vivid hue (hashed from its own name,
-  // not a shared amber for all of them) so hubs are actually distinguishable
-  // at a glance. Exam-tagged ones are marked with a bright ring instead of
-  // taking over the whole fill color.
-  const entityHues = useMemo(() => {
-    const set = new Set()
-    nodes.forEach((n) => { if (n.type === 'entity') set.add(catHue(n.label)) })
-    return [...set]
-  }, [nodes])
-
   const neighborIds = useMemo(() => {
     if (!focused) return null
     const set = new Set([focused])
@@ -166,23 +164,6 @@ export default function ObsidianGraph({ graph }) {
           className="ograph"
           onClick={() => setFocused(null)}
         >
-          <defs>
-            {hues.map((hue) => (
-              <radialGradient key={'s' + hue} id={'grad-cat-' + hue} cx="35%" cy="30%" r="75%">
-                <stop offset="0%" stopColor={'hsl(' + hue + ' 75% 74%)'} />
-                <stop offset="60%" stopColor={'hsl(' + hue + ' 65% 55%)'} />
-                <stop offset="100%" stopColor={'hsl(' + hue + ' 55% 36%)'} />
-              </radialGradient>
-            ))}
-            {entityHues.map((hue) => (
-              <radialGradient key={'e' + hue} id={'grad-ent-' + hue} cx="32%" cy="26%" r="80%">
-                <stop offset="0%" stopColor={'hsl(' + hue + ' 90% 82%)'} />
-                <stop offset="55%" stopColor={'hsl(' + hue + ' 80% 62%)'} />
-                <stop offset="100%" stopColor={'hsl(' + hue + ' 70% 38%)'} />
-              </radialGradient>
-            ))}
-          </defs>
-
           {links.map((l, i) => {
             const s = l.source, t = l.target
             const dim = active && !(active.has(s.id) && active.has(t.id))
@@ -191,10 +172,7 @@ export default function ObsidianGraph({ graph }) {
 
           {nodes.map((n) => {
             const dim = active && !active.has(n.id)
-            const r = n.type === 'entity' ? 16 + Math.sqrt(n.degree || 1) * 5 : 6
-            const fill = n.type === 'entity'
-              ? 'url(#grad-ent-' + catHue(n.label) + ')'
-              : 'url(#grad-cat-' + catHue(n.category) + ')'
+            const fill = n.type === 'entity' ? pickColor(n.label) : pickColor(n.category)
             return (
               <g
                 key={n.id}
@@ -204,18 +182,16 @@ export default function ObsidianGraph({ graph }) {
               >
                 <title>{n.label}</title>
                 {n.type === 'entity' ? (
-                  <rect
-                    x={-r} y={-r} width={r * 2} height={r * 2}
-                    rx={4}
-                    transform="rotate(45)"
-                    className={'oentity' + (n.examTagged ? ' exam' : '')}
-                    style={{ fill }}
-                  />
+                  <>
+                    <rect
+                      x={-n.w / 2} y={-n.h / 2} width={n.w} height={n.h} rx={n.h / 2}
+                      className={'oentity' + (n.examTagged ? ' exam' : '')}
+                      style={{ fill }}
+                    />
+                    <text x={0} y={4} textAnchor="middle" className="olabel entity">{n.label}</text>
+                  </>
                 ) : (
-                  <circle r={r} className="ostory" style={{ fill }} />
-                )}
-                {n.type === 'entity' && (
-                  <text x={r + 8} y={4} className={'olabel entity' + (dim ? ' dim' : '')}>{n.label}</text>
+                  <circle r={n.r} className="ostory" style={{ fill }} />
                 )}
               </g>
             )

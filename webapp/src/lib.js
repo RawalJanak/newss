@@ -64,15 +64,31 @@ export function examLevel(item) {
   return r === 'high' || r === 'medium' ? r : null
 }
 
-export function catHue(cat) {
+function stringHash(s) {
   let h = 0
-  const s = String(cat || '')
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0
-  return h % 360
+  const t = String(s || '')
+  for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) >>> 0
+  return h
+}
+
+export function catHue(cat) {
+  return stringHash(cat) % 360
 }
 
 export function catColor(cat) {
   return 'hsl(' + catHue(cat) + ' 65% 62%)'
+}
+
+// A curated flat palette (no per-string hue rotation) so colors look
+// deliberately picked rather than randomly saturated -- each name gets a
+// consistent, stable color from this set.
+export const FLAT_PALETTE = [
+  '#F97066', '#FDB022', '#84CC16', '#22C55E', '#14B8A6', '#06B6D4',
+  '#38BDF8', '#6366F1', '#A78BFA', '#E879F9', '#F472B6', '#FB7185',
+]
+
+export function pickColor(key) {
+  return FLAT_PALETTE[stringHash(key) % FLAT_PALETTE.length]
 }
 
 export const CATEGORY_ORDER = [
