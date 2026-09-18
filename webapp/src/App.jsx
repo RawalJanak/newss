@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import CardFeed from './components/CardFeed.jsx'
 import ImportantSection from './components/ImportantSection.jsx'
+import ObsidianGraph from './components/ObsidianGraph.jsx'
 import ReaderPanel from './components/ReaderPanel.jsx'
 import MarketsBelt from './components/MarketsBelt.jsx'
 import GlossaryNebula from './components/GlossaryNebula.jsx'
@@ -21,6 +22,7 @@ export default function App() {
 
   const [digest, setDigest] = useState(null)
   const [important, setImportant] = useState(null)
+  const [graph, setGraph] = useState(null)
   const [mkt, setMkt] = useState(null)
   const [error, setError] = useState(null)
   const [openUrl, setOpenUrl] = useState(null)
@@ -34,6 +36,7 @@ export default function App() {
   useEffect(() => {
     fetch('articles.json?t=' + Date.now()).then((r) => r.json()).then(setDigest).catch((e) => setError(e.message))
     fetch('important.json?t=' + Date.now()).then((r) => r.json()).then((d) => setImportant(d.items || [])).catch(() => setImportant([]))
+    fetch('graph.json?t=' + Date.now()).then((r) => r.json()).then(setGraph).catch(() => setGraph({ nodes: [], edges: [] }))
   }, [])
 
   useEffect(() => {
@@ -138,6 +141,8 @@ export default function App() {
           </>
         ) : tab === 'markets' ? (
           <MarketsBelt mkt={mkt} market={market} stamp={mktStamp} />
+        ) : tab === 'obsidian' ? (
+          <ObsidianGraph graph={graph} />
         ) : (
           <GlossaryNebula data={data} />
         )}
@@ -155,6 +160,14 @@ export default function App() {
           </button>
           <button className={tab === 'glossary' ? 'on' : ''} onClick={() => switchTab('glossary')}>
             <svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1-2-2z" /><path d="M9 8h7M9 12h7" /></svg>Words
+          </button>
+          <button className={tab === 'obsidian' ? 'on' : ''} onClick={() => switchTab('obsidian')}>
+            <svg viewBox="0 0 24 24">
+              <path d="M6 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+              <path d="M18 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+              <path d="M12 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+              <path d="M8 6h8M7.5 8l4 8M16.5 8l-4 8" />
+            </svg>Obsidian
           </button>
         </div>
       </nav>
