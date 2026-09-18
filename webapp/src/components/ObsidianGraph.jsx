@@ -1,23 +1,45 @@
 import { useMemo, useRef, useState } from 'react'
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation } from 'd3-force'
-import { catColor } from '../lib.js'
+import { catHue } from '../lib.js'
 
 const W = 800
 const H = 640
 const TICKS = 300
 const POPUP_W = 260
+const BBOX_PAD = 180
 
 function layout(nodes, edges) {
   const nodeCopies = nodes.map((n) => ({ ...n }))
   const linkCopies = edges.map((e) => ({ ...e }))
   const sim = forceSimulation(nodeCopies)
-    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -220 : -90)))
-    .force('link', forceLink(linkCopies).id((d) => d.id).distance(70))
+    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -260 : -110)))
+    .force('link', forceLink(linkCopies).id((d) => d.id).distance(85))
     .force('center', forceCenter(W / 2, H / 2))
-    .force('collide', forceCollide((d) => (d.type === 'entity' ? 10 + Math.sqrt(d.degree || 1) * 4 : 6)))
+    .force('collide', forceCollide((d) => (d.type === 'entity' ? 14 + Math.sqrt(d.degree || 1) * 5 : 9)))
     .stop()
   for (let i = 0; i < TICKS; i++) sim.tick()
   return { nodes: nodeCopies, links: linkCopies }
+}
+
+// Nothing gets clipped: the viewBox is sized from the settled nodes'
+// actual extent (padded for label text), not a fixed box the layout has to
+// fit inside. Overflow is a scrollbar on the container, never lost content.
+function boundingViewBox(nodes) {
+  if (!nodes.length) return { minX: 0, minY: 0, w: W, h: H }
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity
+  nodes.forEach((n) => {
+    minX = Math.min(minX, n.x); maxX = Math.max(maxX, n.x)
+    minY = Math.min(minY, n.y); maxY = Math.max(maxY, n.y)
+  })
+  return {
+    minX: minX - BBOX_PAD, minY: minY - BBOX_PAD,
+    w: (maxX - minX) + BBOX_PAD * 2, h: (maxY - minY) + BBOX_PAD * 2,
+  }
+}
+
+function truncate(s, n) {
+  const t = String(s || '')
+  return t.length > n ? t.slice(0, n - 1) + '…' : t
 }
 
 function otherEnd(link, id) {
@@ -35,6 +57,7 @@ function FocusPanel({ id, nodes, links, pos, onClose }) {
       <div className="ofocus" style={style}>
         <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
         <div className="ofocus-title">{node.label}</div>
+        <div className="ofocus-meta">{node.category}{node.date ? ' · ' + String(node.date).slice(0, 10) : ''}</div>
         <a href={node.id} target="_blank" rel="noopener noreferrer" className="srcbtn">Open source</a>
       </div>
     )
@@ -47,6 +70,7 @@ function FocusPanel({ id, nodes, links, pos, onClose }) {
     <div className="ofocus" style={style}>
       <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
       <div className="ofocus-title">{node.label}</div>
+      <div className="ofocus-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'}</div>
       <ul>
         {connected.map((c) => (
           <li key={c.id}><a href={c.id} target="_blank" rel="noopener noreferrer">{c.label}</a></li>
@@ -66,6 +90,14 @@ export default function ObsidianGraph({ graph }) {
     if (!graph || !graph.nodes.length) return { nodes: [], links: [] }
     return layout(graph.nodes, graph.edges)
   }, [graph])
+
+  const box = useMemo(() => boundingViewBox(nodes), [nodes])
+
+  const hues = useMemo(() => {
+    const set = new Set()
+    nodes.forEach((n) => { if (n.type === 'story') set.add(catHue(n.category)) })
+    return [...set]
+  }, [nodes])
 
   const neighborIds = useMemo(() => {
     if (!focused) return null
@@ -96,10 +128,13 @@ export default function ObsidianGraph({ graph }) {
     let x = e.clientX - wrapRect.left + 12
     let y = e.clientY - wrapRect.top + 12
     x = Math.min(x, wrapRect.width - POPUP_W - 8)
-    y = Math.min(y, wrapRect.height - 140)
+    y = Math.min(y, wrapRect.height - 40)
     setPopupPos({ x: Math.max(8, x), y: Math.max(8, y) })
     setFocused(id)
   }
+
+  const svgW = Math.max(box.w, W)
+  const svgH = Math.max(box.h, H)
 
   return (
     <div className="obsidian-wrap" ref={wrapRef}>
@@ -109,39 +144,74 @@ export default function ObsidianGraph({ graph }) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <svg viewBox={'0 0 ' + W + ' ' + H} className="ograph" onClick={() => setFocused(null)}>
-        {links.map((l, i) => {
-          const s = l.source, t = l.target
-          const dim = active && !(active.has(s.id) && active.has(t.id))
-          return <line key={i} x1={s.x} y1={s.y} x2={t.x} y2={t.y} className={'oedge' + (dim ? ' dim' : '')} />
-        })}
-        {nodes.map((n) => {
-          const dim = active && !active.has(n.id)
-          const r = n.type === 'entity' ? 6 + Math.sqrt(n.degree || 1) * 3 : 5
-          return (
-            <g
-              key={n.id}
-              className={'onode' + (dim ? ' dim' : '')}
-              transform={'translate(' + n.x + ',' + n.y + ')'}
-              onClick={(e) => pickNode(e, n.id)}
-            >
-              <title>{n.label}</title>
-              {n.type === 'entity' ? (
-                <>
+      <div className="ograph-scroll">
+        <svg
+          viewBox={box.minX + ' ' + box.minY + ' ' + box.w + ' ' + box.h}
+          width={svgW}
+          height={svgH}
+          className="ograph"
+          onClick={() => setFocused(null)}
+        >
+          <defs>
+            {hues.map((hue) => (
+              <radialGradient key={hue} id={'grad-cat-' + hue} cx="35%" cy="30%" r="75%">
+                <stop offset="0%" stopColor={'hsl(' + hue + ' 75% 74%)'} />
+                <stop offset="60%" stopColor={'hsl(' + hue + ' 65% 55%)'} />
+                <stop offset="100%" stopColor={'hsl(' + hue + ' 55% 36%)'} />
+              </radialGradient>
+            ))}
+            <radialGradient id="grad-entity" cx="35%" cy="30%" r="75%">
+              <stop offset="0%" stopColor="#f3ede0" />
+              <stop offset="55%" stopColor="#b8b0a0" />
+              <stop offset="100%" stopColor="#5f594e" />
+            </radialGradient>
+            <radialGradient id="grad-entity-exam" cx="35%" cy="30%" r="75%">
+              <stop offset="0%" stopColor="#fff3cf" />
+              <stop offset="55%" stopColor="#ffd166" />
+              <stop offset="100%" stopColor="#a8720f" />
+            </radialGradient>
+          </defs>
+
+          {links.map((l, i) => {
+            const s = l.source, t = l.target
+            const dim = active && !(active.has(s.id) && active.has(t.id))
+            return <line key={i} x1={s.x} y1={s.y} x2={t.x} y2={t.y} className={'oedge' + (dim ? ' dim' : '')} />
+          })}
+
+          {nodes.map((n) => {
+            const dim = active && !active.has(n.id)
+            const r = n.type === 'entity' ? 14 + Math.sqrt(n.degree || 1) * 5 : 9
+            const fill = n.type === 'entity'
+              ? 'url(#' + (n.examTagged ? 'grad-entity-exam' : 'grad-entity') + ')'
+              : 'url(#grad-cat-' + catHue(n.category) + ')'
+            const label = n.type === 'entity' ? n.label : truncate(n.label, 26)
+            return (
+              <g
+                key={n.id}
+                className={'onode' + (dim ? ' dim' : '')}
+                transform={'translate(' + n.x + ',' + n.y + ')'}
+                onClick={(e) => pickNode(e, n.id)}
+              >
+                <title>{n.label}</title>
+                {n.type === 'entity' ? (
                   <rect
                     x={-r} y={-r} width={r * 2} height={r * 2}
+                    rx={4}
                     transform="rotate(45)"
                     className={'oentity' + (n.examTagged ? ' exam' : '')}
+                    style={{ fill }}
                   />
-                  <text x={r + 6} y={4} className={'olabel' + (dim ? ' dim' : '')}>{n.label}</text>
-                </>
-              ) : (
-                <circle r={r} className="ostory" style={{ fill: catColor(n.category) }} />
-              )}
-            </g>
-          )
-        })}
-      </svg>
+                ) : (
+                  <circle r={r} className="ostory" style={{ fill }} />
+                )}
+                <text x={r + 7} y={4} className={'olabel' + (n.type === 'entity' ? ' entity' : '') + (dim ? ' dim' : '')}>
+                  {label}
+                </text>
+              </g>
+            )
+          })}
+        </svg>
+      </div>
       {focused && (
         <FocusPanel id={focused} nodes={nodes} links={links} pos={popupPos} onClose={() => setFocused(null)} />
       )}
