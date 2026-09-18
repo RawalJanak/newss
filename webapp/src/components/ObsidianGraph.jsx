@@ -1,21 +1,27 @@
 import { useMemo, useRef, useState } from 'react'
-import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation } from 'd3-force'
+import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY } from 'd3-force'
 import { catHue } from '../lib.js'
 
-const W = 800
-const H = 640
-const TICKS = 300
+const W = 700
+const H = 560
+const TICKS = 400
 const POPUP_W = 260
-const BBOX_PAD = 180
+const BBOX_PAD = 70
 
 function layout(nodes, edges) {
   const nodeCopies = nodes.map((n) => ({ ...n }))
   const linkCopies = edges.map((e) => ({ ...e }))
   const sim = forceSimulation(nodeCopies)
-    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -260 : -110)))
-    .force('link', forceLink(linkCopies).id((d) => d.id).distance(85))
+    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -90 : -26)))
+    .force('link', forceLink(linkCopies).id((d) => d.id).distance(30))
     .force('center', forceCenter(W / 2, H / 2))
-    .force('collide', forceCollide((d) => (d.type === 'entity' ? 14 + Math.sqrt(d.degree || 1) * 5 : 9)))
+    // Without this, disconnected clusters (no story-story edges exist) only
+    // repel each other and drift apart indefinitely — this pulls every node
+    // toward the middle individually, so separate clusters settle close
+    // together instead of sprawling across a mostly-empty canvas.
+    .force('x', forceX(W / 2).strength(0.045))
+    .force('y', forceY(H / 2).strength(0.045))
+    .force('collide', forceCollide((d) => (d.type === 'entity' ? 12 + Math.sqrt(d.degree || 1) * 4 : 7)))
     .stop()
   for (let i = 0; i < TICKS; i++) sim.tick()
   return { nodes: nodeCopies, links: linkCopies }
@@ -180,7 +186,7 @@ export default function ObsidianGraph({ graph }) {
 
           {nodes.map((n) => {
             const dim = active && !active.has(n.id)
-            const r = n.type === 'entity' ? 14 + Math.sqrt(n.degree || 1) * 5 : 9
+            const r = n.type === 'entity' ? 12 + Math.sqrt(n.degree || 1) * 4 : 7
             const fill = n.type === 'entity'
               ? 'url(#' + (n.examTagged ? 'grad-entity-exam' : 'grad-entity') + ')'
               : 'url(#grad-cat-' + catHue(n.category) + ')'

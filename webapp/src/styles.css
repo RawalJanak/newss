@@ -230,7 +230,7 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .ofocus-meta { font-size:11px; color:var(--faint); margin-bottom:10px; }
 .ofocus ul { margin:0; padding-left:16px; max-height:180px; overflow-y:auto; }
 .ofocus li { font-size:13px; line-height:1.55; margin-bottom:4px; }
-.ofocus a { color:var(--accent); text-decoration:none; }
+.ofocus a:not(.srcbtn) { color:var(--accent); text-decoration:none; }
 .ofocus-close { position:absolute; top:8px; right:10px; font-size:15px; line-height:1; color:var(--faint);
                 background:none; border:none; cursor:pointer; padding:2px; }
 
