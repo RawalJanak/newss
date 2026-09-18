@@ -64,6 +64,13 @@ export function examLevel(item) {
   return r === 'high' || r === 'medium' ? r : null
 }
 
+export function catColor(cat) {
+  let h = 0
+  const s = String(cat || '')
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0
+  return 'hsl(' + (h % 360) + ' 65% 62%)'
+}
+
 export const CATEGORY_ORDER = [
   'Markets', 'Economy & Policy', 'Business', 'Startups', 'AI', 'Innovation',
   'Geopolitics', 'India', 'Aviation', 'World', 'Analysis',
