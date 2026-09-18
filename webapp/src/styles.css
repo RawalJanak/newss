@@ -211,17 +211,27 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .ograph-scroll { width:100%; max-height:min(72vh, 640px); overflow:auto; background:#000;
                  border:1px solid var(--line); border-radius:16px; margin-top:12px; }
 .ograph { display:block; }
-.oedge { stroke:#7dd3fc; stroke-opacity:.55; stroke-width:1.1; transition:opacity .15s var(--ease); }
-.oedge.dim { opacity:.05; }
-.onode { cursor:pointer; transition:opacity .15s var(--ease); }
-.onode.dim { opacity:.15; }
+.oedge { stroke:#7dd3fc; stroke-opacity:.55; stroke-width:1.1; transition:opacity .15s var(--ease);
+         animation:oedgepulse 3.2s ease-in-out infinite; }
+.oedge.dim { opacity:.05; animation:none; }
+.onode { cursor:pointer; transition:opacity .15s var(--ease); animation:onodepulse 2.6s ease-in-out infinite; }
+.onode.dim { opacity:.15; animation:none; }
 .ostory { stroke:none; }
 .oentity { stroke:#fff; stroke-width:1; }
-.oentity.exam { stroke:var(--hot); stroke-width:2.5; }
+.oentity.exam, .ostory.exam { stroke:var(--hot); stroke-width:2.5;
+                               animation:onodepulse 2.6s ease-in-out infinite, oexampulse 1.3s ease-in-out infinite; }
+.oentity.exam.dim, .ostory.exam.dim { animation:none; }
 .olabel { font-size:12px; font-weight:800; pointer-events:none;
           paint-order:stroke; stroke:#000; stroke-width:3.5px; stroke-linejoin:round;
           transition:opacity .15s var(--ease); }
 .olabel.dim { opacity:.15; }
+
+@keyframes onodepulse { 0%,100% { opacity:1; } 50% { opacity:.55; } }
+@keyframes oedgepulse { 0%,100% { stroke-opacity:.55; } 50% { stroke-opacity:.15; } }
+@keyframes oexampulse { 0%,100% { stroke-width:2.5; } 50% { stroke-width:4.5; } }
+@media (prefers-reduced-motion: reduce) {
+  .oedge, .onode, .oentity.exam, .ostory.exam { animation:none; }
+}
 
 .ofocus { position:absolute; z-index:5; max-width:260px; background:var(--surface);
           border:1px solid var(--accent-dim); box-shadow:var(--lift); border-radius:14px;

@@ -107,6 +107,12 @@ function boundingViewBox(nodes, labelPos) {
   }
 }
 
+function isExamFlagged(n) {
+  if (n.type === 'entity') return !!n.examTagged
+  const r = n.exam?.relevance
+  return r === 'high' || r === 'medium'
+}
+
 function otherEnd(link, id) {
   const s = link.source.id || link.source
   const t = link.target.id || link.target
@@ -234,21 +240,30 @@ export default function ObsidianGraph({ graph }) {
             {links.map((l, i) => {
               const s = l.source, t = l.target
               const dim = active && !(active.has(s.id) && active.has(t.id))
-              return <line key={i} x1={s.x} y1={s.y} x2={t.x} y2={t.y} className={'oedge' + (dim ? ' dim' : '')} />
+              const delay = (i % 14) * 0.21 + 's'
+              return (
+                <line
+                  key={i} x1={s.x} y1={s.y} x2={t.x} y2={t.y}
+                  className={'oedge' + (dim ? ' dim' : '')}
+                  style={{ animationDelay: delay }}
+                />
+              )
             })}
 
-            {nodes.map((n) => {
+            {nodes.map((n, i) => {
               const dim = active && !active.has(n.id)
               const fill = nodeColor(n)
+              const flagged = isExamFlagged(n)
+              const delay = (i % 11) * 0.27 + 's'
               return (
                 <circle
                   key={n.id}
                   cx={n.x} cy={n.y} r={n.r}
-                  className={'onode' + (n.type === 'entity' ? ' oentity' : ' ostory') + (n.examTagged ? ' exam' : '') + (dim ? ' dim' : '')}
-                  style={{ fill }}
+                  className={'onode' + (n.type === 'entity' ? ' oentity' : ' ostory') + (flagged ? ' exam' : '') + (dim ? ' dim' : '')}
+                  style={{ fill, animationDelay: delay }}
                   onClick={(e) => pickNode(e, n.id)}
                 >
-                  <title>{n.label}</title>
+                  <title>{n.label}{flagged ? ' (AAI exam-relevant)' : ''}</title>
                 </circle>
               )
             })}
