@@ -45,6 +45,7 @@ def collect(edition):
                 "importance": item.get("importance"),
                 "top_story": bool(item.get("top_story")),
                 "exam": item.get("exam") or {"relevance": "none"},
+                "text": item.get("summary") or item.get("text") or "",
             })
     return out
 
