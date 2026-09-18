@@ -207,7 +207,7 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .impcard .isrc { font-size:11.5px; color:var(--faint); margin-top:4px; }
 
 /* ---------- obsidian graph ---------- */
-.obsidian-wrap { margin-top:10px; }
+.obsidian-wrap { margin-top:10px; position:relative; }
 .ograph { width:100%; height:auto; aspect-ratio:800/640; background:var(--surface);
           border:1px solid var(--line); border-radius:16px; margin-top:12px; }
 .oedge { stroke:var(--line); stroke-width:1; transition:opacity .15s var(--ease); }
@@ -217,12 +217,19 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .ostory { stroke:var(--surface); stroke-width:1.5; }
 .oentity { fill:var(--muted); stroke:var(--surface); stroke-width:1.5; }
 .oentity.exam { fill:var(--hot); }
-.ofocus { margin-top:14px; background:var(--surface); border:1px solid var(--line);
-          border-radius:14px; padding:14px 16px; }
-.ofocus-title { font-family:var(--serif); font-size:16px; font-weight:600; margin-bottom:8px; }
-.ofocus ul { margin:0; padding-left:18px; }
-.ofocus li { font-size:13.5px; line-height:1.6; margin-bottom:4px; }
+.olabel { font-size:9.5px; font-weight:700; fill:var(--faint); pointer-events:none;
+          transition:opacity .15s var(--ease); }
+.olabel.dim { opacity:.15; }
+
+.ofocus { position:absolute; z-index:5; max-width:260px; background:var(--surface);
+          border:1px solid var(--accent-dim); box-shadow:var(--lift); border-radius:14px;
+          padding:13px 15px; }
+.ofocus-title { font-family:var(--serif); font-size:15px; font-weight:600; margin-bottom:8px; line-height:1.3; }
+.ofocus ul { margin:0; padding-left:16px; max-height:180px; overflow-y:auto; }
+.ofocus li { font-size:13px; line-height:1.55; margin-bottom:4px; }
 .ofocus a { color:var(--accent); text-decoration:none; }
+.ofocus-close { position:absolute; top:8px; right:10px; font-size:15px; line-height:1; color:var(--faint);
+                background:none; border:none; cursor:pointer; padding:2px; }
 
 /* ---------- wire ---------- */
 .wire { margin:26px 0 10px; }
@@ -237,7 +244,7 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 /* ---------- bottom nav ---------- */
 .tabbar { position:fixed; left:0; right:0; bottom:0; z-index:70; background:var(--surface); border-top:1px solid var(--line);
           padding-bottom:env(safe-area-inset-bottom); }
-.tabbar .in { max-width:var(--w); margin:0 auto; display:grid; grid-template-columns:repeat(3,1fr); }
+.tabbar .in { max-width:var(--w); margin:0 auto; display:grid; grid-template-columns:repeat(4,1fr); }
 .tabbar button { padding:11px 0 9px; display:flex; flex-direction:column; align-items:center; gap:4px;
                  font-size:10.5px; font-weight:600; color:var(--faint); letter-spacing:.02em; }
 .tabbar button svg { width:22px; height:22px; stroke:currentColor; fill:none; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
@@ -265,8 +272,8 @@ main { padding-bottom:20px; }
   .shead h2 { font-size:21px; }
   .tabbar { left:50%; right:auto; transform:translateX(-50%); bottom:24px; border:1px solid var(--line);
             border-radius:999px; box-shadow:var(--lift); overflow:hidden; padding-bottom:0; }
-  .tabbar .in { grid-template-columns:repeat(3,auto); }
-  .tabbar button { flex-direction:row; gap:9px; padding:12px 26px; font-size:12.5px; }
+  .tabbar .in { grid-template-columns:repeat(4,auto); }
+  .tabbar button { flex-direction:row; gap:9px; padding:12px 20px; font-size:12.5px; }
 }
 
 @media (min-width: 1180px) {

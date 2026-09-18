@@ -1,10 +1,11 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation } from 'd3-force'
 import { catColor } from '../lib.js'
 
 const W = 800
 const H = 640
 const TICKS = 300
+const POPUP_W = 260
 
 function layout(nodes, edges) {
   const nodeCopies = nodes.map((n) => ({ ...n }))
@@ -25,12 +26,14 @@ function otherEnd(link, id) {
   return s === id ? t : (t === id ? s : null)
 }
 
-function FocusPanel({ id, nodes, links }) {
+function FocusPanel({ id, nodes, links, pos, onClose }) {
   const node = nodes.find((n) => n.id === id)
   if (!node) return null
+  const style = { left: pos.x, top: pos.y }
   if (node.type === 'story') {
     return (
-      <div className="ofocus">
+      <div className="ofocus" style={style}>
+        <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
         <div className="ofocus-title">{node.label}</div>
         <a href={node.id} target="_blank" rel="noopener noreferrer" className="srcbtn">Open source</a>
       </div>
@@ -41,7 +44,8 @@ function FocusPanel({ id, nodes, links }) {
     .map((l) => nodes.find((n) => n.id === otherEnd(l, id)))
     .filter(Boolean)
   return (
-    <div className="ofocus">
+    <div className="ofocus" style={style}>
+      <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
       <div className="ofocus-title">{node.label}</div>
       <ul>
         {connected.map((c) => (
@@ -53,7 +57,9 @@ function FocusPanel({ id, nodes, links }) {
 }
 
 export default function ObsidianGraph({ graph }) {
+  const wrapRef = useRef(null)
   const [focused, setFocused] = useState(null)
+  const [popupPos, setPopupPos] = useState({ x: 0, y: 0 })
   const [query, setQuery] = useState('')
 
   const { nodes, links } = useMemo(() => {
@@ -84,8 +90,19 @@ export default function ObsidianGraph({ graph }) {
 
   const active = matchIds || neighborIds
 
+  function pickNode(e, id) {
+    e.stopPropagation()
+    const wrapRect = wrapRef.current.getBoundingClientRect()
+    let x = e.clientX - wrapRect.left + 12
+    let y = e.clientY - wrapRect.top + 12
+    x = Math.min(x, wrapRect.width - POPUP_W - 8)
+    y = Math.min(y, wrapRect.height - 140)
+    setPopupPos({ x: Math.max(8, x), y: Math.max(8, y) })
+    setFocused(id)
+  }
+
   return (
-    <div className="obsidian-wrap">
+    <div className="obsidian-wrap" ref={wrapRef}>
       <input
         className="gsearch"
         placeholder="Search entities or stories…"
@@ -106,14 +123,18 @@ export default function ObsidianGraph({ graph }) {
               key={n.id}
               className={'onode' + (dim ? ' dim' : '')}
               transform={'translate(' + n.x + ',' + n.y + ')'}
-              onClick={(e) => { e.stopPropagation(); setFocused(n.id) }}
+              onClick={(e) => pickNode(e, n.id)}
             >
+              <title>{n.label}</title>
               {n.type === 'entity' ? (
-                <rect
-                  x={-r} y={-r} width={r * 2} height={r * 2}
-                  transform="rotate(45)"
-                  className={'oentity' + (n.examTagged ? ' exam' : '')}
-                />
+                <>
+                  <rect
+                    x={-r} y={-r} width={r * 2} height={r * 2}
+                    transform="rotate(45)"
+                    className={'oentity' + (n.examTagged ? ' exam' : '')}
+                  />
+                  <text x={r + 6} y={4} className={'olabel' + (dim ? ' dim' : '')}>{n.label}</text>
+                </>
               ) : (
                 <circle r={r} className="ostory" style={{ fill: catColor(n.category) }} />
               )}
@@ -121,7 +142,9 @@ export default function ObsidianGraph({ graph }) {
           )
         })}
       </svg>
-      {focused && <FocusPanel id={focused} nodes={nodes} links={links} />}
+      {focused && (
+        <FocusPanel id={focused} nodes={nodes} links={links} pos={popupPos} onClose={() => setFocused(null)} />
+      )}
     </div>
   )
 }
