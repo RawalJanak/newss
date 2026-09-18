@@ -206,6 +206,24 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .impcard h4 { font-family:var(--serif); font-size:15px; line-height:1.35; font-weight:600; margin:0; }
 .impcard .isrc { font-size:11.5px; color:var(--faint); margin-top:4px; }
 
+/* ---------- obsidian graph ---------- */
+.obsidian-wrap { margin-top:10px; }
+.ograph { width:100%; height:auto; aspect-ratio:800/640; background:var(--surface);
+          border:1px solid var(--line); border-radius:16px; margin-top:12px; }
+.oedge { stroke:var(--line); stroke-width:1; transition:opacity .15s var(--ease); }
+.oedge.dim { opacity:.08; }
+.onode { cursor:pointer; transition:opacity .15s var(--ease); }
+.onode.dim { opacity:.15; }
+.ostory { stroke:var(--surface); stroke-width:1.5; }
+.oentity { fill:var(--muted); stroke:var(--surface); stroke-width:1.5; }
+.oentity.exam { fill:var(--hot); }
+.ofocus { margin-top:14px; background:var(--surface); border:1px solid var(--line);
+          border-radius:14px; padding:14px 16px; }
+.ofocus-title { font-family:var(--serif); font-size:16px; font-weight:600; margin-bottom:8px; }
+.ofocus ul { margin:0; padding-left:18px; }
+.ofocus li { font-size:13.5px; line-height:1.6; margin-bottom:4px; }
+.ofocus a { color:var(--accent); text-decoration:none; }
+
 /* ---------- wire ---------- */
 .wire { margin:26px 0 10px; }
 .wire > summary { font-size:14px; font-weight:700; padding:13px 15px; border-radius:14px; background:var(--surface);
