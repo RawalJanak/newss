@@ -48,18 +48,24 @@ folder (relative to the TOMORROW workspace root). Follow exactly:
    — writes `app/important.json` from every `archive/*.json` plus the current
    edition (items with `importance=="high"`, `top_story`, or
    `exam.relevance` in high/medium). Powers the "Important" section in the UI.
-   Then rebuild the graph view: `python scripts/build_graph.py`
+   **Then rebuild the graph view — mandatory, every edition, no exception:**
+   `python scripts/build_graph.py`
    — writes `app/graph.json` from the same qualifying pool as
    `build_important.py`, matched against a maintained entity keyword dict.
-   Powers the "Obsidian" tab in the UI.
+   Powers the "Obsidian" tab in the UI. A "fetch live news and update" run is
+   not complete until this has run and `app/graph.json` reflects the new
+   edition — skipping it silently leaves the Obsidian tab stale.
 8. Write `app/articles.json` matching the schema (generated_at = now ISO-8601
    with +05:30 offset; edition = "morning" if local hour < 12 else "evening").
 9. Validate: `python scripts/validate_articles.py`
    If invalid, fix before finishing.
 10. Mark headlines consumed: `news-fetcher / confirm_seen` with every URL used
     from step 1's fetch (selected or not — all fresh URLs from that fetch).
-11. Publish to phone: `git add app/articles.json archive/`, commit with message
-    `chore: digest edition <date> <morning|evening>`, then `git push origin master`.
+11. Publish to phone: `git add app/articles.json app/important.json app/graph.json archive/`,
+    commit with message `chore: digest edition <date> <morning|evening>`, then
+    `git push origin master`. All three `app/*.json` files must be staged —
+    `important.json` and `graph.json` are regenerated every edition by step 7
+    and are only live once pushed.
     If push fails (offline/auth), continue — local app still updated; note the
     failure in the report.
 12. Final report: one line — item count per category + confidence breakdown +
