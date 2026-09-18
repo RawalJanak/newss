@@ -6,22 +6,25 @@ const W = 700
 const H = 560
 const TICKS = 400
 const POPUP_W = 260
-const BBOX_PAD = 70
+const BBOX_PAD = 140
 
 function layout(nodes, edges) {
   const nodeCopies = nodes.map((n) => ({ ...n }))
   const linkCopies = edges.map((e) => ({ ...e }))
   const sim = forceSimulation(nodeCopies)
-    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -90 : -26)))
-    .force('link', forceLink(linkCopies).id((d) => d.id).distance(30))
+    // Entities repel each other hard so hubs never overlap into an
+    // unreadable pile; stories barely repel at all, so they hug their hub
+    // tightly instead of scattering.
+    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -260 : -8)))
+    .force('link', forceLink(linkCopies).id((d) => d.id).distance((l) => (l.target.type === 'entity' || l.source.type === 'entity' ? 60 : 60)))
     .force('center', forceCenter(W / 2, H / 2))
     // Without this, disconnected clusters (no story-story edges exist) only
-    // repel each other and drift apart indefinitely — this pulls every node
-    // toward the middle individually, so separate clusters settle close
-    // together instead of sprawling across a mostly-empty canvas.
-    .force('x', forceX(W / 2).strength(0.045))
-    .force('y', forceY(H / 2).strength(0.045))
-    .force('collide', forceCollide((d) => (d.type === 'entity' ? 12 + Math.sqrt(d.degree || 1) * 4 : 7)))
+    // repel each other and drift apart indefinitely. Entities get a weak
+    // pull so they still spread out; stories get almost none, since their
+    // own link force is what should hold them near their hub.
+    .force('x', forceX(W / 2).strength((d) => (d.type === 'entity' ? 0.02 : 0.006)))
+    .force('y', forceY(H / 2).strength((d) => (d.type === 'entity' ? 0.02 : 0.006)))
+    .force('collide', forceCollide((d) => (d.type === 'entity' ? 20 + Math.sqrt(d.degree || 1) * 6 : 6)).iterations(3))
     .stop()
   for (let i = 0; i < TICKS; i++) sim.tick()
   return { nodes: nodeCopies, links: linkCopies }
@@ -41,11 +44,6 @@ function boundingViewBox(nodes) {
     minX: minX - BBOX_PAD, minY: minY - BBOX_PAD,
     w: (maxX - minX) + BBOX_PAD * 2, h: (maxY - minY) + BBOX_PAD * 2,
   }
-}
-
-function truncate(s, n) {
-  const t = String(s || '')
-  return t.length > n ? t.slice(0, n - 1) + '…' : t
 }
 
 function otherEnd(link, id) {
@@ -105,6 +103,16 @@ export default function ObsidianGraph({ graph }) {
     return [...set]
   }, [nodes])
 
+  // Every entity gets its own distinct vivid hue (hashed from its own name,
+  // not a shared amber for all of them) so hubs are actually distinguishable
+  // at a glance. Exam-tagged ones are marked with a bright ring instead of
+  // taking over the whole fill color.
+  const entityHues = useMemo(() => {
+    const set = new Set()
+    nodes.forEach((n) => { if (n.type === 'entity') set.add(catHue(n.label)) })
+    return [...set]
+  }, [nodes])
+
   const neighborIds = useMemo(() => {
     if (!focused) return null
     const set = new Set([focused])
@@ -160,22 +168,19 @@ export default function ObsidianGraph({ graph }) {
         >
           <defs>
             {hues.map((hue) => (
-              <radialGradient key={hue} id={'grad-cat-' + hue} cx="35%" cy="30%" r="75%">
+              <radialGradient key={'s' + hue} id={'grad-cat-' + hue} cx="35%" cy="30%" r="75%">
                 <stop offset="0%" stopColor={'hsl(' + hue + ' 75% 74%)'} />
                 <stop offset="60%" stopColor={'hsl(' + hue + ' 65% 55%)'} />
                 <stop offset="100%" stopColor={'hsl(' + hue + ' 55% 36%)'} />
               </radialGradient>
             ))}
-            <radialGradient id="grad-entity" cx="35%" cy="30%" r="75%">
-              <stop offset="0%" stopColor="#f3ede0" />
-              <stop offset="55%" stopColor="#b8b0a0" />
-              <stop offset="100%" stopColor="#5f594e" />
-            </radialGradient>
-            <radialGradient id="grad-entity-exam" cx="35%" cy="30%" r="75%">
-              <stop offset="0%" stopColor="#fff3cf" />
-              <stop offset="55%" stopColor="#ffd166" />
-              <stop offset="100%" stopColor="#a8720f" />
-            </radialGradient>
+            {entityHues.map((hue) => (
+              <radialGradient key={'e' + hue} id={'grad-ent-' + hue} cx="32%" cy="26%" r="80%">
+                <stop offset="0%" stopColor={'hsl(' + hue + ' 90% 82%)'} />
+                <stop offset="55%" stopColor={'hsl(' + hue + ' 80% 62%)'} />
+                <stop offset="100%" stopColor={'hsl(' + hue + ' 70% 38%)'} />
+              </radialGradient>
+            ))}
           </defs>
 
           {links.map((l, i) => {
@@ -186,11 +191,10 @@ export default function ObsidianGraph({ graph }) {
 
           {nodes.map((n) => {
             const dim = active && !active.has(n.id)
-            const r = n.type === 'entity' ? 12 + Math.sqrt(n.degree || 1) * 4 : 7
+            const r = n.type === 'entity' ? 16 + Math.sqrt(n.degree || 1) * 5 : 6
             const fill = n.type === 'entity'
-              ? 'url(#' + (n.examTagged ? 'grad-entity-exam' : 'grad-entity') + ')'
+              ? 'url(#grad-ent-' + catHue(n.label) + ')'
               : 'url(#grad-cat-' + catHue(n.category) + ')'
-            const label = n.type === 'entity' ? n.label : truncate(n.label, 26)
             return (
               <g
                 key={n.id}
@@ -210,9 +214,9 @@ export default function ObsidianGraph({ graph }) {
                 ) : (
                   <circle r={r} className="ostory" style={{ fill }} />
                 )}
-                <text x={r + 7} y={4} className={'olabel' + (n.type === 'entity' ? ' entity' : '') + (dim ? ' dim' : '')}>
-                  {label}
-                </text>
+                {n.type === 'entity' && (
+                  <text x={r + 8} y={4} className={'olabel entity' + (dim ? ' dim' : '')}>{n.label}</text>
+                )}
               </g>
             )
           })}

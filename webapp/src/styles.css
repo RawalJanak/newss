@@ -216,11 +216,12 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .onode { cursor:pointer; transition:opacity .15s var(--ease); filter:drop-shadow(0 3px 5px rgba(0,0,0,.5)); }
 .onode.dim { opacity:.12; }
 .ostory { stroke:rgba(255,255,255,.32); stroke-width:1.2; }
-.oentity { stroke:rgba(255,255,255,.4); stroke-width:1.4; }
+.oentity { stroke:rgba(255,255,255,.5); stroke-width:1.6; }
+.oentity.exam { stroke:var(--hot); stroke-width:3; }
 .olabel { font-size:8.5px; font-weight:600; fill:var(--muted); pointer-events:none;
           paint-order:stroke; stroke:var(--bg); stroke-width:3px; stroke-linejoin:round;
           transition:opacity .15s var(--ease); }
-.olabel.entity { font-size:10.5px; font-weight:800; fill:var(--ink); }
+.olabel.entity { font-size:12px; font-weight:800; fill:#fff; stroke-width:4px; }
 .olabel.dim { opacity:.1; }
 
 .ofocus { position:absolute; z-index:5; max-width:260px; background:var(--surface);
