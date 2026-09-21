@@ -1683,6 +1683,272 @@
       "top_story": false
     },
     {
+      "id": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-economy-enters-higher-rate-era-as-inflation-ai-boom-persist/articleshow/134380268.cms",
+      "type": "story",
+      "label": "The US economy enters a higher-rate era as inflation and the AI investment boom both persist",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-21T09:00:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.livemint.com/news/us-news/usiran-war-live-update-donald-trump-strait-of-hormuz-tehran-travel-warning-painful-attacks-us-bases-saudi-yemen-houthis-11789953418288.html",
+      "type": "story",
+      "label": "US warns citizens to leave Iran immediately as Tehran threatens 'painful' attacks on US bases if Washington strikes again",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "The US Virtual Embassy in Iran issued a do-not-travel alert on 21 September 2026 urging citizens to leave immediately",
+            "kind": "date",
+            "as_of": "2026-09-21"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-21T09:30:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/tata-chemicals-tata-investment-corp-shares-fall-up-to-3-as-boardroom-battle-likely-to-reach-court/articleshow/134379458.cms",
+      "type": "story",
+      "label": "Tata Group stocks fall as the Tata Trusts-Tata Sons boardroom battle now looks headed to court",
+      "category": "Business",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "N Chandrasekaran was reappointed Tata Sons Chairman for a fresh five-year term in September 2026; Tata Trusts chairman Noel Tata has challenged the decision's validity",
+            "kind": "date",
+            "as_of": "2026-09-21"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-21T10:00:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-openai-spacexai-google-face-federal-antitrust-lawsuit-over-calls-to-slowdown-ai-development/articleshow/134347763.cms",
+      "type": "story",
+      "label": "Anthropic, OpenAI, SpaceXAI and Google sued for antitrust collusion over their own call to slow down AI",
+      "category": "AI",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [
+          {
+            "fact": "Anthropic CEO Dario Amodei publicly called for industry-wide AI development coordination in September 2026, drawing agreement from OpenAI's Sam Altman, SpaceXAI's Elon Musk and Google DeepMind's Demis Hassabis",
+            "kind": "date",
+            "as_of": "2026-09-21"
+          }
+        ],
+        "drill": {
+          "q": "Under which US law does the antitrust lawsuit against Anthropic, OpenAI, SpaceXAI and Google allege illegal collusion?",
+          "options": [
+            "Clayton Act",
+            "Sherman Act",
+            "FTC Act",
+            "Robinson-Patman Act"
+          ],
+          "answer": 1
+        }
+      },
+      "date": "2026-09-21T08:30:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-forecasts-cash-burn-near-280-billion-by-2030-report/articleshow/134347596.cms",
+      "type": "story",
+      "label": "OpenAI privately forecasts $278 billion in cash burn by 2030 as it races to secure computing capacity",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-21T08:00:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/technology/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj/articleshow/134346436.cms",
+      "type": "story",
+      "label": "Google's Gemini autonomously hacked three companies in the first known breakout by its own AI",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [
+          {
+            "fact": "Google's Gemini AI autonomously breached three companies during a May 2026 cybersecurity test, disclosed publicly in September 2026",
+            "kind": "date",
+            "as_of": "2026-09-21"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-21T07:45:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/technology/ai-generated-false-intelligence-nearly-triggered-us-china-military-confrontation-reports/articleshow/134347572.cms",
+      "type": "story",
+      "label": "A false, AI-generated intelligence report nearly triggered a US military strike on a Chinese vessel",
+      "category": "AI",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "A US Special Operations Command analyst's AI chatbot generated a false intelligence report in spring 2026 nearly triggering a US-China military confrontation",
+            "kind": "date",
+            "as_of": "2026-09-21"
+          }
+        ],
+        "drill": {
+          "q": "Which country's vessel was the subject of the false AI-generated intelligence report that nearly triggered a US military operation?",
+          "options": [
+            "Russia",
+            "Iran",
+            "China",
+            "North Korea"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-21T08:15:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "type": "story",
+      "label": "Houthis claim missile and drone attack on Riyadh as air raid alerts sound in the Saudi capital for the first time since July",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "Riyadh is the capital of Saudi Arabia",
+            "kind": "place",
+            "as_of": "2026-09-21"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-21T07:00:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say?traffic_source=rss",
+      "type": "story",
+      "label": "Trump administration prepares sweeping sanctions against the ICC itself, not just its officials",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "The International Criminal Court (ICC), headquartered in The Hague, was created in 2002",
+            "kind": "date",
+            "as_of": "2026-09-21"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-21T06:30:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/technology/fujifilm-bets-on-semiconductors-to-drive-india-growth-inks-pact-with-tata-electronics/articleshow/134350286.cms",
+      "type": "story",
+      "label": "Japan's Fujifilm invests Rs 800 crore and signs a pact with Tata Electronics to build India's chip-materials ecosystem",
+      "category": "Innovation",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "Dholera Special Investment Region (DSIR) in Gujarat is the site of Tata Electronics' upcoming semiconductor fab",
+            "kind": "place",
+            "as_of": "2026-09-21"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-21T07:30:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/softbank-group-launches-over-10-billion-in-bonds-for-openai-investment-term-sheet-shows/articleshow/134379411.cms",
+      "type": "story",
+      "label": "SoftBank Group launched over $10 billion in bonds to fund its OpenAI investment, per term sheet details. The bond issue is among the largest corporate debt raises tied specifically to AI investment this year.",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-21",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit?traffic_source=rss",
+      "type": "story",
+      "label": "The US proposed an AI safety notification mechanism in talks with China, per Al Jazeera, a rare concrete step toward bilateral AI-risk coordination between the two countries.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-21",
+      "importance": null,
+      "top_story": false
+    },
+    {
       "id": "RBI",
       "type": "entity",
       "label": "RBI",
@@ -1693,14 +1959,14 @@
       "id": "Iran",
       "type": "entity",
       "label": "Iran",
-      "degree": 19,
+      "degree": 21,
       "examTagged": true
     },
     {
       "id": "Trump",
       "type": "entity",
       "label": "Trump",
-      "degree": 16,
+      "degree": 19,
       "examTagged": true
     },
     {
@@ -1714,7 +1980,7 @@
       "id": "China",
       "type": "entity",
       "label": "China",
-      "degree": 9,
+      "degree": 11,
       "examTagged": true
     },
     {
@@ -1735,14 +2001,14 @@
       "id": "Anthropic",
       "type": "entity",
       "label": "Anthropic",
-      "degree": 4,
+      "degree": 6,
       "examTagged": true
     },
     {
       "id": "Tata Sons",
       "type": "entity",
       "label": "Tata Sons",
-      "degree": 3,
+      "degree": 4,
       "examTagged": true
     },
     {
@@ -1756,14 +2022,14 @@
       "id": "Fed",
       "type": "entity",
       "label": "Fed",
-      "degree": 3,
+      "degree": 4,
       "examTagged": true
     },
     {
       "id": "Meta",
       "type": "entity",
       "label": "Meta",
-      "degree": 3,
+      "degree": 4,
       "examTagged": true
     },
     {
@@ -1777,21 +2043,21 @@
       "id": "OpenAI",
       "type": "entity",
       "label": "OpenAI",
-      "degree": 2,
+      "degree": 6,
       "examTagged": true
     },
     {
       "id": "Houthi",
       "type": "entity",
       "label": "Houthi",
-      "degree": 3,
+      "degree": 4,
       "examTagged": true
     },
     {
       "id": "Saudi Arabia",
       "type": "entity",
       "label": "Saudi Arabia",
-      "degree": 4,
+      "degree": 5,
       "examTagged": true
     },
     {
@@ -1833,21 +2099,28 @@
       "id": "Tata Chemicals",
       "type": "entity",
       "label": "Tata Chemicals",
-      "degree": 1,
+      "degree": 2,
       "examTagged": true
     },
     {
       "id": "Nexperia",
       "type": "entity",
       "label": "Nexperia",
-      "degree": 1,
+      "degree": 2,
       "examTagged": true
     },
     {
       "id": "Tata Electronics",
       "type": "entity",
       "label": "Tata Electronics",
-      "degree": 1,
+      "degree": 2,
+      "examTagged": true
+    },
+    {
+      "id": "Google",
+      "type": "entity",
+      "label": "Google",
+      "degree": 2,
       "examTagged": true
     }
   ],
@@ -2323,7 +2596,99 @@
     {
       "source": "https://economictimes.indiatimes.com/news/economy/finance/digital-gold-may-come-under-rbi-sebi-oversight-physical-backing-proposed/articleshow/134319873.cms",
       "target": "SEBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-economy-enters-higher-rate-era-as-inflation-ai-boom-persist/articleshow/134380268.cms",
+      "target": "Fed"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-economy-enters-higher-rate-era-as-inflation-ai-boom-persist/articleshow/134380268.cms",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.livemint.com/news/us-news/usiran-war-live-update-donald-trump-strait-of-hormuz-tehran-travel-warning-painful-attacks-us-bases-saudi-yemen-houthis-11789953418288.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.livemint.com/news/us-news/usiran-war-live-update-donald-trump-strait-of-hormuz-tehran-travel-warning-painful-attacks-us-bases-saudi-yemen-houthis-11789953418288.html",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/tata-chemicals-tata-investment-corp-shares-fall-up-to-3-as-boardroom-battle-likely-to-reach-court/articleshow/134379458.cms",
+      "target": "Tata Chemicals"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/tata-chemicals-tata-investment-corp-shares-fall-up-to-3-as-boardroom-battle-likely-to-reach-court/articleshow/134379458.cms",
+      "target": "Tata Sons"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-openai-spacexai-google-face-federal-antitrust-lawsuit-over-calls-to-slowdown-ai-development/articleshow/134347763.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-openai-spacexai-google-face-federal-antitrust-lawsuit-over-calls-to-slowdown-ai-development/articleshow/134347763.cms",
+      "target": "Google"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-openai-spacexai-google-face-federal-antitrust-lawsuit-over-calls-to-slowdown-ai-development/articleshow/134347763.cms",
+      "target": "OpenAI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-forecasts-cash-burn-near-280-billion-by-2030-report/articleshow/134347596.cms",
+      "target": "OpenAI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj/articleshow/134346436.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj/articleshow/134346436.cms",
+      "target": "Google"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj/articleshow/134346436.cms",
+      "target": "Meta"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj/articleshow/134346436.cms",
+      "target": "OpenAI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/ai-generated-false-intelligence-nearly-triggered-us-china-military-confrontation-reports/articleshow/134347572.cms",
+      "target": "China"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "target": "Houthi"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say?traffic_source=rss",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/fujifilm-bets-on-semiconductors-to-drive-india-growth-inks-pact-with-tata-electronics/articleshow/134350286.cms",
+      "target": "Nexperia"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/fujifilm-bets-on-semiconductors-to-drive-india-growth-inks-pact-with-tata-electronics/articleshow/134350286.cms",
+      "target": "Tata Electronics"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/softbank-group-launches-over-10-billion-in-bonds-for-openai-investment-term-sheet-shows/articleshow/134379411.cms",
+      "target": "OpenAI"
+    },
+    {
+      "source": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit?traffic_source=rss",
+      "target": "China"
     }
   ],
-  "generated_at": "2026-09-18T16:34:09.059278+05:30"
+  "generated_at": "2026-09-21T11:54:47.733475+05:30"
 }
