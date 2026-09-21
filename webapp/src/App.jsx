@@ -136,7 +136,7 @@ export default function App() {
           <div className="empty">Loading…</div>
         ) : tab === 'home' ? (
           <>
-            {cat === 'All' && <ImportantSection items={important} />}
+            {cat === 'All' && <ImportantSection items={important} data={data} onOpen={(a) => openArticle(a.url)} />}
             <CardFeed data={data} briefs={briefs} wire={wire} region={region} cat={cat} onOpen={(a) => openArticle(a.url)} />
           </>
         ) : tab === 'markets' ? (
