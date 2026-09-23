@@ -111,6 +111,107 @@ def match_entities(text):
     return sorted(matches)
 
 
+FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
+ENTITY_BULLET_RE = re.compile(
+    r"^- (\d{4}-\d{2}-\d{2}): \[\[stories/([^\]]+)\]\] — (.*)$", re.MULTILINE
+)
+
+
+def _parse_frontmatter(content):
+    m = FRONTMATTER_RE.match(content)
+    if not m:
+        return {}, content
+    fm_text, body = m.groups()
+    fm = {}
+    for line in fm_text.splitlines():
+        if ":" not in line:
+            continue
+        key, _, val = line.partition(":")
+        fm[key.strip()] = val.strip()
+    return fm, body
+
+
+def _render_story_note(item, connections):
+    fm_lines = [
+        "title: %s" % item.get("label", ""),
+        "date: %s" % (item.get("date") or ""),
+        "category: %s" % (item.get("category") or ""),
+        "importance: %s" % (item.get("importance") or ""),
+        "top_story: %s" % ("true" if item.get("top_story") else "false"),
+        "exam_relevance: %s" % ((item.get("exam") or {}).get("relevance") or "none"),
+        "exam_categories: %s" % "; ".join((item.get("exam") or {}).get("categories") or []),
+        "url: %s" % item["id"],
+    ]
+    fm = "---\n" + "\n".join(fm_lines) + "\n---\n"
+    body = (item.get("text") or "").strip() + "\n\n## Connections\n"
+    body += "\n".join("- [[entities/%s]]" % entity_slug(e) for e in connections)
+    return fm + body + "\n"
+
+
+def _render_entity_note(name, aliases, exam_tagged, bullets):
+    fm = "---\ntype: entity\naliases: %s\nexamTagged: %s\n---\n" % (
+        json.dumps(aliases), "true" if exam_tagged else "false"
+    )
+    heading = "# %s\n\n" % name
+    bullet_lines = "\n".join(
+        "- %s: [[stories/%s]] — %s" % (date, slug, gist)
+        for date, slug, gist in bullets
+    )
+    return fm + heading + bullet_lines + "\n"
+
+
+def write_vault_notes(graph, vault_root):
+    entities_dir = vault_root / "entities"
+    stories_dir = vault_root / "stories"
+    entities_dir.mkdir(parents=True, exist_ok=True)
+    stories_dir.mkdir(parents=True, exist_ok=True)
+
+    story_nodes = {n["id"]: n for n in graph["nodes"] if n["type"] == "story"}
+    entity_nodes = {n["id"]: n for n in graph["nodes"] if n["type"] == "entity"}
+
+    entity_to_stories = {}
+    for edge in graph["edges"]:
+        entity_to_stories.setdefault(edge["target"], []).append(edge["source"])
+
+    slug_by_story = {
+        story_id: story_slug(item["label"], story_id)
+        for story_id, item in story_nodes.items()
+    }
+
+    story_to_entities = {}
+    for entity_name, story_ids in entity_to_stories.items():
+        for sid in story_ids:
+            story_to_entities.setdefault(sid, []).append(entity_name)
+
+    for story_id, item in story_nodes.items():
+        slug = slug_by_story[story_id]
+        connections = sorted(story_to_entities.get(story_id, []))
+        content = _render_story_note(item, connections)
+        (stories_dir / (slug + ".md")).write_text(content, encoding="utf-8")
+
+    for name, story_ids in entity_to_stories.items():
+        path = entities_dir / (entity_slug(name) + ".md")
+        existing_bullets = []
+        if path.exists():
+            _, body = _parse_frontmatter(path.read_text(encoding="utf-8"))
+            existing_bullets = list(ENTITY_BULLET_RE.findall(body))
+        existing_slugs = {b[1] for b in existing_bullets}
+
+        for story_id in story_ids:
+            slug = slug_by_story[story_id]
+            if slug in existing_slugs:
+                continue
+            item = story_nodes[story_id]
+            existing_bullets.append((item.get("date") or "", slug, item.get("label") or ""))
+            existing_slugs.add(slug)
+
+        existing_bullets.sort(key=lambda b: b[0], reverse=True)
+        entity_node = entity_nodes.get(name, {"examTagged": False})
+        aliases = ENTITIES.get(name, [name])
+        content = _render_entity_note(name, aliases, entity_node["examTagged"], existing_bullets)
+        path.write_text(content, encoding="utf-8")
+
+
 def build_graph(editions):
     by_url = {}
     for ed in editions:

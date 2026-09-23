@@ -1,4 +1,5 @@
 import importlib.util
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -145,3 +146,81 @@ def test_story_slug_differs_for_same_title_different_url():
     a = build_graph_mod.story_slug("Markets close higher", "https://e.com/a1")
     b = build_graph_mod.story_slug("Markets close higher", "https://e.com/a2")
     assert a != b
+
+
+def _graph_with_one_story():
+    return {
+        "nodes": [
+            {
+                "id": "https://e.com/a1", "type": "story",
+                "label": "RBI hikes rates", "text": "The RBI raised the repo rate.",
+                "category": "Markets", "date": "2026-09-23",
+                "importance": "high", "top_story": True,
+                "exam": {"relevance": "high", "categories": ["Economy & Banking bodies"]},
+            },
+            {"id": "RBI", "type": "entity", "label": "RBI", "degree": 1, "examTagged": True},
+        ],
+        "edges": [{"source": "https://e.com/a1", "target": "RBI"}],
+    }
+
+
+def test_write_vault_notes_creates_story_note_with_connection():
+    graph = _graph_with_one_story()
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp)
+        build_graph_mod.write_vault_notes(graph, vault_root)
+        slug = build_graph_mod.story_slug("RBI hikes rates", "https://e.com/a1")
+        content = (vault_root / "stories" / (slug + ".md")).read_text(encoding="utf-8")
+        assert "url: https://e.com/a1" in content
+        assert "top_story: true" in content
+        assert "exam_relevance: high" in content
+        assert "[[entities/rbi]]" in content
+
+
+def test_write_vault_notes_creates_entity_note_with_bullet():
+    graph = _graph_with_one_story()
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp)
+        build_graph_mod.write_vault_notes(graph, vault_root)
+        content = (vault_root / "entities" / "rbi.md").read_text(encoding="utf-8")
+        slug = build_graph_mod.story_slug("RBI hikes rates", "https://e.com/a1")
+        assert "examTagged: true" in content
+        assert ("[[stories/%s]]" % slug) in content
+        assert "2026-09-23" in content
+
+
+def test_write_vault_notes_is_idempotent_no_duplicate_bullets():
+    graph = _graph_with_one_story()
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp)
+        build_graph_mod.write_vault_notes(graph, vault_root)
+        build_graph_mod.write_vault_notes(graph, vault_root)
+        content = (vault_root / "entities" / "rbi.md").read_text(encoding="utf-8")
+        slug = build_graph_mod.story_slug("RBI hikes rates", "https://e.com/a1")
+        assert content.count("[[stories/%s]]" % slug) == 1
+
+
+def test_write_vault_notes_appends_second_story_to_existing_entity_note():
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp)
+        build_graph_mod.write_vault_notes(_graph_with_one_story(), vault_root)
+        graph2 = {
+            "nodes": [
+                {
+                    "id": "https://e.com/a2", "type": "story",
+                    "label": "RBI holds steady", "text": "The RBI held rates.",
+                    "category": "Markets", "date": "2026-09-24",
+                    "importance": "medium", "top_story": False,
+                    "exam": {"relevance": "none", "categories": []},
+                },
+                {"id": "RBI", "type": "entity", "label": "RBI", "degree": 1, "examTagged": False},
+            ],
+            "edges": [{"source": "https://e.com/a2", "target": "RBI"}],
+        }
+        build_graph_mod.write_vault_notes(graph2, vault_root)
+        content = (vault_root / "entities" / "rbi.md").read_text(encoding="utf-8")
+        slug1 = build_graph_mod.story_slug("RBI hikes rates", "https://e.com/a1")
+        slug2 = build_graph_mod.story_slug("RBI holds steady", "https://e.com/a2")
+        assert ("[[stories/%s]]" % slug1) in content
+        assert ("[[stories/%s]]" % slug2) in content
+        assert content.index("2026-09-24") < content.index("2026-09-23")
