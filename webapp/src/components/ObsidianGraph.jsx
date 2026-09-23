@@ -5,7 +5,7 @@ import { pickColor } from '../lib.js'
 const W = 700
 const H = 560
 const TICKS = 400
-const POPUP_W = 260
+const POPUP_W = 340
 const BBOX_PAD = 60
 const LABEL_H = 16
 
@@ -129,6 +129,7 @@ function FocusPanel({ id, nodes, links, pos, onClose }) {
         <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
         <div className="ofocus-title">{node.label}</div>
         <div className="ofocus-meta">{node.category}{node.date ? ' · ' + String(node.date).slice(0, 10) : ''}</div>
+        {node.text && <p className="ofocus-gist">{node.text}</p>}
         <a href={node.id} target="_blank" rel="noopener noreferrer" className="srcbtn">Open source</a>
       </div>
     )
@@ -137,14 +138,19 @@ function FocusPanel({ id, nodes, links, pos, onClose }) {
     .filter((l) => (l.source.id || l.source) === id || (l.target.id || l.target) === id)
     .map((l) => nodes.find((n) => n.id === otherEnd(l, id)))
     .filter(Boolean)
+    .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
   return (
     <div className="ofocus" style={style}>
       <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
       <div className="ofocus-title">{node.label}</div>
-      <div className="ofocus-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'}</div>
-      <ul>
+      <div className="ofocus-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'} — the whole thread, newest first</div>
+      <ul className="ofocus-thread">
         {connected.map((c) => (
-          <li key={c.id}><a href={c.id} target="_blank" rel="noopener noreferrer">{c.label}</a></li>
+          <li key={c.id}>
+            <a href={c.id} target="_blank" rel="noopener noreferrer" className="ofocus-thread-title">{c.label}</a>
+            {c.date && <span className="ofocus-thread-date">{String(c.date).slice(0, 10)}</span>}
+            {c.text && <p>{c.text}</p>}
+          </li>
         ))}
       </ul>
     </div>

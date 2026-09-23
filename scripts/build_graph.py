@@ -18,16 +18,31 @@ import build_important as bi  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 IST = timezone(timedelta(hours=5, minutes=30))
 
+# Three kinds of hub, same matching mechanism (exact-phrase, case-insensitive
+# substring) -- the kind only documents *why* a name is here, it has no
+# effect on matching or graph structure.
+#
+#   org/person/country -- a named actor that recurs across unrelated stories
+#   storyline          -- an ongoing crisis/dispute/chokepoint with its own
+#                         name, generating near-daily coverage over weeks
+#   event              -- a dated, time-boxed happening covered by many
+#                         independent stories
+#
+# All match by distinctive phrase, not single common words, so a match is
+# never a coincidental word-repeat -- "Strait of Hormuz" or "Asian Games"
+# can't accidentally appear inside an unrelated story the way a bare word
+# like "summit" could.
 ENTITIES = {
+    # -- org / person / country --
     "RBI": ["RBI", "Reserve Bank of India"],
     "SEBI": ["SEBI"],
     "Fed": ["Federal Reserve", "the Fed", "Fed's", "Fed hikes", "Fed rate"],
     "BOJ": ["Bank of Japan", "BOJ"],
-    "Tata Sons": ["Tata Sons"],
+    "Tata Sons": ["Tata Sons", "Tata Group", "Tata Trusts", "N Chandrasekaran", "Noel Tata"],
     "Tata Chemicals": ["Tata Chemicals"],
     "Tata Electronics": ["Tata Electronics"],
-    "Anthropic": ["Anthropic", "Claude"],
-    "OpenAI": ["OpenAI"],
+    "Anthropic": ["Anthropic", "Claude", "Dario Amodei"],
+    "OpenAI": ["OpenAI", "Sam Altman", "ChatGPT"],
     "Nexperia": ["Nexperia"],
     "Moody's": ["Moody's"],
     "Trump": ["Trump"],
@@ -35,11 +50,11 @@ ENTITIES = {
     "Amazon": ["Amazon"],
     "Microsoft": ["Microsoft"],
     "Meta": ["Meta"],
-    "Google": ["Google", "DeepMind"],
+    "Google": ["Google", "DeepMind", "Gemini"],
     "IMF": ["IMF"],
     "WTO": ["WTO"],
     "Iran": ["Iran", "Iranian"],
-    "Saudi Arabia": ["Saudi Arabia", "Saudi"],
+    "Saudi Arabia": ["Saudi Arabia", "Saudi", "Aramco", "Riyadh"],
     "Houthi": ["Houthi", "Houthis"],
     "China": ["China", "Chinese"],
     "US Treasury": ["Treasury Secretary", "Scott Bessent"],
@@ -51,6 +66,22 @@ ENTITIES = {
     "Micron": ["Micron"],
     "King Charles": ["King Charles"],
     "Nvidia": ["Nvidia"],
+    "ICC": ["International Criminal Court", " ICC "],
+    "Ukraine-Russia war": ["Ukraine", "Moscow", "Zelensky", "Kyiv"],
+
+    # -- ongoing storyline --
+    "Strait of Hormuz": ["Strait of Hormuz", "Hormuz"],
+    "US-Iran war": ["US-Iran war", "war with Iran", "Iran war"],
+    "UPI MDR": ["UPI MDR", "MDR on UPI", "merchant discount rate"],
+    "AI safety slowdown debate": ["pace the frontier", "slowdown in AI development", "AI development slow"],
+    "Tata Sons IPO": ["Tata Sons IPO", "Tata Sons' IPO"],
+
+    # -- named event --
+    "Asian Games": ["Asian Games"],
+    "BRICS Summit": ["BRICS Summit", "BRICS"],
+    "UN General Assembly": ["UN General Assembly", "United Nations General Assembly"],
+    "G20 Summit": ["G20 Summit", "G20"],
+    "Union Budget": ["Union Budget"],
 }
 
 
@@ -86,6 +117,7 @@ def build_graph(editions):
             "id": item["url"],
             "type": "story",
             "label": item["title"],
+            "text": item.get("text") or "",
             "category": item.get("category"),
             "exam": item.get("exam") or {"relevance": "none", "categories": []},
             "date": item.get("date"),

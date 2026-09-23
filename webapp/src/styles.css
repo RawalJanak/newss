@@ -235,16 +235,22 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
   .oedge, .onode, .oentity.exam, .ostory.exam { animation:none; }
 }
 
-.ofocus { position:absolute; z-index:5; max-width:260px; background:var(--surface);
-          border:1px solid var(--accent-dim); box-shadow:var(--lift); border-radius:14px;
-          padding:13px 15px; }
+.ofocus { position:absolute; z-index:5; width:min(340px, calc(100% - 16px)); max-height:min(60vh, 460px);
+          overflow-y:auto; background:var(--surface); border:1px solid var(--accent-dim);
+          box-shadow:var(--lift); border-radius:14px; padding:13px 15px; }
 .ofocus-title { font-family:var(--serif); font-size:15px; font-weight:600; margin-bottom:4px; line-height:1.3; }
 .ofocus-meta { font-size:11px; color:var(--faint); margin-bottom:10px; }
-.ofocus ul { margin:0; padding-left:16px; max-height:180px; overflow-y:auto; }
-.ofocus li { font-size:13px; line-height:1.55; margin-bottom:4px; }
+.ofocus-gist { font-size:13.5px; line-height:1.6; color:var(--ink); margin:0 0 12px; }
 .ofocus a:not(.srcbtn) { color:var(--accent); text-decoration:none; }
 .ofocus-close { position:absolute; top:8px; right:10px; font-size:15px; line-height:1; color:var(--faint);
                 background:none; border:none; cursor:pointer; padding:2px; }
+
+.ofocus-thread { list-style:none; margin:0; padding:0; }
+.ofocus-thread li { padding:10px 0; border-top:1px solid var(--line-soft); }
+.ofocus-thread li:first-child { border-top:none; padding-top:0; }
+.ofocus-thread-title { display:block; font-size:13.5px; font-weight:600; line-height:1.4; }
+.ofocus-thread-date { display:block; font-size:10.5px; color:var(--faint); margin-top:2px; }
+.ofocus-thread p { font-size:12.5px; line-height:1.55; color:var(--muted); margin:5px 0 0; }
 
 /* ---------- wire ---------- */
 .wire { margin:26px 0 10px; }
