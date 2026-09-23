@@ -1,6 +1,411 @@
 {
   "items": [
     {
+      "title": "Trump calls the ICC an 'evil group of people,' demands member nations resign, days after reports of new sanctions",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-calls-international-criminal-court-evil-demands-its-members-to-resign-immediately/articleshow/134425949.cms",
+      "source": "ET",
+      "category": "Geopolitics",
+      "date": "2026-09-23T09:45:00+05:30",
+      "kind": "article",
+      "importance": "medium",
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "Trump publicly called on ICC member nations to resign from the court at the UN General Assembly in September 2026",
+            "kind": "date",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Trump told the UN General Assembly the ICC is an 'out of control institution' and 'an evil group of people,' calling on all member nations to resign, days after reports the administration is preparing sweeping institutional sanctions — his outburst following the ICC's arrest warrant for Israeli PM Netanyahu, who is set to attend this week's UNGA session."
+    },
+    {
+      "title": "US to build two military bases in Greenland after Trump, Denmark and Greenland sign deal ending a year of tension",
+      "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Geopolitics",
+      "date": "2026-09-23T09:30:00+05:30",
+      "kind": "article",
+      "importance": "medium",
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World",
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The US, Denmark and Greenland signed a defence deal in September 2026 allowing US military bases at Narsarsuaq and Mestersvig in Greenland",
+            "kind": "date",
+            "as_of": "2026-09-23"
+          },
+          {
+            "fact": "Mette Frederiksen is Denmark's Prime Minister; Jens-Frederik Nielsen is Greenland's Premier, as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "text": "The US, Denmark and Greenland signed a defence deal at the UN allowing Washington to build two new military bases at Narsarsuaq and Mestersvig while explicitly reaffirming Danish sovereignty over Greenland, appearing to end more than a year of tension after Trump had earlier threatened to 'take' the Arctic territory over its strategic location and mineral wealth."
+    },
+    {
+      "title": "Sensex hit 85,000 two years ago today — it's down 10,000 points since. What could trigger the next bull run?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-crossed-85k-for-first-time-2-years-ago-now-down-10k-points-from-milestone-what-can-trigger-the-next-bull-run/articleshow/134426180.cms",
+      "source": "ET Markets",
+      "category": "Markets",
+      "date": "2026-09-23T09:15:00+05:30",
+      "kind": "article",
+      "importance": "medium",
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The Sensex first crossed 85,000 on 24 September 2024",
+            "kind": "date",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "text": "The Sensex first crossed 85,000 on 24 September 2024 after a Fed rate-cut-driven sprint, hit a new all-time high of 86,159 in December 2025, then fell over 12% amid AI-driven IT-sector selloffs and this year's oil-price and geopolitical shocks — now trading below 75,000, with analysts pointing to a shift in macroeconomic conditions and improved large-cap earnings as the conditions needed for the next sustained rally."
+    },
+    {
+      "title": "Nasdaq hits an all-time high, shrugging off AI safety fears, stretched valuations and the Iran-war oil shock",
+      "url": "https://www.aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Markets",
+      "date": "2026-09-23T09:00:00+05:30",
+      "kind": "article",
+      "importance": "high",
+      "top_story": true,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "The Nasdaq Composite hit a record high Tuesday, up 0.45% and more than 17% year-to-date, led by Monolithic Power Systems (+8.1%), Shopify (+7.1%) and Micron (+5%), while Meta dropped 0.63% after Monday's 11.4% AI-assistant-driven surge — a rally that Al Jazeera frames explicitly as shrugging off AI safety risks, stretched tech valuations and the energy shock from the US war on Iran, all covered elsewhere in this edition."
+    },
+    {
+      "title": "US and Iran hold hours of mediated talks at the UN on ending the war and reopening the Strait of Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Geopolitics",
+      "date": "2026-09-23T08:30:00+05:30",
+      "kind": "article",
+      "importance": "high",
+      "top_story": true,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "Steve Witkoff is a US special envoy involved in mediated US-Iran talks as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": {
+          "q": "On the sidelines of which international gathering did the September 2026 US-Iran talks take place?",
+          "options": [
+            "G20 Summit",
+            "UN General Assembly",
+            "BRICS Summit",
+            "World Economic Forum"
+          ],
+          "answer": 2
+        }
+      },
+      "text": "US special envoy Steve Witkoff said mediators 'shuttled between' the American and Iranian delegations for hours on the sidelines of the UN General Assembly, with Trump separately claiming Witkoff and Jared Kushner held a three-hour meeting with Iranian officials — though the White House later clarified Trump himself had not attended, and accounts differed over whether the two sides met directly."
+    },
+    {
+      "title": "Sitharaman tells BRICS nations the next few years of global tax talks will 'shape cross-border taxation for a generation'",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/brics-economies-must-shape-global-tax-rules-for-the-next-generation-says-fm-sitharaman/articleshow/134426283.cms",
+      "source": "ET Economy",
+      "category": "Economy & Policy",
+      "date": "2026-09-23T08:15:00+05:30",
+      "kind": "article",
+      "importance": "medium",
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)",
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Nirmala Sitharaman is India's Finance Minister as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          },
+          {
+            "fact": "India hosted the BRICS Tax Heads Meeting in New Delhi in September 2026, during its BRICS chairship",
+            "kind": "place",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": {
+          "q": "Who chaired India's Finance Ministry statements at the September 2026 BRICS Tax Heads Meeting in New Delhi?",
+          "options": [
+            "Piyush Goyal",
+            "Nirmala Sitharaman",
+            "S Jaishankar",
+            "Shaktikanta Das"
+          ],
+          "answer": 2
+        }
+      },
+      "text": "Finance Minister Nirmala Sitharaman told the BRICS Tax Heads Meeting in New Delhi that decisions in ongoing multilateral tax negotiations, including the UN Framework Convention on International Tax Cooperation, will shape cross-border taxation for a generation, arguing BRICS economies must ensure their perspectives as large developing economies with growing domestic tax capacity are reflected in the emerging global framework."
+    },
+    {
+      "title": "Trump threatens to 'annihilate' Iran in his UN speech, hours before US and Iranian officials meet on the sidelines",
+      "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Geopolitics",
+      "date": "2026-09-23T08:00:00+05:30",
+      "kind": "article",
+      "importance": "high",
+      "top_story": true,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "António Guterres delivered his final UN General Assembly address as UN Secretary-General in September 2026, before his term ends 31 December 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Trump told the UN General Assembly he faces a 'big decision' on Iran — strike again or pursue a deal — and said he could 'annihilate' the Islamic Republic if the conflict went unresolved, even as US and Iranian officials held hours of talks on the sidelines the same day, covered separately in this edition."
+    },
+    {
+      "title": "Anthropic launches Claude Opus 5.5, cutting costs 40% while adding new safety testing — weeks after its own CEO called for an industry slowdown",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-unveils-claude-opus-5-5/articleshow/134417201.cms",
+      "source": "ET Tech",
+      "category": "AI",
+      "date": "2026-09-23T07:30:00+05:30",
+      "kind": "article",
+      "importance": "high",
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [
+          {
+            "fact": "Anthropic released Claude Opus 5.5 in September 2026, priced at $4 per million input tokens and $20 per million output tokens",
+            "kind": "number",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Anthropic's new Claude Opus 5.5 matches its top-tier Fable 5.1 model on most tasks at 40% lower cost, underwent external testing by independent safety groups Frontier Design and METR, and was 85% less likely than its predecessor to attempt bypassing containment boundaries in evaluation — a release that lands weeks after CEO Dario Amodei's own public call for an industry-wide AI development slowdown, and the same week Anthropic and three rivals face an antitrust suit over that exact call."
+    },
+    {
+      "title": "Government will go slow on Adani's airline ambitions over airport-airline conflict-of-interest concerns",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/govt-to-weigh-adani-airline-plan-cautiously-over-airport-airline-conflict-concerns/articleshow/134419672.cms",
+      "source": "ET",
+      "category": "Aviation",
+      "date": "2026-09-23T07:15:00+05:30",
+      "kind": "article",
+      "importance": "medium",
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "Ram Mohan Naidu is India's Civil Aviation Minister as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          },
+          {
+            "fact": "Adani Group holds a 74% stake in Mumbai airport as of 2026",
+            "kind": "number",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": {
+          "q": "What stake does the Adani Group hold in Mumbai airport, per this report?",
+          "options": [
+            "51%",
+            "60%",
+            "74%",
+            "100%"
+          ],
+          "answer": 3
+        }
+      },
+      "text": "Civil aviation minister Ram Mohan Naidu said the government will be cautious about letting Adani Group start an airline, despite wanting to break IndiGo-Air India's duopoly, citing conflict-of-interest concerns since Adani owns a 74% stake in Mumbai airport and had asked in June to be allowed to hold more than 10% in a scheduled carrier."
+    },
+    {
+      "title": "In his final UN address, Guterres urges the world to regulate AI, end wars and 'make polluters pay'",
+      "url": "https://economictimes.indiatimes.com/tech/technology/un-chief-calls-for-ai-curbs-and-end-to-wars-in-his-last-assembly-address/articleshow/134414082.cms",
+      "source": "ET Tech",
+      "category": "AI",
+      "date": "2026-09-23T06:45:00+05:30",
+      "kind": "article",
+      "importance": "high",
+      "top_story": true,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "António Guterres, UN Secretary-General, ends his second five-year term on 31 December 2026",
+            "kind": "date",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": {
+          "q": "When does UN Secretary-General António Guterres's second term end?",
+          "options": [
+            "31 December 2026",
+            "31 December 2027",
+            "30 June 2026",
+            "1 January 2027"
+          ],
+          "answer": 1
+        }
+      },
+      "text": "UN Secretary-General António Guterres used his final General Assembly address to urge global AI oversight, an end to wars and climate accountability, capping a decade-long tenure in which he sought to position the UN as an AI governance forum even as major powers increasingly bypassed the organization — delivered as the Security Council prepares its own AI-leaders briefing and nearly 130 world leaders gathered, though China's Xi and others skipped the session."
+    },
+    {
+      "title": "73% of Americans say AI companies aren't doing enough to prevent serious harm, new poll finds",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/three-out-of-four-americans-say-ai-firms-not-doing-enough-to-prevent-disaster-reuters/ipsos-poll-finds/articleshow/134416531.cms",
+      "source": "ET Tech",
+      "category": "AI",
+      "date": "2026-09-23T06:15:00+05:30",
+      "kind": "article",
+      "importance": "medium",
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "A Reuters/Ipsos poll on AI concluded 20 September 2026 found 73% of Americans distrust AI firms' safety efforts",
+            "kind": "number",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "text": "A new Reuters/Ipsos poll found 73% of Americans worry AI companies haven't done enough to prevent serious societal harm, with 39% now saying AI has a negative impact on society — the highest share since the poll began asking in March — while both progressive and Trump-aligned voices call for federal action that a recessed, Republican-led House is unlikely to deliver soon."
+    },
+    {
+      "title": "Iran cancels flights to Baghdad and Muscat as new US aviation sanctions cut its airlines off from fuel, tickets and landing services",
+      "url": "https://www.aljazeera.com/news/2026/9/22/iran-flights-to-baghdad-muscat-cancelled-ahead-of-us-aviation-sanctions?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Aviation",
+      "date": "2026-09-23T06:00:00+05:30",
+      "kind": "article",
+      "importance": "medium",
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World",
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Scott Bessent is US Treasury Secretary as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Iran's Civil Aviation Organization announced Baghdad and Muscat will stop accepting Iranian flights from midnight as new US sanctions take effect, threatening secondary sanctions — cutting off fuel, tickets and landing services — on any company servicing Iranian carriers, per Treasury Secretary Scott Bessent, with Baghdad-bound flights being redirected to Najaf and Oman negotiations ongoing."
+    },
+    {
+      "title": "Five Adani group stocks were in focus after firms settled SEBI proceedings linked to the Hindenburg report, closing a long-running regulatory overhang.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/5-adani-group-stocks-in-focus-as-firms-settle-sebi-proceedings-linked-to-hindenburg-report/articleshow/134425212.cms",
+      "source": "ET Markets",
+      "category": "Markets",
+      "date": "2026-09-23",
+      "kind": "brief",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Five Adani group stocks were in focus after firms settled SEBI proceedings linked to the Hindenburg report, closing a long-running regulatory overhang."
+    },
+    {
+      "title": "Analysts are discussing whether a US-China 'hotline' for AI risks could be established, echoing Cold War-era crisis-communication mechanisms.",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/could-a-us-china-hot-line-be-set-up-for-ai-risks/articleshow/134425396.cms",
+      "source": "ET Tech",
+      "category": "AI",
+      "date": "2026-09-23",
+      "kind": "brief",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Analysts are discussing whether a US-China 'hotline' for AI risks could be established, echoing Cold War-era crisis-communication mechanisms."
+    },
+    {
+      "title": "A US oil law gives Trump policy options as India awaits clarity on its own crude-sourcing flexibility amid the Iran war's disruptions.",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/new-us-sanctions-law-gives-trump-additional-options-on-russian-iranian-oil-us-state-department/articleshow/134424277.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-09-23",
+      "kind": "brief",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "A US oil law gives Trump policy options as India awaits clarity on its own crude-sourcing flexibility amid the Iran war's disruptions."
+    },
+    {
       "title": "Sensex jumps 400 points and Nifty nears 23,400 as oil prices cool despite Middle East tensions",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-jumps-400-points-nifty-nears-23400-as-oil-prices-cool-down-despite-middle-east-tensions-what-lies-ahead/articleshow/134380591.cms",
       "source": "ET Markets",
@@ -3500,216 +3905,6 @@
         "relevance": "none"
       },
       "text": "At the 25th round of Special Representatives talks in Beijing, NSA Ajit Doval and Chinese Foreign Minister Wang Yi had a 'candid and in-depth' exchange and agreed to continue working towards a political settlement of the boundary question — days before Xi Jinping is expected in Delhi for the BRICS summit."
-    },
-    {
-      "title": "DHS proposes a permanent $103,265 H-1B fee — Nasscom says Indian IT already moved on",
-      "url": "https://www.thehindubusinessline.com/economy/h-1b-visa-fee-explained-what-the-103265-fee-proposal-means-for-us-employers-and-foreign-workers/article71391254.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Business",
-      "date": "2026-08-26T07:51:45+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "The Department of Homeland Security proposed making the H-1B surcharge a permanent $103,265 on all cap-subject applications, including advanced-degree cases. Nasscom says Indian firms have cut visa reliance sharply over five years; FIIDS warns the fee will push high-value jobs overseas."
-    },
-    {
-      "title": "Air India asks Tata Sons and Singapore Airlines for $1.5 billion after a record $2.33bn loss",
-      "url": "https://www.thehindubusinessline.com/companies/air-india-seeks-1-5-billion-fresh-equity-from-tata-sons-singapore-airlines/article71390726.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Aviation",
-      "date": "2026-08-26T07:16:06+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Air India is seeking about $1.5 billion in fresh equity from Tata Sons and Singapore Airlines after it and Air India Express posted combined FY26 losses of $2.33 billion, more than double the prior year. It wants the money immediately, likely in tranches."
-    },
-    {
-      "title": "87.7% of retail F&O traders lost money in FY26 — and the industry is asking SEBI for entry barriers",
-      "url": "https://www.thehindubusinessline.com/markets/persisting-retail-fo-losses-spur-call-for-tighter-eligibility-filters/article71390041.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Markets",
-      "date": "2026-08-25T22:35:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "SEBI's latest study shows individual F&O traders fell for the first time in nine years, but 87.7% still ended FY26 in loss with the average loss up 2% to ₹1.16 lakh, and 97% of activity still in sub-weekly expiries. Brokers are now backing income thresholds and qualification tests."
-    },
-    {
-      "title": "RBI flags second-round inflation risk as Q1 growth is seen slowing to 7.1%",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-warns-food-fuel-costs-could-reignite-broader-inflation/articleshow/133511523.cms",
-      "source": "ET Economy",
-      "category": "Economy & Policy",
-      "date": "2026-08-25T18:35:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Governor Malhotra warned in the August Bulletin that second-round effects of higher food, fuel and input prices could turn into broad-based inflation. Food prices rose broadly through 21 August despite the monsoon recovery. A Reuters poll sees Q1 GDP at 7.1%, down from 7.8%."
-    },
-    {
-      "title": "Hyderabad becomes the first Indian airport to charge arriving passengers a user fee",
-      "url": "https://www.livemint.com/companies/news/hyderabad-airport-to-charge-arriving-domestic-international-passengers-udf-for-the-first-time",
-      "source": "Mint",
-      "category": "Aviation",
-      "date": "2026-08-25T18:00:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "India's tariff regulator is splitting airport infrastructure cost recovery between arriving and departing passengers, making Hyderabad the first Indian airport to levy a UDF on arrivals. Separately, the government is weighing annual random drug testing for all airline pilots — a world first."
-    },
-    {
-      "title": "Nvidia reports tonight with $92bn expected — and an Indian buyer has just ordered 9,000 Rubin GPUs",
-      "url": "https://economictimes.indiatimes.com/tech/technology/nvidia-faces-growth-test-as-rubin-debut-meets-ai-financing-scrutiny/articleshow/133517900.cms",
-      "source": "ET Tech",
-      "category": "AI",
-      "date": "2026-08-25T16:12:42+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Analysts expect Nvidia Q2 revenue of $92.18bn, nearly double year-on-year, as investors question the sustainability of AI spending and Nvidia's role in circular financing. Separately, Greenko promoters' AM Intelligence placed a binding order for 9,000 Vera Rubin GPUs for a 30 MW Hyderabad facility."
-    },
-    {
-      "title": "Druckenmiller turns on his own protégé: 'Every basis point of artificial yield suppression is a subsidy to procrastination'",
-      "url": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-bessent-bond-buybacks.html",
-      "source": "CNBC",
-      "category": "Markets",
-      "date": "2026-08-25T16:12:21+00:00",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Stanley Druckenmiller — Bessent's own investing mentor — used a WSJ op-ed to urge him to abandon the 19 August buyback plan and let the bond market price freely. Meanwhile options traders bought over 175,000 TLT calls on Tuesday against fewer than 40,000 puts."
-    },
-    {
-      "title": "Sugar ex-mill prices fall 18% to ₹55/kg — and now mills may not want the import quota",
-      "url": "https://www.thehindu.com/business/agri-business/sugar-ex-mill-prices-down-18-to-55kg-after-import-move-curbs-on-hoarding-food-secretary/article71388239.ece",
-      "source": "The Hindu Business",
-      "category": "Economy & Policy",
-      "date": "2026-08-25T15:22:37+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Ex-mill sugar has fallen 18% from a record ₹67/kg to ₹55/kg after the government allowed 1 million tonnes of duty-free raw imports and cracked down on hoarding. DGFT now requires importers to refine and sell within two months. Traders expect only half the quota to be used."
-    },
-    {
-      "title": "Bitcoin tops $80,000 for the first time since May as the debasement trade returns",
-      "url": "https://www.business-standard.com/markets/cryptocurrency/bitcoin-tops-80-000-as-optimistic-mood-returns-to-crypto-market-126082500154_1.html",
-      "source": "Business Standard",
-      "category": "Markets",
-      "date": "2026-08-25T14:00:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Bitcoin rose as much as 2.9% to $81,257, its first move above $80,000 since mid-May, after Bessent's expanded bond buybacks weakened the dollar and revived the debasement trade. Spot ETFs drew a net $1.92bn last week, the most since early October."
-    },
-    {
-      "title": "Goyal in Tokyo: FTAs under negotiation would take India's preferential access to 75% of world trade",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-negotiating-ftas-with-8-9-more-blocs-aims-to-cover-75-of-global-trade-piyush-goyal/articleshow/133451223.cms",
-      "source": "ET Economy",
-      "category": "Economy & Policy",
-      "date": "2026-08-24T10:26:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Speaking in Tokyo, Piyush Goyal said India is negotiating with 8-9 more blocs accounting for $15tn of GDP, on top of $70tn already covered — eventually 75% of global trade. He is leading a 200-member delegation to Japan; the US ambassador says the US deal is 'almost' done."
-    },
-    {
-      "title": "Tamil Nadu drops the Parandur airport after farmer protests, and starts the site search again",
-      "url": "https://www.thehindubusinessline.com/news/national/tn-govt-drops-parandur-airport-plan-seeks-alternative-site/article71383236.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Aviation",
-      "date": "2026-08-24T10:25:35+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Chief Minister C Joseph Vijay told the Tamil Nadu Assembly that the TVK government has abandoned the Parandur greenfield airport, citing farmer displacement and farmland loss. Alternative sites are being assessed; Meenambakkam Terminal 5 expansion will still be pursued."
-    },
-    {
-      "title": "Nvidia's earnings and Warsh's Jackson Hole debut are the two tests the AI rally faces this week",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-market-nvidia-earnings-jackson-hole-to-test-strength-of-ai-led-stock-rally/articleshow/133451150.cms",
-      "source": "ET Markets",
-      "category": "Markets",
-      "date": "2026-08-24T10:01:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Nvidia reports on 26 August and Fed Chair Kevin Warsh gives his first Jackson Hole keynote, days after the 30-year Treasury yield hit its highest since 2007. Nvidia has separately told large customers AI server prices rise more than 15% on memory costs."
-    },
-    {
-      "title": "Delhi notifies a ₹62,500 crore mobile manufacturing scheme with a 5% bonus for Indian brands",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/kaynes-tech-dixon-tech-syrma-shares-rise-up-to-2-after-govt-notifies-rs-62500-cr-mobile-manufacturing-scheme/articleshow/133451174.cms",
-      "source": "ET Markets",
-      "category": "Economy & Policy",
-      "date": "2026-08-24T10:01:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "MeitY notified the Mobile Phone Manufacturing Scheme with a ₹62,500 crore outlay, running FY27-FY31. Incentives of 2.25-5% go to manufacturers and EMS providers; Indian brands get 5% plus 3% for Indian design and R&D. Target: ₹39 lakh crore of output and 60,000 jobs."
-    },
-    {
-      "title": "RBI leans on the rupee at 95.64 as hawkish minutes and $93 crude cloud the outlook",
-      "url": "https://www.thehindubusinessline.com/markets/forex/rbi-likely-intervenes-anchoring-rupee-in-face-of-global-ructions-traders-say/article71383110.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Markets",
-      "date": "2026-08-24T09:37:16+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Five traders told Reuters the RBI likely intervened on Monday, with state-run banks offering dollars. The rupee held 95.6425. India has drawn $72.8bn through its special swap facility, giving the central bank an unusually large buffer against oil and hedging pressure."
-    },
-    {
-      "title": "Gold at a three-month high above ₹1.63 lakh as the dollar sags before Warsh's Jackson Hole debut",
-      "url": "https://www.thehindubusinessline.com/markets/gold-and-silver/gold-hits-over-3-month-high-ahead-of-us-inflation-data-fed-chair-speech/article71383114.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Markets",
-      "date": "2026-08-24T09:09:35+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Spot gold rose 0.5% to $4,627.42, its highest since 15 May, after gaining over 5% last week. Comex futures crossed $4,706 and MCX October traded near ₹1,63,570. The driver is a dollar near multi-month lows on the Treasury's long-bond buyback promise."
     }
   ]
 }

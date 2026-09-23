@@ -2475,6 +2475,358 @@
       "top_story": false
     },
     {
+      "id": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+      "type": "story",
+      "label": "Trump threatens to 'annihilate' Iran in his UN speech, hours before US and Iranian officials meet on the sidelines",
+      "text": "Trump told the UN General Assembly he faces a 'big decision' on Iran — strike again or pursue a deal — and said he could 'annihilate' the Islamic Republic if the conflict went unresolved, even as US and Iranian officials held hours of talks on the sidelines the same day, covered separately in this edition.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "António Guterres delivered his final UN General Assembly address as UN Secretary-General in September 2026, before his term ends 31 December 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-23T08:00:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
+      "type": "story",
+      "label": "US and Iran hold hours of mediated talks at the UN on ending the war and reopening the Strait of Hormuz",
+      "text": "US special envoy Steve Witkoff said mediators 'shuttled between' the American and Iranian delegations for hours on the sidelines of the UN General Assembly, with Trump separately claiming Witkoff and Jared Kushner held a three-hour meeting with Iranian officials — though the White House later clarified Trump himself had not attended, and accounts differed over whether the two sides met directly.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "Steve Witkoff is a US special envoy involved in mediated US-Iran talks as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": {
+          "q": "On the sidelines of which international gathering did the September 2026 US-Iran talks take place?",
+          "options": [
+            "G20 Summit",
+            "UN General Assembly",
+            "BRICS Summit",
+            "World Economic Forum"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-23T08:30:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-unveils-claude-opus-5-5/articleshow/134417201.cms",
+      "type": "story",
+      "label": "Anthropic launches Claude Opus 5.5, cutting costs 40% while adding new safety testing — weeks after its own CEO called for an industry slowdown",
+      "text": "Anthropic's new Claude Opus 5.5 matches its top-tier Fable 5.1 model on most tasks at 40% lower cost, underwent external testing by independent safety groups Frontier Design and METR, and was 85% less likely than its predecessor to attempt bypassing containment boundaries in evaluation — a release that lands weeks after CEO Dario Amodei's own public call for an industry-wide AI development slowdown, and the same week Anthropic and three rivals face an antitrust suit over that exact call.",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [
+          {
+            "fact": "Anthropic released Claude Opus 5.5 in September 2026, priced at $4 per million input tokens and $20 per million output tokens",
+            "kind": "number",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-23T07:30:00+05:30",
+      "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/technology/un-chief-calls-for-ai-curbs-and-end-to-wars-in-his-last-assembly-address/articleshow/134414082.cms",
+      "type": "story",
+      "label": "In his final UN address, Guterres urges the world to regulate AI, end wars and 'make polluters pay'",
+      "text": "UN Secretary-General António Guterres used his final General Assembly address to urge global AI oversight, an end to wars and climate accountability, capping a decade-long tenure in which he sought to position the UN as an AI governance forum even as major powers increasingly bypassed the organization — delivered as the Security Council prepares its own AI-leaders briefing and nearly 130 world leaders gathered, though China's Xi and others skipped the session.",
+      "category": "AI",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "António Guterres, UN Secretary-General, ends his second five-year term on 31 December 2026",
+            "kind": "date",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": {
+          "q": "When does UN Secretary-General António Guterres's second term end?",
+          "options": [
+            "31 December 2026",
+            "31 December 2027",
+            "30 June 2026",
+            "1 January 2027"
+          ],
+          "answer": 1
+        }
+      },
+      "date": "2026-09-23T06:45:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/three-out-of-four-americans-say-ai-firms-not-doing-enough-to-prevent-disaster-reuters/ipsos-poll-finds/articleshow/134416531.cms",
+      "type": "story",
+      "label": "73% of Americans say AI companies aren't doing enough to prevent serious harm, new poll finds",
+      "text": "A new Reuters/Ipsos poll found 73% of Americans worry AI companies haven't done enough to prevent serious societal harm, with 39% now saying AI has a negative impact on society — the highest share since the poll began asking in March — while both progressive and Trump-aligned voices call for federal action that a recessed, Republican-led House is unlikely to deliver soon.",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "A Reuters/Ipsos poll on AI concluded 20 September 2026 found 73% of Americans distrust AI firms' safety efforts",
+            "kind": "number",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-23T06:15:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://www.aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace?traffic_source=rss",
+      "type": "story",
+      "label": "Nasdaq hits an all-time high, shrugging off AI safety fears, stretched valuations and the Iran-war oil shock",
+      "text": "The Nasdaq Composite hit a record high Tuesday, up 0.45% and more than 17% year-to-date, led by Monolithic Power Systems (+8.1%), Shopify (+7.1%) and Micron (+5%), while Meta dropped 0.63% after Monday's 11.4% AI-assistant-driven surge — a rally that Al Jazeera frames explicitly as shrugging off AI safety risks, stretched tech valuations and the energy shock from the US war on Iran, all covered elsewhere in this edition.",
+      "category": "Markets",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-23T09:00:00+05:30",
+      "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+      "type": "story",
+      "label": "US to build two military bases in Greenland after Trump, Denmark and Greenland sign deal ending a year of tension",
+      "text": "The US, Denmark and Greenland signed a defence deal at the UN allowing Washington to build two new military bases at Narsarsuaq and Mestersvig while explicitly reaffirming Danish sovereignty over Greenland, appearing to end more than a year of tension after Trump had earlier threatened to 'take' the Arctic territory over its strategic location and mineral wealth.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World",
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The US, Denmark and Greenland signed a defence deal in September 2026 allowing US military bases at Narsarsuaq and Mestersvig in Greenland",
+            "kind": "date",
+            "as_of": "2026-09-23"
+          },
+          {
+            "fact": "Mette Frederiksen is Denmark's Prime Minister; Jens-Frederik Nielsen is Greenland's Premier, as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-23T09:30:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/international/global-trends/trump-calls-international-criminal-court-evil-demands-its-members-to-resign-immediately/articleshow/134425949.cms",
+      "type": "story",
+      "label": "Trump calls the ICC an 'evil group of people,' demands member nations resign, days after reports of new sanctions",
+      "text": "Trump told the UN General Assembly the ICC is an 'out of control institution' and 'an evil group of people,' calling on all member nations to resign, days after reports the administration is preparing sweeping institutional sanctions — his outburst following the ICC's arrest warrant for Israeli PM Netanyahu, who is set to attend this week's UNGA session.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [
+          {
+            "fact": "Trump publicly called on ICC member nations to resign from the court at the UN General Assembly in September 2026",
+            "kind": "date",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-23T09:45:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/finance/brics-economies-must-shape-global-tax-rules-for-the-next-generation-says-fm-sitharaman/articleshow/134426283.cms",
+      "type": "story",
+      "label": "Sitharaman tells BRICS nations the next few years of global tax talks will 'shape cross-border taxation for a generation'",
+      "text": "Finance Minister Nirmala Sitharaman told the BRICS Tax Heads Meeting in New Delhi that decisions in ongoing multilateral tax negotiations, including the UN Framework Convention on International Tax Cooperation, will shape cross-border taxation for a generation, arguing BRICS economies must ensure their perspectives as large developing economies with growing domestic tax capacity are reflected in the emerging global framework.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)",
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Nirmala Sitharaman is India's Finance Minister as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          },
+          {
+            "fact": "India hosted the BRICS Tax Heads Meeting in New Delhi in September 2026, during its BRICS chairship",
+            "kind": "place",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": {
+          "q": "Who chaired India's Finance Ministry statements at the September 2026 BRICS Tax Heads Meeting in New Delhi?",
+          "options": [
+            "Piyush Goyal",
+            "Nirmala Sitharaman",
+            "S Jaishankar",
+            "Shaktikanta Das"
+          ],
+          "answer": 2
+        }
+      },
+      "date": "2026-09-23T08:15:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-crossed-85k-for-first-time-2-years-ago-now-down-10k-points-from-milestone-what-can-trigger-the-next-bull-run/articleshow/134426180.cms",
+      "type": "story",
+      "label": "Sensex hit 85,000 two years ago today — it's down 10,000 points since. What could trigger the next bull run?",
+      "text": "The Sensex first crossed 85,000 on 24 September 2024 after a Fed rate-cut-driven sprint, hit a new all-time high of 86,159 in December 2025, then fell over 12% amid AI-driven IT-sector selloffs and this year's oil-price and geopolitical shocks — now trading below 75,000, with analysts pointing to a shift in macroeconomic conditions and improved large-cap earnings as the conditions needed for the next sustained rally.",
+      "category": "Markets",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The Sensex first crossed 85,000 on 24 September 2024",
+            "kind": "date",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-23T09:15:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://www.aljazeera.com/news/2026/9/22/iran-flights-to-baghdad-muscat-cancelled-ahead-of-us-aviation-sanctions?traffic_source=rss",
+      "type": "story",
+      "label": "Iran cancels flights to Baghdad and Muscat as new US aviation sanctions cut its airlines off from fuel, tickets and landing services",
+      "text": "Iran's Civil Aviation Organization announced Baghdad and Muscat will stop accepting Iranian flights from midnight as new US sanctions take effect, threatening secondary sanctions — cutting off fuel, tickets and landing services — on any company servicing Iranian carriers, per Treasury Secretary Scott Bessent, with Baghdad-bound flights being redirected to Najaf and Oman negotiations ongoing.",
+      "category": "Aviation",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World",
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Scott Bessent is US Treasury Secretary as of September 2026",
+            "kind": "officeholder",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": null
+      },
+      "date": "2026-09-23T06:00:00+05:30",
+      "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/stocks/news/5-adani-group-stocks-in-focus-as-firms-settle-sebi-proceedings-linked-to-hindenburg-report/articleshow/134425212.cms",
+      "type": "story",
+      "label": "Five Adani group stocks were in focus after firms settled SEBI proceedings linked to the Hindenburg report, closing a long-running regulatory overhang.",
+      "text": "Five Adani group stocks were in focus after firms settled SEBI proceedings linked to the Hindenburg report, closing a long-running regulatory overhang.",
+      "category": "Markets",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-23",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/could-a-us-china-hot-line-be-set-up-for-ai-risks/articleshow/134425396.cms",
+      "type": "story",
+      "label": "Analysts are discussing whether a US-China 'hotline' for AI risks could be established, echoing Cold War-era crisis-communication mechanisms.",
+      "text": "Analysts are discussing whether a US-China 'hotline' for AI risks could be established, echoing Cold War-era crisis-communication mechanisms.",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Geography — World"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-23",
+      "importance": null,
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/international/world-news/new-us-sanctions-law-gives-trump-additional-options-on-russian-iranian-oil-us-state-department/articleshow/134424277.cms",
+      "type": "story",
+      "label": "A US oil law gives Trump policy options as India awaits clarity on its own crude-sourcing flexibility amid the Iran war's disruptions.",
+      "text": "A US oil law gives Trump policy options as India awaits clarity on its own crude-sourcing flexibility amid the Iran war's disruptions.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "date": "2026-09-23",
+      "importance": null,
+      "top_story": false
+    },
+    {
       "id": "RBI",
       "type": "entity",
       "label": "RBI",
@@ -2485,21 +2837,21 @@
       "id": "Iran",
       "type": "entity",
       "label": "Iran",
-      "degree": 21,
+      "degree": 26,
       "examTagged": true
     },
     {
       "id": "Strait of Hormuz",
       "type": "entity",
       "label": "Strait of Hormuz",
-      "degree": 14,
+      "degree": 15,
       "examTagged": true
     },
     {
       "id": "Trump",
       "type": "entity",
       "label": "Trump",
-      "degree": 19,
+      "degree": 25,
       "examTagged": true
     },
     {
@@ -2513,7 +2865,7 @@
       "id": "SEBI",
       "type": "entity",
       "label": "SEBI",
-      "degree": 12,
+      "degree": 13,
       "examTagged": true
     },
     {
@@ -2527,14 +2879,14 @@
       "id": "China",
       "type": "entity",
       "label": "China",
-      "degree": 11,
+      "degree": 13,
       "examTagged": true
     },
     {
       "id": "US Treasury",
       "type": "entity",
       "label": "US Treasury",
-      "degree": 5,
+      "degree": 6,
       "examTagged": true
     },
     {
@@ -2548,14 +2900,14 @@
       "id": "Anthropic",
       "type": "entity",
       "label": "Anthropic",
-      "degree": 6,
+      "degree": 7,
       "examTagged": true
     },
     {
       "id": "BRICS Summit",
       "type": "entity",
       "label": "BRICS Summit",
-      "degree": 5,
+      "degree": 6,
       "examTagged": true
     },
     {
@@ -2569,14 +2921,14 @@
       "id": "Fed",
       "type": "entity",
       "label": "Fed",
-      "degree": 4,
+      "degree": 5,
       "examTagged": true
     },
     {
       "id": "Meta",
       "type": "entity",
       "label": "Meta",
-      "degree": 4,
+      "degree": 5,
       "examTagged": true
     },
     {
@@ -2590,7 +2942,7 @@
       "id": "US-Iran war",
       "type": "entity",
       "label": "US-Iran war",
-      "degree": 3,
+      "degree": 4,
       "examTagged": true
     },
     {
@@ -2604,7 +2956,7 @@
       "id": "UN General Assembly",
       "type": "entity",
       "label": "UN General Assembly",
-      "degree": 3,
+      "degree": 6,
       "examTagged": true
     },
     {
@@ -2709,6 +3061,20 @@
       "id": "ICC",
       "type": "entity",
       "label": "ICC",
+      "degree": 2,
+      "examTagged": true
+    },
+    {
+      "id": "AI safety slowdown debate",
+      "type": "entity",
+      "label": "AI safety slowdown debate",
+      "degree": 1,
+      "examTagged": true
+    },
+    {
+      "id": "Micron",
+      "type": "entity",
+      "label": "Micron",
       "degree": 1,
       "examTagged": true
     }
@@ -3421,7 +3787,115 @@
     {
       "source": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit?traffic_source=rss",
       "target": "China"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+      "target": "UN General Assembly"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
+      "target": "Strait of Hormuz"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz?traffic_source=rss",
+      "target": "UN General Assembly"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-unveils-claude-opus-5-5/articleshow/134417201.cms",
+      "target": "AI safety slowdown debate"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-unveils-claude-opus-5-5/articleshow/134417201.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/technology/un-chief-calls-for-ai-curbs-and-end-to-wars-in-his-last-assembly-address/articleshow/134414082.cms",
+      "target": "China"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/three-out-of-four-americans-say-ai-firms-not-doing-enough-to-prevent-disaster-reuters/ipsos-poll-finds/articleshow/134416531.cms",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace?traffic_source=rss",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace?traffic_source=rss",
+      "target": "Meta"
+    },
+    {
+      "source": "https://www.aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace?traffic_source=rss",
+      "target": "Micron"
+    },
+    {
+      "source": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/global-trends/trump-calls-international-criminal-court-evil-demands-its-members-to-resign-immediately/articleshow/134425949.cms",
+      "target": "ICC"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/global-trends/trump-calls-international-criminal-court-evil-demands-its-members-to-resign-immediately/articleshow/134425949.cms",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/global-trends/trump-calls-international-criminal-court-evil-demands-its-members-to-resign-immediately/articleshow/134425949.cms",
+      "target": "UN General Assembly"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/finance/brics-economies-must-shape-global-tax-rules-for-the-next-generation-says-fm-sitharaman/articleshow/134426283.cms",
+      "target": "BRICS Summit"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-crossed-85k-for-first-time-2-years-ago-now-down-10k-points-from-milestone-what-can-trigger-the-next-bull-run/articleshow/134426180.cms",
+      "target": "Fed"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/22/iran-flights-to-baghdad-muscat-cancelled-ahead-of-us-aviation-sanctions?traffic_source=rss",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/22/iran-flights-to-baghdad-muscat-cancelled-ahead-of-us-aviation-sanctions?traffic_source=rss",
+      "target": "US Treasury"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/stocks/news/5-adani-group-stocks-in-focus-as-firms-settle-sebi-proceedings-linked-to-hindenburg-report/articleshow/134425212.cms",
+      "target": "SEBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/could-a-us-china-hot-line-be-set-up-for-ai-risks/articleshow/134425396.cms",
+      "target": "China"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/new-us-sanctions-law-gives-trump-additional-options-on-russian-iranian-oil-us-state-department/articleshow/134424277.cms",
+      "target": "Iran"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/new-us-sanctions-law-gives-trump-additional-options-on-russian-iranian-oil-us-state-department/articleshow/134424277.cms",
+      "target": "Trump"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/international/world-news/new-us-sanctions-law-gives-trump-additional-options-on-russian-iranian-oil-us-state-department/articleshow/134424277.cms",
+      "target": "US-Iran war"
     }
   ],
-  "generated_at": "2026-09-23T11:38:29.552879+05:30"
+  "generated_at": "2026-09-23T11:55:37.169346+05:30"
 }
