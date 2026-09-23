@@ -91,6 +91,57 @@
     {"name":"GN Obituaries","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=%22passes+away%22+veteran+OR+scientist+OR+writer&hl=en-IN&gl=IN&ceid=IN:en"},
     {"name":"GN Rankings","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=India+ranked+index+report&hl=en-IN&gl=IN&ceid=IN:en"},
     {"name":"GN Championships","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=wins+championship+OR+title+India&hl=en-IN&gl=IN&ceid=IN:en"},
-    {"name":"GN Books","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=book+launched+author+India&hl=en-IN&gl=IN&ceid=IN:en"}
+    {"name":"GN Books","category":"Exam","region":"india","publisher":"google-news","kind":"aggregator","url":"https://news.google.com/rss/search?q=book+launched+author+India&hl=en-IN&gl=IN&ceid=IN:en"},
+
+    {"name": "The Diplomat", "category": "Geopolitics", "region": "global", "publisher": "the-diplomat", "kind": "news", "url": "https://thediplomat.com/feed/"},
+    {"name": "Foreign Policy", "category": "Geopolitics", "region": "global", "publisher": "foreign-policy", "kind": "news", "url": "https://foreignpolicy.com/feed/"},
+    {"name": "War on the Rocks", "category": "Geopolitics", "region": "global", "publisher": "war-on-the-rocks", "kind": "news", "url": "https://warontherocks.com/feed/"},
+    {"name": "Foreign Affairs", "category": "Geopolitics", "region": "global", "publisher": "foreign-affairs", "kind": "news", "url": "https://www.foreignaffairs.com/rss.xml"},
+
+    {"name": "Variety", "category": "Entertainment", "region": "global", "publisher": "variety", "kind": "news", "url": "https://variety.com/feed/"},
+    {"name": "Hollywood Reporter", "category": "Entertainment", "region": "global", "publisher": "hollywood-reporter", "kind": "news", "url": "https://www.hollywoodreporter.com/feed/"},
+    {"name": "IndieWire", "category": "Entertainment", "region": "global", "publisher": "indiewire", "kind": "news", "url": "https://www.indiewire.com/feed/"},
+    {"name": "Bollywood Hungama", "category": "Entertainment", "region": "india", "publisher": "bollywood-hungama", "kind": "news", "url": "https://www.bollywoodhungama.com/feed/"},
+    {"name": "Pinkvilla", "category": "Entertainment", "region": "india", "publisher": "pinkvilla", "kind": "news", "url": "https://www.pinkvilla.com/rss.xml"},
+    {"name": "Deadline", "category": "Entertainment", "region": "global", "publisher": "deadline", "kind": "news", "url": "https://deadline.com/feed/"},
+
+    {"name": "NASA Breaking News", "category": "Science", "region": "global", "publisher": "nasa", "kind": "primary", "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss"},
+    {"name": "ScienceDaily Top Science", "category": "Science", "region": "global", "publisher": "sciencedaily", "kind": "news", "url": "https://www.sciencedaily.com/rss/top/science.xml"},
+    {"name": "Nature News", "category": "Science", "region": "global", "publisher": "nature", "kind": "news", "url": "https://www.nature.com/nature.rss"},
+    {"name": "Live Science", "category": "Science", "region": "global", "publisher": "live-science", "kind": "news", "url": "https://www.livescience.com/feeds/all"},
+    {"name": "Phys.org", "category": "Science", "region": "global", "publisher": "phys-org", "kind": "news", "url": "https://phys.org/rss-feed/"},
+
+    {"name": "Inside Higher Ed", "category": "Education", "region": "global", "publisher": "inside-higher-ed", "kind": "news", "url": "https://www.insidehighered.com/rss.xml"},
+    {"name": "Hindustan Times Education", "category": "Education", "region": "india", "publisher": "hindustan-times", "kind": "news", "url": "https://www.hindustantimes.com/feeds/rss/education/rssfeed.xml"},
+    {"name": "GN Education Policy", "category": "Education", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=education+policy+India&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name": "GN University India", "category": "Education", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=university+OR+IIT+OR+UGC+India&hl=en-IN&gl=IN&ceid=IN:en"},
+
+    {"name": "GN Cabinet Decisions", "category": "Government", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=Union+Cabinet+approves&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name": "GN Parliament", "category": "Government", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=Lok+Sabha+OR+Rajya+Sabha&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name": "GN Supreme Court", "category": "Government", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=Supreme+Court+India+verdict&hl=en-IN&gl=IN&ceid=IN:en"},
+    {"name": "GN Ministry Statements", "category": "Government", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=ministry+statement+India&hl=en-IN&gl=IN&ceid=IN:en"},
+
+    {"name": "YourStory", "category": "Startups", "region": "india", "publisher": "yourstory", "kind": "news", "url": "https://yourstory.com/feed"},
+    {"name": "TechCrunch", "category": "Startups", "region": "global", "publisher": "techcrunch", "kind": "news", "url": "https://techcrunch.com/feed/"},
+    {"name": "Crunchbase News", "category": "Startups", "region": "global", "publisher": "crunchbase", "kind": "news", "url": "https://news.crunchbase.com/feed/"},
+
+    {"name": "Leeham News", "category": "Aviation", "region": "global", "publisher": "leeham-news", "kind": "news", "url": "https://leehamnews.com/feed/"},
+    {"name": "The Aviationist", "category": "Aviation", "region": "global", "publisher": "the-aviationist", "kind": "news", "url": "https://theaviationist.com/feed/"},
+    {"name": "GN Indian Aviation", "category": "Aviation", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=DGCA+OR+Indian+aviation+OR+airline+India&hl=en-IN&gl=IN&ceid=IN:en"},
+
+    {"name": "Mint Economy", "category": "Economy & Policy", "region": "india", "publisher": "mint", "kind": "news", "url": "https://www.livemint.com/rss/economy"},
+    {"name": "GN Finance Ministry", "category": "Economy & Policy", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=Finance+Ministry+India&hl=en-IN&gl=IN&ceid=IN:en"},
+
+    {"name": "BBC Sport", "category": "Sports", "region": "global", "publisher": "bbc", "kind": "news", "url": "https://feeds.bbci.co.uk/sport/rss.xml"},
+    {"name": "Sportskeeda", "category": "Sports", "region": "india", "publisher": "sportskeeda", "kind": "news", "url": "https://www.sportskeeda.com/feed"},
+
+    {"name": "GN Artificial Intelligence", "category": "AI", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=artificial+intelligence&hl=en-IN&gl=IN&ceid=IN:en"},
+
+    {"name": "GN India Regional", "category": "India", "region": "india", "publisher": "google-news", "kind": "aggregator", "url": "https://news.google.com/rss/search?q=India+state+government&hl=en-IN&gl=IN&ceid=IN:en"},
+
+    {"name": "CNN World", "category": "World", "region": "global", "publisher": "cnn", "kind": "news", "url": "http://rss.cnn.com/rss/edition_world.rss"},
+
+    {"name": "Wired", "category": "Innovation", "region": "global", "publisher": "wired", "kind": "news", "url": "https://www.wired.com/feed/rss"},
+    {"name": "TechRadar", "category": "Innovation", "region": "global", "publisher": "techradar", "kind": "news", "url": "https://www.techradar.com/rss"}
   ]
 }

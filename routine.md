@@ -55,6 +55,12 @@ folder (relative to the TOMORROW workspace root). Follow exactly:
    Powers the "Obsidian" tab in the UI. A "fetch live news and update" run is
    not complete until this has run and `app/graph.json` reflects the new
    edition — skipping it silently leaves the Obsidian tab stale.
+   **Then rebuild trending — mandatory, every edition:** `python scripts/build_trending.py`
+   — pulls real platform trending (Google Trends RSS, Reddit r/popular,
+   X/Twitter's own Trending panel via OpenCLI, profile `4yggmh8b`) into
+   `app/trending.json`. Never approximate a platform's trending list from
+   search/timeline activity — if a platform's real trending endpoint isn't
+   reachable, that source is just omitted for the run, not faked.
 8. Write `app/articles.json` matching the schema (generated_at = now ISO-8601
    with +05:30 offset; edition = "morning" if local hour < 12 else "evening").
 9. Validate: `python scripts/validate_articles.py`

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import CardFeed from './components/CardFeed.jsx'
 import ImportantSection from './components/ImportantSection.jsx'
 import ObsidianGraph from './components/ObsidianGraph.jsx'
+import TrendingSection from './components/TrendingSection.jsx'
 import ReaderPanel from './components/ReaderPanel.jsx'
 import MarketsBelt from './components/MarketsBelt.jsx'
 import GlossaryNebula from './components/GlossaryNebula.jsx'
@@ -23,6 +24,7 @@ export default function App() {
   const [digest, setDigest] = useState(null)
   const [important, setImportant] = useState(null)
   const [graph, setGraph] = useState(null)
+  const [trending, setTrending] = useState(null)
   const [mkt, setMkt] = useState(null)
   const [error, setError] = useState(null)
   const [openUrl, setOpenUrl] = useState(null)
@@ -37,6 +39,7 @@ export default function App() {
     fetch('articles.json?t=' + Date.now()).then((r) => r.json()).then(setDigest).catch((e) => setError(e.message))
     fetch('important.json?t=' + Date.now()).then((r) => r.json()).then((d) => setImportant(d.items || [])).catch(() => setImportant([]))
     fetch('graph.json?t=' + Date.now()).then((r) => r.json()).then(setGraph).catch(() => setGraph({ nodes: [], edges: [] }))
+    fetch('trending.json?t=' + Date.now()).then((r) => r.json()).then(setTrending).catch(() => setTrending({ items: [] }))
   }, [])
 
   useEffect(() => {
@@ -143,6 +146,8 @@ export default function App() {
           <MarketsBelt mkt={mkt} market={market} stamp={mktStamp} />
         ) : tab === 'obsidian' ? (
           <ObsidianGraph graph={graph} />
+        ) : tab === 'trending' ? (
+          <TrendingSection trending={trending} />
         ) : (
           <GlossaryNebula data={data} />
         )}
@@ -168,6 +173,9 @@ export default function App() {
               <path d="M12 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
               <path d="M8 6h8M7.5 8l4 8M16.5 8l-4 8" />
             </svg>Obsidian
+          </button>
+          <button className={tab === 'trending' ? 'on' : ''} onClick={() => switchTab('trending')}>
+            <svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8" /><path d="M15 7h6v6" /></svg>Trending
           </button>
         </div>
       </nav>
