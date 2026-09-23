@@ -183,28 +183,36 @@ def write_vault_notes(graph, vault_root):
         for sid in story_ids:
             story_to_entities.setdefault(sid, []).append(entity_name)
 
+    existing_story_paths_by_url = {}
+    for path in stories_dir.glob("*.md"):
+        fm, _ = _parse_frontmatter(path.read_text(encoding="utf-8"))
+        if fm.get("url"):
+            existing_story_paths_by_url[fm["url"]] = path
+
     for story_id, item in story_nodes.items():
         slug = slug_by_story[story_id]
+        target_path = stories_dir / (slug + ".md")
+        old_path = existing_story_paths_by_url.get(story_id)
+        if old_path and old_path != target_path:
+            old_path.unlink()
         connections = sorted(story_to_entities.get(story_id, []))
         content = _render_story_note(item, connections)
-        (stories_dir / (slug + ".md")).write_text(content, encoding="utf-8")
+        target_path.write_text(content, encoding="utf-8")
 
     for name, story_ids in entity_to_stories.items():
         path = entities_dir / (entity_slug(name) + ".md")
-        existing_bullets = []
+        existing_by_digest = {}
         if path.exists():
             _, body = _parse_frontmatter(path.read_text(encoding="utf-8"))
-            existing_bullets = list(ENTITY_BULLET_RE.findall(body))
-        existing_slugs = {b[1] for b in existing_bullets}
+            for date, slug, gist in ENTITY_BULLET_RE.findall(body):
+                existing_by_digest[slug[-6:]] = (date, slug, gist)
 
         for story_id in story_ids:
             slug = slug_by_story[story_id]
-            if slug in existing_slugs:
-                continue
             item = story_nodes[story_id]
-            existing_bullets.append((item.get("date") or "", slug, item.get("label") or ""))
-            existing_slugs.add(slug)
+            existing_by_digest[slug[-6:]] = (item.get("date") or "", slug, item.get("label") or "")
 
+        existing_bullets = list(existing_by_digest.values())
         existing_bullets.sort(key=lambda b: b[0], reverse=True)
         entity_node = entity_nodes.get(name, {"examTagged": False})
         aliases = ENTITIES.get(name, [name])
@@ -224,7 +232,11 @@ def read_vault_graph(vault_root):
     slug_to_name = {}
     if entities_dir.exists():
         for path in sorted(entities_dir.glob("*.md")):
-            content = path.read_text(encoding="utf-8")
+            try:
+                content = path.read_text(encoding="utf-8")
+            except (OSError, UnicodeDecodeError):
+                print("build_graph: skipping unreadable entity note %s" % path.name)
+                continue
             fm, body = _parse_frontmatter(content)
             if not fm:
                 print("build_graph: skipping malformed entity note %s" % path.name)
@@ -241,7 +253,11 @@ def read_vault_graph(vault_root):
 
     if stories_dir.exists():
         for path in sorted(stories_dir.glob("*.md")):
-            content = path.read_text(encoding="utf-8")
+            try:
+                content = path.read_text(encoding="utf-8")
+            except (OSError, UnicodeDecodeError):
+                print("build_graph: skipping unreadable story note %s" % path.name)
+                continue
             fm, body = _parse_frontmatter(content)
             if not fm or "url" not in fm:
                 print("build_graph: skipping malformed story note %s" % path.name)

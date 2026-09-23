@@ -261,3 +261,50 @@ def test_read_vault_graph_skips_malformed_story_note(capsys):
         parsed = build_graph_mod.read_vault_graph(vault_root)
         assert parsed["nodes"] == []
         assert "broken.md" in capsys.readouterr().out
+
+
+def test_read_vault_graph_skips_undecodable_note_without_crashing(capsys):
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp)
+        (vault_root / "stories").mkdir(parents=True)
+        (vault_root / "entities").mkdir(parents=True)
+        (vault_root / "stories" / "bad-bytes.md").write_bytes(b"\xff\xfe not valid utf-8")
+        parsed = build_graph_mod.read_vault_graph(vault_root)
+        assert parsed["nodes"] == []
+        assert "bad-bytes.md" in capsys.readouterr().out
+
+
+def test_write_vault_notes_title_change_same_url_does_not_duplicate_bullet_or_node():
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp)
+        graph_v1 = _graph_with_one_story()
+        build_graph_mod.write_vault_notes(graph_v1, vault_root)
+
+        graph_v2 = {
+            "nodes": [
+                {
+                    "id": "https://e.com/a1", "type": "story",
+                    "label": "RBI hikes rates by 25bps", "text": "The RBI raised the repo rate by 25bps.",
+                    "category": "Markets", "date": "2026-09-23",
+                    "importance": "high", "top_story": True,
+                    "exam": {"relevance": "high", "categories": ["Economy & Banking bodies"]},
+                },
+                {"id": "RBI", "type": "entity", "label": "RBI", "degree": 1, "examTagged": True},
+            ],
+            "edges": [{"source": "https://e.com/a1", "target": "RBI"}],
+        }
+        build_graph_mod.write_vault_notes(graph_v2, vault_root)
+
+        old_slug = build_graph_mod.story_slug("RBI hikes rates", "https://e.com/a1")
+        new_slug = build_graph_mod.story_slug("RBI hikes rates by 25bps", "https://e.com/a1")
+        assert not (vault_root / "stories" / (old_slug + ".md")).exists()
+        assert (vault_root / "stories" / (new_slug + ".md")).exists()
+
+        entity_content = (vault_root / "entities" / "rbi.md").read_text(encoding="utf-8")
+        assert entity_content.count("[[stories/") == 1
+        assert new_slug in entity_content
+        assert old_slug not in entity_content
+
+        parsed = build_graph_mod.read_vault_graph(vault_root)
+        story_ids = [n["id"] for n in parsed["nodes"] if n["type"] == "story"]
+        assert story_ids == ["https://e.com/a1"]
