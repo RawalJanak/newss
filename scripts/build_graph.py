@@ -212,6 +212,65 @@ def write_vault_notes(graph, vault_root):
         path.write_text(content, encoding="utf-8")
 
 
+CONNECTION_RE = re.compile(r"\[\[entities/([^\]]+)\]\]")
+
+
+def read_vault_graph(vault_root):
+    entities_dir = vault_root / "entities"
+    stories_dir = vault_root / "stories"
+    nodes = []
+    edges = []
+
+    slug_to_name = {}
+    if entities_dir.exists():
+        for path in sorted(entities_dir.glob("*.md")):
+            content = path.read_text(encoding="utf-8")
+            fm, body = _parse_frontmatter(content)
+            if not fm:
+                print("build_graph: skipping malformed entity note %s" % path.name)
+                continue
+            heading = re.search(r"^# (.+)$", body, re.MULTILINE)
+            name = heading.group(1).strip() if heading else path.stem
+            degree = len(ENTITY_BULLET_RE.findall(body))
+            exam_tagged = fm.get("examTagged", "false").strip().lower() == "true"
+            slug_to_name[path.stem] = name
+            nodes.append({
+                "id": name, "type": "entity", "label": name,
+                "degree": degree, "examTagged": exam_tagged,
+            })
+
+    if stories_dir.exists():
+        for path in sorted(stories_dir.glob("*.md")):
+            content = path.read_text(encoding="utf-8")
+            fm, body = _parse_frontmatter(content)
+            if not fm or "url" not in fm:
+                print("build_graph: skipping malformed story note %s" % path.name)
+                continue
+            parts = body.split("## Connections", 1)
+            text = parts[0].strip()
+            conn_body = parts[1] if len(parts) > 1 else ""
+            categories_raw = fm.get("exam_categories", "")
+            categories = [c.strip() for c in categories_raw.split(";") if c.strip()]
+            nodes.append({
+                "id": fm["url"], "type": "story",
+                "label": fm.get("title", fm["url"]), "text": text,
+                "category": fm.get("category") or None,
+                "exam": {
+                    "relevance": fm.get("exam_relevance", "none"),
+                    "categories": categories,
+                },
+                "date": fm.get("date") or None,
+                "importance": fm.get("importance") or None,
+                "top_story": fm.get("top_story", "false").strip().lower() == "true",
+            })
+            for entity_slug_match in CONNECTION_RE.findall(conn_body):
+                name = slug_to_name.get(entity_slug_match)
+                if name:
+                    edges.append({"source": fm["url"], "target": name})
+
+    return {"nodes": nodes, "edges": edges}
+
+
 def build_graph(editions):
     by_url = {}
     for ed in editions:

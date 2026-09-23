@@ -224,3 +224,40 @@ def test_write_vault_notes_appends_second_story_to_existing_entity_note():
         assert ("[[stories/%s]]" % slug1) in content
         assert ("[[stories/%s]]" % slug2) in content
         assert content.index("2026-09-24") < content.index("2026-09-23")
+
+
+def test_read_vault_graph_round_trips_write_vault_notes():
+    graph = _graph_with_one_story()
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp)
+        build_graph_mod.write_vault_notes(graph, vault_root)
+        parsed = build_graph_mod.read_vault_graph(vault_root)
+
+        story_nodes = [n for n in parsed["nodes"] if n["type"] == "story"]
+        entity_nodes = [n for n in parsed["nodes"] if n["type"] == "entity"]
+        assert story_nodes[0]["id"] == "https://e.com/a1"
+        assert story_nodes[0]["label"] == "RBI hikes rates"
+        assert story_nodes[0]["top_story"] is True
+        assert story_nodes[0]["exam"]["relevance"] == "high"
+        assert story_nodes[0]["exam"]["categories"] == ["Economy & Banking bodies"]
+        assert entity_nodes[0]["id"] == "RBI"
+        assert entity_nodes[0]["examTagged"] is True
+        assert parsed["edges"] == [{"source": "https://e.com/a1", "target": "RBI"}]
+
+
+def test_read_vault_graph_returns_empty_for_missing_vault_dirs():
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp) / "does-not-exist"
+        parsed = build_graph_mod.read_vault_graph(vault_root)
+        assert parsed == {"nodes": [], "edges": []}
+
+
+def test_read_vault_graph_skips_malformed_story_note(capsys):
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_root = Path(tmp)
+        (vault_root / "stories").mkdir(parents=True)
+        (vault_root / "entities").mkdir(parents=True)
+        (vault_root / "stories" / "broken.md").write_text("not valid frontmatter at all", encoding="utf-8")
+        parsed = build_graph_mod.read_vault_graph(vault_root)
+        assert parsed["nodes"] == []
+        assert "broken.md" in capsys.readouterr().out
