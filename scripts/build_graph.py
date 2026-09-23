@@ -7,7 +7,9 @@ current edition. Each qualifying item is matched against a maintained entity
 keyword dict; items with zero matches are dropped (no isolated story nodes).
 Run after build_important.py, before commit.
 """
+import hashlib
 import json
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -83,6 +85,21 @@ ENTITIES = {
     "G20 Summit": ["G20 Summit", "G20"],
     "Union Budget": ["Union Budget"],
 }
+
+
+def slugify(text):
+    text = re.sub(r"[^a-zA-Z0-9]+", "-", text or "").strip("-").lower()
+    return text or "untitled"
+
+
+def entity_slug(name):
+    return slugify(name)
+
+
+def story_slug(title, url):
+    base = slugify(title)[:60].strip("-") or "story"
+    digest = hashlib.md5(url.encode("utf-8")).hexdigest()[:6]
+    return "%s-%s" % (base, digest)
 
 
 def match_entities(text):

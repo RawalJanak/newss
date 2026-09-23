@@ -121,3 +121,27 @@ def test_build_graph_entity_not_exam_tagged_when_no_connected_story_has_categori
     graph = build_graph([edition])
     entity_nodes = {n["id"]: n for n in graph["nodes"] if n["type"] == "entity"}
     assert entity_nodes["RBI"]["examTagged"] is False
+
+
+def test_slugify_lowercases_and_dashes():
+    assert build_graph_mod.slugify("Tata Sons IPO") == "tata-sons-ipo"
+
+
+def test_slugify_strips_leading_trailing_punctuation():
+    assert build_graph_mod.slugify("  US Treasury! ") == "us-treasury"
+
+
+def test_entity_slug_matches_slugify():
+    assert build_graph_mod.entity_slug("BOJ") == "boj"
+
+
+def test_story_slug_is_stable_for_same_url():
+    a = build_graph_mod.story_slug("RBI hikes rates", "https://e.com/a1")
+    b = build_graph_mod.story_slug("RBI hikes rates", "https://e.com/a1")
+    assert a == b
+
+
+def test_story_slug_differs_for_same_title_different_url():
+    a = build_graph_mod.story_slug("Markets close higher", "https://e.com/a1")
+    b = build_graph_mod.story_slug("Markets close higher", "https://e.com/a2")
+    assert a != b
