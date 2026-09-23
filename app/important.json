@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "title": "Zelenskyy asks Trump to broker trilateral meeting with Putin, offers conditional energy ceasefire",
+      "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
+      "source": "CNBC",
+      "category": "Geopolitics",
+      "date": "2026-09-23T10:41:14+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Volodymyr Zelenskyy called on Trump to organize a trilateral summit with Putin to end the war and said Ukraine is ready for an energy ceasefire if Russia stops striking its power and water infrastructure; the Kremlin dismissed a leaders' meeting as premature."
+    },
+    {
+      "title": "SC judge: Cabinet Minister on CEC-EC selection panel fails the 'perception test'",
+      "url": "https://www.thehindu.com/news/national/minister-in-cec-ec-selection-panel-fails-perception-test-says-justice-datta-in-split-verdict/article71499280.ece",
+      "source": "The Hindu National",
+      "category": "India",
+      "date": "2026-09-23T10:40:37+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "The CEC and other Election Commissioners (Appointment, Conditions of Service, and Term of Office) Act, 2023 replaced the Chief Justice of India with a Union Cabinet Minister on the CEC/EC selection panel.",
+            "kind": "scheme",
+            "as_of": "2023"
+          }
+        ],
+        "drill": {
+          "q": "Who did the CEC/EC Selection Act, 2023 replace on the Chief Election Commissioner selection panel (as set up by the Anoop Baranwal judgment)?",
+          "options": [
+            "The Leader of the Opposition",
+            "The Chief Justice of India",
+            "The Cabinet Secretary",
+            "The Attorney General"
+          ],
+          "answer": 2
+        }
+      },
+      "text": "In a split Supreme Court verdict, Justice Dipankar Datta said replacing the Chief Justice of India with a Union Cabinet Minister on the panel that selects the Election Commission amounts to an \"effective veto\" for the government, though the two judges disagreed on whether the matter needs a Constitution Bench."
+    },
+    {
+      "title": "Sensex settles 299 pts higher as Middle East tensions ease, Nifty tops 23,400",
+      "url": "https://www.business-standard.com/markets/capital-market-news/sensex-settles-299-pts-higher-nifty-ends-above-23-400-level-126092300809_1.html",
+      "source": "Business Standard Markets",
+      "category": "Markets",
+      "date": "2026-09-23T10:34:01+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Indian equities closed higher on lower crude oil prices and signs of easing US-Iran tension, with the Sensex up 299 points and the Nifty above 23,400; metals, FMCG and PSU banks led while IT and media lagged."
+    },
+    {
+      "title": "Xi Jinping arrives in Washington for Trump summit; AI, trade and Taiwan gaps remain unresolved",
+      "url": "https://www.semafor.com/article/09/23/2026/chinese-leader-xi-jinping-due-for-trump-talks",
+      "source": "Semafor",
+      "category": "Geopolitics",
+      "date": "2026-09-23T10:29:26+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Chinese leader Xi Jinping arrived in Washington for talks and a state dinner with Trump, with both sides keeping an uneasy trade truce intact even as differences over AI regulation, trade policy and Taiwan's security stay unresolved and no major business deals are expected."
+    },
+    {
       "title": "Trump calls the ICC an 'evil group of people,' demands member nations resign, days after reports of new sanctions",
       "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-calls-international-criminal-court-evil-demands-its-members-to-resign-immediately/articleshow/134425949.cms",
       "source": "ET",
@@ -24,6 +111,23 @@
         "drill": null
       },
       "text": "Trump told the UN General Assembly the ICC is an 'out of control institution' and 'an evil group of people,' calling on all member nations to resign, days after reports the administration is preparing sweeping institutional sanctions — his outburst following the ICC's arrest warrant for Israeli PM Netanyahu, who is set to attend this week's UNGA session."
+    },
+    {
+      "title": "Trump threatens to 'annihilate' Iran hours after 'very good' UNGA talks; Iran vows 'crushing' response",
+      "url": "https://www.aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "Geopolitics",
+      "date": "2026-09-23T09:40:20+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Trump told the UN he could \"annihilate\" Iran even as US and Iranian officials held their first in-person talks since June, with Iran's military warning it is ready for stronger strikes than earlier in the war; the Strait of Hormuz and Washington's naval blockade remain the core sticking points."
     },
     {
       "title": "US to build two military bases in Greenland after Trump, Denmark and Greenland sign deal ending a year of tension",
@@ -133,6 +237,40 @@
         }
       },
       "text": "US special envoy Steve Witkoff said mediators 'shuttled between' the American and Iranian delegations for hours on the sidelines of the UN General Assembly, with Trump separately claiming Witkoff and Jared Kushner held a three-hour meeting with Iranian officials — though the White House later clarified Trump himself had not attended, and accounts differed over whether the two sides met directly."
+    },
+    {
+      "title": "OECD lifts India's FY27 growth forecast to 7.1%, joining Fitch, S&P and Moody's",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/oecd-raises-raises-india-fy27-gdp-growth-forecast-by-80-bps-to-7-1/articleshow/134429404.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-09-23T08:25:14+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "OECD raised India's FY27 GDP growth forecast to 7.1% (from 6.3%) on 2026-09-23.",
+            "kind": "number",
+            "as_of": "2026-09-23"
+          }
+        ],
+        "drill": {
+          "q": "As of September 2026, which agency's FY27 India GDP growth forecast is the HIGHEST?",
+          "options": [
+            "Fitch Ratings (6.9%)",
+            "OECD (7.1%)",
+            "S&P Global Ratings (7.0%)",
+            "Moody's (7.0%)"
+          ],
+          "answer": 2
+        }
+      },
+      "text": "The OECD raised its FY27 India GDP growth forecast by 80 basis points to 7.1%, the fourth major agency this week to upgrade India after 7.8% growth in the June quarter, even as it flagged a purchasing-power-driven slowdown risk later this year."
     },
     {
       "title": "Sitharaman tells BRICS nations the next few years of global tax talks will 'shape cross-border taxation for a generation'",
@@ -3821,90 +3959,6 @@
         "relevance": "none"
       },
       "text": "IndiGo Ventures, the airline's corporate VC arm, invested in Sarvam AI's ongoing Series B. The two already collaborate on deploying AI across passenger experience, staff support and operational workflows. Sarvam builds voice, text, vision and document systems plus its own training and inference infrastructure."
-    },
-    {
-      "title": "Trump claims 'biggest oil deal in history' with Venezuela as Iran's IRGC declares Hormuz closed",
-      "url": "https://www.bbc.co.uk/news/articles/trump-venezuela-oil-deal",
-      "source": "BBC World",
-      "category": "Geopolitics",
-      "date": "2026-08-28T23:54:19+00:00",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Trump announced a deal giving the US majority control of over 65 billion barrels of Venezuelan reserves via a joint venture in which Washington holds 55%. Rubio cited nearly $100bn of private investment. Analysts are sceptical. Meanwhile Iran's IRGC navy says Hormuz remains 'completely decisive[ly]' closed."
-    },
-    {
-      "title": "Brent breaks below $90 on Iran-Oman corridor talks — but Tehran says Hormuz is still shut",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-price-drop-as-iran-oman-talks-raise-hormuz-hopes/article71391403.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Markets",
-      "date": "2026-08-26T09:48:04+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Iran and Oman discussed a temporary joint navigational corridor through Hormuz and a joint mine-clearing project, sending Brent below $90 for the first time in a week. Tehran says the deal does not mean the strait is open, and Oman's mine-clearing plan contradicts Trump's claim that all mines are already gone."
-    },
-    {
-      "title": "Gold up 15% in a month and holding a five-day gain as yields and oil both fall",
-      "url": "https://www.business-standard.com/markets/commodities/gold-rises-320-on-mcx-silver-gains-1-456-as-us-bond-buybacks-lift-demand-126082600214_1.html",
-      "source": "Business Standard",
-      "category": "Markets",
-      "date": "2026-08-26T09:47:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "MCX October gold opened ₹320 higher at ₹1,63,202 and silver gained ₹1,456, extending a rally that has added 15% in a month. Treasury buybacks, falling yields, ETF inflows of 45 tonnes in August and central-bank buying of 288.9 tonnes in Q2 are driving it."
-    },
-    {
-      "title": "Canada retaliates dollar-for-dollar: 50% tariffs on US steel, furniture and clothing from 8 September",
-      "url": "https://www.thehindubusinessline.com/news/world/canada-announces-retaliatory-tariffs-on-20-billion-worth-of-us-goods-unveils-support-measures/article71391236.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Geopolitics",
-      "date": "2026-08-26T09:20:35+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Ottawa announced counter-tariffs on C$27.6bn ($19.94bn) of US goods across about 700 products at 15%, 25% and 50%, effective 8 September, plus a C$7.5bn support package. It matches Trump's 50% duties on roughly $20bn of Canadian imports that took effect Saturday after talks collapsed."
-    },
-    {
-      "title": "'Operation Economic Outcast' names four Indian firms — and 24 Chinese ones",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
-      "source": "ET Economy",
-      "category": "Geopolitics",
-      "date": "2026-08-26T08:47:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Washington sanctioned four India-based companies and three Indian nationals for importing Iranian petroleum products, plus 24 entities in mainland China and Hong Kong. Beijing called the measures illegal and vowed 'all necessary measures'. No Chinese bank was designated — Bessent: 'Why would I want to blow up the global financial system?'"
-    },
-    {
-      "title": "Doval and Wang Yi agree to seek a 'political settlement' on the boundary, weeks before Xi's expected Delhi visit",
-      "url": "https://www.thehindubusinessline.com/news/national/india-china-agree-to-seek-political-settlement-of-boundary-issue-mea/article71391095.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Geopolitics",
-      "date": "2026-08-26T08:42:30+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "At the 25th round of Special Representatives talks in Beijing, NSA Ajit Doval and Chinese Foreign Minister Wang Yi had a 'candid and in-depth' exchange and agreed to continue working towards a political settlement of the boundary question — days before Xi Jinping is expected in Delhi for the BRICS summit."
     }
   ]
 }

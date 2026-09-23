@@ -1236,6 +1236,22 @@
       "top_story": false
     },
     {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/oecd-raises-raises-india-fy27-gdp-growth-forecast-by-80-bps-to-7-1/articleshow/134429404.cms",
+      "type": "story",
+      "label": "OECD lifts India's FY27 growth forecast to 7.1%, joining Fitch, S&P and Moody's",
+      "text": "The OECD raised its FY27 India GDP growth forecast by 80 basis points to 7.1%, the fourth major agency this week to upgrade India after 7.8% growth in the June quarter, even as it flagged a purchasing-power-driven slowdown risk later this year.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-09-23T08:25:14+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
       "type": "story",
       "label": "Oil crosses $100 a barrel and Trump ties the war's end to the midterms as advisers warn of a longer conflict",
@@ -1577,6 +1593,22 @@
       "top_story": true
     },
     {
+      "id": "https://www.business-standard.com/markets/capital-market-news/sensex-settles-299-pts-higher-nifty-ends-above-23-400-level-126092300809_1.html",
+      "type": "story",
+      "label": "Sensex settles 299 pts higher as Middle East tensions ease, Nifty tops 23,400",
+      "text": "Indian equities closed higher on lower crude oil prices and signs of easing US-Iran tension, with the Sensex up 299 points and the Nifty above 23,400; metals, FMCG and PSU banks led while IT and media lagged.",
+      "category": "Markets",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-09-23T10:34:01+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.thehindu.com/business/markets/nifty-falls-for-7th-day-sensex-down-326-points-as-rising-crude-oil-prices-unnerve-investors/article71364459.ece",
       "type": "story",
       "label": "Seventh straight losing session — Nifty 24,206, and only 10 of 44 large caps green",
@@ -1870,6 +1902,20 @@
       "top_story": false
     },
     {
+      "id": "https://www.aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks?traffic_source=rss",
+      "type": "story",
+      "label": "Trump threatens to 'annihilate' Iran hours after 'very good' UNGA talks; Iran vows 'crushing' response",
+      "text": "Trump told the UN he could \"annihilate\" Iran even as US and Iranian officials held their first in-person talks since June, with Iran's military warning it is ready for stronger strikes than earlier in the war; the Strait of Hormuz and Washington's naval blockade remain the core sticking points.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-23T09:40:20+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
       "type": "story",
       "label": "Trump threatens to 'annihilate' Iran in his UN speech, hours before US and Iranian officials meet on the sidelines",
@@ -2105,6 +2151,34 @@
       "date": "2026-09-04T14:27:10+00:00",
       "importance": "medium",
       "top_story": false
+    },
+    {
+      "id": "https://www.semafor.com/article/09/23/2026/chinese-leader-xi-jinping-due-for-trump-talks",
+      "type": "story",
+      "label": "Xi Jinping arrives in Washington for Trump summit; AI, trade and Taiwan gaps remain unresolved",
+      "text": "Chinese leader Xi Jinping arrived in Washington for talks and a state dinner with Trump, with both sides keeping an uneasy trade truce intact even as differences over AI regulation, trade policy and Taiwan's security stay unresolved and no major business deals are expected.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-23T10:29:26+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
+      "id": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
+      "type": "story",
+      "label": "Zelenskyy asks Trump to broker trilateral meeting with Putin, offers conditional energy ceasefire",
+      "text": "Volodymyr Zelenskyy called on Trump to organize a trilateral summit with Putin to end the war and said Ukraine is ready for an energy ceasefire if Russia stops striking its power and water infrastructure; the Kremlin dismissed a leaders' meeting as premature.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-23T10:41:14+00:00",
+      "importance": null,
+      "top_story": true
     }
   ],
   "edges": [
@@ -2545,6 +2619,10 @@
       "target": "Nvidia"
     },
     {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/oecd-raises-raises-india-fy27-gdp-growth-forecast-by-80-bps-to-7-1/articleshow/134429404.cms",
+      "target": "Moody's"
+    },
+    {
       "source": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
       "target": "Iran"
     },
@@ -2667,6 +2745,14 @@
     {
       "source": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-jumps-400-points-nifty-nears-23400-as-oil-prices-cool-down-despite-middle-east-tensions-what-lies-ahead/articleshow/134380591.cms",
       "target": "Ukraine-Russia war"
+    },
+    {
+      "source": "https://www.business-standard.com/markets/capital-market-news/sensex-settles-299-pts-higher-nifty-ends-above-23-400-level-126092300809_1.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.business-standard.com/markets/capital-market-news/sensex-settles-299-pts-higher-nifty-ends-above-23-400-level-126092300809_1.html",
+      "target": "Meta"
     },
     {
       "source": "https://www.thehindu.com/business/markets/nifty-falls-for-7th-day-sensex-down-326-points-as-rising-crude-oil-prices-unnerve-investors/article71364459.ece",
@@ -2801,6 +2887,18 @@
       "target": "Trump"
     },
     {
+      "source": "https://www.aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks?traffic_source=rss",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks?traffic_source=rss",
+      "target": "Strait of Hormuz"
+    },
+    {
+      "source": "https://www.aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks?traffic_source=rss",
+      "target": "Trump"
+    },
+    {
       "source": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
       "target": "Iran"
     },
@@ -2923,7 +3021,27 @@
     {
       "source": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss",
       "target": "Ukraine-Russia war"
+    },
+    {
+      "source": "https://www.semafor.com/article/09/23/2026/chinese-leader-xi-jinping-due-for-trump-talks",
+      "target": "China"
+    },
+    {
+      "source": "https://www.semafor.com/article/09/23/2026/chinese-leader-xi-jinping-due-for-trump-talks",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.semafor.com/article/09/23/2026/chinese-leader-xi-jinping-due-for-trump-talks",
+      "target": "Xi Jinping"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
+      "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-09-23T16:13:45.100000+05:30"
+  "generated_at": "2026-09-23T16:29:45.660338+05:30"
 }
