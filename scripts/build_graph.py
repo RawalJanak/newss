@@ -323,6 +323,9 @@ def build_graph(editions):
     return {"nodes": story_nodes + entity_nodes, "edges": edges}
 
 
+VAULT = ROOT.parent / "wiki"
+
+
 def main():
     files = sorted(ROOT.glob("archive/*.json"))
     editions = [json.load(open(p, encoding="utf-8")) for p in files]
@@ -331,15 +334,17 @@ def main():
         editions.append(json.load(open(current, encoding="utf-8")))
 
     graph = build_graph(editions)
-    graph["generated_at"] = datetime.now(IST).isoformat()
+    write_vault_notes(graph, VAULT)
+    vault_graph = read_vault_graph(VAULT)
+    vault_graph["generated_at"] = datetime.now(IST).isoformat()
 
     (ROOT / "app" / "graph.json").write_text(
-        json.dumps(graph, indent=2, ensure_ascii=False), encoding="utf-8"
+        json.dumps(vault_graph, indent=2, ensure_ascii=False), encoding="utf-8"
     )
-    story_count = sum(1 for n in graph["nodes"] if n["type"] == "story")
-    entity_count = sum(1 for n in graph["nodes"] if n["type"] == "entity")
-    print("graph.json: %d story nodes, %d entity nodes, %d edges from %d editions" % (
-        story_count, entity_count, len(graph["edges"]), len(editions)
+    story_count = sum(1 for n in vault_graph["nodes"] if n["type"] == "story")
+    entity_count = sum(1 for n in vault_graph["nodes"] if n["type"] == "entity")
+    print("graph.json: %d story nodes, %d entity nodes, %d edges from %d editions (via vault)" % (
+        story_count, entity_count, len(vault_graph["edges"]), len(editions)
     ))
 
 
