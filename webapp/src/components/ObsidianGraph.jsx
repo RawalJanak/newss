@@ -52,30 +52,35 @@ function estCharWidth(s) {
 
 // Labels start anchored just above each entity's own node (not the whole
 // cluster, which can be wide and drift into a neighbor's space), then a
-// short separation pass nudges any pair whose boxes still overlap apart --
-// the actual cause of the earlier overlapping-text problem.
+// separation pass nudges every overlapping pair apart -- with a fixed
+// minimum gap added on top of their actual widths, so neighbors end up
+// visibly separated rather than just barely not touching.
+const LABEL_GAP = 10
+
 function resolveLabelPositions(entityNodes) {
   const labels = entityNodes.map((n) => ({
     id: n.id, w: estCharWidth(n.label), h: LABEL_H,
     x: n.x, y: n.y - n.r - 10,
   }))
-  for (let pass = 0; pass < 40; pass++) {
+  for (let pass = 0; pass < 200; pass++) {
     let moved = false
     for (let i = 0; i < labels.length; i++) {
       for (let j = i + 1; j < labels.length; j++) {
         const a = labels[i], b = labels[j]
         const dx = Math.abs(a.x - b.x)
         const dy = Math.abs(a.y - b.y)
-        const overlapX = (a.w + b.w) / 2 - dx
-        const overlapY = (a.h + b.h) / 2 - dy
+        const overlapX = (a.w + b.w) / 2 + LABEL_GAP - dx
+        const overlapY = (a.h + b.h) / 2 + LABEL_GAP - dy
         if (overlapX > 0 && overlapY > 0) {
           moved = true
           if (overlapX < overlapY) {
             const push = overlapX / 2 + 1
-            if (a.x < b.x) { a.x -= push; b.x += push } else { a.x += push; b.x -= push }
+            if (a.x === b.x) { a.x -= push; b.x += push }
+            else if (a.x < b.x) { a.x -= push; b.x += push } else { a.x += push; b.x -= push }
           } else {
             const push = overlapY / 2 + 1
-            if (a.y < b.y) { a.y -= push; b.y += push } else { a.y += push; b.y -= push }
+            if (a.y === b.y) { a.y -= push; b.y += push }
+            else if (a.y < b.y) { a.y -= push; b.y += push } else { a.y += push; b.y -= push }
           }
         }
       }
