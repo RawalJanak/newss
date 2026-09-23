@@ -6,6 +6,7 @@ const W = 700
 const H = 560
 const TICKS = 400
 const POPUP_W = 340
+const TIMELINE_W = 480
 const BBOX_PAD = 60
 const LABEL_H = 16
 
@@ -19,8 +20,8 @@ function layout(nodes, edges) {
     // Entities repel each other so clusters stay visually separate; stories
     // repel their siblings just enough to fan out into a readable spread
     // instead of piling on top of each other.
-    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -240 : -16)))
-    .force('link', forceLink(linkCopies).id((d) => d.id).distance((l) => ((l.source.type === 'entity' || l.target.type === 'entity') ? 42 : 42)))
+    .force('charge', forceManyBody().strength((d) => (d.type === 'entity' ? -420 : -20)))
+    .force('link', forceLink(linkCopies).id((d) => d.id).distance(64))
     .force('center', forceCenter(W / 2, H / 2))
     // Without this, disconnected clusters (no story-story edges exist) only
     // repel each other and drift apart indefinitely -- a strong enough pull
@@ -28,9 +29,9 @@ function layout(nodes, edges) {
     // entity) from ending up stranded far from everything else. Stories
     // get almost none, since the link force above is what holds their
     // cloud shape together.
-    .force('x', forceX(W / 2).strength((d) => (d.type === 'entity' ? 0.05 : 0.004)))
-    .force('y', forceY(H / 2).strength((d) => (d.type === 'entity' ? 0.05 : 0.004)))
-    .force('collide', forceCollide((d) => d.r + (d.type === 'entity' ? 1.5 : 3)).iterations(3))
+    .force('x', forceX(W / 2).strength((d) => (d.type === 'entity' ? 0.045 : 0.004)))
+    .force('y', forceY(H / 2).strength((d) => (d.type === 'entity' ? 0.045 : 0.004)))
+    .force('collide', forceCollide((d) => d.r + (d.type === 'entity' ? 5 : 4)).iterations(4))
     .stop()
   for (let i = 0; i < TICKS; i++) sim.tick()
   return { nodes: nodeCopies, links: linkCopies }
@@ -139,25 +140,28 @@ function FocusPanel({ id, nodes, links, pos, onClose }) {
       </div>
     )
   }
+  // Oldest first -- a timeline reads as the story developing over time,
+  // the same order the cinema-strip reference reads left to right.
   const connected = links
     .filter((l) => (l.source.id || l.source) === id || (l.target.id || l.target) === id)
     .map((l) => nodes.find((n) => n.id === otherEnd(l, id)))
     .filter(Boolean)
-    .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
+    .sort((a, b) => String(a.date || '').localeCompare(String(b.date || '')))
   return (
-    <div className="ofocus" style={style}>
+    <div className="ofocus ofocus-wide" style={style}>
       <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
       <div className="ofocus-title">{node.label}</div>
-      <div className="ofocus-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'} — the whole thread, newest first</div>
-      <ul className="ofocus-thread">
+      <div className="ofocus-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'} — the whole thread, oldest to newest</div>
+      <ol className="otimeline">
         {connected.map((c) => (
           <li key={c.id}>
-            <a href={c.id} target="_blank" rel="noopener noreferrer" className="ofocus-thread-title">{c.label}</a>
-            {c.date && <span className="ofocus-thread-date">{String(c.date).slice(0, 10)}</span>}
+            <span className="otimeline-dot" aria-hidden="true" />
+            {c.date && <span className="otimeline-date">{String(c.date).slice(0, 10)}</span>}
+            <a href={c.id} target="_blank" rel="noopener noreferrer" className="otimeline-title">{c.label}</a>
             {c.text && <p>{c.text}</p>}
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   )
 }
@@ -210,9 +214,11 @@ export default function ObsidianGraph({ graph }) {
   function pickNode(e, id) {
     e.stopPropagation()
     const wrapRect = wrapRef.current.getBoundingClientRect()
+    const n = nodes.find((node) => node.id === id)
+    const popupW = n && n.type === 'entity' ? TIMELINE_W : POPUP_W
     let x = e.clientX - wrapRect.left + 12
     let y = e.clientY - wrapRect.top + 12
-    x = Math.min(x, wrapRect.width - POPUP_W - 8)
+    x = Math.min(x, wrapRect.width - Math.min(popupW, wrapRect.width - 16) - 8)
     y = Math.min(y, wrapRect.height - 40)
     setPopupPos({ x: Math.max(8, x), y: Math.max(8, y) })
     setFocused(id)

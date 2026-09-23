@@ -238,19 +238,28 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .ofocus { position:absolute; z-index:5; width:min(340px, calc(100% - 16px)); max-height:min(60vh, 460px);
           overflow-y:auto; background:var(--surface); border:1px solid var(--accent-dim);
           box-shadow:var(--lift); border-radius:14px; padding:13px 15px; }
+.ofocus-wide { width:min(480px, calc(100% - 16px)); max-height:min(72vh, 620px); padding:16px 18px; }
 .ofocus-title { font-family:var(--serif); font-size:15px; font-weight:600; margin-bottom:4px; line-height:1.3; }
+.ofocus-wide .ofocus-title { font-size:18px; }
 .ofocus-meta { font-size:11px; color:var(--faint); margin-bottom:10px; }
 .ofocus-gist { font-size:13.5px; line-height:1.6; color:var(--ink); margin:0 0 12px; }
 .ofocus a:not(.srcbtn) { color:var(--accent); text-decoration:none; }
 .ofocus-close { position:absolute; top:8px; right:10px; font-size:15px; line-height:1; color:var(--faint);
                 background:none; border:none; cursor:pointer; padding:2px; }
 
-.ofocus-thread { list-style:none; margin:0; padding:0; }
-.ofocus-thread li { padding:10px 0; border-top:1px solid var(--line-soft); }
-.ofocus-thread li:first-child { border-top:none; padding-top:0; }
-.ofocus-thread-title { display:block; font-size:13.5px; font-weight:600; line-height:1.4; }
-.ofocus-thread-date { display:block; font-size:10.5px; color:var(--faint); margin-top:2px; }
-.ofocus-thread p { font-size:12.5px; line-height:1.55; color:var(--muted); margin:5px 0 0; }
+/* A real timeline: a continuous vertical line with a dot per story,
+   dated entries in chronological order -- not a flat stacked list. */
+.otimeline { list-style:none; margin:14px 0 0; padding:0 0 0 20px; position:relative; }
+.otimeline::before { content:""; position:absolute; left:5px; top:4px; bottom:4px; width:2px;
+                      background:var(--line); }
+.otimeline li { position:relative; padding-bottom:20px; }
+.otimeline li:last-child { padding-bottom:0; }
+.otimeline-dot { position:absolute; left:-20px; top:4px; width:12px; height:12px; border-radius:50%;
+                 background:var(--accent); border:2px solid var(--surface); box-shadow:0 0 0 2px var(--accent-dim); }
+.otimeline-date { display:block; font-size:11px; font-weight:700; letter-spacing:.04em; color:var(--accent);
+                   margin-bottom:3px; }
+.otimeline-title { display:block; font-size:14.5px; font-weight:600; line-height:1.4; }
+.otimeline p { font-size:13px; line-height:1.6; color:var(--muted); margin:6px 0 0; }
 
 /* ---------- wire ---------- */
 .wire { margin:26px 0 10px; }
