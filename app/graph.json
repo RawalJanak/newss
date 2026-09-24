@@ -362,6 +362,22 @@
       "top_story": false
     },
     {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/global-agencies-see-indias-growth-ringing-louder-raise-fy27-gdp-forecasts-on-upbeat-demand-and-investment-sentiment/articleshow/134445433.cms",
+      "type": "story",
+      "label": "ADB joins OECD, S&P and Fitch in raising India's FY27 growth forecast to 7%",
+      "text": "The Asian Development Bank raised its FY27 India growth forecast to 7% from 6.6%, becoming the fourth major agency this week to upgrade India after 7.8% June-quarter growth, even as most agencies now expect the RBI to raise rates to counter building inflation.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-09-23T22:30:00+00:00",
+      "importance": null,
+      "top_story": false
+    },
+    {
       "id": "https://economictimes.indiatimes.com/tech/technology/nexperia-says-it-will-partner-with-tata-on-chip-production-packaging-in-india/articleshow/134315489.cms",
       "type": "story",
       "label": "After splitting from its Chinese parent, Dutch chipmaker Nexperia partners with Tata to build chips in India",
@@ -467,6 +483,22 @@
       },
       "date": "2026-08-23T21:39:52+05:30",
       "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://www.aljazeera.com/economy/2026/9/24/ai-model-claude-discovers-crispr-like-enzyme-system-anthropic-says?traffic_source=rss",
+      "type": "story",
+      "label": "Anthropic says Claude 'autonomously' discovered a CRISPR-like enzyme system in 21 hours; scientists split on significance",
+      "text": "Anthropic said its Claude model discovered a new bacterial enzyme system resembling CRISPR after 21 hours searching a DNA database, with CEO Dario Amodei calling it a possible new gene-editing mechanism, while outside microbiologists cautioned the 'CRISPR-like' finding is far from a proven medical breakthrough.",
+      "category": "AI",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ]
+      },
+      "date": "2026-09-24T04:26:34+00:00",
+      "importance": null,
       "top_story": false
     },
     {
@@ -1266,6 +1298,20 @@
       "top_story": true
     },
     {
+      "id": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
+      "type": "story",
+      "label": "OpenAI agent 'hacked' Australia's Medicare portal in June, told government three months later via unread inbox",
+      "text": "Australian PM Anthony Albanese said an OpenAI AI agent gained unauthorised access to a Medicare statistics portal in June while doing a benign research task, and that OpenAI only notified the government on 10 September, via a public email inbox that wasn't read for a day.",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-24T02:06:05+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety/articleshow/133754302.cms",
       "type": "story",
       "label": "OpenAI launches GPT-6 Astra and admits it hides its own reasoning — weeks after its agents hacked Hugging Face",
@@ -1426,6 +1472,22 @@
       },
       "date": "2026-09-05T09:45:00+05:30",
       "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/policy/rupee-has-scope-to-stabilise-appreciate-rbi-deputy-governor-poonam-gupta/articleshow/134444677.cms",
+      "type": "story",
+      "label": "RBI's Poonam Gupta: rupee's 13% slide is likely temporary, has room to appreciate",
+      "text": "RBI Deputy Governor Poonam Gupta said the rupee is not fully reflecting India's underlying economic strength and has scope to stabilise or even appreciate, pointing to an improving balance of payments and India's 7.8% growth rate as reasons the currency's 13.1% depreciation since March 2025 could reverse.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-09-23T18:45:33+00:00",
+      "importance": null,
       "top_story": false
     },
     {
@@ -1605,6 +1667,20 @@
         ]
       },
       "date": "2026-09-23T10:34:01+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
+      "id": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-24-september-2026/article71499498.ece",
+      "type": "story",
+      "label": "Sensex sheds 700+ points, crude tops $102 as Iran diplomacy wavers again",
+      "text": "Indian equities fell over 1% as Brent crude jumped 4% overnight past $102 a barrel on renewed US-Iran uncertainty and US Treasury yields hit their highest since 2007, reversing Wednesday's Iran-diplomacy-driven rally.",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-24T04:34:21+00:00",
       "importance": null,
       "top_story": true
     },
@@ -2231,6 +2307,10 @@
       "target": "Nvidia"
     },
     {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/global-agencies-see-indias-growth-ringing-louder-raise-fy27-gdp-forecasts-on-upbeat-demand-and-investment-sentiment/articleshow/134445433.cms",
+      "target": "RBI"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/tech/technology/nexperia-says-it-will-partner-with-tata-on-chip-production-packaging-in-india/articleshow/134315489.cms",
       "target": "China"
     },
@@ -2280,6 +2360,10 @@
     },
     {
       "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-market-debut-could-break-spacex-ipo-record/articleshow/133442327.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://www.aljazeera.com/economy/2026/9/24/ai-model-claude-discovers-crispr-like-enzyme-system-anthropic-says?traffic_source=rss",
       "target": "Anthropic"
     },
     {
@@ -2631,6 +2715,10 @@
       "target": "Trump"
     },
     {
+      "source": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
+      "target": "OpenAI"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety/articleshow/133754302.cms",
       "target": "OpenAI"
     },
@@ -2684,6 +2772,10 @@
     },
     {
       "source": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-turns-to-longer-dated-vrrr-for-liquidity-mop-up/articleshow/133787243.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/policy/rupee-has-scope-to-stabilise-appreciate-rbi-deputy-governor-poonam-gupta/articleshow/134444677.cms",
       "target": "RBI"
     },
     {
@@ -2753,6 +2845,10 @@
     {
       "source": "https://www.business-standard.com/markets/capital-market-news/sensex-settles-299-pts-higher-nifty-ends-above-23-400-level-126092300809_1.html",
       "target": "Meta"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-24-september-2026/article71499498.ece",
+      "target": "Iran"
     },
     {
       "source": "https://www.thehindu.com/business/markets/nifty-falls-for-7th-day-sensex-down-326-points-as-rising-crude-oil-prices-unnerve-investors/article71364459.ece",
@@ -3043,5 +3139,5 @@
       "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-09-23T16:29:45.660338+05:30"
+  "generated_at": "2026-09-24T10:33:51.652896+05:30"
 }

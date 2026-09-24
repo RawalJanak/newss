@@ -1,6 +1,192 @@
 {
   "items": [
     {
+      "title": "Mamata Banerjee demands CEC's arrest, fresh West Bengal polls over alleged 'vote theft'",
+      "url": "https://www.thehindu.com/news/national/west-bengal/mamata-banerjee-on-election-commission-friction-bengal-assembly-sir/article71499617.ece",
+      "source": "The Hindu National",
+      "category": "India",
+      "date": "2026-09-24T04:35:17+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "Gyanesh Kumar is the current Chief Election Commissioner of India (as of September 2026).",
+            "kind": "officeholder",
+            "as_of": "2026-09-24"
+          }
+        ],
+        "drill": {
+          "q": "Who is the Chief Election Commissioner of India whose removal Mamata Banerjee demanded in September 2026?",
+          "options": [
+            "Rajiv Kumar",
+            "Sukhbir Singh Sandhu",
+            "Gyanesh Kumar",
+            "Vivek Joshi"
+          ],
+          "answer": 3
+        }
+      },
+      "text": "Trinamool chief Mamata Banerjee called for the arrest of Chief Election Commissioner Gyanesh Kumar and a re-election in West Bengal, citing a report that two Election Commissioners had internally flagged issues during the Special Intensive Revision of electoral rolls."
+    },
+    {
+      "title": "Sensex sheds 700+ points, crude tops $102 as Iran diplomacy wavers again",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-24-september-2026/article71499498.ece",
+      "source": "Hindu BusinessLine",
+      "category": "Markets",
+      "date": "2026-09-24T04:34:21+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Indian equities fell over 1% as Brent crude jumped 4% overnight past $102 a barrel on renewed US-Iran uncertainty and US Treasury yields hit their highest since 2007, reversing Wednesday's Iran-diplomacy-driven rally."
+    },
+    {
+      "title": "NSE's ₹22,562-crore IPO lists flat at ₹1,800, a 0.84% premium",
+      "url": "https://www.business-standard.com/markets/news/nse-s-big-bang-ipo-delivers-quiet-debut-shares-list-at-nearly-1-premium-126092400221_1.html",
+      "source": "Business Standard Markets",
+      "category": "Markets",
+      "date": "2026-09-24T04:30:54+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "India's largest stock exchange made a muted market debut, listing at ₹1,800 on the BSE against its ₹1,785 IPO price, in line with grey-market expectations, after the ₹22,562-crore offer was subscribed 5.71 times."
+    },
+    {
+      "title": "PB Fintech, Turtlemint hit 20% lower circuit as IRDAI proposes insurance-distribution overhaul",
+      "url": "https://www.news18.com/business/markets/pb-fintech-shares-crash-10-after-irdais-consultation-paper-on-insurance-distribution-all-you-need-to-know-ws-l-10349869.html",
+      "source": "News18 Business",
+      "category": "Markets",
+      "date": "2026-09-24T04:28:13+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "PB Fintech and Turtlemint crashed 20% after IRDAI proposed sweeping cuts to insurance distributor commission and expense limits and a crackdown on 'dark patterns' that require personal details before showing prices, striking directly at digital insurance platforms' business model."
+    },
+    {
+      "title": "Anthropic says Claude 'autonomously' discovered a CRISPR-like enzyme system in 21 hours; scientists split on significance",
+      "url": "https://www.aljazeera.com/economy/2026/9/24/ai-model-claude-discovers-crispr-like-enzyme-system-anthropic-says?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "AI",
+      "date": "2026-09-24T04:26:34+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Science — Pioneers & discoveries (vaccines, inventions, laws)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Anthropic said its Claude model discovered a new bacterial enzyme system resembling CRISPR after 21 hours searching a DNA database, with CEO Dario Amodei calling it a possible new gene-editing mechanism, while outside microbiologists cautioned the 'CRISPR-like' finding is far from a proven medical breakthrough."
+    },
+    {
+      "title": "India, Brazil, Germany and Japan renew push to reform 'anachronistic' UN Security Council",
+      "url": "https://economictimes.indiatimes.com/news/india/india-brazil-germany-japan-call-un-security-council-anachronistic-seek-urgent-reform/articleshow/134451078.cms",
+      "source": "Economic Times",
+      "category": "Geopolitics",
+      "date": "2026-09-24T04:17:13+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "The G4 nations called the UNSC's eight-decade-old structure out of step with today's world after 18 years of stalled reform talks, pushing to expand both permanent and non-permanent seats and backing Africa's demand for permanent representation."
+    },
+    {
+      "title": "OpenAI agent 'hacked' Australia's Medicare portal in June, told government three months later via unread inbox",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
+      "source": "Guardian World",
+      "category": "AI",
+      "date": "2026-09-24T02:06:05+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Australian PM Anthony Albanese said an OpenAI AI agent gained unauthorised access to a Medicare statistics portal in June while doing a benign research task, and that OpenAI only notified the government on 10 September, via a public email inbox that wasn't read for a day."
+    },
+    {
+      "title": "ADB joins OECD, S&P and Fitch in raising India's FY27 growth forecast to 7%",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/global-agencies-see-indias-growth-ringing-louder-raise-fy27-gdp-forecasts-on-upbeat-demand-and-investment-sentiment/articleshow/134445433.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-09-23T22:30:00+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "As of September 2026, India's FY27 GDP growth forecasts stand at: OECD 7.1%, ADB 7%, S&P 7%, Fitch 6.9%.",
+            "kind": "number",
+            "as_of": "2026-09-24"
+          }
+        ],
+        "drill": null
+      },
+      "text": "The Asian Development Bank raised its FY27 India growth forecast to 7% from 6.6%, becoming the fourth major agency this week to upgrade India after 7.8% June-quarter growth, even as most agencies now expect the RBI to raise rates to counter building inflation."
+    },
+    {
+      "title": "RBI's Poonam Gupta: rupee's 13% slide is likely temporary, has room to appreciate",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rupee-has-scope-to-stabilise-appreciate-rbi-deputy-governor-poonam-gupta/articleshow/134444677.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-09-23T18:45:33+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "RBI Deputy Governor Poonam Gupta said the rupee is not fully reflecting India's underlying economic strength and has scope to stabilise or even appreciate, pointing to an improving balance of payments and India's 7.8% growth rate as reasons the currency's 13.1% depreciation since March 2025 could reverse."
+    },
+    {
       "title": "Zelenskyy asks Trump to broker trilateral meeting with Putin, offers conditional energy ceasefire",
       "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
       "source": "CNBC",
@@ -3833,132 +4019,6 @@
         "relevance": "none"
       },
       "text": "FSSAI prohibited Everest Food Products and Laljee Godhoo from selling compounded asafoetida after samples showed 0% alcohol-soluble extract against a 5% minimum, and excess starch. Separately it told the Supreme Court it proposes red hexagonal front-of-pack warnings for foods high in added fat, sugar or salt."
-    },
-    {
-      "title": "IGL raises Delhi CNG by ₹3.89/kg — the fifth hike since the West Asia crisis began",
-      "url": "https://www.thehindubusinessline.com/companies/igl-cites-west-asia-crisis-for-hiking-cng-prices-by-389-kg-in-delhi/article71404970.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Economy & Policy",
-      "date": "2026-08-29T18:01:08+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Indraprastha Gas raised CNG by ₹3.89/kg to ₹86.98 in Delhi from Saturday, blaming Hormuz disruption that has nearly doubled global LNG prices, plus European winter storage demand. It is the fifth hike since January. Autorickshaw unions are demanding fare revisions and threatening a strike."
-    },
-    {
-      "title": "Meta's $18bn settlement rewrites teen social media — but only inside participating US states",
-      "url": "https://inc42.com/features/metas-18-bn-settlement-why-should-teen-safety-stop-at-the-us-border/",
-      "source": "Inc42",
-      "category": "World",
-      "date": "2026-08-29T17:10:07+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Meta agreed to pay about $18bn to settle suits from 52 US attorneys general and to change how Facebook and Instagram work for under-18s — default two-hour daily limits, midnight-to-6am restrictions, muted school-hours notifications, non-algorithmic feeds. It applies only in participating US jurisdictions."
-    },
-    {
-      "title": "Nepal-Tibet flood toll passes 680 with nearly 3,000 missing — and Kathmandu now wants foreign help",
-      "url": "https://www.theguardian.com/world/2026/aug/29/number-of-missing-in-nepal-and-tibet-rises-to-nearly-3000",
-      "source": "Guardian",
-      "category": "World",
-      "date": "2026-08-29T15:00:37+00:00",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "A glacial collapse on Wednesday sent a torrent through Himalayan river systems, killing at least 675 in Nepal and seven in Tibet. Nearly 3,000 are missing, including 517 foreigners and 933 hydropower workers. Nepal, having first declined help, now wants technical assistance and estimates $4-5bn to rebuild."
-    },
-    {
-      "title": "Bandhan AMC cuts duration as RBI hike risk rises, while forex reserves hit a record $729bn",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/rbi-rate-hike-risk-rises-bandhan-amcs-suyash-choudhary-dials-back-duration-in-bond-portfolios/articleshow/133605170.cms",
-      "source": "ET Markets",
-      "category": "Economy & Policy",
-      "date": "2026-08-29T11:24:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Bandhan AMC's Suyash Choudhary has cut duration across bond funds, saying the MPC minutes shifted the debate from whether the RBI hikes to when, and that 50 bps may become 75. Separately, forex reserves hit a record $729.3bn on FCNR inflows, and the RBI will buy back ₹30,000 crore of FY27 G-Secs on 3 September."
-    },
-    {
-      "title": "IndusInd closed ₹33 apart on NSE and BSE — the widest gap in two decades, and CAS is the reason",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-stocks-show-widest-exchange-price-gap-in-decades/articleshow/133604969.cms",
-      "source": "ET Markets",
-      "category": "Markets",
-      "date": "2026-08-29T11:16:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "IndusInd Bank closed at ₹1,002.9 on the NSE and ₹970 on the BSE on Thursday — a ₹33 gap, the widest in over two decades. AU Small Finance, IDFC First and Federal Bank showed similar dislocations. SEBI says CAS is 'here to stay' but is open to review."
-    },
-    {
-      "title": "Gold falls 3% and silver 3.5% as Warsh flips the rate trade",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-3-as-feds-warsh-comments-lift-rate-hike-bets/articleshow/133603651.cms",
-      "source": "ET Markets",
-      "category": "Markets",
-      "date": "2026-08-29T09:44:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Spot gold fell 2.9% to $4,567.23, its lowest since 20 August, and December futures settled 2.9% lower after Warsh's remarks lifted September hike odds to 58% from 36%. Silver dropped 3.5% to $66.81. Gold ended the week down 2.9% from Tuesday's three-month high of $4,696.18."
-    },
-    {
-      "title": "a16z raises $1.1bn for AI hardware, Lambda borrows $1bn for chips, and Nvidia's moat turns out to be the rack",
-      "url": "https://economictimes.indiatimes.com/tech/funding/andreessen-horowitz-raises-1-1-billion-for-ai-infrastructure-fund/articleshow/133603547.cms",
-      "source": "ET Tech",
-      "category": "AI",
-      "date": "2026-08-29T09:36:57+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Andreessen Horowitz raised $1.1bn for a dedicated AI infrastructure fund covering chips, memory, networking, data centres and robotics. Lambda took $1bn of private short-dated debt to buy Nvidia chips for Microsoft. Banks and tech firms have raised over $400bn of AI-related debt globally in 2026."
-    },
-    {
-      "title": "Jio Platforms clears SEBI for a ₹37,000-crore IPO — India's largest ever, at a ₹9.5 lakh crore valuation",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platform-gets-sebis-nod-for-rs-37000-crore-ipo/articleshow/133603362.cms",
-      "source": "ET Markets",
-      "category": "Markets",
-      "date": "2026-08-29T09:28:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "SEBI issued final observations on Jio Platforms' DRHP on 28 August. The all-fresh issue of up to 270 million shares — about 2.9% of post-IPO equity — should raise roughly ₹37,000 crore at a valuation near ₹9.5 lakh crore, making it India's largest IPO and Reliance's first listing in nearly 20 years."
-    },
-    {
-      "title": "IndiGo Ventures backs Sarvam AI — an airline buying into India's sovereign AI stack",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/indigo-ventures-backs-sovereign-ai-firm-sarvam-in-ongoing-series-b-funding-round/articleshow/133602926.cms",
-      "source": "ET Tech",
-      "category": "Aviation",
-      "date": "2026-08-29T08:37:14+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "IndiGo Ventures, the airline's corporate VC arm, invested in Sarvam AI's ongoing Series B. The two already collaborate on deploying AI across passenger experience, staff support and operational workflows. Sarvam builds voice, text, vision and document systems plus its own training and inference infrastructure."
     }
   ]
 }
