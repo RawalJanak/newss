@@ -12,7 +12,7 @@ function MTable({ title, items, sub }) {
       {items.map((r, i) => (
         <div className="trow" key={i}>
           <div className="a"><div className="s">{r.name || r.symbol}</div><div className="u">{sub && r.sector ? r.sector : r.symbol}</div></div>
-          <div className="b"><div className="pr">{n2(r.price)}</div><div className="ch">{pct(r.change_pct)}</div></div>
+          <div className="b"><div className="pr">{r.unit ? r.unit + ' ' : ''}{n2(r.price)}</div><div className="ch">{pct(r.change_pct)}</div></div>
         </div>
       ))}
     </div>

@@ -101,6 +101,44 @@ METALS_CRYPTO_FX = [
     ("DX-Y.NYB", "Dollar Index", "Forex"),
 ]
 
+TROY_OZ_G = 31.1034768
+
+
+def metals_crypto_fx_rows(q):
+    """Gold/Silver/Bitcoin/Ethereum converted to rupees; forex/index left as-is.
+
+    Yahoo quotes gold and silver in USD per troy ounce -- not how Indian prices are
+    ever quoted -- so this also rescales to INR per 10 grams, the standard retail unit.
+    """
+    usdinr = q.get("USDINR=X", {}).get("price")
+    out = []
+
+    def add(sym, name, sector, price, change_pct, unit):
+        out.append({"symbol": sym.split("=")[0].split("-")[0], "name": name, "sector": sector,
+                    "price": round(price, 2), "change_pct": change_pct, "unit": unit, "turnover": 0})
+
+    if usdinr:
+        for sym, name in (("GC=F", "Gold"), ("SI=F", "Silver")):
+            if sym in q:
+                r = q[sym]
+                inr_per_10g = r["price"] * usdinr / TROY_OZ_G * 10
+                add(sym, name, "Metals", inr_per_10g, r["change_pct"], "₹/10g")
+        for sym, name in (("BTC-USD", "Bitcoin"), ("ETH-USD", "Ethereum")):
+            if sym in q:
+                r = q[sym]
+                add(sym, name, "Crypto", r["price"] * usdinr, r["change_pct"], "₹")
+    if "USDINR=X" in q:
+        r = q["USDINR=X"]
+        add("USDINR=X", "USD/INR", "Forex", r["price"], r["change_pct"], "₹")
+    if "CNY=X" in q:
+        r = q["CNY=X"]
+        add("CNY=X", "USD/CNY", "Forex", r["price"], r["change_pct"], "¥")
+    if "DX-Y.NYB" in q:
+        r = q["DX-Y.NYB"]
+        add("DX-Y.NYB", "Dollar Index", "Forex", r["price"], r["change_pct"], "")
+    return out
+
+
 # Manually curated -- only listings we can confirm actually happened recently. Never
 # fabricate a plausible-sounding ticker; a market that has none this window just shows
 # no "Recently listed" section (MTable hides itself on an empty list) rather than stale
@@ -254,7 +292,7 @@ def main():
     }
 
     mq = bulk([s for s, _, _ in METALS_CRYPTO_FX])
-    metals_crypto_fx = rows(METALS_CRYPTO_FX, mq)
+    metals_crypto_fx = metals_crypto_fx_rows(mq)
 
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=5, minutes=30)))
     doc = {"generated_at": now.isoformat(), "markets": out, "metals_crypto_fx": metals_crypto_fx}
