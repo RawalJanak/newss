@@ -92,20 +92,23 @@ GLOBAL_BOARD = [
     ("^GDAXI", "DAX", "Equity"), ("^HSI", "Hang Seng", "Equity"),
 ]
 
+# Shown once, above the per-market tables, regardless of which market tab is selected --
+# these prices aren't India/US/China-specific.
+METALS_CRYPTO_FX = [
+    ("GC=F", "Gold", "Metals"), ("SI=F", "Silver", "Metals"),
+    ("BTC-USD", "Bitcoin", "Crypto"), ("ETH-USD", "Ethereum", "Crypto"),
+    ("USDINR=X", "USD/INR", "Forex"), ("CNY=X", "USD/CNY", "Forex"),
+    ("DX-Y.NYB", "Dollar Index", "Forex"),
+]
+
+# Manually curated -- only listings we can confirm actually happened recently. Never
+# fabricate a plausible-sounding ticker; a market that has none this window just shows
+# no "Recently listed" section (MTable hides itself on an empty list) rather than stale
+# or invented data.
 RECENT = {
-    "india": [("SWIGGY.NS", "Swiggy", "2024"), ("OLAELEC.NS", "Ola Electric", "2024"),
-              ("HYUNDAI.NS", "Hyundai Motor India", "2024"), ("LENSKART.NS", "Lenskart", "2025"),
-              ("FIRSTCRY.NS", "FirstCry", "2024"), ("AWFIS.NS", "Awfis", "2024"),
-              ("IXIGO.NS", "ixigo", "2024"), ("NTPCGREEN.NS", "NTPC Green", "2024"),
-              ("WAAREEENER.NS", "Waaree Energies", "2024"), ("PREMIERENE.NS", "Premier Energies", "2024"),
-              ("BAJAJHFL.NS", "Bajaj Housing Finance", "2024"), ("SAGILITY.NS", "Sagility", "2024")],
-    "usa":   [("RDDT", "Reddit", "2024"), ("ARM", "Arm Holdings", "2023"),
-              ("CART", "Instacart", "2023"), ("BIRK", "Birkenstock", "2023"),
-              ("CRCL", "Circle", "2025"), ("TEM", "Tempus AI", "2024"),
-              ("ALAB", "Astera Labs", "2024"), ("LINE", "Lineage", "2024"),
-              ("KVYO", "Klaviyo", "2023"), ("SAIL", "SailPoint", "2025")],
-    "china": [("2015.HK", "Li Auto", "2021"), ("9868.HK", "XPeng", "2021"),
-              ("9866.HK", "NIO", "2022"), ("6690.HK", "Haier Smart Home", "2020")],
+    "india": [("NSE.BO", "NSE", "2026"), ("LENSKART.NS", "Lenskart", "2025")],
+    "usa":   [("CRCL", "Circle", "2025"), ("SAIL", "SailPoint", "2025")],
+    "china": [],
 }
 
 
@@ -250,8 +253,11 @@ def main():
         "actives": board, "recent": [],
     }
 
+    mq = bulk([s for s, _, _ in METALS_CRYPTO_FX])
+    metals_crypto_fx = rows(METALS_CRYPTO_FX, mq)
+
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=5, minutes=30)))
-    doc = {"generated_at": now.isoformat(), "markets": out}
+    doc = {"generated_at": now.isoformat(), "markets": out, "metals_crypto_fx": metals_crypto_fx}
     json.dump(doc, io.open("app/markets.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     print("WROTE app/markets.json @", doc["generated_at"])

@@ -50,6 +50,7 @@ export default function MarketsBelt({ mkt, market, stamp }) {
           </span>
         </div>
       </div>
+      <MTable title="Metals · Crypto · Forex" items={mkt.metals_crypto_fx} sub />
       <MTable title="Sectors — best and worst" items={sect} sub={false} />
       <MTable title="Top gainers" items={m.gainers} sub />
       <MTable title="Top losers" items={m.losers} sub />
