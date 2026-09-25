@@ -1,6 +1,135 @@
 {
   "items": [
     {
+      "title": "Iran says ending the war is 'up to' the US, as China pushes a peace role amid Xi-Trump summit",
+      "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+      "source": "CNBC",
+      "category": "Geopolitics",
+      "date": "2026-09-25T05:37:21+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Iranian President Pezeshkian said the US alone controls whether their seven-month war ends, as China's special Middle East envoy said the Xi-Trump summit reached a consensus 'critical to cooling the temperature' -- while Strait of Hormuz transits fell to just 9 vessels and Iran signaled it could reopen the strait within a week if US naval blockade eases."
+    },
+    {
+      "title": "Opposition to file fresh notice for Election Commissioner's removal as INDIA bloc weighs joint action",
+      "url": "https://www.thehindu.com/news/national/opposition-to-move-fresh-notice-for-cecs-removal-india-bloc-mulls-joint-action/article71504708.ece",
+      "source": "The Hindu National",
+      "category": "India",
+      "date": "2026-09-25T05:15:32+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "As of September 2026, three separate Opposition notices seeking CEC Gyanesh Kumar's removal have been filed (March, April, and a third pending), alongside a Supreme Court reference on the 2023 CEC/EC Appointment Act's constitutionality.",
+            "kind": "date",
+            "as_of": "2026-09-25"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Opposition parties will move a third notice seeking CEC Gyanesh Kumar's removal in both Houses of Parliament, on top of a still-pending April motion, as Congress and TMC coordinate under the INDIA bloc banner following fresh allegations about the electoral-roll revision process."
+    },
+    {
+      "title": "India records highest-ever annual FDI of $94.53 billion in FY26",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/india-records-highest-ever-fdi-of-94-53-billion-in-fy26-inflows-since-2014-reach-843-billion-piyush-goyal/articleshow/134475746.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-09-25T05:08:37+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "India recorded its highest-ever annual FDI of $94.53 billion in FY 2025-26; cumulative FDI since FY 2014-15 reached $843 billion.",
+            "kind": "number",
+            "as_of": "2026-09-25"
+          }
+        ],
+        "drill": {
+          "q": "India's cumulative FDI inflows from FY 2014-15 to FY 2025-26, as announced in September 2026, reached approximately how much?",
+          "options": [
+            "$94.53 billion",
+            "$500 billion",
+            "$843 billion",
+            "$1 trillion"
+          ],
+          "answer": 3
+        }
+      },
+      "text": "Commerce Minister Piyush Goyal said India's FY26 foreign direct investment hit a record $94.53 billion, taking cumulative inflows since 2014 to $843 billion, with PLI schemes credited for ₹2.4 lakh crore in actual investment and 14.6 lakh jobs."
+    },
+    {
+      "title": "Government: 0.4% UPI merchant fee above ₹2,000 won't be passed to consumers",
+      "url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "source": "YourStory",
+      "category": "Economy & Policy",
+      "date": "2026-09-25T04:50:23+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Government sources said the new 0.4% UPI merchant discount rate on transactions above ₹2,000, effective October 15, will be split among banks and payment providers with none going to the government, while person-to-person UPI transfers stay free regardless of amount."
+    },
+    {
+      "title": "Anthropic seeks 50.1% founder voting control ahead of what could be a record IPO",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-seeks-50-1-voting-control-for-cofounders-ahead-of-ipo/articleshow/134474140.cms",
+      "source": "Economic Times",
+      "category": "AI",
+      "date": "2026-09-25T03:17:30+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Anthropic is asking shareholders to approve a Palantir-style structure giving CEO Dario Amodei and six co-founders combined majority voting control, as the company -- valued at $965 billion in May -- prepares for what could be one of the largest IPOs on record, possibly delayed past the US midterms."
+    },
+    {
+      "title": "Tata Sons board defies Tata Trusts, invokes casting vote to reappoint Chandrasekaran",
+      "url": "https://www.livemint.com/companies/news/casting-vote-can-be-invoked-tata-sons-defends-chandrasekaran-s-reappointment-11790258702207.html",
+      "source": "Mint",
+      "category": "Business",
+      "date": "2026-09-24T16:32:33+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Tata Sons is defending N Chandrasekaran's chairmanship reappointment after Tata Trusts chair Noel Tata called the 4-1 board vote 'illegal', with both sides now citing dueling legal opinions from former Supreme Court judges over whether a casting vote could break the tie."
+    },
+    {
       "title": "Mamata Banerjee demands CEC's arrest, fresh West Bengal polls over alleged 'vote theft'",
       "url": "https://www.thehindu.com/news/national/west-bengal/mamata-banerjee-on-election-commission-friction-bengal-assembly-sir/article71499617.ece",
       "source": "The Hindu National",
@@ -3929,96 +4058,6 @@
         "drill": null
       },
       "text": "Norway's sovereign wealth fund proposed cutting its government-bond subindex from 70% to 50%, taking Treasuries from 34.1% to 21.9%. El-Erian says the problem is a structural imbalance between issuance and reliable buyers, not inflation or Fed credibility. Jefferies calls long Treasuries a structural bear market."
-    },
-    {
-      "title": "EU signs on to 'Operation Economic Outcast' as South Korea weighs sending forces to Hormuz",
-      "url": "https://www.cnbc.com/2026/09/04/us-economic-outcast-operation-gains-momentum-as-eu-joins-sanctions.html",
-      "source": "CNBC",
-      "category": "Geopolitics",
-      "date": "2026-09-04T02:45:11+00:00",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "The EU has formally joined the US-led sanctions campaign against Iran, drawing praise from Treasury Secretary Bessent and a charge from Tehran that Brussels 'surrendered its sovereignty'. South Korea confirmed it is reviewing a Hormuz military deployment while denying a decision has been made."
-    },
-    {
-      "title": "India's 7.8% GDP print is under attack — and the fight is about a ₹6 lakh crore revision to last year",
-      "url": "https://www.thehindubusinessline.com/economy/this-78-gdp-growth-number-did-not-come-out-of-nowhere-chief-economic-adviser/article71426980.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Economy & Policy",
-      "date": "2026-09-03T22:16:50+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "Q1 FY27 GDP grew 7.8%, beating a 7.1% Reuters poll. Former finance secretary Subhash Chandra Garg says the base year was cut by ₹6 trillion, flattering the comparison. The CEA calls that 'cherry-picking' — the old ₹86 lakh crore figure used a different base year and methodology and is not comparable."
-    },
-    {
-      "title": "Singapore Airlines and Temasek publicly back Air India as pilots accept a revised pay package",
-      "url": "https://www.thehindu.com/business/sia-commits-to-long-term-growth-of-air-india-to-evaluate-additional-capital-infusion/article71404500.ece",
-      "source": "The Hindu Business",
-      "category": "Aviation",
-      "date": "2026-08-29T22:06:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Singapore Airlines told The Business Times its 25.1% Air India stake fits its long-term multi-hub strategy and that capital requests will be evaluated under a disciplined framework. Temasek backed SIA. Air India says an overwhelming majority of its 5,000+ pilots accepted a revised compensation and career package."
-    },
-    {
-      "title": "HDFC Bank's Jagdishan will not seek a third term, and leaves on 26 October",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/hdfc-banks-chief-will-not-seek-reappointment-despite-persuasion/article71405141.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Business",
-      "date": "2026-08-29T19:56:25+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "Sashidhar Jagdishan told the HDFC Bank board he will not seek reappointment and will retire on 26 October, ending a tenure that began in October 2020 and included the HDFC merger. The board says it persuaded him otherwise and failed, and will fast-track a successor search."
-    },
-    {
-      "title": "Warsh says the Fed 'has work to do' — and September hike odds jump from 30% to 57%",
-      "url": "https://www.thehindubusinessline.com/markets/warshs-inflation-warning-sets-up-september-showdown-for-the-fed/article71405126.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Markets",
-      "date": "2026-08-29T19:47:24+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "At Jackson Hole, new Fed chair Kevin Warsh said the central bank will 'have work to do' unless underlying inflation moves to 2% clearly and fast. Traders repriced September hike odds to 57% from 30%, October to 70% and December to nearly 90%. Gold fell 3%, bitcoin below $78,000."
-    },
-    {
-      "title": "FSSAI bans Everest and Laljee Godhoo hing, and proposes red hexagon warnings on packaged food",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/fssai-bans-everest-food-products-laljee-godhoo-from-selling-hing-powder/article71404687.ece",
-      "source": "Hindu BusinessLine",
-      "category": "India",
-      "date": "2026-08-29T18:10:26+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none"
-      },
-      "text": "FSSAI prohibited Everest Food Products and Laljee Godhoo from selling compounded asafoetida after samples showed 0% alcohol-soluble extract against a 5% minimum, and excess starch. Separately it told the Supreme Court it proposes red hexagonal front-of-pack warnings for foods high in added fat, sugar or salt."
     }
   ]
 }

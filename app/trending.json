@@ -1,80 +1,80 @@
 {
-  "generated_at": "2026-09-24T10:37:08.595236+05:30",
+  "generated_at": "2026-09-25T11:22:39.527358+05:30",
   "items": [
     {
-      "platform": "Google Trends",
-      "topic": "hong kong vs malaysia",
-      "meta": "5000+ searches",
-      "url": "https://www.indiafantasy.com/cricket-betting/tips/hkc-vs-mal-september-24/",
+      "platform": "Reddit",
+      "topic": "Lemme see the cats that are not named after dark or evil stuff",
+      "meta": "r/blackcats · 11434 upvotes",
+      "url": "https://www.reddit.com/r/blackcats/comments/1wpfoi4/lemme_see_the_cats_that_are_not_named_after_dark/",
       "rank": 1
     },
     {
       "platform": "Google Trends",
-      "topic": "ಅಮಿತ್ ಶಾ",
-      "meta": "500+ searches",
-      "url": "https://publictv.in/8-udp-mlas-join-bjp-in-meghalaya/",
+      "topic": "the paradise movie",
+      "meta": "20000+ searches",
+      "url": "https://www.eenadu.net/telugu-news/movies/the-paradise-movie-review-in-telugu-did-nani-action-thriller-impress-the-audience/0203/126172551",
       "rank": 2
     },
     {
-      "platform": "Google Trends",
-      "topic": "nse share price",
-      "meta": "50000+ searches",
-      "url": "https://www.ndtv.com/business-news/national-stock-exchange-nse-ipo-listing-today-price-market-debut-bse-gains-12090028",
+      "platform": "Reddit",
+      "topic": "My cat said he wants to fight your cat. Photo replies only",
+      "meta": "r/cats · 7575 upvotes",
+      "url": "https://www.reddit.com/r/cats/comments/1wpdflr/my_cat_said_he_wants_to_fight_your_cat_photo/",
       "rank": 3
     },
     {
       "platform": "Google Trends",
-      "topic": "२४ सितम्बर",
-      "meta": "2000+ searches",
-      "url": "https://www.theglobeandmail.com/life/horoscopes/article-your-daily-horoscope-september-24-2026/",
+      "topic": "asian games athletics",
+      "meta": "1000+ searches",
+      "url": "https://www.espn.in/espn/story/_/id/50021134/india-asian-games-live-updates-scores-news-results-commentary-schedule-timings-september-25-2026-aichi-nagoya",
       "rank": 4
     },
     {
-      "platform": "Google Trends",
-      "topic": "cyclone",
-      "meta": "2000+ searches",
-      "url": "https://www.thehindu.com/news/national/odisha/red-warning-alert-issued-for-4-odisha-districs-as-disaster-response-forces-in-place-for-deep-depression/article71500624.ece",
+      "platform": "Reddit",
+      "topic": "Random guy knocked on my door and asked how long I've been sleeping with his girlfriend",
+      "meta": "r/BoyDinnerDiaries · 27895 upvotes",
+      "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wpk0rr/random_guy_knocked_on_my_door_and_asked_how_long/",
       "rank": 5
     },
     {
       "platform": "Google Trends",
-      "topic": "వాతావరణం",
-      "meta": "20000+ searches",
-      "url": "https://www.eenadu.net/telugu-news/andhra-pradesh/rains-in-across-the-ap/1701/126172811",
+      "topic": "hassan eisakhil",
+      "meta": "2000+ searches",
+      "url": "https://www.aajtak.in/sports/cricket/story/japan-bowlers-performance-afghanistan-129-6-asian-games-2026-ibrahim-takahashi-tspok-dskc-2651762-2026-09-24",
       "rank": 6
     },
     {
-      "platform": "Google Trends",
-      "topic": "benjamin ito-davis",
-      "meta": "5000+ searches",
-      "url": "https://www.cricbuzz.com/cricket-news/140258/why-the-legality-of-the-japan-india-wide-call-shouldnt-be-debated",
+      "platform": "Reddit",
+      "topic": "Wife frequently complains that our dryer is not drying properly.",
+      "meta": "r/mildlyinfuriating · 25723 upvotes",
+      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1wp84o1/wife_frequently_complains_that_our_dryer_is_not/",
       "rank": 7
     },
     {
       "platform": "Google Trends",
-      "topic": "asian games kabaddi",
-      "meta": "200+ searches",
-      "url": "https://www.prokabaddi.com/news/india-beat-bangladesh-48-25-seal-asian-games-2026-kabaddi-semifinal-berth",
+      "topic": "marvel avengers endgame encore",
+      "meta": "2000+ searches",
+      "url": "https://www.marvel.com/articles/movies/marvel-studios-avengers-endgame-encore-anthony-russo-interview",
       "rank": 8
     },
     {
-      "platform": "Google Trends",
-      "topic": "paradise movie rating",
-      "meta": "5000+ searches",
-      "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/the-paradise-twitter-review-nani-and-kayadu-lohar-film-gets-early-reactions-netizens-call-it-not-just-an-action-film/articleshow/134449098.cms",
+      "platform": "Reddit",
+      "topic": "Prototype, Dino Crisis",
+      "meta": "r/videogames · 2178 upvotes",
+      "url": "https://www.reddit.com/r/videogames/comments/1wph683/prototype_dino_crisis/",
       "rank": 9
     },
     {
       "platform": "Google Trends",
-      "topic": "फास्टैग",
-      "meta": "500+ searches",
-      "url": "https://www.abplive.com/auto/fastag-annual-pass-rules-remaining-trips-discount-refund-policy-details-here-3192667",
+      "topic": "vivo v80 5g",
+      "meta": "1000+ searches",
+      "url": "https://www.gsmarena.com/vivo_v80_hands_on_camera_samples-news-74742.php",
       "rank": 10
     }
   ],
   "sources": {
     "Google Trends": true,
-    "Reddit": false,
+    "Reddit": true,
     "X (Twitter)": false
   }
 }

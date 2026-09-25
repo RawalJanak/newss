@@ -518,6 +518,20 @@
       "top_story": true
     },
     {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-seeks-50-1-voting-control-for-cofounders-ahead-of-ipo/articleshow/134474140.cms",
+      "type": "story",
+      "label": "Anthropic seeks 50.1% founder voting control ahead of what could be a record IPO",
+      "text": "Anthropic is asking shareholders to approve a Palantir-style structure giving CEO Dario Amodei and six co-founders combined majority voting control, as the company -- valued at $965 billion in May -- prepares for what could be one of the largest IPOs on record, possibly delayed past the US midterms.",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-25T03:17:30+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://economictimes.indiatimes.com/markets/bonds/rbi-rate-hike-risk-rises-bandhan-amcs-suyash-choudhary-dials-back-duration-in-bond-portfolios/articleshow/133605170.cms",
       "type": "story",
       "label": "Bandhan AMC cuts duration as RBI hike risk rises, while forex reserves hit a record $729bn",
@@ -824,6 +838,22 @@
       "top_story": false
     },
     {
+      "id": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "type": "story",
+      "label": "Government: 0.4% UPI merchant fee above ₹2,000 won't be passed to consumers",
+      "text": "Government sources said the new 0.4% UPI merchant discount rate on transactions above ₹2,000, effective October 15, will be split among banks and payment providers with none going to the government, while person-to-person UPI transfers stay free regardless of amount.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-09-25T04:50:23+00:00",
+      "importance": null,
+      "top_story": false
+    },
+    {
       "id": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-in-focus-as-lender-shortlists-ceo-candidates-why-bernstein-nomura-others-see-up-to-62-upside/articleshow/134251201.cms",
       "type": "story",
       "label": "HDFC Bank formally begins CEO succession, submitting two names to the RBI as Jagdishan's exit nears",
@@ -1071,6 +1101,20 @@
       "date": "2026-08-24T08:41:27+05:30",
       "importance": "high",
       "top_story": false
+    },
+    {
+      "id": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+      "type": "story",
+      "label": "Iran says ending the war is 'up to' the US, as China pushes a peace role amid Xi-Trump summit",
+      "text": "Iranian President Pezeshkian said the US alone controls whether their seven-month war ends, as China's special Middle East envoy said the Xi-Trump summit reached a consensus 'critical to cooling the temperature' -- while Strait of Hormuz transits fell to just 9 vessels and Iran signaled it could reopen the strait within a week if US naval blockade eases.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-25T05:37:21+00:00",
+      "importance": null,
+      "top_story": true
     },
     {
       "id": "https://economictimes.indiatimes.com/news/international/world-news/iran-attacks-10-ships-near-strait-of-hormuz-in-response-to-us-strikes-oil-prices-surge/articleshow/133989231.cms",
@@ -1778,6 +1822,20 @@
       "top_story": true
     },
     {
+      "id": "https://www.livemint.com/companies/news/casting-vote-can-be-invoked-tata-sons-defends-chandrasekaran-s-reappointment-11790258702207.html",
+      "type": "story",
+      "label": "Tata Sons board defies Tata Trusts, invokes casting vote to reappoint Chandrasekaran",
+      "text": "Tata Sons is defending N Chandrasekaran's chairmanship reappointment after Tata Trusts chair Noel Tata called the 4-1 board vote 'illegal', with both sides now citing dueling legal opinions from former Supreme Court judges over whether a casting vote could break the tie.",
+      "category": "Business",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-24T16:32:33+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.livemint.com/news/india/indiaus-trade-deal-to-be-finalised-in-next-few-months-trump-s-priority-at-g20-and-a-hint-from-us-envoy-sergio-gor-11788580296390.html#g20",
       "type": "story",
       "label": "The 2026 G20 Summit will be hosted by the US at Trump National Doral Miami, Florida, on 14-15 December.",
@@ -2371,6 +2429,10 @@
       "target": "Anthropic"
     },
     {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-seeks-50-1-voting-control-for-cofounders-ahead-of-ipo/articleshow/134474140.cms",
+      "target": "Anthropic"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/markets/bonds/rbi-rate-hike-risk-rises-bandhan-amcs-suyash-choudhary-dials-back-duration-in-bond-portfolios/articleshow/133605170.cms",
       "target": "RBI"
     },
@@ -2519,6 +2581,10 @@
       "target": "OpenAI"
     },
     {
+      "source": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "target": "UPI MDR"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-in-focus-as-lender-shortlists-ceo-candidates-why-bernstein-nomura-others-see-up-to-62-upside/articleshow/134251201.cms",
       "target": "RBI"
     },
@@ -2621,6 +2687,22 @@
     {
       "source": "https://www.thehindubusinessline.com/news/world/iran-approves-service-fees-for-authorised-ships-transiting-strait-of-hormuz/article71383083.ece",
       "target": "Strait of Hormuz"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+      "target": "China"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+      "target": "Strait of Hormuz"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+      "target": "Trump"
     },
     {
       "source": "https://economictimes.indiatimes.com/news/international/world-news/iran-attacks-10-ships-near-strait-of-hormuz-in-response-to-us-strikes-oil-prices-surge/articleshow/133989231.cms",
@@ -2876,6 +2958,10 @@
     },
     {
       "source": "https://www.business-standard.com/markets/news/tata-motors-up-6-after-q1-beat-analysts-see-demand-margin-upside-126081300562_1.html",
+      "target": "Tata Sons"
+    },
+    {
+      "source": "https://www.livemint.com/companies/news/casting-vote-can-be-invoked-tata-sons-defends-chandrasekaran-s-reappointment-11790258702207.html",
       "target": "Tata Sons"
     },
     {
@@ -3139,5 +3225,5 @@
       "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-09-24T10:33:51.652896+05:30"
+  "generated_at": "2026-09-25T11:21:22.343666+05:30"
 }
