@@ -1457,6 +1457,22 @@
       "top_story": true
     },
     {
+      "id": "https://www.livemint.com/economy/rbi-drains-20-billion-liquidity-via-fx-operations-what-it-means-for-rupee-rates-11790667275406.html",
+      "type": "story",
+      "label": "RBI drains $20 billion via FX operations to defend the rupee",
+      "text": "The Reserve Bank of India pulled roughly $20 billion of liquidity out of the banking system through foreign-exchange operations aimed at supporting the rupee, a move with direct knock-on effects for domestic interest rates and banking-system liquidity just as the currency struggles near record lows.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-09-29T07:41:00+00:00",
+      "importance": null,
+      "top_story": false
+    },
+    {
       "id": "https://economictimes.indiatimes.com/news/economy/finance/india-rbi-uses-currency-swaps-to-cut-115-billion-cash-surplus/articleshow/133969593.cms",
       "type": "story",
       "label": "RBI drains a record $115 billion cash surplus from banks using currency swaps",
@@ -2073,6 +2089,20 @@
       },
       "date": "2026-08-20T08:33:57+00:00",
       "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
+      "type": "story",
+      "label": "Trump denies offering Iran sanctions relief for nuclear concessions",
+      "text": "Trump publicly denied reports that Washington offered Tehran sanctions relief in exchange for nuclear concessions, a denial that lands directly against Iran's own account of ongoing mediated talks and adds fresh uncertainty to whether any US-Iran deal framework actually exists.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-29T12:24:00+00:00",
+      "importance": null,
       "top_story": true
     },
     {
@@ -2907,6 +2937,10 @@
       "target": "RBI"
     },
     {
+      "source": "https://www.livemint.com/economy/rbi-drains-20-billion-liquidity-via-fx-operations-what-it-means-for-rupee-rates-11790667275406.html",
+      "target": "RBI"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/news/economy/finance/india-rbi-uses-currency-swaps-to-cut-115-billion-cash-surplus/articleshow/133969593.cms",
       "target": "RBI"
     },
@@ -3163,6 +3197,14 @@
       "target": "Trump"
     },
     {
+      "source": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
+      "target": "Trump"
+    },
+    {
       "source": "https://www.theguardian.com/us-news/2026/sep/09/trump-republican-convention-speech-midterm-elections",
       "target": "Trump"
     },
@@ -3331,5 +3373,5 @@
       "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-09-29T10:49:18.296611+05:30"
+  "generated_at": "2026-09-29T18:11:38.250480+05:30"
 }

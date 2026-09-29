@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "title": "Supreme Court calls 10x cancer-drug price markups 'carnage', questions why retailers profit while patients pay",
+      "url": "https://www.thehindu.com/news/national/supreme-court-questions-steep-mark-ups-on-cancer-drugs-calls-pricing-disparity-carnage/article71523314.ece",
+      "source": "The Hindu National",
+      "category": "India",
+      "date": "2026-09-29T17:50:40+05:30",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "The Supreme Court questioned why an essential cancer drug supplied to retailers for ₹3,000 sells to consumers for ₹27,000, with the Centre's Solicitor General conceding private hospitals -- not drugmakers -- pocket most of the markup, as the court weighs applying DPCO's 16% retailer-margin cap uniformly across essential medicines."
+    },
+    {
+      "title": "Trump denies offering Iran sanctions relief for nuclear concessions",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
+      "source": "Guardian World",
+      "category": "Geopolitics",
+      "date": "2026-09-29T12:24:00+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Trump publicly denied reports that Washington offered Tehran sanctions relief in exchange for nuclear concessions, a denial that lands directly against Iran's own account of ongoing mediated talks and adds fresh uncertainty to whether any US-Iran deal framework actually exists."
+    },
+    {
+      "title": "Nifty breaks below its 200-week moving average for the first time since Covid",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/investor-alert-nifty-cracks-below-key-200-week-moving-average-for-the-first-time-since-covid/articleshow/134565786.cms",
+      "source": "Economic Times",
+      "category": "Markets",
+      "date": "2026-09-29T12:14:00+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "The Nifty 50 cracked below its 200-week moving average -- a level it has held since the pandemic crash -- as crude near $107 and rising bond yields extend the market's slide, a technical breach analysts flag as a meaningful signal distinct from the week's day-to-day volatility."
+    },
+    {
+      "title": "RBI drains $20 billion via FX operations to defend the rupee",
+      "url": "https://www.livemint.com/economy/rbi-drains-20-billion-liquidity-via-fx-operations-what-it-means-for-rupee-rates-11790667275406.html",
+      "source": "Mint",
+      "category": "Economy & Policy",
+      "date": "2026-09-29T07:41:00+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "The Reserve Bank of India pulled roughly $20 billion of liquidity out of the banking system through foreign-exchange operations aimed at supporting the rupee, a move with direct knock-on effects for domestic interest rates and banking-system liquidity just as the currency struggles near record lows."
+    },
+    {
       "title": "Sensex slides further, rupee breaches 96 as crude hits $107 on Middle East supply fears",
       "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-29-september-2026/article71520150.ece",
       "source": "Hindu BusinessLine",
@@ -3998,74 +4070,6 @@
         "drill": null
       },
       "text": "SEBI said it may change how derivative settlement prices are determined after feedback on CAS-based closing prices, with a consultation paper due in about a week. Angel One rose nearly 8%, BSE 5% and Groww 3%. On Thursday's BSE expiry the Sensex fell about 2,100 points in the auction's first five minutes."
-    },
-    {
-      "title": "AAIB: Air India captain tested non-negative for a psychoactive substance — and all three hydraulic systems dropped",
-      "url": "https://www.thehindubusinessline.com/economy/logistics/ai2379-probe-aaib-flags-psychoactive-substance-finding-recommends-dgca-action/article71427578.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Aviation",
-      "date": "2026-09-04T13:50:05+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "The AAIB's preliminary report on AI2379 found the pilot-in-command non-negative for a psychoactive substance in both the initial and laboratory confirmatory tests, called it a 'serious concern' and asked DGCA to act on priority. It also disclosed a brief loss of all three hydraulic systems. Air India has begun testing 100% of its pilots."
-    },
-    {
-      "title": "UBI expects RBI hikes from December as $136 billion of swap inflows floods the banking system",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-5-75-6-in-h2-fy27-rate-hike-cycle-likely-from-december-ubi/articleshow/133756522.cms",
-      "source": "ET Economy",
-      "category": "Economy & Policy",
-      "date": "2026-09-04T13:36:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "Union Bank expects the RBI to raise the repo rate to 5.75-6% from 5.25% in H2 FY27, with hikes likely starting in December. Core liquidity has jumped from ₹4.82 lakh crore in mid-June to ₹8.05 lakh crore, driven by $136.38 billion of swap-window inflows. HDFC Bank sees a $60-65bn BoP surplus."
-    },
-    {
-      "title": "India will require battery storage on new solar and wind projects from July 2027",
-      "url": "https://www.thehindubusinessline.com/economy/mandatory-battery-storage-proposed-for-new-renewable-projects-from-july-2027/article71408905.ece",
-      "source": "Hindu BusinessLine",
-      "category": "India",
-      "date": "2026-09-04T12:45:16+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "Draft CEA regulations would require two-hour battery storage equal to at least 10% of capacity on all solar and onshore wind projects commissioned after 1 July 2027, rising to four hours from July 2029, plus grid-forming inverter capability. India curbed nearly 14% of solar output in April-June."
-    },
-    {
-      "title": "Sensex rebounds 730 points as Waller cools September hike bets, but Nifty struggles at 24,000",
-      "url": "https://www.business-standard.com/markets/news/sensex-zooms-730-pts-intraday-nifty-reclaims-24k-whats-driving-markets",
-      "source": "Business Standard",
-      "category": "Markets",
-      "date": "2026-09-04T12:30:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "Indian equities snapped a four-day losing run, with the Sensex up 730 points intraday to 76,883 and the Nifty touching 24,005. Reliance alone contributed a third of the Sensex gain. The Nifty Smallcap index hit a fresh lifetime high even as the benchmark struggled below 24,000."
     }
   ]
 }
