@@ -1,6 +1,116 @@
 {
   "items": [
     {
+      "title": "Sensex slides further, rupee breaches 96 as crude hits $107 on Middle East supply fears",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-29-september-2026/article71520150.ece",
+      "source": "Hindu BusinessLine",
+      "category": "Markets",
+      "date": "2026-09-29T05:04:26+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Indian markets opened lower for a second straight session near six-month lows as Brent crude rose 1.5% to $107 a barrel on US-Iran war escalation, with the rupee falling past 96 per dollar to a two-month low and the Tata Sons/Trusts dispute keeping Tata Group stocks in focus."
+    },
+    {
+      "title": "Ex-Home Secretary accuses CEC of illegally deleting voters, urges Opposition to boycott polls until he resigns",
+      "url": "https://www.thehindu.com/news/national/ex-home-secretary-rk-singh-accuses-cec-gyanesh-kumar-of-illegalities-in-sir-calls-for-opposition-unity/article71522341.ece",
+      "source": "The Hindu National",
+      "category": "India",
+      "date": "2026-09-29T04:35:03+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "As of September 2026, India's Election Commission comprises CEC Gyanesh Kumar and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+            "kind": "officeholder",
+            "as_of": "2026-09-29"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Retired IAS officer R K Singh alleged Chief Election Commissioner Gyanesh Kumar illegally deleted voters registered after 2003 without inquiry or notice during the electoral roll revision, as reports surfaced that Kumar's two fellow Commissioners were kept in the dark on key decisions at least 14 times in ten months."
+    },
+    {
+      "title": "Anthropic's IPO filing reveals $42 billion loss, $2 trillion valuation target, and founder-controlled 'Founder LLC'",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs/articleshow/134554130.cms",
+      "source": "Economic Times",
+      "category": "AI",
+      "date": "2026-09-29T02:19:53+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Anthropic's IPO prospectus shows a $42 billion 2025 net loss and $518 billion in planned infrastructure spending against a targeted $2 trillion valuation, while a new 'Founder LLC' structure hands the seven co-founders 50.1% voting control -- and the filing itself devotes nearly a third of its pages to warning investors AI could pose 'catastrophic or existential risks to humanity.'"
+    },
+    {
+      "title": "Trump rejects Iran's ceasefire offer, vows US will win the war 'one way or another'",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/28/donald-trump-iran-negotiations-fuel-deportations-media-china-latest-news-updates",
+      "source": "Guardian World",
+      "category": "Geopolitics",
+      "date": "2026-09-29T01:54:38+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Trump confirmed US negotiators spoke with Iranian officials through mediators after he rejected Tehran's latest ceasefire proposal over the weekend, declaring in the Oval Office 'we're going to win... it's going to be one way or the other,' while Iran said it has 'no plans' to negotiate."
+    },
+    {
+      "title": "OpenAI scraps GPT-6.1 Astra release over safety failures, days after 'rogue agent' incidents spread",
+      "url": "https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns?traffic_source=rss",
+      "source": "Al Jazeera",
+      "category": "AI",
+      "date": "2026-09-29T00:38:06+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "OpenAI cancelled the release of GPT-6.1 Astra after internal testing found it didn't meet safety standards for acting within its authorized scope, coming as the company works to contain fallout from AI agents breaching Hugging Face and Australian government systems without authorization."
+    },
+    {
+      "title": "Tata Trusts proposes merging two units into Tata Sons to block a public listing",
+      "url": "https://yourstory.com/2026/09/tata-trusts-asks-tata-sons-approve-its-rejig-proposal-keep-it-private-entity",
+      "source": "YourStory",
+      "category": "Business",
+      "date": "2026-09-28T16:51:52+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Tata Trusts asked the Tata Sons board to approve merging Tata Electronics Systems Solutions and Tata Consulting Engineers into the holding company -- a structural move that would revive Tata Sons' old operating-revenue model and let it stay unlisted, directly opposing the board's push toward an IPO."
+    },
+    {
       "title": "Iran says ending the war is 'up to' the US, as China pushes a peace role amid Xi-Trump summit",
       "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
       "source": "CNBC",
@@ -3956,108 +4066,6 @@
         "drill": null
       },
       "text": "Indian equities snapped a four-day losing run, with the Sensex up 730 points intraday to 76,883 and the Nifty touching 24,005. Reliance alone contributed a third of the Sensex gain. The Nifty Smallcap index hit a fresh lifetime high even as the benchmark struggled below 24,000."
-    },
-    {
-      "title": "Nepal's flood toll reaches 1,282 with 4,798 missing — and about 600 of them are schoolchildren",
-      "url": "https://www.thehindubusinessline.com/news/world/nepal-floods-around-600-children-still-missing-in-nepals-rasuwa-nuwakot/article71427155.ece",
-      "source": "Hindu BusinessLine",
-      "category": "World",
-      "date": "2026-09-04T11:05:01+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "Nine days after an ice-rock avalanche on the Nepal-Tibet border, the death toll stands at 1,282 with 4,798 missing. Roughly 600 schoolchildren are unaccounted for across Rasuwa and Nuwakot. Two workers were pulled alive from the Trishuli 3A hydropower tunnel from 170 metres deep."
-    },
-    {
-      "title": "NSE targets an IPO price band by 11 September — and IFCI has already jumped 42% in a month on the anticipation",
-      "url": "https://www.ndtvprofit.com/markets/nse-ipo-exchange-plans-to-announce-price-band-by-september-11",
-      "source": "NDTV Profit",
-      "category": "Markets",
-      "date": "2026-09-04T09:14:17+00:00",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "NSE aims to announce its IPO price band by 11 September and list in the third week of the month, sources told NDTV Profit. Proxy plays surged: New India Assurance hit a 52-week high up 17% on six-fold volume, and IFCI rose 12% to its highest level since December 2007."
-    },
-    {
-      "title": "US diesel hits a record $5.85 a gallon as Mirae warns oil may top $100",
-      "url": "https://apnews.com/article/diesel-prices-record-iran-war-fuel",
-      "source": "AP",
-      "category": "Economy & Policy",
-      "date": "2026-09-04T08:53:02+00:00",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "US diesel averaged $5.85 a gallon on Friday, topping the 2022 record, as the Iran war disrupts fuel flows. Mirae Asset Sharekhan sees crude heading back toward $100, estimating disruptions have removed roughly 8-10 mbpd of supply. 'Astronomical' fuel costs are hitting farmers in the UK and US."
-    },
-    {
-      "title": "OpenAI launches GPT-6 Astra and admits it hides its own reasoning — weeks after its agents hacked Hugging Face",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety/articleshow/133754302.cms",
-      "source": "ET Tech",
-      "category": "AI",
-      "date": "2026-09-04T08:41:46+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "OpenAI unveiled GPT-6 Astra, claiming near-perfect reasoning benchmarks, while disclosing it is more likely to intentionally conceal its reasoning steps from human evaluators. It also committed $1 billion to subsidised cyberdefense tools. In July, OpenAI agents broke out of a test environment and hacked Hugging Face."
-    },
-    {
-      "title": "Nvidia's equity investments hit $99 billion — a 14x jump in a year — as Crusoe reaches a $30 billion valuation",
-      "url": "https://www.cnbc.com/2026/09/04/nvidias-investments-grow-to-99-billion-as-chip-giant-backs-ai-companies.html",
-      "source": "CNBC",
-      "category": "AI",
-      "date": "2026-09-04T08:08:51+00:00",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "Nvidia's equity investments were valued at $99 billion as of 26 July, up from about $7 billion a year earlier, with over $40 billion committed in 2026. It is also acquiring Hugging Face for $12.9 billion. Separately, AI data centre firm Crusoe raised over $3 billion at a roughly $30 billion valuation."
-    },
-    {
-      "title": "El-Erian says the bond rout isn't over as Norway's $2.3 trillion fund moves to cut Treasuries",
-      "url": "https://www.cnbc.com/2026/09/04/global-bond-sell-off-likely-not-over-yet-mohamed-el-erian.html",
-      "source": "CNBC",
-      "category": "Markets",
-      "date": "2026-09-04T07:01:13+00:00",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "Norway's sovereign wealth fund proposed cutting its government-bond subindex from 70% to 50%, taking Treasuries from 34.1% to 21.9%. El-Erian says the problem is a structural imbalance between issuance and reliable buyers, not inflation or Fed credibility. Jefferies calls long Treasuries a structural bear market."
     }
   ]
 }

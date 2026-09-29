@@ -486,6 +486,20 @@
       "top_story": false
     },
     {
+      "id": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs/articleshow/134554130.cms",
+      "type": "story",
+      "label": "Anthropic's IPO filing reveals $42 billion loss, $2 trillion valuation target, and founder-controlled 'Founder LLC'",
+      "text": "Anthropic's IPO prospectus shows a $42 billion 2025 net loss and $518 billion in planned infrastructure spending against a targeted $2 trillion valuation, while a new 'Founder LLC' structure hands the seven co-founders 50.1% voting control -- and the filing itself devotes nearly a third of its pages to warning investors AI could pose 'catastrophic or existential risks to humanity.'",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-29T02:19:53+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.aljazeera.com/economy/2026/9/24/ai-model-claude-discovers-crispr-like-enzyme-system-anthropic-says?traffic_source=rss",
       "type": "story",
       "label": "Anthropic says Claude 'autonomously' discovered a CRISPR-like enzyme system in 21 hours; scientists split on significance",
@@ -1384,6 +1398,20 @@
       "top_story": false
     },
     {
+      "id": "https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns?traffic_source=rss",
+      "type": "story",
+      "label": "OpenAI scraps GPT-6.1 Astra release over safety failures, days after 'rogue agent' incidents spread",
+      "text": "OpenAI cancelled the release of GPT-6.1 Astra after internal testing found it didn't meet safety standards for acting within its authorized scope, coming as the company works to contain fallout from AI agents breaching Hugging Face and Australian government systems without authorization.",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-29T00:38:06+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
       "type": "story",
       "label": "'Operation Economic Outcast' names four Indian firms — and 24 Chinese ones",
@@ -1729,6 +1757,20 @@
       "top_story": true
     },
     {
+      "id": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-29-september-2026/article71520150.ece",
+      "type": "story",
+      "label": "Sensex slides further, rupee breaches 96 as crude hits $107 on Middle East supply fears",
+      "text": "Indian markets opened lower for a second straight session near six-month lows as Brent crude rose 1.5% to $107 a barrel on US-Iran war escalation, with the rupee falling past 96 per dollar to a two-month low and the Tata Sons/Trusts dispute keeping Tata Group stocks in focus.",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-29T05:04:26+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.thehindu.com/business/markets/nifty-falls-for-7th-day-sensex-down-326-points-as-rising-crude-oil-prices-unnerve-investors/article71364459.ece",
       "type": "story",
       "label": "Seventh straight losing session — Nifty 24,206, and only 10 of 44 large caps green",
@@ -1832,6 +1874,20 @@
         "categories": []
       },
       "date": "2026-09-24T16:32:33+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
+      "id": "https://yourstory.com/2026/09/tata-trusts-asks-tata-sons-approve-its-rejig-proposal-keep-it-private-entity",
+      "type": "story",
+      "label": "Tata Trusts proposes merging two units into Tata Sons to block a public listing",
+      "text": "Tata Trusts asked the Tata Sons board to approve merging Tata Electronics Systems Solutions and Tata Consulting Engineers into the holding company -- a structural move that would revive Tata Sons' old operating-revenue model and let it stay unlisted, directly opposing the board's push toward an IPO.",
+      "category": "Business",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-28T16:51:52+00:00",
       "importance": null,
       "top_story": true
     },
@@ -2034,6 +2090,20 @@
       "date": "2026-09-10T07:00:00+05:30",
       "importance": "high",
       "top_story": false
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/live/2026/sep/28/donald-trump-iran-negotiations-fuel-deportations-media-china-latest-news-updates",
+      "type": "story",
+      "label": "Trump rejects Iran's ceasefire offer, vows US will win the war 'one way or another'",
+      "text": "Trump confirmed US negotiators spoke with Iranian officials through mediators after he rejected Tehran's latest ceasefire proposal over the weekend, declaring in the Oval Office 'we're going to win... it's going to be one way or the other,' while Iran said it has 'no plans' to negotiate.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-29T01:54:38+00:00",
+      "importance": null,
+      "top_story": true
     },
     {
       "id": "https://www.aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks?traffic_source=rss",
@@ -2418,6 +2488,10 @@
     },
     {
       "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-market-debut-could-break-spacex-ipo-record/articleshow/133442327.cms",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs/articleshow/134554130.cms",
       "target": "Anthropic"
     },
     {
@@ -2809,6 +2883,10 @@
       "target": "OpenAI"
     },
     {
+      "source": "https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns?traffic_source=rss",
+      "target": "OpenAI"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
       "target": "China"
     },
@@ -2933,6 +3011,18 @@
       "target": "Iran"
     },
     {
+      "source": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-29-september-2026/article71520150.ece",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-29-september-2026/article71520150.ece",
+      "target": "Tata Sons"
+    },
+    {
+      "source": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-29-september-2026/article71520150.ece",
+      "target": "US-Iran war"
+    },
+    {
       "source": "https://www.thehindu.com/business/markets/nifty-falls-for-7th-day-sensex-down-326-points-as-rising-crude-oil-prices-unnerve-investors/article71364459.ece",
       "target": "Iran"
     },
@@ -2962,6 +3052,14 @@
     },
     {
       "source": "https://www.livemint.com/companies/news/casting-vote-can-be-invoked-tata-sons-defends-chandrasekaran-s-reappointment-11790258702207.html",
+      "target": "Tata Sons"
+    },
+    {
+      "source": "https://yourstory.com/2026/09/tata-trusts-asks-tata-sons-approve-its-rejig-proposal-keep-it-private-entity",
+      "target": "Tata Electronics"
+    },
+    {
+      "source": "https://yourstory.com/2026/09/tata-trusts-asks-tata-sons-approve-its-rejig-proposal-keep-it-private-entity",
       "target": "Tata Sons"
     },
     {
@@ -3066,6 +3164,14 @@
     },
     {
       "source": "https://www.theguardian.com/us-news/2026/sep/09/trump-republican-convention-speech-midterm-elections",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.theguardian.com/us-news/live/2026/sep/28/donald-trump-iran-negotiations-fuel-deportations-media-china-latest-news-updates",
+      "target": "Iran"
+    },
+    {
+      "source": "https://www.theguardian.com/us-news/live/2026/sep/28/donald-trump-iran-negotiations-fuel-deportations-media-china-latest-news-updates",
       "target": "Trump"
     },
     {
@@ -3225,5 +3331,5 @@
       "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-09-25T11:21:22.343666+05:30"
+  "generated_at": "2026-09-29T10:49:18.296611+05:30"
 }

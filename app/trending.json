@@ -1,80 +1,80 @@
 {
-  "generated_at": "2026-09-25T11:22:39.527358+05:30",
+  "generated_at": "2026-09-29T10:50:55.231881+05:30",
   "items": [
     {
-      "platform": "Reddit",
-      "topic": "Lemme see the cats that are not named after dark or evil stuff",
-      "meta": "r/blackcats · 11434 upvotes",
-      "url": "https://www.reddit.com/r/blackcats/comments/1wpfoi4/lemme_see_the_cats_that_are_not_named_after_dark/",
+      "platform": "X (Twitter)",
+      "topic": "#WorldHeartDay",
+      "meta": "Only on X · Trending",
+      "url": "https://x.com/search?q=%23WorldHeartDay",
       "rank": 1
     },
     {
-      "platform": "Google Trends",
-      "topic": "the paradise movie",
-      "meta": "20000+ searches",
-      "url": "https://www.eenadu.net/telugu-news/movies/the-paradise-movie-review-in-telugu-did-nani-action-thriller-impress-the-audience/0203/126172551",
+      "platform": "Reddit",
+      "topic": "meirl",
+      "meta": "r/meirl · 21768 upvotes",
+      "url": "https://www.reddit.com/r/meirl/comments/1wswnc1/meirl/",
       "rank": 2
     },
     {
-      "platform": "Reddit",
-      "topic": "My cat said he wants to fight your cat. Photo replies only",
-      "meta": "r/cats · 7575 upvotes",
-      "url": "https://www.reddit.com/r/cats/comments/1wpdflr/my_cat_said_he_wants_to_fight_your_cat_photo/",
+      "platform": "Google Trends",
+      "topic": "coloros 17",
+      "meta": "500+ searches",
+      "url": "https://www.geekpark.net/news/371270",
       "rank": 3
     },
     {
-      "platform": "Google Trends",
-      "topic": "asian games athletics",
-      "meta": "1000+ searches",
-      "url": "https://www.espn.in/espn/story/_/id/50021134/india-asian-games-live-updates-scores-news-results-commentary-schedule-timings-september-25-2026-aichi-nagoya",
+      "platform": "X (Twitter)",
+      "topic": "#AI_Multibagger_Stock",
+      "meta": "Trending in India",
+      "url": "https://x.com/search?q=%23AI_Multibagger_Stock",
       "rank": 4
     },
     {
       "platform": "Reddit",
-      "topic": "Random guy knocked on my door and asked how long I've been sleeping with his girlfriend",
-      "meta": "r/BoyDinnerDiaries · 27895 upvotes",
-      "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wpk0rr/random_guy_knocked_on_my_door_and_asked_how_long/",
+      "topic": "What female singer has the most beautiful voice you’ve ever heard?",
+      "meta": "r/AskReddit · 888 upvotes",
+      "url": "https://www.reddit.com/r/AskReddit/comments/1wswnkt/what_female_singer_has_the_most_beautiful_voice/",
       "rank": 5
     },
     {
       "platform": "Google Trends",
-      "topic": "hassan eisakhil",
-      "meta": "2000+ searches",
-      "url": "https://www.aajtak.in/sports/cricket/story/japan-bowlers-performance-afghanistan-129-6-asian-games-2026-ibrahim-takahashi-tspok-dskc-2651762-2026-09-24",
+      "topic": "ಮಳೆ",
+      "meta": "5000+ searches",
+      "url": "https://publictv.in/heavy-rain-warning-for-karnataka-southern-interior-region-for-the-next-5-days/",
       "rank": 6
     },
     {
-      "platform": "Reddit",
-      "topic": "Wife frequently complains that our dryer is not drying properly.",
-      "meta": "r/mildlyinfuriating · 25723 upvotes",
-      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1wp84o1/wife_frequently_complains_that_our_dryer_is_not/",
+      "platform": "X (Twitter)",
+      "topic": "दिव्या मित्तल",
+      "meta": "Trending in India",
+      "url": "https://x.com/search?q=%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B2",
       "rank": 7
     },
     {
-      "platform": "Google Trends",
-      "topic": "marvel avengers endgame encore",
-      "meta": "2000+ searches",
-      "url": "https://www.marvel.com/articles/movies/marvel-studios-avengers-endgame-encore-anthony-russo-interview",
+      "platform": "Reddit",
+      "topic": "Google Maps Updates thier Images",
+      "meta": "r/justincaseyoumissedit · 6765 upvotes",
+      "url": "https://www.reddit.com/r/justincaseyoumissedit/comments/1wsih70/google_maps_updates_thier_images/",
       "rank": 8
     },
     {
-      "platform": "Reddit",
-      "topic": "Prototype, Dino Crisis",
-      "meta": "r/videogames · 2178 upvotes",
-      "url": "https://www.reddit.com/r/videogames/comments/1wph683/prototype_dino_crisis/",
+      "platform": "Google Trends",
+      "topic": "tanya mishra",
+      "meta": "10000+ searches",
+      "url": "https://www.imdb.com/news/ni66034922/?ref_=nm_nwr_1",
       "rank": 9
     },
     {
-      "platform": "Google Trends",
-      "topic": "vivo v80 5g",
-      "meta": "1000+ searches",
-      "url": "https://www.gsmarena.com/vivo_v80_hands_on_camera_samples-news-74742.php",
+      "platform": "X (Twitter)",
+      "topic": "#TOIHomeDecorAwards2026",
+      "meta": "Trending in India",
+      "url": "https://x.com/search?q=%23TOIHomeDecorAwards2026",
       "rank": 10
     }
   ],
   "sources": {
     "Google Trends": true,
     "Reddit": true,
-    "X (Twitter)": false
+    "X (Twitter)": true
   }
 }
