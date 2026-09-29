@@ -5,8 +5,6 @@ import { pickColor } from '../lib.js'
 const W = 700
 const H = 560
 const TICKS = 400
-const POPUP_W = 340
-const TIMELINE_W = 480
 const BBOX_PAD = 60
 const LABEL_H = 16
 
@@ -125,17 +123,37 @@ function otherEnd(link, id) {
   return s === id ? t : (t === id ? s : null)
 }
 
-function FocusPanel({ id, nodes, links, pos, onClose }) {
+// A gentle left-right wave through the dots' vertical positions, drawn as
+// one continuous cubic-bezier path -- the "flowing line" look, not a flat
+// list rule. Amplitude is small and fixed; only the curve control points
+// alternate side, so it reads as one smooth current rather than a zigzag.
+const FLOW_AMPLITUDE = 22
+const FLOW_ROW_H = 108
+
+function flowPath(count) {
+  if (count < 2) return ''
+  const points = Array.from({ length: count }, (_, i) => ({
+    x: i % 2 === 0 ? FLOW_AMPLITUDE : -FLOW_AMPLITUDE,
+    y: i * FLOW_ROW_H,
+  }))
+  let d = 'M ' + points[0].x + ' ' + points[0].y
+  for (let i = 1; i < points.length; i++) {
+    const prev = points[i - 1], cur = points[i]
+    const midY = (prev.y + cur.y) / 2
+    d += ' C ' + prev.x + ' ' + midY + ' ' + cur.x + ' ' + midY + ' ' + cur.x + ' ' + cur.y
+  }
+  return d
+}
+
+function DetailPanel({ id, nodes, links }) {
   const node = nodes.find((n) => n.id === id)
   if (!node) return null
-  const style = { left: pos.x, top: pos.y }
   if (node.type === 'story') {
     return (
-      <div className="ofocus" style={style}>
-        <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
-        <div className="ofocus-title">{node.label}</div>
-        <div className="ofocus-meta">{node.category}{node.date ? ' · ' + String(node.date).slice(0, 10) : ''}</div>
-        {node.text && <p className="ofocus-gist">{node.text}</p>}
+      <div className="odetail-card">
+        <div className="odetail-title">{node.label}</div>
+        <div className="odetail-meta">{node.category}{node.date ? ' · ' + String(node.date).slice(0, 10) : ''}</div>
+        {node.text && <p className="odetail-gist">{node.text}</p>}
         <a href={node.id} target="_blank" rel="noopener noreferrer" className="srcbtn">Open source</a>
       </div>
     )
@@ -147,21 +165,32 @@ function FocusPanel({ id, nodes, links, pos, onClose }) {
     .map((l) => nodes.find((n) => n.id === otherEnd(l, id)))
     .filter(Boolean)
     .sort((a, b) => String(a.date || '').localeCompare(String(b.date || '')))
+  const path = flowPath(connected.length)
   return (
-    <div className="ofocus ofocus-wide" style={style}>
-      <button className="ofocus-close" onClick={onClose} aria-label="Close">×</button>
-      <div className="ofocus-title">{node.label}</div>
-      <div className="ofocus-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'} — the whole thread, oldest to newest</div>
-      <ol className="otimeline">
-        {connected.map((c) => (
-          <li key={c.id}>
-            <span className="otimeline-dot" aria-hidden="true" />
-            {c.date && <span className="otimeline-date">{String(c.date).slice(0, 10)}</span>}
-            <a href={c.id} target="_blank" rel="noopener noreferrer" className="otimeline-title">{c.label}</a>
-            {c.text && <p>{c.text}</p>}
-          </li>
-        ))}
-      </ol>
+    <div>
+      <div className="odetail-title">{node.label}</div>
+      <div className="odetail-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'} — the whole thread, oldest to newest</div>
+      <div className="oflow-wrap">
+        {connected.length > 1 && (
+          <svg
+            className="oflow-svg"
+            viewBox={(-FLOW_AMPLITUDE - 10) + ' -20 ' + (FLOW_AMPLITUDE * 2 + 20) + ' ' + (connected.length * FLOW_ROW_H)}
+            preserveAspectRatio="none"
+          >
+            <path d={path} className="oflow-line" />
+          </svg>
+        )}
+        <ol className="otimeline">
+          {connected.map((c) => (
+            <li key={c.id}>
+              <span className="otimeline-dot" aria-hidden="true" />
+              {c.date && <span className="otimeline-date">{String(c.date).slice(0, 10)}</span>}
+              <a href={c.id} target="_blank" rel="noopener noreferrer" className="otimeline-title">{c.label}</a>
+              {c.text && <p>{c.text}</p>}
+            </li>
+          ))}
+        </ol>
+      </div>
     </div>
   )
 }
@@ -169,7 +198,6 @@ function FocusPanel({ id, nodes, links, pos, onClose }) {
 export default function ObsidianGraph({ graph }) {
   const wrapRef = useRef(null)
   const [focused, setFocused] = useState(null)
-  const [popupPos, setPopupPos] = useState({ x: 0, y: 0 })
   const [query, setQuery] = useState('')
 
   const { nodes, links } = useMemo(() => {
@@ -213,14 +241,6 @@ export default function ObsidianGraph({ graph }) {
 
   function pickNode(e, id) {
     e.stopPropagation()
-    const wrapRect = wrapRef.current.getBoundingClientRect()
-    const n = nodes.find((node) => node.id === id)
-    const popupW = n && n.type === 'entity' ? TIMELINE_W : POPUP_W
-    let x = e.clientX - wrapRect.left + 12
-    let y = e.clientY - wrapRect.top + 12
-    x = Math.min(x, wrapRect.width - Math.min(popupW, wrapRect.width - 16) - 8)
-    y = Math.min(y, wrapRect.height - 40)
-    setPopupPos({ x: Math.max(8, x), y: Math.max(8, y) })
     setFocused(id)
   }
 
@@ -303,9 +323,11 @@ export default function ObsidianGraph({ graph }) {
           })}
         </svg>
       </div>
-      {focused && (
-        <FocusPanel id={focused} nodes={nodes} links={links} pos={popupPos} onClose={() => setFocused(null)} />
-      )}
+      <div className="odetail">
+        {focused
+          ? <DetailPanel id={focused} nodes={nodes} links={links} />
+          : <div className="odetail-hint">Click a node to see its story.</div>}
+      </div>
     </div>
   )
 }
