@@ -1,6 +1,6 @@
 import { useMemo, useRef, useState } from 'react'
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY } from 'd3-force'
-import { pickColor } from '../lib.js'
+import { FLAT_PALETTE, pickColor } from '../lib.js'
 
 const W = 700
 const H = 560
@@ -158,18 +158,17 @@ function DetailPanel({ id, nodes, links }) {
       </div>
     )
   }
-  // Oldest first -- a timeline reads as the story developing over time,
-  // the same order the cinema-strip reference reads left to right.
+  // Newest first -- the most recent development in the story leads.
   const connected = links
     .filter((l) => (l.source.id || l.source) === id || (l.target.id || l.target) === id)
     .map((l) => nodes.find((n) => n.id === otherEnd(l, id)))
     .filter(Boolean)
-    .sort((a, b) => String(a.date || '').localeCompare(String(b.date || '')))
+    .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
   const path = flowPath(connected.length)
   return (
     <div>
       <div className="odetail-title">{node.label}</div>
-      <div className="odetail-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'} — the whole thread, oldest to newest</div>
+      <div className="odetail-meta">{connected.length} connected {connected.length === 1 ? 'story' : 'stories'} — the whole thread, newest to oldest</div>
       <div className="oflow-wrap">
         {connected.length > 1 && (
           <svg
@@ -181,14 +180,17 @@ function DetailPanel({ id, nodes, links }) {
           </svg>
         )}
         <ol className="otimeline">
-          {connected.map((c) => (
-            <li key={c.id}>
-              <span className="otimeline-dot" aria-hidden="true" />
-              {c.date && <span className="otimeline-date">{String(c.date).slice(0, 10)}</span>}
-              <a href={c.id} target="_blank" rel="noopener noreferrer" className="otimeline-title">{c.label}</a>
-              {c.text && <p>{c.text}</p>}
-            </li>
-          ))}
+          {connected.map((c, i) => {
+            const dotColor = FLAT_PALETTE[i % FLAT_PALETTE.length]
+            return (
+              <li key={c.id}>
+                <span className="otimeline-dot" style={{ background: dotColor, boxShadow: '0 0 0 3px ' + dotColor + '33' }} aria-hidden="true" />
+                {c.date && <span className="otimeline-date" style={{ color: dotColor }}>{String(c.date).slice(0, 10)}</span>}
+                <a href={c.id} target="_blank" rel="noopener noreferrer" className="otimeline-title">{c.label}</a>
+                {c.text && <p>{c.text}</p>}
+              </li>
+            )
+          })}
         </ol>
       </div>
     </div>
