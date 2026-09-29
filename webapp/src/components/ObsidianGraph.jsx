@@ -186,8 +186,8 @@ function DetailPanel({ id, nodes, links }) {
               <li key={c.id}>
                 <span className="otimeline-dot" style={{ background: dotColor, boxShadow: '0 0 0 3px ' + dotColor + '33' }} aria-hidden="true" />
                 {c.date && <span className="otimeline-date" style={{ color: dotColor }}>{String(c.date).slice(0, 10)}</span>}
-                <a href={c.id} target="_blank" rel="noopener noreferrer" className="otimeline-title">{c.label}</a>
-                {c.text && <p>{c.text}</p>}
+                <a href={c.id} target="_blank" rel="noopener noreferrer" className="otimeline-title" style={{ color: dotColor }}>{c.label}</a>
+                {c.text && <p style={{ color: dotColor, opacity: 0.75 }}>{c.text}</p>}
               </li>
             )
           })}
