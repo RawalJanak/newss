@@ -297,7 +297,7 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 /* ---------- page flip ---------- */
 .pageflip-stage { position:relative; perspective:1800px; }
 .pageflip-page { position:relative; background:var(--bg); }
-.pageflip-stage:has(.pageflip-turning) .pageflip-page { position:absolute; inset:0; overflow-y:auto; max-height:100vh; }
+.pageflip-stage:has(.pageflip-turning) .pageflip-turning { position:absolute; inset:0; overflow-y:auto; max-height:100vh; }
 .pageflip-turning { transform-origin:left center; backface-visibility:hidden;
                      animation:pageturn .64s cubic-bezier(.4,.1,.2,1) forwards; z-index:2; }
 .pageflip-under { z-index:1; }
