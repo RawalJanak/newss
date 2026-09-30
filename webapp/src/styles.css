@@ -294,6 +294,18 @@ mark { background:var(--accent-wash); color:var(--accent); font-weight:700; padd
 .wrow .wt { font-size:13.5px; line-height:1.45; flex:1; }
 .wrow .wsrc { font-size:10.5px; color:var(--faint); flex:none; }
 
+/* ---------- page flip ---------- */
+.pageflip-stage { position:relative; perspective:1800px; }
+.pageflip-page { position:relative; background:var(--bg); }
+.pageflip-stage:has(.pageflip-turning) .pageflip-page { position:absolute; inset:0; overflow-y:auto; max-height:100vh; }
+.pageflip-turning { transform-origin:left center; backface-visibility:hidden;
+                     animation:pageturn .64s cubic-bezier(.4,.1,.2,1) forwards; z-index:2; }
+.pageflip-under { z-index:1; }
+@keyframes pageturn { from { transform:rotateY(0deg); } to { transform:rotateY(-155deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .pageflip-turning { animation:none; display:none; }
+}
+
 /* ---------- bottom nav ---------- */
 .tabbar { position:fixed; left:0; right:0; bottom:0; z-index:70; background:var(--surface); border-top:1px solid var(--line);
           padding-bottom:env(safe-area-inset-bottom); }

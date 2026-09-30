@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import CardFeed from './components/CardFeed.jsx'
 import ImportantSection from './components/ImportantSection.jsx'
 import ObsidianGraph from './components/ObsidianGraph.jsx'
@@ -17,6 +17,11 @@ function readTheme() {
 export default function App() {
   const [theme, setTheme] = useState(readTheme)
   const [tab, setTab] = useState('home')
+  const [flipping, setFlipping] = useState(null) // the tab being flipped away, or null
+  const [nextTab, setNextTab] = useState(null)   // the tab flipping in underneath
+  // Mirrors `flipping` but updates synchronously (state is batched, so two
+  // clicks fired before a re-render commits both see stale `flipping`).
+  const flipLockRef = useRef(false)
   const [region, setRegion] = useState('all')
   const [cat, setCat] = useState('All')
   const [market, setMarket] = useState('india')
@@ -93,8 +98,23 @@ export default function App() {
   }, [mkt])
 
   function switchTab(t) {
-    setTab(t)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    if (t === tab || flipLockRef.current) return
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (prefersReduced) {
+      setTab(t)
+      window.scrollTo({ top: 0, behavior: 'auto' })
+      return
+    }
+    flipLockRef.current = true
+    setFlipping(tab)
+    setNextTab(t)
+    window.scrollTo({ top: 0, behavior: 'auto' })
+    setTimeout(() => {
+      setTab(t)
+      setFlipping(null)
+      setNextTab(null)
+      flipLockRef.current = false
+    }, 640)
   }
   function pick(fn) {
     fn()
@@ -102,6 +122,23 @@ export default function App() {
   }
 
   const openArticleObj = data.find((a) => a.url === openUrl) || null
+
+  function renderTab(t) {
+    if (error) return <div className="empty">Could not load.<br />{error}</div>
+    if (!digest) return <div className="empty">Loading…</div>
+    if (t === 'home') {
+      return (
+        <>
+          {cat === 'All' && <ImportantSection items={important} data={data} onOpen={(a) => openArticle(a.url)} />}
+          <CardFeed data={data} briefs={briefs} wire={wire} region={region} cat={cat} onOpen={(a) => openArticle(a.url)} />
+        </>
+      )
+    }
+    if (t === 'markets') return <MarketsBelt mkt={mkt} market={market} stamp={mktStamp} />
+    if (t === 'obsidian') return <ObsidianGraph graph={graph} />
+    if (t === 'trending') return <TrendingSection trending={trending} />
+    return <GlossaryNebula data={data} />
+  }
 
   return (
     <>
@@ -139,24 +176,14 @@ export default function App() {
         </div>
       </div>
 
-      <main className="wrap">
-        {error ? (
-          <div className="empty">Could not load.<br />{error}</div>
-        ) : !digest ? (
-          <div className="empty">Loading…</div>
-        ) : tab === 'home' ? (
+      <main className="wrap pageflip-stage">
+        {flipping ? (
           <>
-            {cat === 'All' && <ImportantSection items={important} data={data} onOpen={(a) => openArticle(a.url)} />}
-            <CardFeed data={data} briefs={briefs} wire={wire} region={region} cat={cat} onOpen={(a) => openArticle(a.url)} />
+            <div className="pageflip-page pageflip-turning">{renderTab(flipping)}</div>
+            <div className="pageflip-page pageflip-under">{renderTab(nextTab)}</div>
           </>
-        ) : tab === 'markets' ? (
-          <MarketsBelt mkt={mkt} market={market} stamp={mktStamp} />
-        ) : tab === 'obsidian' ? (
-          <ObsidianGraph graph={graph} />
-        ) : tab === 'trending' ? (
-          <TrendingSection trending={trending} />
         ) : (
-          <GlossaryNebula data={data} />
+          <div className="pageflip-page">{renderTab(tab)}</div>
         )}
       </main>
 
