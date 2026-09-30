@@ -1,80 +1,80 @@
 {
-  "generated_at": "2026-09-29T18:12:17.356564+05:30",
+  "generated_at": "2026-09-30T10:55:35.544912+05:30",
   "items": [
     {
-      "platform": "X (Twitter)",
-      "topic": "#PallePanduga",
-      "meta": "Science · Trending",
-      "url": "https://x.com/search?q=%23PallePanduga",
+      "platform": "Google Trends",
+      "topic": "ಡಿ ಕೆ ಶಿವಕುಮಾರ್",
+      "meta": "5000+ searches",
+      "url": "https://www.kannadaprabha.com/politics/2026/Sep/30/yes-i-have-acquired-assets-within-the-legal-framework-cm-d-k-shivakumar",
       "rank": 1
     },
     {
-      "platform": "Reddit",
-      "topic": "What game ending left you staring at the screen in complete silence?",
-      "meta": "r/videogames · 10165 upvotes",
-      "url": "https://www.reddit.com/r/videogames/comments/1wslfzy/what_game_ending_left_you_staring_at_the_screen/",
+      "platform": "Google Trends",
+      "topic": "october",
+      "meta": "2000+ searches",
+      "url": "https://m.economictimes.com/wealth/save/bank-holidays-in-october-2026-gandhi-jayanti-dussehra-durga-puja-and-more-check-full-list/articleshow/134560301.cms",
       "rank": 2
     },
     {
       "platform": "Google Trends",
-      "topic": "south sudan vs egypt",
+      "topic": "వీరమాచనేని రామకృష్ణ",
       "meta": "2000+ searches",
-      "url": "https://www.espn.in/football/story/_/id/50050926/mohamed-salah-egypt-afcon-qualifying-south-sudan-trabzonspor",
+      "url": "https://www.sakshi.com/telugu-news/telangana/case-registered-against-veeramachaneni-ramakrishna-2917728",
       "rank": 3
     },
     {
-      "platform": "X (Twitter)",
-      "topic": "#Habuildworldheartday",
-      "meta": "Trending in India",
-      "url": "https://x.com/search?q=%23Habuildworldheartday",
+      "platform": "Google Trends",
+      "topic": "srit india ipo gmp",
+      "meta": "2000+ searches",
+      "url": "https://ipowatch.in/srit-india-ipo/",
       "rank": 4
     },
     {
-      "platform": "Reddit",
-      "topic": "older girls, does it ever get better??",
-      "meta": "r/GirlDinnerDiaries · 4686 upvotes",
-      "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1wspc2k/older_girls_does_it_ever_get_better/",
+      "platform": "Google Trends",
+      "topic": "apple pay india",
+      "meta": "2000+ searches",
+      "url": "https://www.apple.com/in/newsroom/2026/09/apple-pay-launches-in-india/",
       "rank": 5
     },
     {
       "platform": "Google Trends",
-      "topic": "comoros vs namibia",
+      "topic": "india national cricket team vs west indies cricket team players",
       "meta": "2000+ searches",
-      "url": "https://www.beinsports.com/en-us/soccer/africa-cup-of-nations-qualification/articles/how-and-where-to-watch-comoros-vs-namibia-live-on-bein-sports-2026-09-27",
+      "url": "https://www.icc-cricket.com/news/kohli-savours-challenge-of-playing-with-a-free-mind",
       "rank": 6
     },
     {
-      "platform": "X (Twitter)",
-      "topic": "#EssarMakesHistory",
-      "meta": "Trending in India",
-      "url": "https://x.com/search?q=%23EssarMakesHistory",
+      "platform": "Google Trends",
+      "topic": "kota news",
+      "meta": "1000+ searches",
+      "url": "https://www.kotatv.com/2026/09/29/rapid-city-man-knocks-himself-out-during-foot-chase-following-restaurant-disturbance-police-pursuit/",
       "rank": 7
     },
     {
-      "platform": "Reddit",
-      "topic": "The timing on the sips 😭🤌",
-      "meta": "r/MadeMeSmile · 9029 upvotes",
-      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1wt54xn/the_timing_on_the_sips/",
+      "platform": "Google Trends",
+      "topic": "asian games 2026 medal tally",
+      "meta": "5000+ searches",
+      "url": "https://www.rediff.com/sports/report/indian-womens-compound-team-wins-asian-games-gold-with-world-record/20260930.htm",
       "rank": 8
     },
     {
       "platform": "Google Trends",
-      "topic": "ગુજરાત",
+      "topic": "govinda",
       "meta": "1000+ searches",
-      "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/news/gujarat-high-court-dismisses-arvind-kejriwal-appeal-modi-degree-case-139188712.html",
+      "url": "https://www.ndtv.com/entertainment/sunita-ahuja-on-govinda-komal-rani-swarnkar-s-lalbaugcha-raja-visit-god-bless-him-12109576",
       "rank": 9
     },
     {
-      "platform": "X (Twitter)",
-      "topic": "#RabiConference2026",
-      "meta": "Trending in India",
-      "url": "https://x.com/search?q=%23RabiConference2026",
+      "platform": "Google Trends",
+      "topic": "video film",
+      "meta": "1000+ searches",
+      "url": "https://www.deccanchronicle.com/entertainment/vidyut-jammwals-street-fighter-arrives-resident-evil-angry-birds-sonic-the-hedgehog-more-games-that-made-it-to-the-big-screen-1991567",
       "rank": 10
     }
   ],
   "sources": {
     "Google Trends": true,
-    "Reddit": true,
-    "X (Twitter)": true
+    "Reddit": false,
+    "X (Twitter)": false
   }
 }

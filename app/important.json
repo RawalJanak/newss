@@ -1,6 +1,103 @@
 {
   "items": [
     {
+      "title": "Around 20 Congress workers booked for attempt to murder over defacing CEC Gyanesh Kumar's house",
+      "url": "https://www.thehindu.com/news/national/congress-workers-booked-for-attempt-to-murder-over-defacement-of-cec-gyanesh-kumars-agra-house/article71526795.ece",
+      "source": "The Hindu National",
+      "category": "India",
+      "date": "2026-09-30T05:01:05+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "high",
+        "categories": [
+          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "In September 2026, protests and legal disputes over CEC Gyanesh Kumar's conduct during the Special Intensive Revision (SIR) escalated to criminal charges against protesting party workers.",
+            "kind": "date",
+            "as_of": "2026-09-30"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Six Congress leaders were arrested and jailed after party workers allegedly spray-painted slogans on Chief Election Commissioner Gyanesh Kumar's Agra residence during a protest, with police invoking attempt-to-murder charges the party calls 'false' -- a sharp escalation in the CEC-removal storyline this newsroom has tracked since Wednesday."
+    },
+    {
+      "title": "OpenAI seeks $30 billion at $1.4 trillion valuation, a day after Anthropic's IPO warned of 'existential' AI risk",
+      "url": "https://www.livemint.com/companies/news/openai-to-seek-30-billion-in-fresh-funding-at-a-valuation-of-1-4-trillion-amid-growing-ai-risks-debate-11790743363349.html",
+      "source": "Mint",
+      "category": "AI",
+      "date": "2026-09-30T04:52:41+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "OpenAI is reportedly pursuing a $30 billion bridge round at a $1.4 trillion valuation -- above Anthropic's private-market value -- with Sam Altman saying he wants to avoid the pressure of being newly public while AI safety scrutiny grows, even as OpenAI's own models were behind this month's Hugging Face and Australian government breaches."
+    },
+    {
+      "title": "Trump orders federal government to rename 'Artificial Intelligence' as 'Super Intelligence'",
+      "url": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
+      "source": "CNBC",
+      "category": "AI",
+      "date": "2026-09-29T22:42:35+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Trump signed an executive order banning the terms 'AI' and 'artificial intelligence' from all executive-branch communications in favor of 'Super Intelligence', the same day six tech CEOs signed a voluntary, Trump-called-it-'morally-binding' accord to self-police AI development -- as a new poll shows only 25% approve of his handling of AI."
+    },
+    {
+      "title": "Shaktikanta Das: India remains a 'bright spot' with 7.9% average growth, warns Global South faces asymmetric risk",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/india-a-bright-spot-amid-uncertainty-shaktikanta-das/articleshow/134573133.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-09-29T19:02:59+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "PM's principal secretary Shaktikanta Das said India averaged 7.9% real GDP growth over the past five years and highlighted structural reforms behind it, while telling a new India-Global South forum that developing economies face compounding poverty, debt, climate and technology-access challenges requiring stronger international cooperation."
+    },
+    {
+      "title": "India's services output grew 13.5% in July, 17 of 19 tracked sectors expanding",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/services-output-grows-13-5-17-of-19-sectors-expand/articleshow/134572975.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-09-29T18:58:25+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "India's new trial services index showed broad-based July growth led by administrative/support services (up 20.9%) and retail trade (up 18.5%), though air transport contracted 8.4% for a second straight month as geopolitical tensions and fuel costs bite -- the same sector already squeezed by the Pakistan airspace ban and $107 crude."
+    },
+    {
       "title": "Supreme Court calls 10x cancer-drug price markups 'carnage', questions why retailers profit while patients pay",
       "url": "https://www.thehindu.com/news/national/supreme-court-questions-steep-mark-ups-on-cancer-drugs-calls-pricing-disparity-carnage/article71523314.ece",
       "source": "The Hindu National",
@@ -18,6 +115,25 @@
         "drill": null
       },
       "text": "The Supreme Court questioned why an essential cancer drug supplied to retailers for ₹3,000 sells to consumers for ₹27,000, with the Centre's Solicitor General conceding private hospitals -- not drugmakers -- pocket most of the markup, as the court weighs applying DPCO's 16% retailer-margin cap uniformly across essential medicines."
+    },
+    {
+      "title": "Sitharaman and Qatar accelerate $10 billion investment pact, UPI expansion talks in Doha",
+      "url": "https://www.thehindubusinessline.com/news/india-qatar-step-up-talks-on-investment-treaty-and-free-trade-agreement/article71525370.ece",
+      "source": "Hindu BusinessLine",
+      "category": "Economy & Policy",
+      "date": "2026-09-29T16:33:21+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Finance Minister Sitharaman met Qatari ministers on the sidelines of the AIIB annual meeting to accelerate a Bilateral Investment Treaty, expand Indian UPI payments across Qatar, and push forward Qatar's $10 billion India investment commitment -- while also raising unimpeded navigation through the Strait of Hormuz."
     },
     {
       "title": "Trump denies offering Iran sanctions relief for nuclear concessions",
@@ -3939,137 +4055,6 @@
         "drill": null
       },
       "text": "The Delhi High Court appointed Gautam Bhatia as amicus curiae in Janhvi Kapoor's personality rights case and ordered 552 URLs removed."
-    },
-    {
-      "title": "Gunjan Kumar has been appointed director of employee experience for India at MongoDB.",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa0hNd1pSb2t0STJfa2FLU19EZlQwdGMzLUt4dldzTjhHRGRKZVhtOFFOTnRhT0VaS3ZyLUZXYTNHREJDQmo1aDdwZEN6TVdDZmt1UEQtS1dNWmtXcjBhakxmSTNJUnRLRmVwdktLcjRiQ0djNWV2U0dpVlRFdUx3RUFSWnp6R2RSUlllWW95VHNya0I0Vm9ENzBXWnZ4Z1k1ZlJKbVFSQkxLZw?oc=5",
-      "source": "GN Appointments",
-      "category": "Business",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "Gunjan Kumar is MongoDB's director of employee experience for India",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Gunjan Kumar has been appointed director of employee experience for India at MongoDB."
-    },
-    {
-      "title": "The 2026 G20 Summit will be hosted by the US at Trump National Doral Miami, Florida, on 14-15 December.",
-      "url": "https://www.livemint.com/news/india/indiaus-trade-deal-to-be-finalised-in-next-few-months-trump-s-priority-at-g20-and-a-hint-from-us-envoy-sergio-gor-11788580296390.html#g20",
-      "source": "Mint",
-      "category": "Geopolitics",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "The 2026 G20 Summit is in Miami, Florida on 14-15 December 2026",
-            "kind": "date",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "The 2026 G20 Summit will be hosted by the US at Trump National Doral Miami, Florida, on 14-15 December."
-    },
-    {
-      "title": "Volkswagen will cut 100,000 jobs in total — and 12% of its India workforce by 2027",
-      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/volkswagen-to-fire-12-of-its-india-workforce-amid-major-cost-overhaul/articleshow/133758060.cms",
-      "source": "ET Markets",
-      "category": "Business",
-      "date": "2026-09-04T14:51:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "Volkswagen's supervisory board approved 'Future Plan 2030', cutting a further 50,000 jobs on top of 50,000 already approved — 100,000 by 2030 from a workforce of over 660,000. It will halve its model lineup by 2035 and cut 2027-31 capex 16%. India will lose about 12% of its workforce by 2027."
-    },
-    {
-      "title": "SEBI starts hearings to claw back $22 million from the Hindenburg-Kingdon short trade",
-      "url": "https://www.thehindubusinessline.com/markets/sebi-goes-after-hindenburg-others-in-adani-case/article71427687.ece",
-      "source": "Hindu BusinessLine",
-      "category": "Markets",
-      "date": "2026-09-04T14:46:26+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": false,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "SEBI has begun personal hearings to recover gains from trades it says benefited from advance knowledge of Hindenburg's 2023 Adani report. It alleges six entities gained $22.25 million and is opposing Mauritius insolvency proceedings for the Kotak-linked fund used to execute the trades."
-    },
-    {
-      "title": "Witkoff and Kushner carry a peace proposal to Moscow and Kyiv this weekend",
-      "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Geopolitics",
-      "date": "2026-09-04T14:27:10+00:00",
-      "kind": "article",
-      "importance": "medium",
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "Russia's full-scale invasion of Ukraine began in February 2022",
-            "kind": "date",
-            "as_of": "2026-09-05"
-          },
-          {
-            "fact": "Russia controls about 20% of Ukrainian territory as of September 2026",
-            "kind": "number",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "US negotiators Steve Witkoff and Jared Kushner visit Moscow on Saturday and Kyiv on Sunday carrying what Trump calls a proposal to end the war. Zelenskyy will meet them Sunday and has offered to guarantee Russian airspace safety during the visit."
-    },
-    {
-      "title": "SEBI will propose changing derivative settlement prices after CAS produced a 2,100-point Sensex swing",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-chaos-after-cas-what-exactly-is-sebi-reviewing/articleshow/133757024.cms",
-      "source": "ET Markets",
-      "category": "Markets",
-      "date": "2026-09-04T14:12:00+05:30",
-      "kind": "article",
-      "importance": "high",
-      "top_story": true,
-      "exam": {
-        "relevance": "none",
-        "categories": [],
-        "facts": [],
-        "drill": null
-      },
-      "text": "SEBI said it may change how derivative settlement prices are determined after feedback on CAS-based closing prices, with a consultation paper due in about a week. Angel One rose nearly 8%, BSE 5% and Groww 3%. On Thursday's BSE expiry the Sensex fell about 2,100 points in the auction's first five minutes."
     }
   ]
 }

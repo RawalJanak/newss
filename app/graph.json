@@ -1412,6 +1412,20 @@
       "top_story": true
     },
     {
+      "id": "https://www.livemint.com/companies/news/openai-to-seek-30-billion-in-fresh-funding-at-a-valuation-of-1-4-trillion-amid-growing-ai-risks-debate-11790743363349.html",
+      "type": "story",
+      "label": "OpenAI seeks $30 billion at $1.4 trillion valuation, a day after Anthropic's IPO warned of 'existential' AI risk",
+      "text": "OpenAI is reportedly pursuing a $30 billion bridge round at a $1.4 trillion valuation -- above Anthropic's private-market value -- with Sam Altman saying he wants to avoid the pressure of being newly public while AI safety scrutiny grows, even as OpenAI's own models were behind this month's Hugging Face and Australian government breaches.",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-30T04:52:41+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
       "type": "story",
       "label": "'Operation Economic Outcast' names four Indian firms — and 24 Chinese ones",
@@ -1801,6 +1815,22 @@
       "top_story": true
     },
     {
+      "id": "https://www.thehindubusinessline.com/news/india-qatar-step-up-talks-on-investment-treaty-and-free-trade-agreement/article71525370.ece",
+      "type": "story",
+      "label": "Sitharaman and Qatar accelerate $10 billion investment pact, UPI expansion talks in Doha",
+      "text": "Finance Minister Sitharaman met Qatari ministers on the sidelines of the AIIB annual meeting to accelerate a Bilateral Investment Treaty, expand Indian UPI payments across Qatar, and push forward Qatar's $10 billion India investment commitment -- while also raising unimpeded navigation through the Strait of Hormuz.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-09-29T16:33:21+00:00",
+      "importance": null,
+      "top_story": false
+    },
+    {
       "id": "https://economictimes.indiatimes.com/news/economy/finance/brics-economies-must-shape-global-tax-rules-for-the-next-generation-says-fm-sitharaman/articleshow/134426283.cms",
       "type": "story",
       "label": "Sitharaman tells BRICS nations the next few years of global tax talks will 'shape cross-border taxation for a generation'",
@@ -2102,6 +2132,20 @@
         "categories": []
       },
       "date": "2026-09-29T12:24:00+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
+      "id": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
+      "type": "story",
+      "label": "Trump orders federal government to rename 'Artificial Intelligence' as 'Super Intelligence'",
+      "text": "Trump signed an executive order banning the terms 'AI' and 'artificial intelligence' from all executive-branch communications in favor of 'Super Intelligence', the same day six tech CEOs signed a voluntary, Trump-called-it-'morally-binding' accord to self-police AI development -- as a new poll shows only 25% approve of his handling of AI.",
+      "category": "AI",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-09-29T22:42:35+00:00",
       "importance": null,
       "top_story": true
     },
@@ -2917,6 +2961,14 @@
       "target": "OpenAI"
     },
     {
+      "source": "https://www.livemint.com/companies/news/openai-to-seek-30-billion-in-fresh-funding-at-a-valuation-of-1-4-trillion-amid-growing-ai-risks-debate-11790743363349.html",
+      "target": "Anthropic"
+    },
+    {
+      "source": "https://www.livemint.com/companies/news/openai-to-seek-30-billion-in-fresh-funding-at-a-valuation-of-1-4-trillion-amid-growing-ai-risks-debate-11790743363349.html",
+      "target": "OpenAI"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
       "target": "China"
     },
@@ -3061,6 +3113,10 @@
       "target": "Iran"
     },
     {
+      "source": "https://www.thehindubusinessline.com/news/india-qatar-step-up-talks-on-investment-treaty-and-free-trade-agreement/article71525370.ece",
+      "target": "Strait of Hormuz"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/news/economy/finance/brics-economies-must-shape-global-tax-rules-for-the-next-generation-says-fm-sitharaman/articleshow/134426283.cms",
       "target": "BRICS Summit"
     },
@@ -3202,6 +3258,10 @@
     },
     {
       "source": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
       "target": "Trump"
     },
     {
@@ -3373,5 +3433,5 @@
       "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-09-29T18:11:38.250480+05:30"
+  "generated_at": "2026-09-30T10:52:15.731745+05:30"
 }
