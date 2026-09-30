@@ -106,18 +106,25 @@ export default function App() {
   return (
     <>
       <div className="bar">
-        <div className="in">
+        <div className="mast">
+          <div className="mast-kicker">Vol. 1 · Daily Edition</div>
           <div className="brand">My<em>News</em></div>
-          <button className="round" aria-label="Switch theme" onClick={() => setTheme((t) => ((t || 'light') === 'light' ? 'dark' : 'light'))}>☾</button>
-          <button className="round" aria-label="Refresh" onClick={() => location.reload()}>⟳</button>
+          <div className="mast-dateline">
+            <span>{stamp}</span>
+            <span className="mast-links">
+              <button onClick={() => setTheme((t) => ((t || 'light') === 'light' ? 'dark' : 'light'))}>
+                {(theme || 'light') === 'light' ? 'Night Edition' : 'Day Edition'}
+              </button>
+              <button onClick={() => location.reload()}>Refresh</button>
+            </span>
+          </div>
         </div>
-        <div className="stamp">{stamp}</div>
         <div className="pills">
           {tab === 'home' && (
             <>
               {['all', 'india', 'global'].map((r) => (
                 <button key={r} className={'pill' + (region === r ? ' on' : '')} onClick={() => pick(() => setRegion(r))}>
-                  {r === 'all' ? 'All news' : r === 'india' ? '🇮🇳 India' : '🌍 Global'}
+                  {r === 'all' ? 'All news' : r === 'india' ? 'India' : 'Global'}
                 </button>
               ))}
               <button className={'pill' + (cat === 'All' ? ' on' : '')} onClick={() => pick(() => setCat('All'))}>Everything</button>

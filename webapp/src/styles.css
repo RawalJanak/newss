@@ -38,23 +38,26 @@ img { display:block; max-width:100%; }
 :focus-visible { outline:2px solid var(--accent); outline-offset:3px; border-radius:6px; }
 .wrap { max-width:var(--w); margin:0 auto; padding:0 18px; }
 
-/* ---------- top bar ---------- */
+/* ---------- masthead ---------- */
 .bar { position:sticky; top:0; z-index:40; background:var(--bg); padding-top:env(safe-area-inset-top); }
-.bar .in { max-width:var(--w); margin:0 auto; padding:16px 18px 12px; display:flex; align-items:center; gap:12px; }
-.brand { font-family:var(--serif); font-size:25px; font-weight:600; letter-spacing:-.02em; flex:1; }
+.mast { max-width:var(--w); margin:0 auto; padding:16px 18px 10px; text-align:center; border-bottom:4px double var(--line); }
+.mast-kicker { font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--faint); }
+.brand { font-family:var(--serif); font-size:34px; font-weight:700; letter-spacing:-.01em; margin:3px 0; }
 .brand em { font-style:normal; color:var(--accent); }
-.round { width:36px; height:36px; border-radius:50%; background:var(--surface); display:grid; place-items:center;
-         font-size:15px; color:var(--muted); border:1px solid var(--line); }
-.stamp { max-width:var(--w); margin:0 auto; padding:0 18px 14px; font-size:11px; letter-spacing:.09em;
-         text-transform:uppercase; color:var(--faint); }
+.mast-dateline { display:flex; justify-content:space-between; align-items:center; gap:12px;
+                  font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--faint);
+                  border-top:1px solid var(--line); padding-top:5px; margin-top:6px; }
+.mast-links { display:flex; gap:14px; }
+.mast-links button { font:inherit; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase;
+                      color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
 
 /* ---------- pills ---------- */
-.pills { display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; padding:0 18px 14px; max-width:var(--w); margin:0 auto; }
+.pills { display:flex; gap:18px; overflow-x:auto; scrollbar-width:none; padding:10px 18px 12px;
+         max-width:var(--w); margin:0 auto; border-bottom:1px solid var(--line-soft); }
 .pills::-webkit-scrollbar { display:none; }
-.pill { flex:none; padding:8px 15px; border-radius:999px; font-size:13px; font-weight:500;
-        background:var(--surface); border:1px solid var(--line); color:var(--muted);
-        transition:background .18s var(--ease), color .18s var(--ease), border-color .18s var(--ease); }
-.pill.on { background:var(--accent); border-color:var(--accent); color:var(--accent-ink); font-weight:700; }
+.pill { flex:none; padding:4px 0; font-size:12.5px; font-weight:600; letter-spacing:.02em;
+        color:var(--faint); border-bottom:2px solid transparent; }
+.pill.on { color:var(--ink); border-bottom-color:var(--accent); font-weight:700; }
 
 /* ---------- section head ---------- */
 .shead { display:flex; align-items:center; gap:12px; margin:30px 0 14px; }
