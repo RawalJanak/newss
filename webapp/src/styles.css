@@ -1,33 +1,34 @@
-/* Violet Night palette. Dark is the default design; light is an opt-in
-   variant via the theme toggle. */
-:root {
-  --bg:#0C0914; --surface:#15111F; --elev:#2A2140; --sunken:#1A1530;
-  --ink:#F1ECFF; --muted:#9C8FC4; --faint:#6B5F8F;
-  --line:#3A2E55; --line-soft:#2E2450;
-  --accent:#B084FF; --accent-dim:#5A4A8A; --accent-ink:#0C0914;
-  --accent-wash:rgba(176,132,255,.12);
-  --hot:#FFD166; --hot-wash:rgba(255,209,102,.14);
-  --up:#00E6C3; --down:#FF8A65;
-  --lift:0 2px 6px rgba(0,0,0,.35), 0 18px 44px -20px rgba(0,0,0,.7);
-  --serif:'Newsreader', Georgia, serif;
-  --sans:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+/* Newspaper theme. Day Edition (light) is the default; Night Edition
+   (dark) is the opt-in variant via the theme toggle. Both are newsprint
+   palettes -- neither reverts to a generic dark-app theme. */
+:root[data-theme="light"], :root:not([data-theme]) {
+  --bg:#F1EAD6; --surface:#F1EAD6; --elev:#FAF6EA; --sunken:#E7DFC7;
+  --ink:#181510; --muted:#5a5340; --faint:#79705c;
+  --line:#181510; --line-soft:#a89f86;
+  --accent:#7a3226; --accent-dim:#c9a99a; --accent-ink:#F1EAD6;
+  --accent-wash:rgba(122,50,38,.10);
+  --hot:#7a3226; --hot-wash:rgba(122,50,38,.10);
+  --up:#2f6b3f; --down:#a3402b;
+  --lift:none;
+  --serif:'Newsreader', Georgia, 'Times New Roman', serif;
+  --sans:'Newsreader', Georgia, 'Times New Roman', serif;
   --w:680px; --ease:cubic-bezier(.22,.61,.36,1);
 }
-:root[data-theme="light"] {
-  --bg:#F7F5FB; --surface:#FFFFFF; --elev:#FFFFFF; --sunken:#EFEAFA;
-  --ink:#150F26; --muted:#5B4E80; --faint:#8A7EAE;
-  --line:#E1D9F5; --line-soft:#EDE7F9;
-  --accent:#7A4FE0; --accent-dim:#D6C6F7; --accent-ink:#FFFFFF;
-  --accent-wash:rgba(122,79,224,.10);
-  --hot:#B07C11; --hot-wash:rgba(176,124,17,.10);
-  --up:#0E9B84; --down:#C4483E;
-  --lift:0 1px 2px rgba(21,15,38,.05), 0 10px 30px -14px rgba(21,15,38,.18);
+:root[data-theme="dark"] {
+  --bg:#171410; --surface:#171410; --elev:#211D17; --sunken:#0E0C09;
+  --ink:#EFE7D6; --muted:#B3A98E; --faint:#847A62;
+  --line:#EFE7D6; --line-soft:#4A4334;
+  --accent:#D98C6E; --accent-dim:#5A4436; --accent-ink:#171410;
+  --accent-wash:rgba(217,140,110,.12);
+  --hot:#D98C6E; --hot-wash:rgba(217,140,110,.12);
+  --up:#6FBF8B; --down:#E0846B;
+  --lift:none;
 }
 
 * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
 html,body,#root { margin:0; padding:0; }
 body {
-  background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:16px;
+  background:var(--bg); color:var(--ink); font-family:var(--serif); font-size:16px;
   line-height:1.6; -webkit-font-smoothing:antialiased; overflow-x:hidden;
   padding-bottom:calc(72px + env(safe-area-inset-bottom));
 }

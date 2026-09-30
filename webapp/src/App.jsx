@@ -108,7 +108,7 @@ export default function App() {
       <div className="bar">
         <div className="in">
           <div className="brand">My<em>News</em></div>
-          <button className="round" aria-label="Switch theme" onClick={() => setTheme((t) => ((t || 'dark') === 'dark' ? 'light' : 'dark'))}>☾</button>
+          <button className="round" aria-label="Switch theme" onClick={() => setTheme((t) => ((t || 'light') === 'light' ? 'dark' : 'light'))}>☾</button>
           <button className="round" aria-label="Refresh" onClick={() => location.reload()}>⟳</button>
         </div>
         <div className="stamp">{stamp}</div>
