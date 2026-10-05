@@ -820,6 +820,20 @@
       "top_story": false
     },
     {
+      "id": "https://www.ndtvprofit.com/world/flydubai-flight-scare-co-pilot-attack-16-000-foot-plunge-and-emergency-landing-what-we-know-so-far-12138856#publisher=newsstand",
+      "type": "story",
+      "label": "Flydubai FZ1073: Indian captain stabbed in cockpit, aircraft diverts to Tabuk",
+      "text": "A Dubai-to-Tel Aviv Boeing 737 MAX 8 lost half its altitude in a minute after a cockpit confrontation. The Indian captain was injured, passengers and crew subdued the attacker, and the aircraft landed safely in Saudi Arabia.",
+      "category": "Aviation",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-10-05T03:59:58+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://economictimes.indiatimes.com/news/economy/policy/fm-nirmala-sitharaman-reviews-brics-finance-track-outcomes-ahead-of-mumbai-meet/articleshow/133890266.cms",
       "type": "story",
       "label": "FM Nirmala Sitharaman reviewed BRICS Finance Track outcomes ahead of a Mumbai finance ministers' meeting.",
@@ -882,6 +896,22 @@
       },
       "date": "2026-09-15T09:30:00+05:30",
       "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://indianexpress.com/article/business/anup-bagchi-hdfc-bank-managing-director-ceo-10902667/",
+      "type": "story",
+      "label": "HDFC Bank names ICICI veteran Anup Bagchi as CEO, taking charge October 27",
+      "text": "HDFC Bank's board recommended ICICI Prudential Life's Anup Bagchi as managing director and CEO, subject to RBI approval. He takes charge on October 27 as the bank works through governance concerns.",
+      "category": "Business",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ]
+      },
+      "date": "2026-10-01T13:03:20+00:00",
+      "importance": null,
       "top_story": false
     },
     {
@@ -1008,6 +1038,20 @@
       "date": "2026-09-10T07:30:00+05:30",
       "importance": "high",
       "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-18-3-bn-as-rbi-steps-in-to-defend-rupee/articleshow/134645465.cms",
+      "type": "story",
+      "label": "India's forex reserves fall $18.3 billion to $747.6 billion as RBI defends the rupee",
+      "text": "Reserves dropped for a third straight week, down $38 billion from the September 4 record. The RBI is selling dollars to slow the rupee's fall against a strong dollar and rising oil.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": []
+      },
+      "date": "2026-10-02T18:42:38+00:00",
+      "importance": null,
+      "top_story": true
     },
     {
       "id": "https://economictimes.indiatimes.com/news/economy/indicators/indias-july-inflation-quickens-to-4-45-from-4-38-in-june-stays-above-rbi-target/articleshow/133178130.cms",
@@ -1544,6 +1588,22 @@
       },
       "date": "2026-08-24T09:37:16+05:30",
       "importance": "high",
+      "top_story": false
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/news/economy/policy/rbi-likely-to-hike-repo-rate-by-25-bps-to-5-50-in-october-policy-et-poll/articleshow/134679410.cms",
+      "type": "story",
+      "label": "RBI likely to lift repo rate 25 bps to 5.50% in October, ET poll finds",
+      "text": "Twenty of 21 economists and bank executives polled by ET expect the RBI to raise its repo rate on October 7, reversing their August view. Crude above $100 and a patchy monsoon are pushing inflation toward the 6% tolerance ceiling.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-10-05T00:00:00+00:00",
+      "importance": null,
       "top_story": false
     },
     {
@@ -2709,6 +2769,10 @@
       "target": "SEBI"
     },
     {
+      "source": "https://www.ndtvprofit.com/world/flydubai-flight-scare-co-pilot-attack-16-000-foot-plunge-and-emergency-landing-what-we-know-so-far-12138856#publisher=newsstand",
+      "target": "Saudi Arabia"
+    },
+    {
       "source": "https://economictimes.indiatimes.com/news/economy/policy/fm-nirmala-sitharaman-reviews-brics-finance-track-outcomes-ahead-of-mumbai-meet/articleshow/133890266.cms",
       "target": "BRICS Summit"
     },
@@ -2734,6 +2798,10 @@
     },
     {
       "source": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-in-focus-as-lender-shortlists-ceo-candidates-why-bernstein-nomura-others-see-up-to-62-upside/articleshow/134251201.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://indianexpress.com/article/business/anup-bagchi-hdfc-bank-managing-director-ceo-10902667/",
       "target": "RBI"
     },
     {
@@ -2794,6 +2862,10 @@
     },
     {
       "source": "https://economictimes.indiatimes.com/news/economy/indicators/india-august-consumer-inflation-likely-hit-20-month-high-on-food-fuel-prices-reuters-poll/articleshow/133961856.cms",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-18-3-bn-as-rbi-steps-in-to-defend-rupee/articleshow/134645465.cms",
       "target": "RBI"
     },
     {
@@ -3010,6 +3082,10 @@
     },
     {
       "source": "https://www.thehindubusinessline.com/markets/forex/rbi-likely-intervenes-anchoring-rupee-in-face-of-global-ructions-traders-say/article71383110.ece",
+      "target": "RBI"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/news/economy/policy/rbi-likely-to-hike-repo-rate-by-25-bps-to-5-50-in-october-policy-et-poll/articleshow/134679410.cms",
       "target": "RBI"
     },
     {
@@ -3433,5 +3509,5 @@
       "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-09-30T10:52:15.731745+05:30"
+  "generated_at": "2026-10-05T10:45:34.259153+05:30"
 }

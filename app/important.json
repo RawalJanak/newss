@@ -1,6 +1,159 @@
 {
   "items": [
     {
+      "title": "Flydubai FZ1073: Indian captain stabbed in cockpit, aircraft diverts to Tabuk",
+      "url": "https://www.ndtvprofit.com/world/flydubai-flight-scare-co-pilot-attack-16-000-foot-plunge-and-emergency-landing-what-we-know-so-far-12138856#publisher=newsstand",
+      "source": "Indian Express",
+      "category": "Aviation",
+      "date": "2026-10-05T03:59:58+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "A Dubai-to-Tel Aviv Boeing 737 MAX 8 lost half its altitude in a minute after a cockpit confrontation. The Indian captain was injured, passengers and crew subdued the attacker, and the aircraft landed safely in Saudi Arabia."
+    },
+    {
+      "title": "38 years after Ahmedabad crash, Air India case seeks fresh compensation framework",
+      "url": "https://www.livemint.com/companies/news/air-india-indian-airlines-ahmedabad-plane-crash-1988-11791105382662.html",
+      "source": "Mint",
+      "category": "Aviation",
+      "date": "2026-10-05T00:30:22+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [],
+        "facts": [
+          {
+            "fact": "Ahmedabad Air India crash occurred 19 October 1988",
+            "kind": "date",
+            "as_of": "1988-10-19"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Victims of the 1988 Air India crash in Ahmedabad are asking the Supreme Court to set aside road-accident formulas for air-crash claims. The compensation dispute has been pending since 2010."
+    },
+    {
+      "title": "RBI likely to lift repo rate 25 bps to 5.50% in October, ET poll finds",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-likely-to-hike-repo-rate-by-25-bps-to-5-50-in-october-policy-et-poll/articleshow/134679410.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-10-05T00:00:00+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "RBI repo rate 5.25% after a December 2025 cut of 25 bps",
+            "kind": "number",
+            "as_of": "2025-12 RBI policy, per ET poll"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Twenty of 21 economists and bank executives polled by ET expect the RBI to raise its repo rate on October 7, reversing their August view. Crude above $100 and a patchy monsoon are pushing inflation toward the 6% tolerance ceiling."
+    },
+    {
+      "title": "Why oil is still stuck near $100 a barrel despite a rebound in Middle East supply",
+      "url": "https://www.livemint.com/market/why-oil-is-still-stuck-near-100-a-barrel-11791121957103.html",
+      "source": "Bloomberg via Mint",
+      "category": "Markets",
+      "date": "2026-10-04T13:52:36+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Crude remains about 40% above its pre-war level even though Gulf exports have almost recovered. Five factors explain the gap: fear of escalation, transit costs, depleted inventories, refinery bottlenecks and a shortage of safe routes."
+    },
+    {
+      "title": "India's forex reserves fall $18.3 billion to $747.6 billion as RBI defends the rupee",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-18-3-bn-as-rbi-steps-in-to-defend-rupee/articleshow/134645465.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-10-02T18:42:38+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "medium",
+        "categories": [],
+        "facts": [
+          {
+            "fact": "Forex reserves $747.56 billion at week ended 2026-09-25",
+            "kind": "number",
+            "as_of": "2026-09-25 RBI data"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Reserves dropped for a third straight week, down $38 billion from the September 4 record. The RBI is selling dollars to slow the rupee's fall against a strong dollar and rising oil."
+    },
+    {
+      "title": "Nifty's eight-week slide revives 2001 comparison as Brent crude bites",
+      "url": "https://www.business-standard.com/markets/news/nifty-s-eight-week-slide-puts-2001-record-back-in-sight-as-brent-bites-126100101089_1.html",
+      "source": "Business Standard",
+      "category": "Markets",
+      "date": "2026-10-01T14:54:19+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "medium",
+        "categories": [],
+        "facts": [
+          {
+            "fact": "Nifty 50 closed at 22,421.95 on 2026-10-01",
+            "kind": "number",
+            "as_of": "2026-10-01 NSE close"
+          }
+        ],
+        "drill": null
+      },
+      "text": "The Nifty closed at 22,421.95 on Thursday after an eighth straight weekly loss, its longest since April 2001. Crude, rising US yields and foreign selling drove the decline."
+    },
+    {
+      "title": "HDFC Bank names ICICI veteran Anup Bagchi as CEO, taking charge October 27",
+      "url": "https://indianexpress.com/article/business/anup-bagchi-hdfc-bank-managing-director-ceo-10902667/",
+      "source": "Indian Express",
+      "category": "Business",
+      "date": "2026-10-01T13:03:20+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Current affairs — recent appointments/schemes/awards (India, live)"
+        ],
+        "facts": [
+          {
+            "fact": "Anup Bagchi appointed HDFC Bank MD and CEO, term from 2026-10-27",
+            "kind": "officeholder",
+            "as_of": "2026-10-01 board; RBI approval"
+          }
+        ],
+        "drill": null
+      },
+      "text": "HDFC Bank's board recommended ICICI Prudential Life's Anup Bagchi as managing director and CEO, subject to RBI approval. He takes charge on October 27 as the bank works through governance concerns."
+    },
+    {
       "title": "Around 20 Congress workers booked for attempt to murder over defacing CEC Gyanesh Kumar's house",
       "url": "https://www.thehindu.com/news/national/congress-workers-booked-for-attempt-to-murder-over-defacement-of-cec-gyanesh-kumars-agra-house/article71526795.ece",
       "source": "The Hindu National",
@@ -3875,186 +4028,6 @@
         "drill": null
       },
       "text": "UN Secretary-General Antonio Guterres will participate in the 18th BRICS Summit in New Delhi."
-    },
-    {
-      "title": "PM Modi attended the SCO Summit in Kyrgyzstan and called for united action against terrorism.",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOEQ1TmN6MTNWUS1HOThQUUNRdU0tc0ZqN2hSa2NjN3NjMjU2NWtPWVpiVm5ma3QxcDk3ZTY0ckswTHRhMEF3Ym1TYUJNQkloZm9aVld4ZS00TmRPaDJ2MkFDNjlTdkRNZXFNczA5emtMYmp4d3BVRUF4czVWd1k3MGlCRDByTnBqVGhNanBtaXJJb0ZlaG9JTEJPNEZPWFdDY0FwcVFoaGNYQVNEaWxuUjNUYmtaZVdQTUE?oc=5",
-      "source": "GN Summits",
-      "category": "Geopolitics",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "The 2026 SCO Summit was held in Kyrgyzstan",
-            "kind": "place",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "PM Modi attended the SCO Summit in Kyrgyzstan and called for united action against terrorism."
-    },
-    {
-      "title": "Secretary of State Marco Rubio is likely to visit India in October, with a Quad summit in the US being explored for December.",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNmp3V1Z1NUV1RDhhWFh4V3YwU0ROSXh4Nnc0Ull3Sm5UY3d3aGpOSDBxVEY5NTlpT1pwVG5aR0ZOQkhka2puTnR3bzlnbDVEN2xpTXotTVdieXVSS0dEdEJ5ckVOdUdFNWdlenhXNWZJTmNHYUR2eE5KXzFGVk5uWTU5SVRHT3hMMkxkZUQzS1VDcFVSVkhQNXRwOWJxVVMwcFJ0UnZYdENmSkl4UjM0WHZYa20zTUtTck9ZbF9mSXZJd2JYcjZtcDVqc9IB0AFBVV95cUxONnBuTWYwbjk4SXdHal81U0QzN3ROMkFLRVNtcGk1QmF4LWFmYmt2a2k1LUhWWDFUa1RMQkFDQzAzYXFSRGh4cUpTd0VaUHA4bElKOU5tTkhlenVrWDZPWEp1dDVrMDNHMmtVNmRJWGJzX09iV3Z2TFB0SHd1MS1nUlZwTS1zcnN0U0JCRjhkbThkdnhmeV9DYUNmYVpTN0xhd2Yta0lDanNxZEwzajVhQ1M2eHdpX090SkhJTVNPc0FGekFGTmdvVXQzREJiX2dj?oc=5",
-      "source": "GN Summits",
-      "category": "Geopolitics",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "Marco Rubio is US Secretary of State",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          },
-          {
-            "fact": "The Quad comprises India, the US, Japan and Australia",
-            "kind": "body",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Secretary of State Marco Rubio is likely to visit India in October, with a Quad summit in the US being explored for December."
-    },
-    {
-      "title": "Former UK Prime Minister Rishi Sunak said India is poised to lead in AI, speaking at the India AI Impact Summit 2026.",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTnZWaGNEcmhtNk1rMTZyaDV0em5wbGJROHhsLVpLRjR1WWd0aFMzSTFPYXhZcmZNa0tudGhrcFZsVmdpMkwzajdLQ2ZseUU0VjNIUDlsV01vNGR5SmF3VEVFRC1WOGxvQ0lVTzVySWR6b2dmT3J4YXJGNm0xZ2RHaXRFTk14WXpmcGlscDZuczVwejVtRUVNUHc3MzdCTlpLYXFNUld3WkJ5Wk5fNkkwN00tcw?oc=5",
-      "source": "GN Summits",
-      "category": "AI",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "Rishi Sunak is a former UK Prime Minister",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Former UK Prime Minister Rishi Sunak said India is poised to lead in AI, speaking at the India AI Impact Summit 2026."
-    },
-    {
-      "title": "Dr Jitendra Singh and French Minister Philippe Baptiste discussed the upcoming International Space Summit and France's participation in the Bengaluru Space Expo.",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBqYS0taFZKRS1KRlNSLTJtc3VQNGVibHk2aTNsb2FZYjVQSnVhOUdrcHJMNWZOVXVCRk1lejNBT1k0ajdhV2JkU0NmbFppaEoxT2pVaTc1emwyN3NHOWZvd3BFU1BUS3BhUjYxNUx4UVAydlBWenlDQjByYmdSUQ?oc=5",
-      "source": "PIB (via Google News)",
-      "category": "Government",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "Dr Jitendra Singh is India's Minister of State for Science and Technology and Space",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Dr Jitendra Singh and French Minister Philippe Baptiste discussed the upcoming International Space Summit and France's participation in the Bengaluru Space Expo."
-    },
-    {
-      "title": "Somya has been appointed AICC coordinator for Kazakhstan.",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaHkxRVJxcG9zbUxuOUxneEc5U3haR1dTOThweTNjSHZFUVU3aldZZm9vRG4wcDhCOWMxazNzcl9uNzQtakkwTTBib2tBNVYwM2F5WFFMUVlnNWFZWFhrQzA0bzFpNWtpbVR3UGhXNFZuczB3V3lhSVk0VmhkMFVNNlJocEZYV3JGVS0wRlBwZFBmRUc0MFHSAZoBQVVfeXFMT0F6bU1tLXY5WDRTMmNmLURwQWZkNHJlZEJfRWxDbGd2RzN2UE5qZk8zS1Z2aXFDeXNBbUxiNnF2ZXBVako4b056b1M0X080ZjkwR2FTa3prQWliTjNFS2ZlYkRzYjBsN0pBOGJFLTc2cFJWa2VpYzJ1X0Y0QjllMU1ZR2dpdGNaR3JzcGxzVGFNZjJKakhCQ2o0Zw?oc=5",
-      "source": "GN Appointments",
-      "category": "India",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "Somya was appointed AICC coordinator for Kazakhstan in September 2026",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Somya has been appointed AICC coordinator for Kazakhstan."
-    },
-    {
-      "title": "Veteran film lab technician Sudheer Chitranjali has died at 70.",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWGgyN0labnFnSFc4UTVHZFp6ZHJBRzNPdWlJbFJ3OV9ma2wxbmxTdll4cVlwY1B3cFJUbWNMQU82bXRWSDU3U1VLU0pGeFN2TmlIOHdtUXJaT193aTNmMjJSRlNfbVBDdlUwWlN5WnVYNktuYVVSbXdTdUlPdWpOd1ltMEtPSnZaUkRDSllpeE1FbE5HNER5bUVFbGN5Nkp6TVg4V3REMzRIWE5USllyWWxZSTU0c09wZFFndlFGdnBFdk9oaVJhcHd6TWwwOGdFeXfSAd8BQVVfeXFMTkl4WVZSSUhVVlhvMGhUeUV0SUZMR3d2NWJ3UFlWZW9RdzlNQ0pJT3lqMjNTWGRzR09KU3p1dTJ1TG1oc0hqQlBUR1ZsSi1zbkhyMDRndDY5RjU2UFA1ZkYzUG52dlpUYV9XUlZZSkNsSnZ3c3EwYVR6NzBvUkUzQnl6N1dhNHdtcDVRYVkzcDE4by12cEVqVWd2bVpLdVdtc19BUzlwMWdQa2RTU1NTWFFHRGxTS2tEZWhaZWh2LUxET0ZJb3ZUT2NWb2I2MExyNnhybDRUUE9wRHZhZGtaSQ?oc=5",
-      "source": "GN Obituaries",
-      "category": "Entertainment",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "Sudheer Chitranjali, veteran Indian film lab technician, died in September 2026 aged 70",
-            "kind": "obituary",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Veteran film lab technician Sudheer Chitranjali has died at 70."
-    },
-    {
-      "title": "The Delhi High Court appointed Gautam Bhatia as amicus curiae in Janhvi Kapoor's personality rights case and ordered 552 URLs removed.",
-      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/janhvi-kapoor-personality-rights-case-delhi-hc-appoints-gautam-bhatia-as-amicus-curiae-552-urls-ordered-to-be-removed/articleshow/133785878.cms",
-      "source": "Times of India Entertainment",
-      "category": "Entertainment",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Static facts — firsts, largest/smallest, national symbols"
-        ],
-        "facts": [
-          {
-            "fact": "Amicus curiae is a court-appointed neutral adviser, literally 'friend of the court'",
-            "kind": "body",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "The Delhi High Court appointed Gautam Bhatia as amicus curiae in Janhvi Kapoor's personality rights case and ordered 552 URLs removed."
     }
   ]
 }
