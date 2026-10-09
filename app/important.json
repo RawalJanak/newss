@@ -1,6 +1,172 @@
 {
   "items": [
     {
+      "title": "Jewar airport to be renamed Narendra Modi International Airport, UP Cabinet decides",
+      "url": "https://www.livemint.com/news/india/noidas-jewar-airport-to-be-named-after-pm-narendra-modi-heres-what-it-will-be-called-11791534289083.html",
+      "source": "Mint",
+      "category": "Aviation",
+      "date": "2026-10-09T08:34:17+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [],
+        "facts": [
+          {
+            "fact": "Jewar airport approved for renaming to Narendra Modi International Airport, Noida-Jewar, by UP Cabinet",
+            "kind": "place",
+            "as_of": "2026-10-09 UP Cabinet decision"
+          }
+        ],
+        "drill": null
+      },
+      "text": "Uttar Pradesh's Cabinet approved renaming the upcoming Noida International Airport at Jewar after Prime Minister Narendra Modi. Chief Minister Yogi Adityanath called it a major gift to the state and said it will become UP's largest airport."
+    },
+    {
+      "title": "Houthi missile attack on Riyadh airport sets off a wave of Gulf flight suspensions",
+      "url": "https://www.livemint.com/news/world/saudi-arabia-houthi-conflict-escalates-airlines-suspend-riyadh-flights-after-attacks-watch-11791523084516.html",
+      "source": "Mint",
+      "category": "Aviation",
+      "date": "2026-10-09T05:57:44+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Yemen's Houthi rebels claimed a missile attack on Riyadh's King Khalid International Airport that set a Saudia aircraft on fire. Air India, IndiGo and Lufthansa have all suspended Riyadh flights as the conflict escalates."
+    },
+    {
+      "title": "Sensex rebounds 879 points, Nifty IT leads as crude eases and geopolitical fears cool",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html",
+      "source": "Business Standard",
+      "category": "Markets",
+      "date": "2026-10-09T02:19:07+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "The Sensex and Nifty snapped a two-day decline on Friday, helped by IT stocks and easing oil prices. Analysts say the rally depends on whether Q2 earnings hold up and FII selling eases."
+    },
+    {
+      "title": "US suspends Microsoft, TCS, Infosys, Wipro and other IT firms from PERM green-card programme",
+      "url": "https://www.livemint.com/news/us-news/what-is-perm-why-trump-suspended-microsoft-and-indian-it-firms-from-green-card-programme-11791492807330.html",
+      "source": "Mint",
+      "category": "Business",
+      "date": "2026-10-08T21:28:56+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "The Trump administration suspended Microsoft and major Indian IT firms from the PERM permanent labor certification programme, accusing them of replacing American workers with cheaper foreign labour. PERM is a green-card step, separate from the H-1B visa."
+    },
+    {
+      "title": "GST Council scraps officers' arrest powers, eases refunds for small businesses, leaves rates unchanged",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/gst-council-meeting-2026-tax-officers-arrest-powers-scrapped-prosecution-threshold-raised-to-rs-5-crore-no-rate-changes/articleshow/134788642.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-10-08T11:53:01+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "GST prosecution threshold raised from Rs 1 crore to Rs 5 crore",
+            "kind": "number",
+            "as_of": "2026-10-08 GST Council decision"
+          }
+        ],
+        "drill": null
+      },
+      "text": "India's GST Council left tax rates unchanged at its 57th meeting but removed officers' power to arrest taxpayers, raised the prosecution threshold fivefold, and sped up refund processing. The reforms take effect from April 2027."
+    },
+    {
+      "title": "Sensex falls over 1,000 points after RBI's hawkish stance shift catches markets off guard",
+      "url": "https://indianexpress.com/article/business/sensex-cracks-over-1000-points-nifty-down-371-in-thursday-market-mayhem-market-crash-oil-foreign-funds-outflow-10912534/",
+      "source": "Indian Express",
+      "category": "Markets",
+      "date": "2026-10-08T10:43:22+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Benchmark indices fell sharply on Thursday as the RBI's shift to a 'calibrated tightening' stance surprised investors more than the rate hike itself. Metals, realty and oil and gas stocks were the worst hit."
+    },
+    {
+      "title": "RBI hikes repo rate to 5.5%, first increase since February 2023, shifts stance to 'calibrated tightening'",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-raises-repo-rate-to-5-5-in-first-hike-under-governor-sanjay-malhotra-shifts-stance-to-calibrated-tightening/articleshow/134773772.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-10-08T00:00:00+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "RBI repo rate raised to 5.5% on 2026-10-07/08, first hike since February 2023",
+            "kind": "number",
+            "as_of": "2026-10 RBI policy"
+          }
+        ],
+        "drill": null
+      },
+      "text": "The RBI raised its repo rate 25 basis points to 5.5%, its first hike since February 2023, and changed its policy stance to signal that only a hike or a pause is on the table next. It also raised its FY27 growth forecast to 7.1%."
+    },
+    {
+      "title": "World Bank raises India's FY27 growth forecast to 7.1%, warns on AI adoption gap and ageing workforce",
+      "url": "https://indianexpress.com/article/business/world-bank-raises-india-fy27-gdp-growth-forecast-10908548/",
+      "source": "Indian Express",
+      "category": "Economy & Policy",
+      "date": "2026-10-06T06:00:11+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "World Bank raised India's FY27 growth forecast to 7.1%",
+            "kind": "number",
+            "as_of": "2026-10 World Bank South Asia Economic Update"
+          }
+        ],
+        "drill": null
+      },
+      "text": "The World Bank raised its India growth forecast ahead of the RBI's own policy decision, citing strength outside agriculture. It also warned that South Asia's demographic advantage is fading and that AI adoption in Indian firms lags the US."
+    },
+    {
       "title": "Flydubai FZ1073: Indian captain stabbed in cockpit, aircraft diverts to Tabuk",
       "url": "https://www.ndtvprofit.com/world/flydubai-flight-scare-co-pilot-attack-16-000-foot-plunge-and-emergency-landing-what-we-know-so-far-12138856#publisher=newsstand",
       "source": "Indian Express",
@@ -3818,216 +3984,6 @@
         "drill": null
       },
       "text": "Malaysia declared an emergency in Sarawak as haze from Indonesia reached critical levels."
-    },
-    {
-      "title": "GRSE signed an MoU with DNV to strengthen India's maritime and defence shipbuilding capability.",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeERLRXlQaTZPRHVOTlgyX1QtNC1Uc3liTzBFTkRXMnBLbmo4RkUxYzJZRWRSM1dfT3Q0a2FhR1RYeFQzM3Z5bVpGNktOVWRZd0M5VHJQZ1FfVEtKX0xrOE0xU0M2Sm1XSm95RTh1SlRyZ0tnZ1dhN0c3UTVEMzAzMV8zLVFSTUdfdHA1VzU5T1ZKMWcxY2MyRHB5T21SVEZSa1Ria1hsbV9yX25QYllkemlnbWhUSDJoUWZ2b296THQ2TGplLTZ4cXBLY2g?oc=5",
-      "source": "GN Summits",
-      "category": "Business",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "GRSE is Garden Reach Shipbuilders & Engineers, an Indian defence shipyard",
-            "kind": "body",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "GRSE signed an MoU with DNV to strengthen India's maritime and defence shipbuilding capability."
-    },
-    {
-      "title": "Gadkari has permitted a ₹5,000 retrofit device to extend the life of older diesel vehicles.",
-      "url": "https://economictimes.indiatimes.com/industry/transportation/roadways/nitin-gadkari-says-old-vehicle-owners-allowed-to-fit-a-rs-5000-device-developed-by-iit-delhi-that-brings-bs-iii-and-bs-iv-diesel-trucks-and-buses-close-to-bs-vi-emission-levels/articleshow/133785591.cms",
-      "source": "Economic Times",
-      "category": "India",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "Nitin Gadkari is India's Road Transport and Highways Minister",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Gadkari has permitted a ₹5,000 retrofit device to extend the life of older diesel vehicles."
-    },
-    {
-      "title": "The Ganga and Ghaghara have crossed danger levels, raising flood risk across Bihar and Uttar Pradesh.",
-      "url": "https://www.ndtvprofit.com/india/bihar-up-flood-risks-ganga-ghaghara-cross-danger-levels-as-rivers-swell-story-in-charts-12004613#publisher=newsstand",
-      "source": "NDTV Profit",
-      "category": "India",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Geography — India (states/capitals/rivers/mountains)"
-        ],
-        "facts": [
-          {
-            "fact": "The Ghaghara is a major left-bank tributary of the Ganga flowing through Uttar Pradesh and Bihar",
-            "kind": "place",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "The Ganga and Ghaghara have crossed danger levels, raising flood risk across Bihar and Uttar Pradesh."
-    },
-    {
-      "title": "Defence Minister Rajnath Singh inaugurated the 13th edition of Exercise MILAN-2026 at Visakhapatnam.",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbnNBRHJLS25MQlozSnpfeDBLcDI1NmpuZWpaN2Y5MGIzMDNWVzl2RnRJX1JQVjhIMWVyVGs0RlRMcnVSVEhQX1p4ejc0YWJEQUJLLWJTMjlNVTNHdl8yT21Ud093QUZHNlpXUmNmWHR5MGxGVnVKaHBkY2JZQ3NTb3BzX1AwUzhfMUowajYxRWJjalRwTXlWWHpxYzdaRVpnN1R3NHVVWWtoU3FMZ08xZHE3cGpoTEg0eHJOMHJB?oc=5",
-      "source": "GN Defence",
-      "category": "Government",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "Exercise MILAN is a multinational naval exercise hosted by India at Visakhapatnam; the 13th edition was in 2026",
-            "kind": "body",
-            "as_of": "2026-09-05"
-          },
-          {
-            "fact": "Rajnath Singh is India's Defence Minister",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Defence Minister Rajnath Singh inaugurated the 13th edition of Exercise MILAN-2026 at Visakhapatnam."
-    },
-    {
-      "title": "The government announced the PM RAHAT Scheme, giving road accident victims cashless treatment of up to Rs 1.5 lakh.",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORTRVc2pfbGMzdjZtRk9QSHN2TW14UU9ZYXVtT01FR3JGTTU5cXVocTNoaUhIZTZ6RTdoclJPbGtacmpqVTJ4YmgyVTQtQ3lkbmIwbk1Gc1dOTktsMlhZS3dVdmlkZ1o5SjV4eV9aVlEtTjZkeEtuX2o3UkN6VVR2MjBmV3pDVUpwTWUtdzJvVXhuRVdKVktHSUZzVm8zdEpJaE9YNXhxTmNiM3ZaMEhLc2VJaFowckZXZDFpT0hLcnNNcmVNVHpFLUQxeXJ1N0E3T1Jkd2pnNGZPd0hkdXQ4TXY1dGJRbkk?oc=5",
-      "source": "GN Schemes",
-      "category": "Government",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "PM RAHAT Scheme provides cashless treatment up to Rs 1.5 lakh for road accident victims",
-            "kind": "scheme",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "The government announced the PM RAHAT Scheme, giving road accident victims cashless treatment of up to Rs 1.5 lakh."
-    },
-    {
-      "title": "The India-AI Impact Summit concluded with the adoption of the New Delhi Declaration.",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUGtJcUFWNWdEUzFMOEdIV1NfVzRJTURtdGpOSE01TzZzZjlUbGcxTWFVdDl1cUE2YXpuUW9oVHZESklOSXNMZmFhTFRGSFN5Q0FOQzFLYnUtSHJkeURCMHRCcXlfUzk5cjQ4ckZHSTdOdXF6eFYtU242TENoSGRyeWlKSE1wQlo0cVE?oc=5",
-      "source": "GN Summits",
-      "category": "AI",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "The India-AI Impact Summit 2026 concluded with the New Delhi Declaration",
-            "kind": "date",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "The India-AI Impact Summit concluded with the adoption of the New Delhi Declaration."
-    },
-    {
-      "title": "New Delhi is preparing to host the 4th India-Africa Forum Summit.",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQnF2SDJJRjNDTVdES2E5UWEtTXpSaVhGSUhsZTMxYzBtZE1XX1FMakF4RXFhdVp1SnBRbHR3RmZ5bGg3YlA5X2xZNGNTUkxEMXRMd1dqeHNCalhtNHBTWF9kV1lxRVpPZXI3WTFNUEFlb1VtQVp0WThzVE1YN3prX1ZKTV8?oc=5",
-      "source": "GN Summits",
-      "category": "Geopolitics",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "The 4th India-Africa Forum Summit is being hosted in New Delhi in 2026",
-            "kind": "date",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "New Delhi is preparing to host the 4th India-Africa Forum Summit."
-    },
-    {
-      "title": "UN Secretary-General Antonio Guterres will participate in the 18th BRICS Summit in New Delhi.",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbjYtdWMtWEtSeTVjY05OUTFrYWI0Z25TdVdJWDROLVBVNGw0WGRSR01ycmNOeVJ3azg1a3hqempQdmE4cHMyQ0l5MngxcU5PQzRYZFlHbnlnVG9uUjhnbHJ6TkluZ2ZnRWdhWHZWemtMVFNuM25VSTBobkQ3NnllUi1TVUdiWWFjbWNzNHJOcVhqSmRBS0o2bWZ5aWkyU2ZlaUE?oc=5",
-      "source": "GN Summits",
-      "category": "Geopolitics",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "Antonio Guterres is UN Secretary-General",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          },
-          {
-            "fact": "The New Delhi meeting is the 18th BRICS Summit",
-            "kind": "number",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "UN Secretary-General Antonio Guterres will participate in the 18th BRICS Summit in New Delhi."
     }
   ]
 }

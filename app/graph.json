@@ -929,6 +929,20 @@
       "top_story": true
     },
     {
+      "id": "https://www.livemint.com/news/world/saudi-arabia-houthi-conflict-escalates-airlines-suspend-riyadh-flights-after-attacks-watch-11791523084516.html",
+      "type": "story",
+      "label": "Houthi missile attack on Riyadh airport sets off a wave of Gulf flight suspensions",
+      "text": "Yemen's Houthi rebels claimed a missile attack on Riyadh's King Khalid International Airport that set a Saudia aircraft on fire. Air India, IndiGo and Lufthansa have all suspended Riyadh flights as the conflict escalates.",
+      "category": "Aviation",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-10-09T05:57:44+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
       "type": "story",
       "label": "Houthis claim missile and drone attack on Riyadh as air raid alerts sound in the Saudi capital for the first time since July",
@@ -1577,6 +1591,22 @@
       "top_story": true
     },
     {
+      "id": "https://economictimes.indiatimes.com/news/economy/policy/rbi-raises-repo-rate-to-5-5-in-first-hike-under-governor-sanjay-malhotra-shifts-stance-to-calibrated-tightening/articleshow/134773772.cms",
+      "type": "story",
+      "label": "RBI hikes repo rate to 5.5%, first increase since February 2023, shifts stance to 'calibrated tightening'",
+      "text": "The RBI raised its repo rate 25 basis points to 5.5%, its first hike since February 2023, and changed its policy stance to signal that only a hike or a pause is on the table next. It also raised its FY27 growth forecast to 7.1%.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-10-08T00:00:00+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.thehindubusinessline.com/markets/forex/rbi-likely-intervenes-anchoring-rupee-in-face-of-global-ructions-traders-say/article71383110.ece",
       "type": "story",
       "label": "RBI leans on the rupee at 95.64 as hawkish minutes and $93 crude cloud the outlook",
@@ -1782,6 +1812,20 @@
       },
       "date": "2026-09-04T14:12:00+05:30",
       "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://indianexpress.com/article/business/sensex-cracks-over-1000-points-nifty-down-371-in-thursday-market-mayhem-market-crash-oil-foreign-funds-outflow-10912534/",
+      "type": "story",
+      "label": "Sensex falls over 1,000 points after RBI's hawkish stance shift catches markets off guard",
+      "text": "Benchmark indices fell sharply on Thursday as the RBI's shift to a 'calibrated tightening' stance surprised investors more than the rate hike itself. Metals, realty and oil and gas stocks were the worst hit.",
+      "category": "Markets",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-10-08T10:43:22+00:00",
+      "importance": null,
       "top_story": true
     },
     {
@@ -2396,6 +2440,20 @@
       "top_story": false
     },
     {
+      "id": "https://www.livemint.com/news/us-news/what-is-perm-why-trump-suspended-microsoft-and-indian-it-firms-from-green-card-programme-11791492807330.html",
+      "type": "story",
+      "label": "US suspends Microsoft, TCS, Infosys, Wipro and other IT firms from PERM green-card programme",
+      "text": "The Trump administration suspended Microsoft and major Indian IT firms from the PERM permanent labor certification programme, accusing them of replacing American workers with cheaper foreign labour. PERM is a green-card step, separate from the H-1B visa.",
+      "category": "Business",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-10-08T21:28:56+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
       "type": "story",
       "label": "US to build two military bases in Greenland after Trump, Denmark and Greenland sign deal ending a year of tension",
@@ -2488,6 +2546,22 @@
       },
       "date": "2026-09-04T14:27:10+00:00",
       "importance": "medium",
+      "top_story": false
+    },
+    {
+      "id": "https://indianexpress.com/article/business/world-bank-raises-india-fy27-gdp-growth-forecast-10908548/",
+      "type": "story",
+      "label": "World Bank raises India's FY27 growth forecast to 7.1%, warns on AI adoption gap and ageing workforce",
+      "text": "The World Bank raised its India growth forecast ahead of the RBI's own policy decision, citing strength outside agriculture. It also warned that South Asia's demographic advantage is fading and that AI adoption in Indian firms lags the US.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ]
+      },
+      "date": "2026-10-06T06:00:11+00:00",
+      "importance": null,
       "top_story": false
     },
     {
@@ -2817,6 +2891,14 @@
       "target": "Trump"
     },
     {
+      "source": "https://www.livemint.com/news/world/saudi-arabia-houthi-conflict-escalates-airlines-suspend-riyadh-flights-after-attacks-watch-11791523084516.html",
+      "target": "Houthi"
+    },
+    {
+      "source": "https://www.livemint.com/news/world/saudi-arabia-houthi-conflict-escalates-airlines-suspend-riyadh-flights-after-attacks-watch-11791523084516.html",
+      "target": "Saudi Arabia"
+    },
+    {
       "source": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
       "target": "Houthi"
     },
@@ -3081,6 +3163,10 @@
       "target": "RBI"
     },
     {
+      "source": "https://economictimes.indiatimes.com/news/economy/policy/rbi-raises-repo-rate-to-5-5-in-first-hike-under-governor-sanjay-malhotra-shifts-stance-to-calibrated-tightening/articleshow/134773772.cms",
+      "target": "RBI"
+    },
+    {
       "source": "https://www.thehindubusinessline.com/markets/forex/rbi-likely-intervenes-anchoring-rupee-in-face-of-global-ructions-traders-say/article71383110.ece",
       "target": "RBI"
     },
@@ -3147,6 +3233,14 @@
     {
       "source": "https://economictimes.indiatimes.com/markets/stocks/news/market-chaos-after-cas-what-exactly-is-sebi-reviewing/articleshow/133757024.cms",
       "target": "SEBI"
+    },
+    {
+      "source": "https://indianexpress.com/article/business/sensex-cracks-over-1000-points-nifty-down-371-in-thursday-market-mayhem-market-crash-oil-foreign-funds-outflow-10912534/",
+      "target": "Meta"
+    },
+    {
+      "source": "https://indianexpress.com/article/business/sensex-cracks-over-1000-points-nifty-down-371-in-thursday-market-mayhem-market-crash-oil-foreign-funds-outflow-10912534/",
+      "target": "RBI"
     },
     {
       "source": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-crossed-85k-for-first-time-2-years-ago-now-down-10k-points-from-milestone-what-can-trigger-the-next-bull-run/articleshow/134426180.cms",
@@ -3445,6 +3539,14 @@
       "target": "Trump"
     },
     {
+      "source": "https://www.livemint.com/news/us-news/what-is-perm-why-trump-suspended-microsoft-and-indian-it-firms-from-green-card-programme-11791492807330.html",
+      "target": "Microsoft"
+    },
+    {
+      "source": "https://www.livemint.com/news/us-news/what-is-perm-why-trump-suspended-microsoft-and-indian-it-firms-from-green-card-programme-11791492807330.html",
+      "target": "Trump"
+    },
+    {
       "source": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
       "target": "Trump"
     },
@@ -3489,6 +3591,10 @@
       "target": "Ukraine-Russia war"
     },
     {
+      "source": "https://indianexpress.com/article/business/world-bank-raises-india-fy27-gdp-growth-forecast-10908548/",
+      "target": "RBI"
+    },
+    {
       "source": "https://www.semafor.com/article/09/23/2026/chinese-leader-xi-jinping-due-for-trump-talks",
       "target": "China"
     },
@@ -3509,5 +3615,5 @@
       "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-10-05T10:45:34.259153+05:30"
+  "generated_at": "2026-10-09T16:01:54.472007+05:30"
 }
