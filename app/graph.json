@@ -730,6 +730,20 @@
       "top_story": false
     },
     {
+      "id": "https://indianexpress.com/article/india/india-condemns-strait-of-hormuz-attacks-2-indian-sailors-missing-10917154/",
+      "type": "story",
+      "label": "Drone attack on tanker carrying 11 Indian seafarers leaves two missing in Strait of Hormuz",
+      "text": "A drone attack on the tanker MT Petro Dolphin at Sohar Anchorage left two of its eleven Indian crew members missing, after nine were rescued safely. India's government called the recurring attacks on shipping deeply concerning and demanded de-escalation.",
+      "category": "India",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-10-11T19:20:09+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.thehindubusinessline.com/news/world/eam-s-jaishankar-to-address-annual-high-level-unga-session-on-september-26/article71431026.ece",
       "type": "story",
       "label": "EAM S Jaishankar will address the annual high-level UN General Assembly session on 26 September.",
@@ -1699,6 +1713,34 @@
       "top_story": false
     },
     {
+      "id": "https://www.livemint.com/news/world/riyadh-airport-attack-kills-indian-national-in-saudi-arabia-injures-10-more-embassy-reacts-completely-unacceptable-11791737606844.html",
+      "type": "story",
+      "label": "Riyadh airport attack toll rises to 13 dead, including an Indian, over 300 wounded",
+      "text": "An attack on Riyadh's King Khalid International Airport has killed 13 people, including an Indian national who died of injuries, and wounded more than 300. It is the second strike on a Saudi airport in as many days.",
+      "category": "Aviation",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-10-11T17:00:09+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
+      "id": "https://economictimes.indiatimes.com/markets/forex/explained-how-rbi-is-trying-to-arrest-the-rupees-slide/articleshow/134882074.cms",
+      "type": "story",
+      "label": "Rupee jumps nearly Re 1 as RBI's four-step 'shock therapy' chokes off dollar demand",
+      "text": "The rupee surged against the dollar after the RBI rolled out four measures targeting oil-company dollar demand, speculative forex derivatives and banking liquidity. The currency is still down 6.6% this year despite the relief.",
+      "category": "Economy & Policy",
+      "exam": {
+        "relevance": "medium",
+        "categories": []
+      },
+      "date": "2026-10-12T04:08:37+00:00",
+      "importance": null,
+      "top_story": true
+    },
+    {
       "id": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home",
       "type": "story",
       "label": "Russia's nine-hour missile barrage on Kyiv kills at least 16 as interceptors run short",
@@ -2163,6 +2205,20 @@
       },
       "date": "2026-08-20T00:25:17+00:00",
       "importance": "high",
+      "top_story": true
+    },
+    {
+      "id": "https://www.livemint.com/news/world/trump-announces-energy-ceasefire-between-russia-and-ukraine-urges-both-sides-not-to-break-it-11791729518048.html",
+      "type": "story",
+      "label": "Trump announces Russia-Ukraine 'energy ceasefire', also urges Ukraine to replace Zelensky",
+      "text": "Donald Trump announced an 'energy ceasefire' between Russia and Ukraine and urged both sides not to break it. He also said Ukraine should replace President Zelensky with a leader willing to settle the war, and the US has lifted sanctions on Russian diesel sales.",
+      "category": "Geopolitics",
+      "exam": {
+        "relevance": "none",
+        "categories": []
+      },
+      "date": "2026-10-11T14:42:16+00:00",
+      "importance": null,
       "top_story": true
     },
     {
@@ -2803,6 +2859,10 @@
       "target": "Xi Jinping"
     },
     {
+      "source": "https://indianexpress.com/article/india/india-condemns-strait-of-hormuz-attacks-2-indian-sailors-missing-10917154/",
+      "target": "Strait of Hormuz"
+    },
+    {
       "source": "https://www.thehindubusinessline.com/news/world/eam-s-jaishankar-to-address-annual-high-level-unga-session-on-september-26/article71431026.ece",
       "target": "UN General Assembly"
     },
@@ -3191,6 +3251,14 @@
       "target": "UPI MDR"
     },
     {
+      "source": "https://www.livemint.com/news/world/riyadh-airport-attack-kills-indian-national-in-saudi-arabia-injures-10-more-embassy-reacts-completely-unacceptable-11791737606844.html",
+      "target": "Saudi Arabia"
+    },
+    {
+      "source": "https://economictimes.indiatimes.com/markets/forex/explained-how-rbi-is-trying-to-arrest-the-rupees-slide/articleshow/134882074.cms",
+      "target": "RBI"
+    },
+    {
       "source": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home",
       "target": "Ukraine-Russia war"
     },
@@ -3377,6 +3445,14 @@
     {
       "source": "https://www.livemint.com/news/us-news/trump-announces-crushing-economic-operation-against-iran-warns-consequences-for-countries-doing-business-with-tehran-11787185018696.html",
       "target": "Trump"
+    },
+    {
+      "source": "https://www.livemint.com/news/world/trump-announces-energy-ceasefire-between-russia-and-ukraine-urges-both-sides-not-to-break-it-11791729518048.html",
+      "target": "Trump"
+    },
+    {
+      "source": "https://www.livemint.com/news/world/trump-announces-energy-ceasefire-between-russia-and-ukraine-urges-both-sides-not-to-break-it-11791729518048.html",
+      "target": "Ukraine-Russia war"
     },
     {
       "source": "https://economictimes.indiatimes.com/tech/artificial-intelligence/trump-dismisses-ai-safety-alarm-says-us-already-has-tools-to-police-industry/articleshow/134251418.cms",
@@ -3615,5 +3691,5 @@
       "target": "Ukraine-Russia war"
     }
   ],
-  "generated_at": "2026-10-09T16:01:54.472007+05:30"
+  "generated_at": "2026-10-12T11:01:35.857940+05:30"
 }

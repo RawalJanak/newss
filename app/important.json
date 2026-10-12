@@ -1,6 +1,122 @@
 {
   "items": [
     {
+      "title": "Goldman Sachs raises December 2026 Brent forecast to $90, but still well below today's $103",
+      "url": "https://www.business-standard.com/markets/news/goldman-ups-dec-26-oil-forecast-to-90-bbl-2027-worst-case-pegged-at-125-126101200190_1.html",
+      "source": "Business Standard",
+      "category": "Markets",
+      "date": "2026-10-12T04:54:53+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Goldman Sachs raised its December 2026 Brent oil forecast to $90 a barrel, citing supply-side risk from the West Asia war, even though that is still 13% below the current price of about $103. Its 2027 worst case puts Brent at $125 if Gulf output stays depressed."
+    },
+    {
+      "title": "Rupee jumps nearly Re 1 as RBI's four-step 'shock therapy' chokes off dollar demand",
+      "url": "https://economictimes.indiatimes.com/markets/forex/explained-how-rbi-is-trying-to-arrest-the-rupees-slide/articleshow/134882074.cms",
+      "source": "Economic Times",
+      "category": "Economy & Policy",
+      "date": "2026-10-12T04:08:37+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "medium",
+        "categories": [],
+        "facts": [
+          {
+            "fact": "Rupee opened at 95.76/USD on 2026-10-12, up 97 paise from 96.73 close",
+            "kind": "number",
+            "as_of": "2026-10-12 market open"
+          }
+        ],
+        "drill": null
+      },
+      "text": "The rupee surged against the dollar after the RBI rolled out four measures targeting oil-company dollar demand, speculative forex derivatives and banking liquidity. The currency is still down 6.6% this year despite the relief."
+    },
+    {
+      "title": "Drone attack on tanker carrying 11 Indian seafarers leaves two missing in Strait of Hormuz",
+      "url": "https://indianexpress.com/article/india/india-condemns-strait-of-hormuz-attacks-2-indian-sailors-missing-10917154/",
+      "source": "Indian Express",
+      "category": "India",
+      "date": "2026-10-11T19:20:09+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "A drone attack on the tanker MT Petro Dolphin at Sohar Anchorage left two of its eleven Indian crew members missing, after nine were rescued safely. India's government called the recurring attacks on shipping deeply concerning and demanded de-escalation."
+    },
+    {
+      "title": "Riyadh airport attack toll rises to 13 dead, including an Indian, over 300 wounded",
+      "url": "https://www.livemint.com/news/world/riyadh-airport-attack-kills-indian-national-in-saudi-arabia-injures-10-more-embassy-reacts-completely-unacceptable-11791737606844.html",
+      "source": "Mint",
+      "category": "Aviation",
+      "date": "2026-10-11T17:00:09+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "An attack on Riyadh's King Khalid International Airport has killed 13 people, including an Indian national who died of injuries, and wounded more than 300. It is the second strike on a Saudi airport in as many days."
+    },
+    {
+      "title": "Trump announces Russia-Ukraine 'energy ceasefire', also urges Ukraine to replace Zelensky",
+      "url": "https://www.livemint.com/news/world/trump-announces-energy-ceasefire-between-russia-and-ukraine-urges-both-sides-not-to-break-it-11791729518048.html",
+      "source": "Mint",
+      "category": "Geopolitics",
+      "date": "2026-10-11T14:42:16+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": true,
+      "exam": {
+        "relevance": "none",
+        "categories": [],
+        "facts": [],
+        "drill": null
+      },
+      "text": "Donald Trump announced an 'energy ceasefire' between Russia and Ukraine and urged both sides not to break it. He also said Ukraine should replace President Zelensky with a leader willing to settle the war, and the US has lifted sanctions on Russian diesel sales."
+    },
+    {
+      "title": "GST Council endorses uniform 5% tax on Ola, Uber, Swiggy, Zomato and e-commerce platforms",
+      "url": "https://www.livemint.com/companies/news/5-gst-on-ola-uber-swiggy-zomato-amazon-and-flipkart-regardless-of-business-model-report-11791567413508.html",
+      "source": "Mint",
+      "category": "Economy & Policy",
+      "date": "2026-10-09T18:32:45+00:00",
+      "kind": "article",
+      "importance": null,
+      "top_story": false,
+      "exam": {
+        "relevance": "medium",
+        "categories": [
+          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
+        ],
+        "facts": [
+          {
+            "fact": "GST Council endorsed uniform 5% tax rate for platform/aggregator operators",
+            "kind": "number",
+            "as_of": "2026-10 GST Council"
+          }
+        ],
+        "drill": null
+      },
+      "text": "The GST Council has endorsed a uniform 5% tax treatment for ride-hailing and delivery platforms regardless of how their businesses are structured, a senior CBIC official said. The move closes a long-running ambiguity over how aggregator models are taxed."
+    },
+    {
       "title": "Jewar airport to be renamed Narendra Modi International Airport, UP Cabinet decides",
       "url": "https://www.livemint.com/news/india/noidas-jewar-airport-to-be-named-after-pm-narendra-modi-heres-what-it-will-be-called-11791534289083.html",
       "source": "Mint",
@@ -3834,156 +3950,6 @@
         "drill": null
       },
       "text": "The Ministry of Coal has clarified provisions of the Scheme for Promotion of Surface Coal and Lignite Gasification Projects."
-    },
-    {
-      "title": "The government has extended the Emergency Credit Line Guarantee Scheme in a fifth iteration, ECLGS 5.0.",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zeFlTREJkeHpLTmtnMktvUnVDM0hwaENpMmZ2Z056Mk1PM2tDV3pzQ21fSXZoOGI5bk16cGlMc0RGOTZ1dEdhNDhGS1ZXcGt0S0dGYXFMWlpUeG1WZEhqRWQ2Mm1VVlpZOWtR?oc=5",
-      "source": "PIB (via Google News)",
-      "category": "Government",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "high",
-        "categories": [
-          "Current affairs — recent appointments/schemes/awards (India, live)"
-        ],
-        "facts": [
-          {
-            "fact": "ECLGS 5.0 is the fifth iteration of India's Emergency Credit Line Guarantee Scheme",
-            "kind": "scheme",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "The government has extended the Emergency Credit Line Guarantee Scheme in a fifth iteration, ECLGS 5.0."
-    },
-    {
-      "title": "US Ambassador Sergio Gor said the India-US trade deal is being rebuilt after a Supreme Court ruling and should be finalised within months.",
-      "url": "https://www.livemint.com/news/india/indiaus-trade-deal-to-be-finalised-in-next-few-months-trump-s-priority-at-g20-and-a-hint-from-us-envoy-sergio-gor-11788580296390.html",
-      "source": "Mint",
-      "category": "Geopolitics",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Current affairs — rolling officeholders (CEC, VP/RS Chair, UN SG, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "Sergio Gor is the US Ambassador to India",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "US Ambassador Sergio Gor said the India-US trade deal is being rebuilt after a Supreme Court ruling and should be finalised within months."
-    },
-    {
-      "title": "Emerging market currencies capped their longest winning streak since 2007.",
-      "url": "https://www.ndtvprofit.com/world/emerging-market-currencies-rally-for-longest-streak-since-2007-12004511#publisher=newsstand",
-      "source": "NDTV Profit",
-      "category": "Markets",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "Emerging market currencies posted their longest winning streak since 2007 in September 2026",
-            "kind": "record",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Emerging market currencies capped their longest winning streak since 2007."
-    },
-    {
-      "title": "US non-farm payrolls rose 162,000 in August against 56,000 expected; unemployment held at 4.1%.",
-      "url": "https://www.livemint.com/news/us-news/us-economy-creates-162-000-jobs-in-august-as-unemployment-holds-at-4-1-despite-recent-slowdown-fears-11788526137266.html",
-      "source": "Mint Top News",
-      "category": "Markets",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Economy & Banking bodies (RBI, SEBI, NABARD, IBRD, IMF, etc.)"
-        ],
-        "facts": [
-          {
-            "fact": "US unemployment was 4.1% in August 2026",
-            "kind": "number",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "US non-farm payrolls rose 162,000 in August against 56,000 expected; unemployment held at 4.1%."
-    },
-    {
-      "title": "Anahat Singh lost to Malaysia's Sivasangari Subramaniam in the London Squash Classic quarter-finals.",
-      "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/london-squash-classic-anahat-singh-loses-to-malaysias-sivasangari-in-quarterfinals/articleshow/133789271.cms",
-      "source": "Times of India Sports",
-      "category": "Sports",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Sports — records, terminology, tournaments"
-        ],
-        "facts": [
-          {
-            "fact": "Anahat Singh is an Indian squash player",
-            "kind": "officeholder",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Anahat Singh lost to Malaysia's Sivasangari Subramaniam in the London Squash Classic quarter-finals."
-    },
-    {
-      "title": "Malaysia declared an emergency in Sarawak as haze from Indonesia reached critical levels.",
-      "url": "https://www.aljazeera.com/news/2026/9/5/malaysia-declares-emergency-in-sarawak-as-haze-from-indonesia-worsens?traffic_source=rss",
-      "source": "Al Jazeera",
-      "category": "World",
-      "date": "2026-09-05",
-      "kind": "brief",
-      "importance": null,
-      "top_story": false,
-      "exam": {
-        "relevance": "medium",
-        "categories": [
-          "Geography — World"
-        ],
-        "facts": [
-          {
-            "fact": "Malaysia declared a haze emergency in Sarawak in September 2026",
-            "kind": "place",
-            "as_of": "2026-09-05"
-          }
-        ],
-        "drill": null
-      },
-      "text": "Malaysia declared an emergency in Sarawak as haze from Indonesia reached critical levels."
     }
   ]
 }
